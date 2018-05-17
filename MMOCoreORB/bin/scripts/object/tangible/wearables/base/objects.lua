@@ -4996,3 +4996,11 @@ object_tangible_wearables_base_shared_wearables_base = SharedTangibleObjectTempl
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_wearables_base, "object/tangible/wearables/base/shared_wearables_base.iff")
+
+
+object_tangible_wearables_base_shared_base_jedicloak = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/base/shared_base_jedicloak.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_base_jedicloak, "object/tangible/wearables/base/shared_base_jedicloak.iff")

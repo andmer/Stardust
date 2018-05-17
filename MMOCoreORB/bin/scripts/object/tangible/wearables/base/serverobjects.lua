@@ -129,3 +129,6 @@ includeFile("tangible/wearables/base/base_wrist_either.lua")
 includeFile("tangible/wearables/base/base_wrist_l.lua")
 includeFile("tangible/wearables/base/base_wrist_r.lua")
 includeFile("tangible/wearables/base/wearables_base.lua")
+
+-- Custom
+includeFile("tangible/wearables/base/base_jedicloak.lua")
