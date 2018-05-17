@@ -6,7 +6,7 @@ velsoTicketInfo = { depPlanet = "naboo", faction = "imperial", missionType = "de
 
 velsoCompensation = { { compType = "faction", faction = "imperial",  amount = 100 } }
 
-lt_velso = { planetName = "naboo", npcTemplate = "corvette_imperial_velso", x = 23.4, z = .2, y = -19.4, direction = 180, cellID = 1418874, position = STAND, mood = "npc_imperial"}
+lt_velso = { planetName = "lok", npcTemplate = "corvette_imperial_velso", x = -0.1, z = 1, y = -20.2, direction = 0, cellID = 8615425, position = STAND, mood = "npc_imperial"}
 
 ticketGiverVelso = CorvetteTicketGiverLogic:new {
 	npc = lt_velso,

@@ -9,7 +9,7 @@ CorellianCorvette = ScreenPlay:new {
 
 	escapePoints = {
 		{ faction = "neutral", planet = "tatooine", x = -5842, y = -6191 },
-		{ faction = "imperial", planet = "naboo", x = 2445, y = -3913 },
+		{ faction = "imperial", planet = "lok", x = -1927, y = -3197 },
 		{ faction = "rebel", planet = "corellia", x = -6460, y = 5972 },
 	},
 
@@ -153,7 +153,7 @@ function CorellianCorvette:sendAuthorizationSui(pPlayer, pLeader, pCorvette)
 	local corvetteFaction = self:getBuildingFaction(pCorvette)
 	local factionCRC = self:getFactionCRC(corvetteFaction)
 
-	if (corvetteFaction ~= "neutral" and (not ThemeParkLogic:isInFaction(factionCRC, pPlayer) or ThemeParkLogic:isOnLeave(pPlayer) or TangibleObject(pPlayer):isChangingFactionStatus())) then
+	if (corvetteFaction ~= "neutral" and (not ThemeParkLogic:isInFaction(factionCRC, pPlayer) or ThemeParkLogic:isOnLeave(pPlayer))) then
 		return
 	end
 
@@ -876,13 +876,6 @@ function CorellianCorvette:transportPlayer(pPlayer)
 
 	if (pCorvette == nil) then
 		printLuaError("CorellianCorvette:transportPlayer nil corvette object using corvette id " .. corvetteID)
-		return
-	end
-
-	local corvetteFaction = self:getBuildingFaction(pCorvette)
-	local factionCRC = self:getFactionCRC(corvetteFaction)
-
-	if (corvetteFaction ~= "neutral" and (not ThemeParkLogic:isInFaction(factionCRC, pPlayer) or ThemeParkLogic:isOnLeave(pPlayer) or TangibleObject(pPlayer):isChangingFactionStatus())) then
 		return
 	end
 
