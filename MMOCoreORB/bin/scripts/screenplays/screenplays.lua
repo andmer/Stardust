@@ -29,9 +29,10 @@ require("sui.custom.SuiReceiverPuzzle")
 
 -- Custom content
 includeFile("../custom_scripts/screenplays/screenplays.lua")
-
 includeFile("helperfuncs.lua")
 includeFile("playerTriggers.lua")
+includeFile("poi/corellia_rogue_corsec_base.lua")
+
 
 -- Theme parks
 includeFile("themepark/conversations/goru_conv_handler.lua")
@@ -116,12 +117,6 @@ includeFile("dungeon/death_watch_bunker/conversations/deathWatchTechnicianConvoH
 includeFile("dungeon/death_watch_bunker/conversations/deathWatchWorkshopDroidConvoHandler.lua")
 includeFile("dungeon/geonosian_lab/geo_lab.lua")
 includeFile("dungeon/warren/warren.lua")
-includeFile("dungeon/warren/warrenComponents.lua")
-includeFile("dungeon/warren/convos/mirla_convo_handler.lua")
-includeFile("dungeon/warren/convos/oevitt_piboi_convo_handler.lua")
-includeFile("dungeon/warren/convos/manx_try_convo_handler.lua")
-includeFile("dungeon/warren/convos/captain_heff_convo_handler.lua")
-includeFile("dungeon/warren/convos/warren_worker_convo_handler.lua")
 includeFile("dungeon/corellian_corvette/conversations/corvetteTicketTakerConvoHandler.lua")
 includeFile("dungeon/corellian_corvette/conversations/corvetteTicketGiverConvoHandler.lua")
 includeFile("dungeon/corellian_corvette/conversations/corvetteRepairDroidConvoHandler.lua")
@@ -654,4 +649,123 @@ includeFile("record_keepers/record_keepers.lua")
 
 --Tests
 includeFile("tests/tests.lua")
+
+-- Chandrila
+includeFile("cities/chandrila_hanna_city.lua")
+includeFile("cities/chandrila_nayli_outpost.lua")
+includeFile("cities/chandrila_chandriltech_facility.lua")
+
+
+--Teleport NPC functions
+includeFile("heroics/teleportplayer.lua")
+includeFile("heroics/rebel_chasm_teleporter.lua")
+
+
+-- Jakku
+includeFile("gcw/jakku_battle_boundary.lua")
+includeFile("gcw/jakku_battle_spawns.lua")
+includeFile("heroics/rebel_jakku_teleporter.lua")
+includeFile("gcw/jakku_weapons_facility.lua")
+includeFile("gcw/jakku_weapons_facility_boss_1.lua")
+includeFile("gcw/jakku_weapons_facility_boss_2.lua")
+includeFile("gcw/jakku_weapons_facility_boss_3.lua")
+includeFile("gcw/jakku_weapons_facility_boss_4.lua")
+includeFile("gcw/jakku_weapons_facility_boss_5.lua")
+includeFile("gcw/jakku_weapons_facility_boss_6.lua")
+includeFile("heroics/jakku_overseer.lua")
+
+
+
+-- Elysium
+includeFile("cities/coruscant_entertainment_district.lua")
+includeFile("heroics/retreat_curator.lua")
+includeFile("heroics/death_sticks.lua")
+includeFile("heroics/dex_diner.lua")
+includeFile("heroics/fake_imperial_officer.lua")
+includeFile("heroics/imperial_palace_onlooker.lua")
+includeFile("heroics/swoop_race_hutt.lua")
+
+
+--[[
+-- Florrum hidden world.
+
+includeFile("cities/florrum_outpost.lua")
+includeFile("heroics/hondo_return_teleporter.lua")
+includeFile("heroics/hondo_send_teleporter.lua")
+--]]
+-- Dromund Kaas
+
+includeFile("poi/kaas_abandon_separ_facility.lua")
+includeFile("poi/kaas_city_ruins.lua")
+includeFile("poi/kaas_imperial_garrison.lua")
+includeFile("poi/kaas_rebel_cave.lua")
+includeFile("poi/kaas_sith_facility.lua")
+includeFile("poi/kaas_vitiate_tomb.lua")
+includeFile("heroics/herald_of_the_prophets.lua")
+includeFile("heroics/prophet_kadann.lua")
+includeFile("heroics/prophet_cronal.lua")
+includeFile("heroics/chiss_hunter_herald.lua")
+includeFile("heroics/chiss_hunter_herald_cave.lua")
+includeFile("poi/kaas_city_ruins_mellichae.lua")
+includeFile("poi/kaas_dark_force_shrine.lua")
+includeFile("poi/kaas_smuggler_starport.lua")
+
+--Chandrila Convos
+includeFile("heroics/chandriltech_greeter.lua")
+
+
+-- Coruscant swoop track
+includeFile("events/coruscant_race/race_hazard_01.lua")
+includeFile("events/coruscant_race/race_hazard_02.lua")
+includeFile("events/coruscant_race/race_hazard_03.lua")
+includeFile("events/coruscant_race/race_hazard_04.lua")
+includeFile("events/coruscant_race/race_hazard_05.lua")
+includeFile("events/coruscant_race/race_hazard_06.lua")
+includeFile("events/coruscant_race/race_hazard_07.lua")
+includeFile("events/coruscant_race/race_hazard_08.lua")
+includeFile("events/coruscant_race/race_hazard_09.lua")
+includeFile("events/coruscant_race/race_hazard_10.lua")
+includeFile("events/coruscant_race/race_hazard_11.lua")
+includeFile("events/coruscant_race/race_hazard_12.lua")
+includeFile("events/coruscant_race/race_hazard_13.lua")
+includeFile("events/coruscant_race/race_hazard_14.lua")
+includeFile("events/coruscant_race/race_hazard_15.lua")
+includeFile("events/coruscant_race/race_hazard_16.lua")
+includeFile("events/coruscant_race/race_hazard_17.lua")
+includeFile("events/coruscant_race/race_hazard_18.lua")
+includeFile("events/coruscant_race/race_hazard_19.lua")
+includeFile("events/coruscant_race/race_hazard_20.lua")
+includeFile("events/coruscant_race/race_hazard_21.lua")
+includeFile("events/coruscant_race/race_hazard_22.lua")
+includeFile("events/coruscant_race/race_hazard_23.lua")
+includeFile("events/coruscant_race/race_hazard_24.lua")
+includeFile("events/coruscant_race/race_hazard_25.lua")
+includeFile("events/coruscant_race/race_hazard_26.lua")
+includeFile("events/coruscant_race/race_hazard_27.lua")
+includeFile("events/coruscant_race/race_hazard_28.lua")
+includeFile("events/coruscant_race/race_hazard_29.lua")
+includeFile("events/coruscant_race/race_hazard_30.lua")
+includeFile("events/coruscant_race/race_hazard_31.lua")
+includeFile("events/coruscant_race/race_hazard_32.lua")
+includeFile("events/coruscant_race/race_hazard_33.lua")
+includeFile("events/coruscant_race/race_hazard_34.lua")
+includeFile("events/coruscant_race/race_hazard_35.lua")
+includeFile("events/coruscant_race/race_hazard_36.lua")
+includeFile("events/coruscant_race/race_hazard_37.lua")
+includeFile("events/coruscant_race/race_hazard_38.lua")
+includeFile("events/coruscant_race/race_hazard_39.lua")
+includeFile("events/coruscant_race/race_hazard_40.lua")
+includeFile("events/coruscant_race/race_hazard_41.lua")
+includeFile("events/coruscant_race/race_hazard_42.lua")
+includeFile("events/coruscant_race/race_hazard_43.lua")
+includeFile("events/coruscant_race/race_hazard_44.lua")
+includeFile("events/coruscant_race/race_hazard_45.lua")
+includeFile("events/coruscant_race/race_hazard_46.lua")
+includeFile("events/coruscant_race/race_hazard_47.lua")
+includeFile("events/coruscant_race/race_hazard_48.lua")
+includeFile("events/coruscant_race/race_hazard_49.lua")
+includeFile("events/coruscant_race/race_hazard_50.lua")
+
+--Moraband
+includeFile("cities/moraband_valley.lua")
 
