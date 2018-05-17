@@ -48,7 +48,7 @@ object_draft_schematic_weapon_rifle_light_blaster_laser_carbine = object_draft_s
    customObjectName = "Laser Carbine",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 21, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_weapons_general", 

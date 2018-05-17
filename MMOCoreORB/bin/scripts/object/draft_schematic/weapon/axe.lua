@@ -48,7 +48,7 @@ object_draft_schematic_weapon_axe = object_draft_schematic_weapon_shared_axe:new
    customObjectName = "Heavy Axe",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_general", 

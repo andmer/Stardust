@@ -48,7 +48,7 @@ object_draft_schematic_item_item_space_tool = object_draft_schematic_item_shared
    customObjectName = "Starship Crafting Tool",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 11, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_general", 

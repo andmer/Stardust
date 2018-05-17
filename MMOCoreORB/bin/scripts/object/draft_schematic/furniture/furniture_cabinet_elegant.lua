@@ -48,7 +48,7 @@ object_draft_schematic_furniture_furniture_cabinet_elegant = object_draft_schema
    customObjectName = "Cabinet",
 
    craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_structure_general", 

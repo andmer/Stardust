@@ -48,7 +48,7 @@ object_draft_schematic_furniture_furniture_throwpillow = object_draft_schematic_
    customObjectName = "Throw Pillow",
 
    craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 2, 
 
    xpType = "crafting_general", 

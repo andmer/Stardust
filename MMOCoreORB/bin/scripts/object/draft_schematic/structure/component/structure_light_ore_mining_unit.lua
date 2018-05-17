@@ -48,9 +48,9 @@ object_draft_schematic_structure_component_structure_light_ore_mining_unit = obj
 	customObjectName = "Light Ore Mining Unit",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 13,
+	complexity = 1,
 	size = 6,
-	factoryCrateSize = 5,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 650,

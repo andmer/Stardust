@@ -66,3 +66,5 @@ includeFile("creature/player/wookiee_female.lua")
 includeFile("creature/player/wookiee_male.lua")
 includeFile("creature/player/zabrak_female.lua")
 includeFile("creature/player/zabrak_male.lua")
+includeFile("creature/player/chiss_female.lua") --Chiss female
+includeFile("creature/player/chiss_male.lua") --Chiss male

@@ -48,7 +48,7 @@ object_draft_schematic_food_dish_vercupti_of_agazza_boleruuee = object_draft_sch
    customObjectName = "Vercupti of Agazza Boleruuee",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_food_general", 

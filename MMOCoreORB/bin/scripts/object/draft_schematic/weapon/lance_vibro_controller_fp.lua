@@ -48,7 +48,7 @@ object_draft_schematic_weapon_lance_vibro_controller_fp = object_draft_schematic
    customObjectName = "Lance",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 25, 
+   complexity = 1, 
    size = 5, 
 
    xpType = "crafting_weapons_general", 

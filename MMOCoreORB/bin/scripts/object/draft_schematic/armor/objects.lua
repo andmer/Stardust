@@ -1559,3 +1559,9 @@ object_draft_schematic_armor_shared_shield_generator_vehicular = SharedDraftSche
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_shield_generator_vehicular, "object/draft_schematic/armor/shared_shield_generator_vehicular.iff")
+
+object_draft_schematic_armor_shared_armor_segment_mandalorian = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_segment_mandalorian.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_segment_mandalorian, "object/draft_schematic/armor/shared_armor_segment_mandalorian.iff")

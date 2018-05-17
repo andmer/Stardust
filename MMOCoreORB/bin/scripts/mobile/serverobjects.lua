@@ -4,6 +4,9 @@ includeFile("../custom_scripts/mobile/serverobjects.lua")
 -- Conversations
 includeFile("conversations.lua")
 
+--New Content
+includeFile("custom_content/serverobjects.lua")
+
 -- Creatures
 includeFile("corellia/serverobjects.lua")
 includeFile("dantooine/serverobjects.lua")
@@ -26,10 +29,10 @@ includeFile("tutorial/serverobjects.lua")
 includeFile("yavin4/serverobjects.lua")
 
 includeFile("faction/serverobjects.lua")
-includeFile("dungeon/serverobjects.lua") 
+includeFile("dungeon/serverobjects.lua")
 
 -- Weapons
-includeFile("weapon/serverobjects.lua") 
+includeFile("weapon/serverobjects.lua")
 
 -- Spawn Groups
 includeFile("spawn/serverobjects.lua")
@@ -45,3 +48,10 @@ includeFile("lair/serverobjects.lua")
 
 -- Outfits
 includeFile("outfits/serverobjects.lua")
+
+-- Infinity
+includeFile("infinity/serverobjects.lua")
+
+-- New content
+includeFile("custom-dlswg/serverobjects.lua")
+includeFile("kaas/serverobjects.lua")

@@ -47,9 +47,9 @@ object_draft_schematic_furniture_bestine_painting_bestine_mattberry = object_dra
 	customObjectName = "Painting of a Mattberry Plant",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 15,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 80,

@@ -48,9 +48,9 @@ object_draft_schematic_furniture_furniture_couch_modern = object_draft_schematic
 	customObjectName = "Couch",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 34,
+	complexity = 1,
 	size = 3,
-	factoryCrateSize = 10,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 760,

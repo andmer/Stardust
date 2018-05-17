@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_ith_pants_casual_02 = object_draft_sche
    customObjectName = "Ithorian Three Striped Pants",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_clothing_general", 

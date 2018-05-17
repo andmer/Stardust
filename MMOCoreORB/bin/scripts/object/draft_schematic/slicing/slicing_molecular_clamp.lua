@@ -48,7 +48,7 @@ object_draft_schematic_slicing_slicing_molecular_clamp = object_draft_schematic_
    customObjectName = "Molecular Clamp",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 7, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_general", 

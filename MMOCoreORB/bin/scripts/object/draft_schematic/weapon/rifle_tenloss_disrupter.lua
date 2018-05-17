@@ -48,7 +48,7 @@ object_draft_schematic_weapon_rifle_tenloss_disrupter = object_draft_schematic_w
    customObjectName = "Geonosian Tenloss DXR-6 Schematic",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 28, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_weapons_general", 

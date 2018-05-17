@@ -48,7 +48,7 @@ object_draft_schematic_spices_spice_yarrock = object_draft_schematic_spices_shar
    customObjectName = "Yarrock",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 10, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_spice", 

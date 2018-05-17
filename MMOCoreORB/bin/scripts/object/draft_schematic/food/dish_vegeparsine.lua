@@ -48,7 +48,7 @@ object_draft_schematic_food_dish_vegeparsine = object_draft_schematic_food_share
    customObjectName = "Vegeparsine",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_food_general", 

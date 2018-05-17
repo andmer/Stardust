@@ -4,13 +4,13 @@ death_watch_black_sun_thug = Creature:new {
 	randomNameTag = true,
 	socialGroup = "death_watch",
 	faction = "",
-	level = 86,
+	level = 246,
 	chanceHit = 0.85,
 	damageMin = 570,
-	damageMax = 850,
+	damageMax = 1050,
 	baseXp = 8130,
-	baseHAM = 15000,
-	baseHAMmax = 15000,
+	baseHAM = 65000,
+	baseHAMmax = 85000,
 	armor = 1,
 	resists = {40,40,60,35,55,70,35,40,-1},
 	meatType = "",
@@ -19,7 +19,7 @@ death_watch_black_sun_thug = Creature:new {
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
@@ -32,10 +32,28 @@ death_watch_black_sun_thug = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "death_watch_bunker_commoners", chance = 10000000}
+				{group = "death_watch_bunker_commoners", chance = 10000000},
+			},
+			lootChance = 2500000
+		},
+		{
+			groups = {
+				{group = "death_watch_bunker_commoners", chance = 10000000},
+			},
+			lootChance = 2500000
+		},
+		{
+			groups = {
+				{group = "armor_attachments", chance = 10000000},
 			},
 			lootChance = 1000000
-		}
+		},
+		{
+			groups = {
+				{group = "clothing_attachments", chance = 10000000},
+			},
+			lootChance = 500000
+		},
 	},
 	weapons = {"pirate_weapons_heavy"},
 	conversationTemplate = "",

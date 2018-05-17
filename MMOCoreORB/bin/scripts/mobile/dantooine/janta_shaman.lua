@@ -4,7 +4,7 @@ janta_shaman = Creature:new {
 	randomNameTag = true,
 	socialGroup = "janta_tribe",
 	faction = "janta_tribe",
-	level = 60,
+	level = 90,
 	chanceHit = 0.65,
 	damageMin = 470,
 	damageMax = 650,
@@ -12,14 +12,14 @@ janta_shaman = Creature:new {
 	baseHAM = 12000,
 	baseHAMmax = 14000,
 	armor = 1,
-	resists = {-1,40,-1,20,100,100,20,-1,-1},
+	resists = {-1,30,-1,20,30,30,20,-1,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = ATTACKABLE,
@@ -31,14 +31,15 @@ janta_shaman = Creature:new {
 		"object/mobile/dantari_male.iff",
 		"object/mobile/dantari_female.iff"},
 	lootGroups = {
-		{
-			groups = {
-				{group = "junk", chance = 5500000},
-				{group = "janta_common", chance = 1500000},
-				{group = "loot_kit_parts", chance = 3000000}
-			}
-		}
-	},
+	{
+	 groups = {
+		 {group = "janta_common", chance = 5000000},
+		 {group = "melee_weapons", chance = 2500000},
+		 {group = "junk", chance = 2500000}
+	 },
+	 lootChance = 10000000
+		},
+		},
 	weapons = {"primitive_weapons"},
 	conversationTemplate = "",
 	attacks = merge(pikemanmaster,fencermaster,brawlermaster)

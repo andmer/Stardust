@@ -48,7 +48,7 @@ object_draft_schematic_spices_spice_thruster_head = object_draft_schematic_spice
    customObjectName = "Thruster Head",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_spice", 

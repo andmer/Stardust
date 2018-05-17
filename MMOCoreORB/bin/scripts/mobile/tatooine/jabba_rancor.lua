@@ -23,6 +23,7 @@ jabba_rancor = Creature:new {
 	pvpBitmask = NONE,
 	creatureBitmask = NONE,
 	diet = CARNIVORE,
+	scale = 0.25,
 
 	templates = {"object/mobile/rancor.iff"},
 	lootGroups = {},

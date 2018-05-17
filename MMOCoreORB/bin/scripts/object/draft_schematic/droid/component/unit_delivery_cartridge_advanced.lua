@@ -48,9 +48,9 @@ object_draft_schematic_droid_component_unit_delivery_cartridge_advanced = object
 	customObjectName = "Advanced Unit Delivery Cartridge",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 50,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_droid_general",
 	xp = 100,

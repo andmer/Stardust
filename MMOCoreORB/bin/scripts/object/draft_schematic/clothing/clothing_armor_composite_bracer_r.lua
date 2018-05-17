@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_armor_composite_bracer_r = object_draft
    customObjectName = "Composite Armor Right Bracer",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 45, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_clothing_armor", 

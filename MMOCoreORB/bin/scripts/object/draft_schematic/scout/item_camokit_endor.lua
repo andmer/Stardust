@@ -48,7 +48,7 @@ object_draft_schematic_scout_item_camokit_endor = object_draft_schematic_scout_s
    customObjectName = "Camo Kit: Endor",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 2, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "scout", 

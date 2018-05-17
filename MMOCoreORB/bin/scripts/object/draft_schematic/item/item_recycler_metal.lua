@@ -48,7 +48,7 @@ object_draft_schematic_item_item_recycler_metal = object_draft_schematic_item_sh
 	customObjectName = "Metal Recycler Schematic",
 
 	craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 12,
+	complexity = 1,
 	size = 1,
 	factoryCrateSize = 0,
 

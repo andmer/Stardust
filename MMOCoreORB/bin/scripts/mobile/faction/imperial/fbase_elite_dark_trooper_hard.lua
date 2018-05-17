@@ -4,7 +4,7 @@ fbase_elite_dark_trooper_hard = Creature:new {
 	randomNameTag = true,
 	socialGroup = "imperial",
 	faction = "imperial",
-	level = 180,
+	level = 250,
 	chanceHit = 9.0,
 	damageMin = 1045,
 	damageMax = 1800,
@@ -33,13 +33,12 @@ fbase_elite_dark_trooper_hard = Creature:new {
 		{
 			groups = {
 				{group = "color_crystals", chance = 300000},
-				{group = "junk", chance = 6000000},
 				{group = "holocron_dark", chance = 150000},
 				{group = "holocron_light", chance = 150000},
 				{group = "weapons_all", chance = 1050000},
 				{group = "armor_all", chance = 1050000},
-				{group = "clothing_attachments", chance = 150000},
-				{group = "armor_attachments", chance = 150000},
+				{group = "clothing_attachments", chance = 3150000},
+				{group = "armor_attachments", chance = 3150000},
 				{group = "wearables_all", chance = 1000000}
 			}
 		}

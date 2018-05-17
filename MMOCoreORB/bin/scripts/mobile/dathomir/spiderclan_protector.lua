@@ -4,22 +4,23 @@ spiderclan_protector = Creature:new {
 	randomNameTag = true,
 	socialGroup = "spider_nightsister",
 	faction = "spider_nightsister",
-	level = 131,
+	level = 170,
 	chanceHit = 4.75,
-	damageMin = 770,
-	damageMax = 1250,
-	baseXp = 12424,
-	baseHAM = 50000,
-	baseHAMmax = 61000,
+	damageMin = 895,
+	damageMax = 1500,
+	baseXp = 14789,
+	baseHAM = 75000,
+	baseHAMmax = 90000,
 	armor = 2,
-	resists = {45,95,100,65,100,100,55,100,-1},
+	-- {kinetic,energy,blast,heat,cold,electricity,acid,stun,ls}
+	resists = {15,75,15,75,75,75,75,75,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
@@ -31,18 +32,32 @@ spiderclan_protector = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 1500000},
-				{group = "power_crystals", chance = 500000},
-				{group = "color_crystals", chance = 500000},
-				{group = "armor_attachments", chance = 450000},
-				{group = "clothing_attachments", chance = 450000},
-				{group = "melee_weapons", chance = 3100000},
-				{group = "pistols", chance = 1000000},
-				{group = "rifles", chance = 1000000},
-				{group = "carbines", chance = 1000000},
-				{group = "wearables_all", chance = 500000}
-			}
-		}
+				{group = "power_crystals", chance = 2500000},
+				{group = "color_crystals", chance = 2500000},
+				{group = "armor_attachments", chance = 1500000},   -- 60% * 15% = 9%	
+				{group = "clothing_attachments", chance = 1500000},   -- 60% * 15% = 9%
+				{group = "melee_weapons", chance = 2000000},
+			},
+			lootChance = 6000000,   -- 60% chance for this group
+		},
+		{
+			groups = {
+
+				{group = "rifles", chance = 2500000},
+				{group = "pistols", chance = 2500000},
+				{group = "carbines", chance = 2500000},
+				{group = "wearables_common", chance = 2500000},
+			},
+			lootChance = 5000000, -- 50% chance for this group
+		},
+		{ -- Jedi Specific Loot Group
+			groups =
+			{
+				{group = "jedi_clothing_attachments", chance = 5000000},   -- 7.5% * 50% = 3.75%
+				{group = "named_crystals", chance = 5000000},
+			},
+			lootChance = 750000,   -- 7.5% chance for this group
+		},
 	},
 	weapons = {"mixed_force_weapons"},
 	conversationTemplate = "",

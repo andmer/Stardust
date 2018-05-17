@@ -48,7 +48,7 @@ object_draft_schematic_food_dish_scrimpi = object_draft_schematic_food_shared_di
    customObjectName = "Scrimpi",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 10, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_food_general", 

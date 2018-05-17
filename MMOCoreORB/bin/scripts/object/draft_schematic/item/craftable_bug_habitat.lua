@@ -48,7 +48,7 @@ object_draft_schematic_item_craftable_bug_habitat = object_draft_schematic_item_
    customObjectName = "Creature Habitat",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 14, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_general", 

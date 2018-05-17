@@ -21,6 +21,8 @@ includeFile("groups/sith_shadow_intro_theater_datapad.lua")
 includeFile("groups/skill_buffs.lua")
 includeFile("groups/tailor_components.lua")
 includeFile("groups/treasure_map_group.lua")
+includeFile("groups/custom/chiss_poacher_backpack_custom.lua")
+includeFile("groups/armor_segment_mandalorian.lua")
 
 -- armor sub-folder
 includeFile("groups/armor/armor_all.lua")
@@ -43,9 +45,7 @@ includeFile("groups/armor/ubese_armor.lua")
 includeFile("groups/bestine_election/bestine_history_quest_reward.lua")
 includeFile("groups/bestine_election/bestine_election_sean_trenwell_rewards.lua")
 includeFile("groups/bestine_election/bestine_election_tusken_head.lua")
-includeFile("groups/bestine_election/bestine_election_baton.lua")
-includeFile("groups/bestine_election/bestine_election_smooth_stone.lua")
-includeFile("groups/bestine_election/bestine_election_carved_stone.lua")
+includeFile("groups/bestine_election/bestine_election_tusken_loot.lua")
 includeFile("groups/bestine_election/bestine_election_tusken_quest.lua")
 includeFile("groups/bestine_election/bestine_election_victor_visalis_rewards.lua")
 
@@ -308,6 +308,9 @@ includeFile("groups/theme_park_reward/jabba_theme_park_g5p0.lua")
 includeFile("groups/theme_park_reward/jabba_theme_park_porcellus.lua")
 includeFile("groups/theme_park_reward/jabba_theme_park_ree_yees.lua")
 includeFile("groups/theme_park_reward/jabba_theme_park_reelo.lua")
+includeFile("groups/theme_park_reward/ff_weapon_stock.lua")
+includeFile("groups/theme_park_reward/high_velocity_blaster_barrel.lua")
+includeFile("groups/theme_park_reward/lightweight_vibro.lua")
 includeFile("groups/theme_park_reward/theme_park_reward_imperial_emperor.lua")
 includeFile("groups/theme_park_reward/theme_park_reward_imperial_hethrir.lua")
 includeFile("groups/theme_park_reward/theme_park_reward_imperial_kaja.lua")
@@ -360,3 +363,99 @@ includeFile("groups/wearables/wearables_common.lua")
 includeFile("groups/wearables/wearables_rare.lua")
 includeFile("groups/wearables/wearables_scarce.lua")
 includeFile("groups/wearables/wearables_uncommon.lua")
+
+-- custom items
+--includeFile("groups/weapon/infinity_lightsaber.lua")
+includeFile("groups/named_crystals.lua")
+
+includeFile("groups/npc/meatlump_melee_components.lua")
+includeFile("groups/npc/meatlump_ranged_components.lua")
+
+-- named crystals
+includeFile("groups/crystal_mauls_vengence.lua")
+includeFile("groups/crystal_qui_gons_devotion.lua")
+includeFile("groups/crystal_baass_wisdom.lua")
+includeFile("groups/crystal_banes_heart.lua")
+includeFile("groups/crystal_bnars_sacrifice.lua")
+includeFile("groups/crystal_bondaras_folly.lua")
+includeFile("groups/crystal_dawn_of_dagobah.lua")
+includeFile("groups/crystal_gallias_intuition.lua")
+includeFile("groups/crystal_horns_future.lua")
+includeFile("groups/crystal_kenobis_legacy.lua")
+includeFile("groups/crystal_kits_ferocity.lua")
+includeFile("groups/crystal_kuns_blood.lua")
+includeFile("groups/crystal_mundis_response.lua")
+includeFile("groups/crystal_prowess_of_plo_koon.lua")
+includeFile("groups/crystal_quintessence_of_the_force.lua")
+includeFile("groups/crystal_strength_of_luminaria.lua")
+includeFile("groups/crystal_sunriders_destiny.lua")
+includeFile("groups/crystal_ulics_redemption.lua")
+includeFile("groups/crystal_windus_guile.lua")
+includeFile("groups/crystal_black.lua")
+includeFile("groups/crystal_infinity_white.lua")
+includeFile("groups/crystal_orange.lua")
+includeFile("groups/crystal_henriettes_might.lua")
+includeFile("groups/crystal_wickeds_burn.lua")
+includeFile("groups/crystal_dilly_dillys_damnation.lua")
+
+-- smuggler sub-folder
+-- includeFile("groups/smuggler/smug_armor.lua")
+-- includeFile("groups/smuggler/smug_medical.lua")
+-- includeFile("groups/smuggler/smug_wep.lua")
+
+------------------------------Boogles Custom------------------------------
+--Geo--
+includeFile("groups/geonosian_lab/boogles_geo_group/geonosian_epic.lua")
+includeFile("groups/geonosian_lab/boogles_geo_group/geo_rancor.lua")
+--Geo--
+
+--Wearables--
+includeFile("groups/wearables/boogles_wearables_geo/mastery_geocave_jewelry.lua")
+--Wearables--
+
+--Jedi Custom--
+includeFile("groups/boogles_custom/jedi_clothing_attachments.lua")
+--Jedi Custom--
+------------------------------Boogles Custom------------------------------
+
+------------------------------Halloween-----------------------------------
+includeFile("groups/halloween/enhanced_spider.lua")
+includeFile("groups/halloween/experimental_spider.lua")
+------------------------------Halloween-----------------------------------
+
+includeFile("groups/npc/nightsister_bicep_r_s01.lua")
+includeFile("groups/npc/nightsister/nightsister_clothing.lua")
+
+includeFile("groups/flare_s_swoop_crafted.lua")
+includeFile("groups/stap_speeder.lua")
+
+-- NGE House groups
+includeFile("groups/nge_house_group.lua")
+includeFile("groups/musty_house_group.lua")
+includeFile("groups/vehicle_house_group.lua")
+
+-- NGE Robe Groups
+includeFile("groups/wearables/ngerobes1.lua")
+includeFile("groups/wearables/ngerobes2.lua")
+
+-- Veteran Rewards
+includeFile("groups/veteran_rewards/veteran_rewards_90_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_180_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_270_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_360_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_450_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_540_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_630_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_720_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_810_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_900_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_990_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_1080_days.lua")
+
+-- May Fourth
+includeFile("groups/infinity/hssiss_venom.lua")
+includeFile("groups/infinity/orkellian_slug_blood.lua")
+
+-- All NGE Houses
+includeFile("groups/deeds/structure/nge_housing_all.lua")  --deeds
+includeFile("groups/schematic/structure/nge_houses_all.lua")  --schematics

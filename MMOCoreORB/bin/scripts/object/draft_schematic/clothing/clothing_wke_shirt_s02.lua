@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_wke_shirt_s02 = object_draft_schematic_
    customObjectName = "Weighted Wookiee Pullover",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 8, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_general", 

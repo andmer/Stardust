@@ -48,7 +48,7 @@ object_draft_schematic_weapon_cleaver = object_draft_schematic_weapon_shared_cle
    customObjectName = "Two-handed Cleaver",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 30, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_weapons_general", 

@@ -48,7 +48,7 @@ object_draft_schematic_weapon_component_scope_weapon = object_draft_schematic_we
    customObjectName = "Weapon Scope",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 14, 
+   complexity = 1, 
    size = 2, 
 
    xpType = "crafting_weapons_general", 

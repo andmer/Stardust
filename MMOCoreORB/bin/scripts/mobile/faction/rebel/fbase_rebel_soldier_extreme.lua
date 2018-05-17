@@ -1,7 +1,7 @@
 fbase_rebel_soldier_extreme = Creature:new {
 	objectName = "@mob/creature_names:fbase_rebel_soldier_extreme",
-	randomNameType = NAME_GENERIC,
-	randomNameTag = true,
+--	randomNameType = NAME_GENERIC,
+--	randomNameTag = true,
 	socialGroup = "rebel",
 	faction = "rebel",
 	level = 160,
@@ -51,7 +51,7 @@ fbase_rebel_soldier_extreme = Creature:new {
 	weapons = {"rebel_weapons_medium"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/military",
-	attacks = merge(marksmanmaster,brawlermaster,carbineermaster,tkamaster)
+	attacks = merge(marksmanmaster,brawlermaster,carbineermaster,teraskasimaster)
 }
 
 CreatureTemplates:addCreatureTemplate(fbase_rebel_soldier_extreme, "fbase_rebel_soldier_extreme")

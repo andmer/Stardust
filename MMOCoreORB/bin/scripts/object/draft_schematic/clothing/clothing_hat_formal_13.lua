@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_hat_formal_13 = object_draft_schematic_
    customObjectName = "Decorative Headdress",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 19, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_clothing_general", 

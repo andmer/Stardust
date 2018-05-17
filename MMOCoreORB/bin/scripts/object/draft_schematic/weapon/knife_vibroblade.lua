@@ -48,7 +48,7 @@ object_draft_schematic_weapon_knife_vibroblade = object_draft_schematic_weapon_s
    customObjectName = "Vibroblade",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 35, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_weapons_general", 

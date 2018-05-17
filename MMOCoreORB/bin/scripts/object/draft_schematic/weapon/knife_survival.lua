@@ -48,7 +48,7 @@ object_draft_schematic_weapon_knife_survival = object_draft_schematic_weapon_sha
    customObjectName = "Survival Knife",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 3, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_general", 

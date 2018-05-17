@@ -48,7 +48,7 @@ object_draft_schematic_item_item_generic_tool = object_draft_schematic_item_shar
    customObjectName = "Generic Crafting Tool",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 10, 
+   complexity = 1, 
    size = 2, 
 
    xpType = "crafting_general", 

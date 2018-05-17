@@ -61,8 +61,8 @@ object_weapon_melee_polearm_crafted_saber_sword_lightsaber_polearm_s2_gen2 = obj
 				"object/creature/player/twilek_female.iff",
 				"object/creature/player/wookiee_male.iff",
 				"object/creature/player/wookiee_female.iff",
-				"object/creature/player/zabrak_male.iff",
-				"object/creature/player/zabrak_female.iff" },
+			"object/creature/player/zabrak_male.iff","object/creature/player/chiss_male.iff",
+			"object/creature/player/zabrak_female.iff","object/creature/player/chiss_female.iff"},
 
 	-- RANGEDATTACK, MELEEATTACK, FORCEATTACK, TRAPATTACK, GRENADEATTACK, HEAVYACIDBEAMATTACK, 
 	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
@@ -82,7 +82,7 @@ object_weapon_melee_polearm_crafted_saber_sword_lightsaber_polearm_s2_gen2 = obj
 	-- See http://www.ocdsoft.com/files/certifications.xls
 	certificationsRequired = { "cert_polearmlightsaber_gen2" },
 	-- See http://www.ocdsoft.com/files/accuracy.xls
-	creatureAccuracyModifiers = { "polearmlightsaber_accuracy" },
+	creatureAccuracyModifiers = { "lightsaber_accuracy" },
 
 	-- See http://www.ocdsoft.com/files/defense.xls
 	defenderDefenseModifiers = { "melee_defense" },
@@ -91,7 +91,7 @@ object_weapon_melee_polearm_crafted_saber_sword_lightsaber_polearm_s2_gen2 = obj
 	defenderSecondaryDefenseModifiers = { "saber_block" },
 
 	-- See http://www.ocdsoft.com/files/speed.xls
-	speedModifiers = { "polearmlightsaber_speed" },
+	speedModifiers = { "lightsaber_speed" },
 
 	-- Leave blank for now
 	damageModifiers = { },
@@ -112,8 +112,8 @@ object_weapon_melee_polearm_crafted_saber_sword_lightsaber_polearm_s2_gen2 = obj
 	maxRange = 5,
 	maxRangeAccuracy = 5,
 
-	minDamage = 125,
-	maxDamage = 215,
+	minDamage = 225,
+	maxDamage = 320,
 
 	attackSpeed = 5.1,
 
@@ -122,7 +122,7 @@ object_weapon_melee_polearm_crafted_saber_sword_lightsaber_polearm_s2_gen2 = obj
 	defenderToughnessModifiers = { "lightsaber_toughness" },
 
 	noTrade = 1,
-
+	
 	childObjects = {
 		{templateFile = "object/tangible/inventory/lightsaber_inventory_2.iff", x = 0, z = 0, y = 0, ox = 0, oy = 0, oz = 0, ow = 0, cellid = -1, containmentType = 4}
 	},
@@ -132,8 +132,8 @@ object_weapon_melee_polearm_crafted_saber_sword_lightsaber_polearm_s2_gen2 = obj
 	experimentalWeights = {1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "expEffeciency", "expEffeciency", "expEffeciency"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "forcecost", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 125, 215, 5.1, 13, 28, 47, 55, 25},
-	experimentalMax = {0, 0, 145, 255, 4.8, 25, 24, 32, 40, 20},
+	experimentalMin = {0, 0, 225, 315, 5.1, 13, 18, 47, 55, 25},
+	experimentalMax = {0, 0, 250, 360, 4.8, 25, 14, 32, 40, 20},
 	experimentalPrecision = {0, 0, 0, 0, 1, 0, 1, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1},
 }

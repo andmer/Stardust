@@ -48,7 +48,7 @@ object_draft_schematic_munition_grenade_proton = object_draft_schematic_munition
    customObjectName = "Proton Grenade",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 35, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_weapons_general", 

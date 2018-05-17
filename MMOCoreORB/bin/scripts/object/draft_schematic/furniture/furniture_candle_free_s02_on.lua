@@ -48,9 +48,9 @@ object_draft_schematic_furniture_furniture_candle_free_s02_on = object_draft_sch
 	customObjectName = "Candle \'Dearic\'",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 20,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 10,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 110,

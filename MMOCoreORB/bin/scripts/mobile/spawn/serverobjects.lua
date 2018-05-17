@@ -41,4 +41,8 @@ includeFile("spawn/destroy_mission/yavin4_destroy_missions.lua")
 includeFile("spawn/destroy_mission/factional_imperial_destroy_missions.lua")
 includeFile("spawn/destroy_mission/factional_neutral_destroy_missions.lua")
 includeFile("spawn/destroy_mission/factional_rebel_destroy_missions.lua")
-
+--New planets
+includeFile("spawn/chandrila_world.lua")
+includeFile("spawn/destroy_mission/chandrila_destroy_missions.lua")
+includeFile("spawn/kaas_world.lua")
+includeFile("spawn/destroy_mission/kaas_destroy_missions.lua")

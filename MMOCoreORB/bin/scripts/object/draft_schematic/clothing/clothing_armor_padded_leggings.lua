@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_armor_padded_leggings = object_draft_sc
    customObjectName = "Padded Armor Leggings",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 40, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_clothing_armor", 

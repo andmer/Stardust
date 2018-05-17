@@ -44,12 +44,14 @@
 object_building_player_city_hospital_corellia = object_building_player_city_shared_hospital_corellia:new {
 	skillMods = {
 		{"private_medical_rating", 100},
+		{"private_med_wound_health", 100},
+		{"private_med_wound_action", 100},
 		{"private_safe_logout", 1}
 	},
 	lotSize = 3,
 	baseMaintenanceRate = 50,
 	planetMapCategory = "medicalcenter",
-	allowedZones = {"corellia", "talus"},
+	allowedZones = {"dantooine", "lok", "tatooine", "naboo", "rori", "corellia", "talus", "chandrila", "kaas"},
 	length = 5,
 	width = 5,
 	cityRankRequired = 3,

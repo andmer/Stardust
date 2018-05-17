@@ -48,7 +48,7 @@ object_draft_schematic_weapon_pistol_blaster_dl44_metal = object_draft_schematic
    customObjectName = "DL44 Metal Pistol",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 22, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_weapons_general", 

@@ -47,9 +47,9 @@ object_draft_schematic_furniture_bestine_painting_bestine_golden_flower_02 = obj
 	customObjectName = "Abstract Painting of Golden Petals 2",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 15,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 80,

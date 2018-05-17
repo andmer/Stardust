@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_shirt_formal_08 = object_draft_schemati
    customObjectName = "Sidebuttoned Shirt",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 16, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_clothing_general", 

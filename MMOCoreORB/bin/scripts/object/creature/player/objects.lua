@@ -1620,83 +1620,16 @@ ObjectTemplates:addClientTemplate(object_creature_player_shared_zabrak_female, "
 
 object_creature_player_shared_zabrak_male = SharedCreatureObjectTemplate:new {
 	clientTemplateFileName = "object/creature/player/shared_zabrak_male.iff"
-	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
---[[
-	acceleration = {36,12},
-	animationMapFilename = "all_male.map",
-	appearanceFilename = "appearance/zab_m.sat",
-	arrangementDescriptorFilename = "abstract/slot/arrangement/player.iff",
-
-	cameraHeight = 0,
-	certificationsRequired = {},
-	clearFloraRadius = 0,
-	clientDataFile = "clientdata/player/client_shared_player_zabrak_m.cdf",
-	clientGameObjectType = 1025,
-	collisionActionBlockFlags = 0,
-	collisionActionFlags = 255,
-	collisionActionPassFlags = 0,
-	collisionHeight = 1.8,
-	collisionLength = 1.5,
-	collisionMaterialBlockFlags = 0,
-	collisionMaterialFlags = 1,
-	collisionMaterialPassFlags = 0,
-	collisionOffsetX = 0,
-	collisionOffsetZ = 0,
-	collisionRadius = 0.5,
-	containerType = 1,
-	containerVolumeLimit = 0,
-	customizationVariableMapping = {},
-
-	detailedDescription = "",
-
-	gameObjectType = 1025,
-	gender = 0,
-
-	locationReservationRadius = 0,
-	lookAtText = "",
-
-	movementDatatable = "datatables/movement/movement_human.iff",
-
-	niche = 1,
-	noBuildRadius = 0,
-
-	objectName = "@species:zabrak",
-	onlyVisibleInTools = 0,
-
-	paletteColorCustomizationVariables = {},
-	portalLayoutFilename = "",
-	postureAlignToTerrain = {0,0,1,0,0,0,0,0,0,0,0,0,0,1,1},
-
-	race = 0,
-	rangedIntCustomizationVariables = {},
-
-	scale = {0.92, 1.06},
-	scaleThresholdBeforeExtentTest = 0.5,
-	sendToClient = 1,
-	slopeModAngle = 26,
-	slopeModPercent = 0.0125,
-	slotDescriptorFilename = "abstract/slot/descriptor/player.iff",
-	snapToTerrain = 1,
-	socketDestinations = {},
-	species = 7,
-	speed = {5.376,1.549},
-	stepHeight = 0.5,
-	structureFootprintFileName = "",
-	surfaceType = 0,
-	swimHeight = 1,
-
-	targetable = 1,
-	totalCellNumber = 0,
-	turnRate = {720,720},
-
-	useStructureFootprintOutline = 0,
-
-	warpTolerance = 17,
-	waterModPercent = 0.75,
-
-	clientObjectCRC = 3791955286,
-	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/creature/base/shared_base_creature.iff", "object/creature/player/base/shared_base_player.iff"}
-]]
 }
 
 ObjectTemplates:addClientTemplate(object_creature_player_shared_zabrak_male, "object/creature/player/shared_zabrak_male.iff")
+
+--Chiss female
+object_creature_player_shared_chiss_female = SharedCreatureObjectTemplate:new {
+	clientTemplateFileName = "object/creature/player/shared_chiss_female.iff"}
+ObjectTemplates:addClientTemplate(object_creature_player_shared_chiss_female, "object/creature/player/shared_chiss_female.iff")
+
+--Chiss male
+object_creature_player_shared_chiss_male = SharedCreatureObjectTemplate:new {
+	clientTemplateFileName = "object/creature/player/shared_chiss_male.iff"}
+ObjectTemplates:addClientTemplate(object_creature_player_shared_chiss_male, "object/creature/player/shared_chiss_male.iff")

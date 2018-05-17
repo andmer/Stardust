@@ -48,7 +48,7 @@ object_draft_schematic_item_component_item_electronic_control_unit = object_draf
    customObjectName = "Control Unit",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 2, 
 
    xpType = "crafting_general", 

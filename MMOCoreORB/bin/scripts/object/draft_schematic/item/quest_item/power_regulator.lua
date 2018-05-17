@@ -48,7 +48,7 @@ object_draft_schematic_item_quest_item_power_regulator = object_draft_schematic_
    customObjectName = "Power Regulator",
 
    craftingToolTab = 2148007936, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_general", 

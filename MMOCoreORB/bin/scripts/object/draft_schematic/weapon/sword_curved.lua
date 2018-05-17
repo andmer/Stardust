@@ -48,7 +48,7 @@ object_draft_schematic_weapon_sword_curved = object_draft_schematic_weapon_share
    customObjectName = "Curved Sword",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 14, 
+   complexity = 1, 
    size = 2, 
 
    xpType = "crafting_weapons_general", 

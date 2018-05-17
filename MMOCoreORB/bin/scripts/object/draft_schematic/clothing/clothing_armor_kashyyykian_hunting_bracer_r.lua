@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_armor_kashyyykian_hunting_bracer_r = ob
    customObjectName = "Kashyyykian Hunting Right Bracer",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 45, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_clothing_armor", 

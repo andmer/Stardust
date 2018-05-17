@@ -48,7 +48,7 @@ object_draft_schematic_weapon_rifle_disrupter_dxr6 = object_draft_schematic_weap
    customObjectName = "DXR-6 Carbine",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 25, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_weapons_general", 

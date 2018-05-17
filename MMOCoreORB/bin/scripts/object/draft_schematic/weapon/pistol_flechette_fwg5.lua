@@ -48,7 +48,7 @@ object_draft_schematic_weapon_pistol_flechette_fwg5 = object_draft_schematic_wea
    customObjectName = "FWG5 Pistol",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 22, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_weapons_general", 

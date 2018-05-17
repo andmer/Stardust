@@ -4,7 +4,7 @@ meatlump_loon = Creature:new {
 	randomNameTag = true,
 	socialGroup = "meatlump",
 	faction = "meatlump",
-	level = 10,
+	level = 28,
 	chanceHit = 0.28,
 	damageMin = 90,
 	damageMax = 110,
@@ -19,7 +19,7 @@ meatlump_loon = Creature:new {
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = ATTACKABLE,
@@ -34,16 +34,18 @@ meatlump_loon = Creature:new {
 		"object/mobile/dressed_criminal_thug_aqualish_male_01.iff",
 		"object/mobile/dressed_criminal_thug_aqualish_male_02.iff"},
 	lootGroups = {
-		{
-			groups = {
-				{group = "junk", chance = 2900000},
-				{group = "loot_kit_parts", chance = 1500000},
-				{group = "color_crystals", chance = 100000},
-				{group = "tailor_components", chance = 500000},
-				{group = "meatlump_common", chance = 5000000}
-			}
-		}
-	},
+	{
+	groups = {
+		{group = "junk", chance = 4500000},
+		{group = "loot_kit_parts", chance = 1000000},
+		--{group = "color_crystals", chance = 100000},
+		{group = "tailor_components", chance = 500000},
+		{group = "meatlump_common", chance = 3500000},
+		--{group = "armor_attachments", chance = 5000000},
+		{group = "clothing_attachments", chance = 500000},
+	}
+}
+},
 	weapons = {"pirate_weapons_light"},
 	reactionStf = "@npc_reaction/slang",
 	attacks = merge(brawlernovice,marksmannovice)

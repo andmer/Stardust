@@ -48,7 +48,7 @@ object_draft_schematic_weapon_pistol_scatter = object_draft_schematic_weapon_sha
    customObjectName = "Scatter Pistol",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 22, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_weapons_general", 

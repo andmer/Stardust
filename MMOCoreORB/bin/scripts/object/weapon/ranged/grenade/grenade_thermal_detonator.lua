@@ -63,8 +63,8 @@ object_weapon_ranged_grenade_grenade_thermal_detonator = object_weapon_ranged_gr
 			"object/creature/player/twilek_female.iff",
 			"object/creature/player/wookiee_male.iff",
 			"object/creature/player/wookiee_female.iff",
-			"object/creature/player/zabrak_male.iff",
-			"object/creature/player/zabrak_female.iff" },
+			"object/creature/player/zabrak_male.iff","object/creature/player/chiss_male.iff",
+			"object/creature/player/zabrak_female.iff","object/creature/player/chiss_female.iff"},
 
 	-- RANGEDATTACK, MELEEATTACK, FORCEATTACK, TRAPATTACK, GRENADEATTACK, HEAVYACIDBEAMATTACK,
 	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK

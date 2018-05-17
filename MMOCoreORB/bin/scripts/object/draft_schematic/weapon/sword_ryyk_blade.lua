@@ -48,7 +48,7 @@ object_draft_schematic_weapon_sword_ryyk_blade = object_draft_schematic_weapon_s
    customObjectName = "Ryyk Blade",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_weapons_general", 

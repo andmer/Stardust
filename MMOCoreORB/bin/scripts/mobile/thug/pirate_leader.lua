@@ -4,15 +4,15 @@ pirate_leader = Creature:new {
 	randomNameTag = true,
 	socialGroup = "pirate",
 	faction = "pirate",
-	level = 17,
-	chanceHit = 0.320000,
-	damageMin = 160,
-	damageMax = 170,
-	baseXp = 1257,
-	baseHAM = 3500,
-	baseHAMmax = 4300,
+	level = 99,
+	chanceHit = 1.320000,
+	damageMin = 230,
+	damageMax = 630,
+	baseXp = 5257,
+	baseHAM = 19500,
+	baseHAMmax = 32600,
 	armor = 0,
-	resists = {0,0,0,30,-1,30,-1,-1,-1},
+	resists = {25,34,45,31,12,32,6,9,8},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -49,10 +49,12 @@ pirate_leader = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 4000000},
+				{group = "junk", chance = 3000000},
 				{group = "wearables_common", chance = 3000000},
-				{group = "loot_kit_parts", chance = 2000000},
+				{group = "loot_kit_parts", chance = 1000000},
 				{group = "tailor_components", chance = 1000000},
+				{group = "armor_attachments", chance = 1000000},
+				{group = "clothing_attachments", chance = 1000000},
 			}
 		}
 	},

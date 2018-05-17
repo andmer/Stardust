@@ -48,7 +48,7 @@ object_draft_schematic_food_drink_jaar = object_draft_schematic_food_shared_drin
    customObjectName = "Jaar",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 5,
+   complexity = 1,
    size = 1,
 
    xpType = "crafting_general",

@@ -1,7 +1,7 @@
 fbase_rebel_elite_heavy_trooper_extreme = Creature:new {
 	objectName = "@mob/creature_names:fbase_rebel_elite_heavy_trooper_extreme",
-	randomNameType = NAME_GENERIC,
-	randomNameTag = true,
+--	randomNameType = NAME_GENERIC,
+--	randomNameTag = true,
 	socialGroup = "rebel",
 	faction = "rebel",
 	level = 270,
@@ -50,7 +50,7 @@ fbase_rebel_elite_heavy_trooper_extreme = Creature:new {
 	weapons = {"rebel_weapons_medium"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/military",
-	attacks = merge(brawlermaster,marksmanmaster,riflemanmaster,tkamaster)
+	attacks = merge(brawlermaster,marksmanmaster,riflemanmaster,teraskasimaster)
 }
 
 CreatureTemplates:addCreatureTemplate(fbase_rebel_elite_heavy_trooper_extreme, "fbase_rebel_elite_heavy_trooper_extreme")

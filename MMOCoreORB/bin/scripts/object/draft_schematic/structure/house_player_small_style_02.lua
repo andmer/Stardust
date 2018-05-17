@@ -48,9 +48,9 @@ object_draft_schematic_structure_house_player_small_style_02 = object_draft_sche
 	customObjectName = "Deed for: Small Tatooine House (Style 2)",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 19,
+	complexity = 1,
 	size = 10,
-	factoryCrateSize = 1,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 1000,

@@ -48,9 +48,9 @@ object_draft_schematic_structure_city_garage_naboo = object_draft_schematic_stru
 	customObjectName = "Deed for: Naboo Garage",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 24,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 1,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 6075,

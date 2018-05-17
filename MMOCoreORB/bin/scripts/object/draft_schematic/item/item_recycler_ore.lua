@@ -48,7 +48,7 @@ object_draft_schematic_item_item_recycler_ore = object_draft_schematic_item_shar
 	customObjectName = "Ore Recycler Schematic",
 
 	craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 12,
+	complexity = 1,
 	size = 1,
 	factoryCrateSize = 0,
 

@@ -48,9 +48,9 @@ object_draft_schematic_structure_component_structure_generator_turbine = object_
 	customObjectName = "Generator Turbine",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 16,
+	complexity = 1,
 	size = 8,
-	factoryCrateSize = 15,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 2900,

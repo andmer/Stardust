@@ -48,9 +48,9 @@ object_draft_schematic_chemistry_medpack_wound_strength_c = object_draft_schemat
 	customObjectName = "Strength Wound Medpack - C",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 30,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 50,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
 	xp = 65,

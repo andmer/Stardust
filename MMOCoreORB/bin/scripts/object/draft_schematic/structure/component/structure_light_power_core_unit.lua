@@ -48,9 +48,9 @@ object_draft_schematic_structure_component_structure_light_power_core_unit = obj
 	customObjectName = "Light Power Core Unit",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 10,
-	factoryCrateSize = 5,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 520,

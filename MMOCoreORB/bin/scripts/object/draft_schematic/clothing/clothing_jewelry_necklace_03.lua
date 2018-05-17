@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_jewelry_necklace_03 = object_draft_sche
    customObjectName = "Crested Neckpiece",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 2, 
 
    xpType = "crafting_clothing_general", 

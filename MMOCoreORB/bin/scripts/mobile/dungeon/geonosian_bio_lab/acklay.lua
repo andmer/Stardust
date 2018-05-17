@@ -2,16 +2,18 @@ acklay = Creature:new {
 	objectName = "@mob/creature_names:geonosian_acklay_bunker_boss",
 	customName = "Acklay",
 	socialGroup = "geonosian_creature",
+	pvpFaction = "",
 	faction = "",
-	level = 157,
-	chanceHit = 92.5,
-	damageMin = 935,
-	damageMax = 1580,
-	baseXp = 14884,
-	baseHAM = 96000,
-	baseHAMmax = 118000,
+	level = 500,
+	chanceHit = 25,
+	damageMin = 3800,
+	damageMax = 4800,
+	baseXp = 49884,
+	baseHAM = 1216000,
+	baseHAMmax = 1258000,
 	armor = 2,
-	resists = {130,145,155,155,145,30,30,30,-1},
+	-- {kinetic,energy,blast,heat,cold,electricity,acid,stun,ls}
+	resists = {40,45,55,55,45,45,40,40,25},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -23,22 +25,100 @@ acklay = Creature:new {
 	ferocity = 25,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
 	creatureBitmask = PACK + KILLER,
-	optionsBitmask = AIENABLED,
+	optionsBitmask = 128,
 	diet = CARNIVORE,
 
 	templates = {"object/mobile/acklay_hue.iff"},
+	scale = 1.5,
 	lootGroups = {
 		{
-			groups = {
-				{group = "acklay", chance = 10000000}
-			}
-		}
+	        groups =
+			{
+				{group = "armor_attachments", chance = 3500000},
+				{group = "acklay", chance = 6500000}
+			},
+			lootChance = 4500000,
+		},
+		{
+	        groups =
+			{
+				{group = "armor_attachments", chance = 3500000},
+				{group = "acklay", chance = 6500000}
+			},
+			lootChance = 4500000,
+		},
+		{
+	        groups =
+			{
+				{group = "armor_attachments", chance = 3500000},
+				{group = "acklay", chance = 6500000}
+			},
+			lootChance = 4500000,
+		},
+		{
+	        groups =
+			{
+				{group = "geonosian_hard", chance = 7500000},
+				{group = "acklay", chance = 2500000}
+			},
+			lootChance = 3500000,
+		},
+		{ 	
+			groups ={
+					{group = "acklay", chance = 10000000},				
+				},
+				lootChance = 4500000,
+		},
+		{ 	
+			groups ={
+					{group = "jedi_clothing_attachments", chance = 10000000},				
+				},
+				lootChance = 1500000,
+		},
+		{
+	        groups =
+			{
+				{group = "clothing_attachments", chance = 500000},
+				{group = "acklay", chance = 9500000}
+			},
+			lootChance = 3500000,
+		},
+		{
+	        groups =
+			{
+				{group = "geonosian_epic", chance = 10000000},
+			},
+			lootChance = 2500000,
+		},
+		{
+	        groups =
+			{
+				{group = "geonosian_epic", chance = 10000000},
+			},
+			lootChance = 2500000,
+		},
+		{
+			groups =
+			{
+
+				{group = "geonosian_common", chance = 10000000},
+			},
+			lootChance = 7500000,
+		},
+		{
+			groups =
+			{
+
+				{group = "geonosian_common", chance = 10000000},
+			},
+			lootChance = 5500000,
+		},
 	},
 	weapons = {},
 	conversationTemplate = "",
 	attacks = {
-		{"posturedownattack","stateAccuracyBonus=50"},
-		{"creatureareacombo","stateAccuracyBonus=50"}
+		{"creatureareacombo",""},
+		{"posturedownattack","postureDownChance=75"}
 	}
 }
 

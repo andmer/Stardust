@@ -48,9 +48,9 @@ object_draft_schematic_structure_generic_house_player_small_floorplan_02 = objec
 	customObjectName = "Deed for: Small Generic Planet House (Floorplan 2)",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 16,
+	complexity = 1,
 	size = 10,
-	factoryCrateSize = 1,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 1000,

@@ -5,21 +5,22 @@ spiderclan_crawler = Creature:new {
 	socialGroup = "spider_nightsister",
 	faction = "spider_nightsister",
 	level = 85,
-	chanceHit = 0.75,
+	chanceHit = 1.15,
 	damageMin = 555,
 	damageMax = 820,
 	baseXp = 8130,
 	baseHAM = 12000,
 	baseHAMmax = 15000,
 	armor = 1,
-	resists = {30,100,100,30,100,100,100,100,-1},
+	-- {kinetic,energy,blast,heat,cold,electricity,acid,stun,ls}
+	resists = {25,75,75,25,75,75,75,75,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
@@ -31,19 +32,24 @@ spiderclan_crawler = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 1500000},
-				{group = "power_crystals", chance = 500000},
-				{group = "color_crystals", chance = 500000},
-				{group = "armor_attachments", chance = 400000},
-				{group = "clothing_attachments", chance = 400000},
-				{group = "melee_weapons", chance = 2700000},
-				{group = "pistols", chance = 1000000},
-				{group = "rifles", chance = 1000000},
-				{group = "carbines", chance = 1000000},
-				{group = "wearables_common", chance = 500000},
-				{group = "wearables_uncommon", chance = 500000}
-			}
-		}
+				{group = "power_crystals", chance = 2500000},
+				{group = "color_crystals", chance = 2000000},
+				{group = "clothing_attachments", chance = 1500000},   -- 55% * 15% = 8.25%
+				{group = "armor_attachments", chance = 1500000},   -- 55% * 15% = 8.25%
+				{group = "melee_weapons", chance = 2500000},
+			},
+			lootChance = 5500000,  -- 55% chance for this loot group
+		},
+		{
+			groups = {
+				
+				{group = "rifles", chance = 2500000},
+				{group = "pistols", chance = 2500000},
+				{group = "carbines", chance = 2500000},
+				{group = "wearables_common", chance = 2500000},
+			},
+			lootChance = 4500000,
+		},
 	},
 	weapons = {"mixed_force_weapons"},
 	conversationTemplate = "",

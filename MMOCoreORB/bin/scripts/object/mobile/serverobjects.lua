@@ -48,6 +48,8 @@ includeFile("mobile/skeleton/serverobjects.lua")
 includeFile("mobile/tatooine_npc/serverobjects.lua")
 includeFile("mobile/vehicle/serverobjects.lua")
 includeFile("mobile/vendor/serverobjects.lua")
+-- Vex NGE NPC Templates
+includeFile("mobile/ep3/serverobjects.lua")
 
 -- Server Objects
 includeFile("mobile/21b_surgical_droid.lua")
@@ -2651,3 +2653,13 @@ includeFile("mobile/zabrak_female.lua")
 includeFile("mobile/zabrak_male.lua")
 includeFile("mobile/zucca_boar.lua")
 includeFile("mobile/zucca_boar_hue.lua")
+
+--Chiss
+includeFile("mobile/chiss_male.lua")
+includeFile("mobile/chiss_female.lua")
+
+-- Vex NGE NPC Templates
+includeFile("mobile/shared_space_comm_quest_hortrix_steelarm_chiss_m.lua")
+
+-- New Content NPCs
+includeFile("mobile/atxt.lua")

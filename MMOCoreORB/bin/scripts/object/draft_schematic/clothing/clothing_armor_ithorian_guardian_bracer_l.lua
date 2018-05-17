@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_armor_ithorian_guardian_bracer_l = obje
    customObjectName = "Ithorian Guardian Bracer (Left)",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 25, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_clothing_armor", 

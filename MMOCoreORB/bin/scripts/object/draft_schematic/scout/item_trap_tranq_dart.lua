@@ -48,7 +48,7 @@ object_draft_schematic_scout_item_trap_tranq_dart = object_draft_schematic_scout
    customObjectName = "Phecnacine Dart",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "camp", 

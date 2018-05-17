@@ -48,7 +48,7 @@ object_draft_schematic_munition_mine_xg = object_draft_schematic_munition_shared
    customObjectName = "XG Mine",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 30, 
+   complexity = 1, 
    size = 2, 
 
    xpType = "crafting_weapons_general", 

@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_armor_padded_bicep_l = object_draft_sch
    customObjectName = "Padded Armor Left Bicep",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 40, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_clothing_armor", 

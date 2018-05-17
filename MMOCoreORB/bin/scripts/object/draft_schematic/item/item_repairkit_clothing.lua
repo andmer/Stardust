@@ -48,7 +48,7 @@ object_draft_schematic_item_item_repairkit_clothing = object_draft_schematic_ite
    customObjectName = "Clothing Repair Tool",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 7, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_general", 

@@ -48,7 +48,7 @@ object_draft_schematic_food_dessert_won_won = object_draft_schematic_food_shared
    customObjectName = "Won-Won",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 6, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_food_general", 

@@ -48,7 +48,7 @@ object_draft_schematic_food_additive_additive_medium = object_draft_schematic_fo
    customObjectName = "Medium Food Additive",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 7, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_food_general", 

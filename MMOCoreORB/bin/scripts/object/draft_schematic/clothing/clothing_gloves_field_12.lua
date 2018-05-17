@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_gloves_field_12 = object_draft_schemati
    customObjectName = "Leather Gloves",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 11, 
+   complexity = 1, 
    size = 2, 
 
    xpType = "crafting_general", 

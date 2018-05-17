@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_armor_bone_gloves = object_draft_schema
    customObjectName = "Bone Armor Gloves",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_general", 

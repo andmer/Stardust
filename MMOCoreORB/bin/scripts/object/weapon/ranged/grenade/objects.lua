@@ -670,3 +670,9 @@ object_weapon_ranged_grenade_shared_grenade_thermal_detonator = SharedWeaponObje
 }
 
 ObjectTemplates:addClientTemplate(object_weapon_ranged_grenade_shared_grenade_thermal_detonator, "object/weapon/ranged/grenade/shared_grenade_thermal_detonator.iff")
+
+object_weapon_ranged_grenade_shared_grenade_cortosis = SharedWeaponObjectTemplate:new {
+	clientTemplateFileName = "object/weapon/ranged/grenade/shared_grenade_cortosis.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_grenade_shared_grenade_cortosis, "object/weapon/ranged/grenade/shared_grenade_cortosis.iff")

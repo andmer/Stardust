@@ -48,7 +48,7 @@ object_draft_schematic_food_dessert_vagnerian_canape = object_draft_schematic_fo
    customObjectName = "Vagnerian Canape",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_food_general", 

@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_shirt_casual_34 = object_draft_schemati
    customObjectName = "Soft Undershirt",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 9, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_general", 

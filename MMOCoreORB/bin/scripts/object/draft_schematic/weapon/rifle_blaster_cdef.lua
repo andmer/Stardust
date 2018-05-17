@@ -48,7 +48,7 @@ object_draft_schematic_weapon_rifle_blaster_cdef = object_draft_schematic_weapon
    customObjectName = "CDEF Rifle",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 8, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_general", 

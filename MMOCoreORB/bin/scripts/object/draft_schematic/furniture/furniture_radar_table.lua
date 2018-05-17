@@ -48,7 +48,7 @@ object_draft_schematic_furniture_furniture_radar_table = object_draft_schematic_
    customObjectName = "Data Terminal",
 
    craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 9, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_structure_general", 

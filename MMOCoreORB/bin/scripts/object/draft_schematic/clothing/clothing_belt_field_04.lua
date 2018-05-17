@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_belt_field_04 = object_draft_schematic_
    customObjectName = "Workman\'s Belt",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_clothing_general", 

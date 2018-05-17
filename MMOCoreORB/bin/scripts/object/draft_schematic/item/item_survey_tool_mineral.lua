@@ -48,7 +48,7 @@ object_draft_schematic_item_item_survey_tool_mineral = object_draft_schematic_it
    customObjectName = "Mineral Survey Device",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 7, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_general", 

@@ -48,9 +48,9 @@ object_draft_schematic_furniture_furniture_lamp_table = object_draft_schematic_f
 	customObjectName = "Table-top Lamp",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 16,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 10,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 140,

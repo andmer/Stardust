@@ -48,7 +48,7 @@ object_draft_schematic_scout_item_trap_state_def_1 = object_draft_schematic_scou
    customObjectName = "Stink Bomb",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 7, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "camp", 

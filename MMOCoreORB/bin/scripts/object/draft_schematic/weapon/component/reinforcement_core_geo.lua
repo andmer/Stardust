@@ -48,7 +48,7 @@ object_draft_schematic_weapon_component_reinforcement_core_geo = object_draft_sc
    customObjectName = "Geonosian Reinforcement Core",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 10, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_weapons_general", 

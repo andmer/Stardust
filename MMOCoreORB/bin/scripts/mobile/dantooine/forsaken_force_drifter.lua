@@ -12,6 +12,7 @@ forsaken_force_drifter = Creature:new {
 	baseHAM = 11000,
 	baseHAMmax = 14000,
 	armor = 1,
+	-- {kinetic,energy,blast,heat,cold,electricity,acid,stun,ls}
 	resists = {35,35,35,35,35,35,35,35,-1},
 	meatType = "",
 	meatAmount = 0,
@@ -19,7 +20,7 @@ forsaken_force_drifter = Creature:new {
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = ATTACKABLE,

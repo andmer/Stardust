@@ -48,7 +48,7 @@ object_draft_schematic_spices_spice_neutron_pixey = object_draft_schematic_spice
    customObjectName = "Neutron Pixie",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 13, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_spice", 

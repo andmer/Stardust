@@ -61,8 +61,8 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_s1_gen1 =
 				"object/creature/player/twilek_female.iff",
 				"object/creature/player/wookiee_male.iff",
 				"object/creature/player/wookiee_female.iff",
-				"object/creature/player/zabrak_male.iff",
-				"object/creature/player/zabrak_female.iff" },
+			"object/creature/player/zabrak_male.iff","object/creature/player/chiss_male.iff",
+			"object/creature/player/zabrak_female.iff","object/creature/player/chiss_female.iff"},
 
 	-- RANGEDATTACK, MELEEATTACK, FORCEATTACK, TRAPATTACK, GRENADEATTACK, HEAVYACIDBEAMATTACK, 
 	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
@@ -82,7 +82,7 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_s1_gen1 =
 	-- See http://www.ocdsoft.com/files/certifications.xls
 	certificationsRequired = { "cert_twohandlightsaber_gen1" },
 	-- See http://www.ocdsoft.com/files/accuracy.xls
-	creatureAccuracyModifiers = { "twohandlightsaber_accuracy" },
+	creatureAccuracyModifiers = { "lightsaber_accuracy" },
 
 	-- See http://www.ocdsoft.com/files/defense.xls
 	defenderDefenseModifiers = { "melee_defense" },
@@ -91,15 +91,15 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_s1_gen1 =
 	defenderSecondaryDefenseModifiers = { "saber_block" },
 
 	-- See http://www.ocdsoft.com/files/speed.xls
-	speedModifiers = { "twohandlightsaber_speed" },
+	speedModifiers = { "lightsaber_speed" },
 
 	-- Leave blank for now
 	damageModifiers = { },
 
 
-	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 40,
-	actionAttackCost = 35,
+-- The values below are the default values.  To be used for blue frog objects primarily
+	healthAttackCost = 35,
+	actionAttackCost = 40,
 	mindAttackCost = 20,
 	forceCost = 12,
 
@@ -112,17 +112,17 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_s1_gen1 =
 	maxRange = 5,
 	maxRangeAccuracy = 5,
 
-	minDamage = 90,
-	maxDamage = 180,
+	minDamage = 205,
+	maxDamage = 300,
 
-	attackSpeed = 4.8,
+	attackSpeed = 5.1,
 
 	woundsRatio = 15,
 
 	defenderToughnessModifiers = { "lightsaber_toughness" },
-				
+
 	noTrade = 1,
-	
+
 	childObjects = {
 		{templateFile = "object/tangible/inventory/lightsaber_inventory_1.iff", x = 0, z = 0, y = 0, ox = 0, oy = 0, oz = 0, ow = 0, cellid = -1, containmentType = 4}
 	},
@@ -132,8 +132,8 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_s1_gen1 =
 	experimentalWeights = {1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "expEffeciency", "expEffeciency", "expEffeciency"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "forcecost", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 90, 180, 4.8, 10, 15, 40, 35, 20},
-	experimentalMax = {0, 0, 110, 220, 4.5, 20, 12, 25, 25, 15},
+	experimentalMin = {0, 0, 205, 295, 5.1, 10, 5, 35, 40, 20},
+	experimentalMax = {0, 0, 230, 340, 4.8, 20, 2, 25, 25, 15},
 	experimentalPrecision = {0, 0, 0, 0, 1, 0, 1, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1},
 }

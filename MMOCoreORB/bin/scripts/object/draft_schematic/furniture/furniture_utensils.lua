@@ -48,7 +48,7 @@ object_draft_schematic_furniture_furniture_utensils = object_draft_schematic_fur
    customObjectName = "Kitchen Utensils",
 
    craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_general", 

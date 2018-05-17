@@ -4,14 +4,15 @@ singing_mountain_clan_dragoon = Creature:new {
 	randomNameTag = true,
 	socialGroup = "mtn_clan",
 	faction = "mtn_clan",
-	level = 94,
-	chanceHit = 0.95,
+	level = 134,
+	chanceHit = 2.95,
 	damageMin = 620,
 	damageMax = 950,
 	baseXp = 8964,
-	baseHAM = 20000,
-	baseHAMmax = 25000,
+	baseHAM = 40000,
+	baseHAMmax = 49000,
 	armor = 2,
+	-- {kinetic,energy,blast,heat,cold,electricity,acid,stun,ls}
 	resists = {45,45,75,35,75,35,35,35,-1},
 	meatType = "",
 	meatAmount = 0,
@@ -19,7 +20,7 @@ singing_mountain_clan_dragoon = Creature:new {
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
@@ -31,23 +32,36 @@ singing_mountain_clan_dragoon = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 1500000},
-				{group = "power_crystals", chance = 500000},
-				{group = "color_crystals", chance = 500000},
-				{group = "armor_attachments", chance = 400000},
-				{group = "clothing_attachments", chance = 400000},
-				{group = "melee_weapons", chance = 2700000},
-				{group = "rifles", chance = 1000000},
-				{group = "pistols", chance = 1000000},
-				{group = "carbines", chance = 1000000},
-				{group = "wearables_uncommon", chance = 500000},
-				{group = "tailor_components", chance = 500000}
-			}
-		}
+				{group = "power_crystals", chance = 2500000},
+				{group = "color_crystals", chance = 2000000},
+				{group = "clothing_attachments", chance = 1500000},   -- 70% * 15% = 10.5%
+				{group = "armor_attachments", chance = 1500000},      -- 70% * 15% = 10.5%
+				{group = "melee_weapons", chance = 2500000},
+			},
+			lootChance = 7000000,  -- 70% chance for this loot group
+		},
+		{
+			groups = {
+				
+				{group = "rifles", chance = 2500000},
+				{group = "pistols", chance = 2500000},
+				{group = "carbines", chance = 2500000},
+				{group = "wearables_common", chance = 2500000},
+			},
+			lootChance = 6000000,
+		},
+		{ -- Jedi Specific Loot Group
+			groups =
+			{
+				{group = "jedi_clothing_attachments", chance = 5000000},    -- 7.5% * 50% = 3.75%
+				{group = "named_crystals", chance = 5000000},
+			},
+			lootChance = 750000,   -- 7.5% chance for this group
+		},
 	},
 	weapons = {"mixed_force_weapons"},
 	conversationTemplate = "",
-	attacks = merge(brawlermaster,pikemanmaster,forcewielder)
+	attacks = merge(brawlermaster,pikemanmaster) --NS Powers Removed
 
 }
 

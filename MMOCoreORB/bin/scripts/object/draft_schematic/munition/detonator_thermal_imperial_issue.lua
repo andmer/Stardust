@@ -48,7 +48,7 @@ object_draft_schematic_munition_detonator_thermal_imperial_issue = object_draft_
    customObjectName = "Imperial Detonator",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 40, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_weapons_general", 

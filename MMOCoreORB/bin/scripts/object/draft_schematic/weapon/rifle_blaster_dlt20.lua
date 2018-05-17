@@ -48,7 +48,7 @@ object_draft_schematic_weapon_rifle_blaster_dlt20 = object_draft_schematic_weapo
    customObjectName = "DLT20 Rifle",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 18, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_weapons_general", 

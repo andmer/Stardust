@@ -48,7 +48,7 @@ object_draft_schematic_bio_engineer_bio_component_bio_component_food_light_quant
    customObjectName = "Hyper Yeast Additive",
 
    craftingToolTab = 128, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 18, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_bio_engineer_creature", 

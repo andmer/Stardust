@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_ith_jewelry_necklace_05 = object_draft_
    customObjectName = "Ithorian Immense Gemstone Necklace",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 25, 
+   complexity = 1, 
    size = 2, 
 
    xpType = "crafting_clothing_general", 

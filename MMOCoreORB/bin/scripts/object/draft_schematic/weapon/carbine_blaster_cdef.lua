@@ -48,7 +48,7 @@ object_draft_schematic_weapon_carbine_blaster_cdef = object_draft_schematic_weap
    customObjectName = "CDEF Carbine",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 8, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_general", 

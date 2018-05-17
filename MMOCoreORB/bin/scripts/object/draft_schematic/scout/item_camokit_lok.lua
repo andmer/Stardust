@@ -48,7 +48,7 @@ object_draft_schematic_scout_item_camokit_lok = object_draft_schematic_scout_sha
    customObjectName = "Camo Kit: Lok",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 2, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "scout", 

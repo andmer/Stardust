@@ -48,9 +48,9 @@ object_draft_schematic_furniture_furniture_terminal_freestanding = object_draft_
 	customObjectName = "Data Terminal",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 36,
+	complexity = 1,
 	size = 4,
-	factoryCrateSize = 10,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 500,

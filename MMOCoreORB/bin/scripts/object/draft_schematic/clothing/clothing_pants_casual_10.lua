@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_pants_casual_10 = object_draft_schemati
    customObjectName = "Wrinkled Pants",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 6, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_general", 

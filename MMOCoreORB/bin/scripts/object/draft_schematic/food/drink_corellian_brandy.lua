@@ -48,7 +48,7 @@ object_draft_schematic_food_drink_corellian_brandy = object_draft_schematic_food
    customObjectName = "Corellian Brandy",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 8, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_food_general", 

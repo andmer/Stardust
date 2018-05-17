@@ -48,7 +48,7 @@ object_draft_schematic_weapon_staff_metal = object_draft_schematic_weapon_shared
    customObjectName = "Metal Staff",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 17, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_weapons_general", 

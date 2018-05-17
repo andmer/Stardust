@@ -48,7 +48,7 @@ object_draft_schematic_spices_spice_booster_blue = object_draft_schematic_spices
    customObjectName = "Booster Blue",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 13, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_spice", 

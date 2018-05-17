@@ -48,9 +48,9 @@ object_draft_schematic_structure_city_garden_large = object_draft_schematic_stru
 	customObjectName = "Deed for: Large Garden",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 27,
+	complexity = 1,
 	size = 12,
-	factoryCrateSize = 1,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 9000,

@@ -4,15 +4,16 @@ dark_jedi_master = Creature:new {
 	randomNameTag = true,
 	socialGroup = "dark_jedi",
 	faction = "",
-	level = 291,
-	chanceHit = 27.25,
+	level = 331, -- Should drop Flawless
+	chanceHit = 19.25,
 	damageMin = 1800,
 	damageMax = 3310,
 	baseXp = 27849,
 	baseHAM = 321000,
 	baseHAMmax = 392000,
 	armor = 3,
-	resists = {90,90,90,90,90,90,90,90,-1},
+	-- {kinetic,energy,blast,heat,cold,electricity,acid,stun,ls}
+	resists = {75,75,75,75,75,75,75,75,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -32,19 +33,57 @@ dark_jedi_master = Creature:new {
 		"object/mobile/dressed_dark_jedi_human_female_01.iff"},
 	lootGroups = {
 		{
+			groups = { -- DarkJedi LootGroup
+				{group = "holocron_dark", chance = 4000000},
+				{group = "dark_jedi_common", chance = 6000000},
+			},
+			lootChance = 7500000,
+		},
+		{
 			groups = {
-				{group = "holocron_dark", chance = 600000},
-				{group = "holocron_light", chance = 600000},
-				{group = "power_crystals", chance = 600000},
-				{group = "rifles", chance = 1300000},
-				{group = "pistols", chance = 1300000},
-				{group = "melee_weapons", chance = 1300000},
-				{group = "armor_attachments", chance = 1100000},
-				{group = "clothing_attachments", chance = 1100000},
-				{group = "carbines", chance = 1300000},
-				{group = "dark_jedi_common", chance = 800000}
-			}
-		}
+				{group = "power_crystals", chance = 1500000},
+				{group = "color_crystals", chance = 2500000},
+				{group = "clothing_attachments", chance = 1500000},
+				{group = "melee_weapons", chance = 2500000},
+				{group = "dark_jedi_common", chance = 2000000},
+			},
+			lootChance = 7500000,
+		},
+		{
+			groups = {
+				{group = "clothing_attachments", chance = 1500000},
+				{group = "rifles", chance = 2500000},
+				{group = "pistols", chance = 2500000},
+				{group = "carbines", chance = 2500000},
+				{group = "dark_jedi_common", chance = 1000000},
+			},
+			lootChance = 7500000,
+		},
+		{
+			groups = {
+				{group = "clothing_attachments", chance = 1500000},
+				{group = "rifles", chance = 2500000},
+				{group = "pistols", chance = 2500000},
+				{group = "carbines", chance = 2500000},
+				{group = "dark_jedi_common", chance = 1000000},
+			},
+			lootChance = 4500000,
+		},
+		{ -- Jedi Specific Loot Group
+			groups =
+			{
+				{group = "named_crystals", chance = 10000000},
+			},
+			lootChance = 2500000,
+		},
+		{ 	-- Jedi Specific Loot Group 2 - 30%
+			groups ={
+				{group = "jedi_clothing_attachments", chance = 2500000},	-- 40% * 25% = 10%
+				{group = "ngerobes2", chance = 7500000}	                    -- 40% * 70% = 30%
+
+			},
+			lootChance = 4000000,
+		},
 	},
 	weapons = {"dark_jedi_weapons_gen4"},
 	conversationTemplate = "",

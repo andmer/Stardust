@@ -48,9 +48,9 @@ object_draft_schematic_chemistry_component_resilience_compound_advanced = object
 	customObjectName = "Advanced Resilience Compound",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 50,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
 	xp = 100,

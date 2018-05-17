@@ -48,7 +48,7 @@ object_draft_schematic_weapon_katana = object_draft_schematic_weapon_shared_kata
    customObjectName = "Two-handed Curved Sword",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 30, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_weapons_general", 

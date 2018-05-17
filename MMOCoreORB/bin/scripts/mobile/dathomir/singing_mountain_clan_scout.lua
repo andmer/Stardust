@@ -4,14 +4,15 @@ singing_mountain_clan_scout = Creature:new {
 	randomNameTag = true,
 	socialGroup = "mtn_clan",
 	faction = "mtn_clan",
-	level = 75,
-	chanceHit = 0.75,
+	level = 134,
+	chanceHit = 1.55,
 	damageMin = 520,
 	damageMax = 750,
 	baseXp = 7207,
-	baseHAM = 12000,
-	baseHAMmax = 15000,
+	baseHAM = 42000,
+	baseHAMmax = 55000,
 	armor = 1,
+	-- {kinetic,energy,blast,heat,cold,electricity,acid,stun,ls}
 	resists = {30,30,75,-1,75,30,30,30,-1},
 	meatType = "",
 	meatAmount = 0,
@@ -19,7 +20,7 @@ singing_mountain_clan_scout = Creature:new {
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
@@ -31,19 +32,24 @@ singing_mountain_clan_scout = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 1500000},
-				{group = "power_crystals", chance = 500000},
-				{group = "color_crystals", chance = 500000},
-				{group = "armor_attachments", chance = 350000},
-				{group = "clothing_attachments", chance = 350000},
-				{group = "melee_weapons", chance = 2800000},
-				{group = "rifles", chance = 1000000},
-				{group = "pistols", chance = 1000000},
-				{group = "carbines", chance = 1000000},
-				{group = "wearables_uncommon", chance = 500000},
-				{group = "tailor_components", chance = 500000}
-			}
-		}
+				{group = "power_crystals", chance = 2500000},
+				{group = "color_crystals", chance = 2000000},
+				{group = "clothing_attachments", chance = 1500000},   -- 55% * 15% = 8.25%
+				{group = "armor_attachments", chance = 1500000},   -- 55% * 15% = 8.25%
+				{group = "melee_weapons", chance = 2500000},
+			},
+			lootChance = 5500000,  -- 55% chance for this loot group
+		},
+		{
+			groups = {
+				
+				{group = "rifles", chance = 2500000},
+				{group = "pistols", chance = 2500000},
+				{group = "carbines", chance = 2500000},
+				{group = "wearables_common", chance = 2500000},
+			},
+			lootChance = 4500000,
+		},
 	},
 	weapons = {"mixed_force_weapons"},
 	conversationTemplate = "",

@@ -48,9 +48,9 @@ object_draft_schematic_furniture_furniture_bookcase_cheap = object_draft_schemat
 	customObjectName = "Bookcase",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 10,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 10,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 300,

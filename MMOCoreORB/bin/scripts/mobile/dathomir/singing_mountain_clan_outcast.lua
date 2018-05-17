@@ -4,22 +4,23 @@ singing_mountain_clan_outcast = Creature:new {
 	randomNameTag = true,
 	socialGroup = "mtn_clan",
 	faction = "mtn_clan",
-	level = 75,
-	chanceHit = 0.75,
+	level = 99,
+	chanceHit = 1.65,
 	damageMin = 520,
 	damageMax = 750,
 	baseXp = 7207,
 	baseHAM = 12000,
 	baseHAMmax = 15000,
 	armor = 1,
-	resists = {25,25,75,-1,75,25,25,25,-1},
+	-- {kinetic,energy,blast,heat,cold,electricity,acid,stun,ls}
+	resists = {25,25,55,-1,75,25,25,25,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
@@ -31,19 +32,24 @@ singing_mountain_clan_outcast = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 1500000},
-				{group = "power_crystals", chance = 500000},
-				{group = "color_crystals", chance = 500000},
-				{group = "armor_attachments", chance = 350000},
-				{group = "clothing_attachments", chance = 350000},
-				{group = "melee_weapons", chance = 2800000},
-				{group = "rifles", chance = 1000000},
-				{group = "pistols", chance = 1000000},
-				{group = "carbines", chance = 1000000},
-				{group = "wearables_uncommon", chance = 500000},
-				{group = "tailor_components", chance = 500000}
-			}
-		}
+				{group = "power_crystals", chance = 2500000},
+				{group = "color_crystals", chance = 2000000},
+				{group = "clothing_attachments", chance = 1500000},   -- 50% * 15% = 7.5%
+				{group = "armor_attachments", chance = 1500000},   -- 50% * 15% = 7.5%
+				{group = "melee_weapons", chance = 2500000},
+			},
+			lootChance = 5000000,  -- 50% chance for this loot group
+		},
+		{
+			groups = {
+				
+				{group = "rifles", chance = 2500000},
+				{group = "pistols", chance = 2500000},
+				{group = "carbines", chance = 2500000},
+				{group = "wearables_common", chance = 2500000},
+			},
+			lootChance = 4000000,
+		},
 	},
 	weapons = {"mixed_force_weapons"},
 	conversationTemplate = "",

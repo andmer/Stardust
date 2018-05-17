@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_wke_hood_s03 = object_draft_schematic_c
    customObjectName = "Weighted Wookiee Hood",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_general", 

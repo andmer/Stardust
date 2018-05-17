@@ -4,13 +4,13 @@ death_watch_black_sun_henchman = Creature:new {
 	randomNameTag = true,
 	socialGroup = "death_watch",
 	faction = "",
-	level = 76,
+	level = 196,
 	chanceHit = 0.75,
 	damageMin = 520,
 	damageMax = 750,
 	baseXp = 7207,
-	baseHAM = 15000,
-	baseHAMmax = 15000,
+	baseHAM = 55000,
+	baseHAMmax = 75000,
 	armor = 1,
 	resists = {35,35,50,25,45,60,25,30,-1},
 	meatType = "",
@@ -19,7 +19,7 @@ death_watch_black_sun_henchman = Creature:new {
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
@@ -32,10 +32,16 @@ death_watch_black_sun_henchman = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "death_watch_bunker_commoners", chance = 10000000}
+				{group = "death_watch_bunker_commoners", chance = 10000000},
 			},
-			lootChance = 1000000
-		}
+			lootChance = 2500000
+		},
+		{
+			groups = {
+				{group = "death_watch_bunker_commoners", chance = 10000000},
+			},
+			lootChance = 2500000
+		},
 	},
 	weapons = {"pirate_weapons_heavy"},
 	conversationTemplate = "",

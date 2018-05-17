@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_ith_vest_field_01 = object_draft_schema
    customObjectName = "Ithorian Lifejacket",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 9, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_general", 

@@ -20,7 +20,7 @@ aakuan_anarchist = Creature:new {
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = ATTACKABLE,
@@ -40,7 +40,8 @@ aakuan_anarchist = Creature:new {
 				{group = "aakuan_common", chance = 2300000},
 				{group = "armor_attachments", chance = 500000},
 				{group = "clothing_attachments", chance = 600000}
-			}
+			},
+			lootChance = 5000000,
 		}
 	},
 	weapons = {"melee_weapons"},

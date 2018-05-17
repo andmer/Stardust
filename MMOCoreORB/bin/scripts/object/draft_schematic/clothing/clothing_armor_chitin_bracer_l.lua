@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_armor_chitin_bracer_l = object_draft_sc
    customObjectName = "Chitin Armor Left Bracer",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 25, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_clothing_armor", 

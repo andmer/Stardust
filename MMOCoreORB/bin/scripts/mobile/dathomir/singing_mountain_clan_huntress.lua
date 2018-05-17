@@ -4,15 +4,16 @@ singing_mountain_clan_huntress = Creature:new {
 	randomNameTag = true,
 	socialGroup = "mtn_clan",
 	faction = "mtn_clan",
-	level = 75,
-	chanceHit = 0.75,
+	level = 135,
+	chanceHit = 1.75,
 	damageMin = 520,
 	damageMax = 750,
 	baseXp = 7207,
 	baseHAM = 12000,
 	baseHAMmax = 15000,
 	armor = 1,
-	resists = {35,35,75,-1,75,35,35,35,-1},
+	-- {kinetic,energy,blast,heat,cold,electricity,acid,stun,ls}
+	resists = {25,25,65,-1,65,15,35,15,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -31,23 +32,28 @@ singing_mountain_clan_huntress = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 1500000},
-				{group = "power_crystals", chance = 500000},
-				{group = "color_crystals", chance = 500000},
-				{group = "armor_attachments", chance = 350000},
-				{group = "clothing_attachments", chance = 350000},
-				{group = "melee_weapons", chance = 2800000},
-				{group = "rifles", chance = 1000000},
-				{group = "pistols", chance = 1000000},
-				{group = "carbines", chance = 1000000},
-				{group = "wearables_uncommon", chance = 500000},
-				{group = "tailor_components", chance = 500000}
-			}
-		}
+				{group = "power_crystals", chance = 2500000},
+				{group = "color_crystals", chance = 2000000},
+				{group = "clothing_attachments", chance = 1500000},   -- 60% * 15% = 9%
+				{group = "armor_attachments", chance = 1500000},   -- 60% * 15% = 9%
+				{group = "melee_weapons", chance = 2500000},
+			},
+			lootChance = 6000000,  -- 60% chance for this loot group
+		},
+		{
+			groups = {
+				
+				{group = "rifles", chance = 2500000},
+				{group = "pistols", chance = 2500000},
+				{group = "carbines", chance = 2500000},
+				{group = "wearables_common", chance = 2500000},
+			},
+			lootChance = 5000000,
+		},
 	},
 	weapons = {"mixed_force_weapons"},
 	conversationTemplate = "",
-	attacks = merge(brawlermaster,pikemanmaster,swordsmanmaster,forcewielder)
+	attacks = merge(brawlermaster,pikemanmaster,swordsmanmaster) --NS Powers Removed
 }
 
 CreatureTemplates:addCreatureTemplate(singing_mountain_clan_huntress, "singing_mountain_clan_huntress")

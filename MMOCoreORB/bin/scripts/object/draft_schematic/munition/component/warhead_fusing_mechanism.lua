@@ -48,7 +48,7 @@ object_draft_schematic_munition_component_warhead_fusing_mechanism = object_draf
    customObjectName = "Warhead Fusing Mechanism",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_weapons_general", 

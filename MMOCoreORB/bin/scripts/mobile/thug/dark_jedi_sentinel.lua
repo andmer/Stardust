@@ -12,6 +12,7 @@ dark_jedi_sentinel = Creature:new {
 	baseHAM = 1106000,
 	baseHAMmax = 1352000,
 	armor = 3,
+	-- {kinetic,energy,blast,heat,cold,electricity,acid,stun,ls}
 	resists = {95,95,95,95,95,95,95,95,-1},
 	meatType = "",
 	meatAmount = 0,
@@ -19,7 +20,7 @@ dark_jedi_sentinel = Creature:new {
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,

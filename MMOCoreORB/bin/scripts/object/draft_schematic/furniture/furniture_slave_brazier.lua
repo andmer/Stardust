@@ -48,7 +48,7 @@ object_draft_schematic_furniture_furniture_slave_brazier = object_draft_schemati
    customObjectName = "Slave Brazier Draft Schematic",
 
    craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 18, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_structure_general", 

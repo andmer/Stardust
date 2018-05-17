@@ -19,7 +19,7 @@ death_watch_black_sun_assassin = Creature:new {
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
@@ -34,8 +34,14 @@ death_watch_black_sun_assassin = Creature:new {
 			groups = {
 				{group = "death_watch_bunker_commoners", chance = 10000000},
 			},
-			lootChance = 1000000
-		}
+			lootChance = 2500000
+		},
+		{
+			groups = {
+				{group = "death_watch_bunker_commoners", chance = 10000000},
+			},
+			lootChance = 2500000
+		},
 	},
 	weapons = {"battle_droid_weapons"},
 	conversationTemplate = "",

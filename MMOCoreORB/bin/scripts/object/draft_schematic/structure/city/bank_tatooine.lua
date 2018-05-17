@@ -48,9 +48,9 @@ object_draft_schematic_structure_city_bank_tatooine = object_draft_schematic_str
 	customObjectName = "Deed for: Tatooine Bank",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 16,
+	complexity = 1,
 	size = 12,
-	factoryCrateSize = 1,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 4400,

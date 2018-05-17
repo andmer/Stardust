@@ -48,9 +48,9 @@ object_draft_schematic_structure_city_cloning_naboo = object_draft_schematic_str
 	customObjectName = "Deed for: Naboo Cloning Facility",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 23,
+	complexity = 1,
 	size = 14,
-	factoryCrateSize = 1,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 6800,

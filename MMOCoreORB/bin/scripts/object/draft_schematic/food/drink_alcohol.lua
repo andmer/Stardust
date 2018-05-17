@@ -48,7 +48,7 @@ object_draft_schematic_food_drink_alcohol = object_draft_schematic_food_shared_d
    customObjectName = "Alcohol",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 5, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_food_general", 

@@ -2,15 +2,16 @@ tusken_witch_doctor = Creature:new {
 	objectName = "@mob/creature_names:tusken_witch_doctor",
 	socialGroup = "tusken_raider",
 	faction = "tusken_raider",
-	level = 202,
-	chanceHit = 16,
-	damageMin = 1145,
-	damageMax = 2000,
-	baseXp = 19201,
-	baseHAM = 160000,
-	baseHAMmax = 195000,
-	armor = 3,
-	resists = {65,95,35,100,0,30,45,80,-1},
+	level = 157,
+	chanceHit = 3.5,
+	damageMin = 745,
+	damageMax = 1200,
+	baseXp = 10174,
+	baseHAM = 54000,
+	baseHAMmax = 63000,
+	armor = 2,
+	-- {kinetic,energy,blast,heat,cold,electricity,acid,stun,ls}
+	resists = {5,75,5,75,75,75,75,75,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -29,17 +30,25 @@ tusken_witch_doctor = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 1500000},
-				{group = "tusken_common", chance = 3000000},
-				{group = "wearables_scarce", chance = 2000000},
-				{group = "bone_armor", chance = 750000},
-				{group = "chitin_armor", chance = 750000},
-				{group = "armor_attachments", chance = 500000},
-				{group = "clothing_attachments", chance = 500000},
-				{group = "color_crystals", chance = 500000},
-				{group = "power_crystals", chance = 500000}
-			}
-		}
+				{group = "power_crystals", chance = 2000000},
+				{group = "color_crystals", chance = 2000000},
+				{group = "tusken_common", chance = 1000000},
+				{group = "armor_attachments", chance = 1500000},   -- 60% * 15% = 9%
+				{group = "clothing_attachments", chance = 1500000},   -- 60% * 15% = 9%
+				{group = "melee_weapons", chance = 2000000},
+			},
+			lootChance = 6000000,   -- 60% chance for this group
+		},
+		{
+			groups = {
+
+				{group = "rifles", chance = 2500000},
+				{group = "pistols", chance = 2500000},
+				{group = "carbines", chance = 2500000},
+				{group = "wearables_common", chance = 2500000},
+			},
+			lootChance = 5000000,   -- 50% chance for this group
+		},
 	},
 	weapons = {"tusken_weapons"},
 	conversationTemplate = "",

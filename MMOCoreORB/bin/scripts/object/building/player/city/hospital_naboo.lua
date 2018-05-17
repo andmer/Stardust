@@ -44,11 +44,13 @@
 object_building_player_city_hospital_naboo = object_building_player_city_shared_hospital_naboo:new {
 	skillMods = {
 		{"private_medical_rating", 100},
+		{"private_med_wound_health", 100},
+		{"private_med_wound_action", 100},
 		{"private_safe_logout", 1}
 	},
 	lotSize = 3,
 	baseMaintenanceRate = 50,
-	allowedZones = {"dantooine", "naboo", "rori"},
+	allowedZones = {"dantooine", "lok", "tatooine", "naboo", "rori", "corellia", "talus", "chandrila", "kaas"},
 	length = 5,
 	width = 5,
 	planetMapCategory = "medicalcenter",

@@ -48,9 +48,9 @@ object_draft_schematic_chemistry_medpack_disease_area_focus_c = object_draft_sch
 	customObjectName = "Focus Area Disease Delivery Unit - C",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 45,
+	complexity = 1,
 	size = 3,
-	factoryCrateSize = 50,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
 	xp = 105,

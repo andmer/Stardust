@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_hat_twilek_casual_02 = object_draft_sch
    customObjectName = "Twi\'lek Lekku Wrap",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 17, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_clothing_general", 

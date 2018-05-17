@@ -48,9 +48,9 @@ object_draft_schematic_furniture_furniture_table_endtable_modern = object_draft_
 	customObjectName = "End Table",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 31,
+	complexity = 1,
 	size = 3,
-	factoryCrateSize = 10,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 250,

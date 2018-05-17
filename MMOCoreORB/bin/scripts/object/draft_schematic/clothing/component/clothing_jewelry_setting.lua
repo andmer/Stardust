@@ -48,7 +48,7 @@ object_draft_schematic_clothing_component_clothing_jewelry_setting = object_draf
    customObjectName = "Jewelry Setting",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 2, 
 
    xpType = "crafting_clothing_general", 

@@ -48,7 +48,7 @@ object_draft_schematic_food_additive_additive_heavy = object_draft_schematic_foo
    customObjectName = "Heavy Food Additive",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 9, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_food_general", 

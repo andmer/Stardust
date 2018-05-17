@@ -48,7 +48,7 @@ object_draft_schematic_item_quest_item_feedback_controller = object_draft_schema
    customObjectName = "Feedback Controller",
 
    craftingToolTab = 2148007936, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 8, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_general", 

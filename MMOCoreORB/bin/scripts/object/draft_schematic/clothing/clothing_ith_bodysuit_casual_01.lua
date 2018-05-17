@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_ith_bodysuit_casual_01 = object_draft_s
    customObjectName = "Ithorian Comfort-Flex",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 21, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_clothing_general", 

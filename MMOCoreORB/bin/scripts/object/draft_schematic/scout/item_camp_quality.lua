@@ -48,7 +48,7 @@ object_draft_schematic_scout_item_camp_quality = object_draft_schematic_scout_sh
    customObjectName = "High Quality Camp Kit",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "camp", 

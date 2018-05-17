@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_armor_zam_helmet = object_draft_schemat
    customObjectName = "Mabari Armorweave Helmet",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_clothing_armor", 

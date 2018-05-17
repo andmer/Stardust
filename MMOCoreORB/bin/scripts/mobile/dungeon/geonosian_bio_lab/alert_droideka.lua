@@ -1,16 +1,17 @@
 alert_droideka = Creature:new {
 	objectName = "@mob/creature_names:geonosian_droideka_crazed",
 	socialGroup = "geonosian",
+	pvpFaction = "",
 	faction = "",
-	level = 86,
-	chanceHit = 0.81,
-	damageMin = 595,
-	damageMax = 900,
-	baseXp = 8223,
-	baseHAM = 14000,
-	baseHAMmax = 17000,
+	level = 175,
+	chanceHit = 35.56,
+	damageMin = 526,
+	damageMax = 764,
+	baseXp = 22650,
+	baseHAM = 53183,
+	baseHAMmax = 65124,
 	armor = 1,
-	resists = {140,155,110,125,125,-1,40,40,-1},
+	resists = {40,40,55,45,30,50,40,40,35},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -22,19 +23,33 @@ alert_droideka = Creature:new {
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
 	creatureBitmask = PACK + KILLER,
-	optionsBitmask = AIENABLED,
+	optionsBitmask = 128,
 	diet = HERBIVORE,
 
 	templates = {"object/mobile/droideka.iff"},
 	lootGroups = {
-         {
-			groups = {
-				{group = "geonosian_cubes", chance = 10000000}
+	 	{
+	        groups =
+			{
+
+				{group = "geonosian_relic", chance = 3500000},
+				{group = "geonosian_common", chance = 6000000},
+				{group = "mastery_geocave_jewelry", chance = 500000},
 			},
-			lootChance = 1800000
-	    }	
+			lootChance = 10000000,
+		},
+		{
+			groups = 
+			{
+				{group = "pistols", chance = 2500000},
+				{group = "rifles", chance = 2500000},
+				{group = "carbines", chance = 2500000},
+				{group = "melee_weapons", chance = 2500000},
+			},
+			lootChance = 1000000,
+		},
 	},
-	defaultAttack = "attack",
+	defaultAttack = "creaturerangedattack",
 	defaultWeapon = "object/weapon/ranged/droid/droid_droideka_ranged.iff",
 }
 

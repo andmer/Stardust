@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_pants_field_14 = object_draft_schematic
    customObjectName = "Large Pocket Pants",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 17, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_clothing_general", 

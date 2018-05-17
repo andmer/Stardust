@@ -53,7 +53,9 @@ object_building_poi_scout_camp_s0 = object_building_poi_shared_scout_camp_s0:new
 		{"private_medical_rating", 60},
 		{"private_med_wound_health", 20},
 		{"private_med_wound_action", 20},
-		{"private_buff_mind", 100}
+		{"private_buff_mind", 100},
+		{"private_med_wound_mind", 20},
+		{"private_med_battle_fatigue", 5}
 	},
 
 	aggroMod = 0,
@@ -66,6 +68,11 @@ object_building_poi_scout_camp_s0 = object_building_poi_shared_scout_camp_s0:new
 	childObjects = {
 		{templateFile = "object/tangible/camp/camp_control_panel.iff", x = 2.62, z = 0, y = 1.11, ox = 0, oy = -0.895, oz = 0, ow =  0.446, cellid = -1, containmentType = -1},
 		{templateFile = "object/tangible/camp/camp_chair_s1.iff", x = 1.35, z = 0, y = -1.24, ox = 0, oy = -0.416836, oz = 0, ow = 0.9089816, cellid = -1, containmentType = -1},
+		{templateFile = "object/tangible/terminal/terminal_mission.iff", 
+			x = -1, z = 0, y = -1, 
+			ox = 0, oy = .5, oz = 0, ow = .87, 
+			cellid = -1, 
+			containmentType = -1},
 
 	}
 }

@@ -48,9 +48,9 @@ object_draft_schematic_structure_generic_house_player_small = object_draft_schem
 	customObjectName = "Deed for: Small Generic Planet House",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 19,
+	complexity = 1,
 	size = 10,
-	factoryCrateSize = 1,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 1000,

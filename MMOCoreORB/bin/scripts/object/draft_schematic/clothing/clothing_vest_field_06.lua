@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_vest_field_06 = object_draft_schematic_
    customObjectName = "Padded Pullover",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_clothing_general", 

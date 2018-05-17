@@ -48,9 +48,9 @@ object_draft_schematic_vehicle_civilian_speeder_bike_swoop = object_draft_schema
 	customObjectName = "Swoop",
 
 	craftingToolTab = 16, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 20,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 50,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_general",
 	xp = 1600,

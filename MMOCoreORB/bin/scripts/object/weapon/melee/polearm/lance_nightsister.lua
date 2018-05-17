@@ -61,8 +61,8 @@ object_weapon_melee_polearm_lance_nightsister = object_weapon_melee_polearm_shar
 				"object/creature/player/twilek_female.iff",
 				"object/creature/player/wookiee_male.iff",
 				"object/creature/player/wookiee_female.iff",
-				"object/creature/player/zabrak_male.iff",
-				"object/creature/player/zabrak_female.iff" },
+			"object/creature/player/zabrak_male.iff","object/creature/player/chiss_male.iff",
+			"object/creature/player/zabrak_female.iff","object/creature/player/chiss_female.iff"},
 
 	-- RANGEDATTACK, MELEEATTACK, FORCEATTACK, TRAPATTACK, GRENADEATTACK, HEAVYACIDBEAMATTACK, 
 	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
@@ -72,7 +72,7 @@ object_weapon_melee_polearm_lance_nightsister = object_weapon_melee_polearm_shar
 	damageType = ENERGY,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = LIGHT,
+	armorPiercing = MEDIUM,
 
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -106,16 +106,16 @@ object_weapon_melee_polearm_lance_nightsister = object_weapon_melee_polearm_shar
 	forceCost = 0,
 
 	pointBlankRange = 0,
-	pointBlankAccuracy = 7,
+	pointBlankAccuracy = 10,
 
 	idealRange = 5,
-	idealAccuracy = 7,
+	idealAccuracy = 10,
 
 	maxRange = 6,
-	maxRangeAccuracy = 7,
+	maxRangeAccuracy = 10,
 
-	minDamage = 11,
-	maxDamage = 214,
+	minDamage = 75,
+	maxDamage = 455,
 
 	attackSpeed = 3.0,
 
@@ -126,8 +126,8 @@ object_weapon_melee_polearm_lance_nightsister = object_weapon_melee_polearm_shar
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "expRange", "null", "expRange", "null", "expEffeciency", "expEffeciency", "expEffeciency"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "maxrange", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 23, 213, 6.3, 11, 750, -5, -5, 6, -5, 6, 38, 78, 54},
-	experimentalMax = {0, 0, 35, 305, 4, 25, 1500, 10, 10, 6, 10, 6, 20, 42, 32},
+	experimentalMin = {0, 0, 33, 273, 6.3, 11, 750, -5, -5, 6, -5, 6, 38, 78, 54},
+	experimentalMax = {0, 0, 75, 455, 4, 25, 1500, 10, 10, 6, 10, 6, 20, 42, 32},
 	experimentalPrecision = {0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

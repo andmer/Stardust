@@ -48,7 +48,7 @@ object_draft_schematic_food_dish_exo_protein_wafers = object_draft_schematic_foo
    customObjectName = "Exo-Protein Wafers",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 3, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_general", 

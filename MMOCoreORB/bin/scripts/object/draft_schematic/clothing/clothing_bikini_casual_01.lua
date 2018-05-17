@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_bikini_casual_01 = object_draft_schemat
    customObjectName = "Revealing Bikini",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_clothing_general", 

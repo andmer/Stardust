@@ -48,7 +48,7 @@ object_draft_schematic_clothing_component_clothing_reinforced_fiber_panels = obj
    customObjectName = "Reinforced Fiber Panel",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_clothing_general", 

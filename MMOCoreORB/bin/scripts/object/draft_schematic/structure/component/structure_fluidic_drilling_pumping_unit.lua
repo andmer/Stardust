@@ -48,9 +48,9 @@ object_draft_schematic_structure_component_structure_fluidic_drilling_pumping_un
 	customObjectName = "Fluidic Drilling Pump Unit",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 13,
+	complexity = 1,
 	size = 4,
-	factoryCrateSize = 10,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 1170,

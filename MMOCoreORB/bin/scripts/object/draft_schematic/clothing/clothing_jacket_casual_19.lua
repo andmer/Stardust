@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_jacket_casual_19 = object_draft_schemat
    customObjectName = "Tight Jacket",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 18, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_clothing_general", 

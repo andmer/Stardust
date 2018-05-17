@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_ith_apron_chef_01 = object_draft_schema
    customObjectName = "Ithorian Apron",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 0, 
 
    xpType = "crafting_clothing_general", 

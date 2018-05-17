@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_boots_casual_21 = object_draft_schemati
    customObjectName = "Paneled Boots",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 19, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_clothing_general", 

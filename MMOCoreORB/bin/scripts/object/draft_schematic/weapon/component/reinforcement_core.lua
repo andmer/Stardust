@@ -48,7 +48,7 @@ object_draft_schematic_weapon_component_reinforcement_core = object_draft_schema
    customObjectName = "Reinforcement Core",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 5, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_weapons_general", 

@@ -48,7 +48,7 @@ object_draft_schematic_scout_item_camp_multi = object_draft_schematic_scout_shar
    customObjectName = "Multiperson Camp Kit",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 4, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "camp", 

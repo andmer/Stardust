@@ -48,7 +48,7 @@ object_draft_schematic_furniture_furniture_radio = object_draft_schematic_furnit
    customObjectName = "Radio Draft Schematic",
 
    craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_general", 

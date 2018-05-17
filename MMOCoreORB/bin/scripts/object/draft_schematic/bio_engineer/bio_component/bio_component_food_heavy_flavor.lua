@@ -48,7 +48,7 @@ object_draft_schematic_bio_engineer_bio_component_bio_component_food_heavy_flavo
    customObjectName = "Multisaccharide Pentamate",
 
    craftingToolTab = 128, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 26, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_bio_engineer_creature", 

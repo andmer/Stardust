@@ -48,7 +48,7 @@ object_draft_schematic_munition_component_warhead_medium = object_draft_schemati
    customObjectName = "Medium Warhead Mechanism",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 30, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_weapons_general", 

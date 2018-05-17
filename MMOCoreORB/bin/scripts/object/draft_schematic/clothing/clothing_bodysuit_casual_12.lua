@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_bodysuit_casual_12 = object_draft_schem
    customObjectName = "Trader\'s Flightsuit",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 21, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_clothing_general", 

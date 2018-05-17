@@ -75,3 +75,6 @@ includeFile("thug/veteran_explorer.lua")
 includeFile("thug/warder.lua")
 includeFile("thug/wastrel.lua")
 includeFile("thug/wookiee_brawler.lua")
+
+--New
+includeFile("thug/dark_jedi_voice.lua")

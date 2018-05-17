@@ -48,9 +48,9 @@ object_draft_schematic_structure_installation_generator_fusion = object_draft_sc
 	customObjectName = "Deed for: Fusion Power Generator",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 35,
+	complexity = 1,
 	size = 12,
-	factoryCrateSize = 1,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 3900,

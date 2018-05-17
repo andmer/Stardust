@@ -10,6 +10,7 @@ malkloc_plainswalker = Creature:new {
 	baseHAM = 29000,
 	baseHAMmax = 36000,
 	armor = 1,
+	-- {kinetic,energy,blast,heat,cold,electricity,acid,stun,ls}
 	resists = {200,150,25,-1,-1,-1,25,200,-1},
 	meatType = "meat_herbivore",
 	meatAmount = 1000,
@@ -17,7 +18,7 @@ malkloc_plainswalker = Creature:new {
 	hideAmount = 1000,
 	boneType = "bone_mammal",
 	boneAmount = 1000,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = ATTACKABLE,

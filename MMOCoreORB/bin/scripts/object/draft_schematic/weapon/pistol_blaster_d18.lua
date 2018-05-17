@@ -48,7 +48,7 @@ object_draft_schematic_weapon_pistol_blaster_d18 = object_draft_schematic_weapon
    customObjectName = "D18 Pistol",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_weapons_general", 

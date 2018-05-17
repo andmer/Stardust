@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_ith_hat_formal_04 = object_draft_schema
    customObjectName = "Ithorian Ceremonial Garb",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 25, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_clothing_general", 

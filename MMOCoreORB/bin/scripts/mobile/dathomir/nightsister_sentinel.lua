@@ -5,14 +5,15 @@ nightsister_sentinel = Creature:new {
 	socialGroup = "nightsister",
 	faction = "nightsister",
 	level = 88,
-	chanceHit = 0.8,
+	chanceHit = 3.8,
 	damageMin = 545,
 	damageMax = 800,
 	baseXp = 8408,
 	baseHAM = 21000,
 	baseHAMmax = 26000,
 	armor = 1,
-	resists = {35,35,35,200,200,200,200,200,-1},
+	-- {kinetic,energy,blast,heat,cold,electricity,acid,stun,ls}
+	resists = {35,35,35,75,75,75,75,75,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -31,23 +32,29 @@ nightsister_sentinel = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "power_crystals", chance = 500000},
-				{group = "color_crystals", chance = 500000},
-				{group = "nightsister_common", chance = 2000000},
-				{group = "armor_attachments", chance = 250000},
-				{group = "clothing_attachments", chance = 250000},
+				{group = "power_crystals", chance = 3500000},
+				{group = "color_crystals", chance = 1500000},
+				{group = "nightsister_common", chance = 1500000},
+				{group = "clothing_attachments", chance = 1000000},
 				{group = "melee_weapons", chance = 2500000},
-				{group = "rifles", chance = 1000000},
-				{group = "pistols", chance = 1000000},
-				{group = "carbines", chance = 1000000},
-				{group = "wearables_common", chance = 500000},
-				{group = "tailor_components", chance = 500000}
-			}
-		}
+			},
+			lootChance = 3500000,
+		},
+		{
+			groups = {
+				
+				{group = "rifles", chance = 2500000},
+				{group = "pistols", chance = 2500000},
+				{group = "carbines", chance = 2500000},
+				{group = "wearables_common", chance = 1500000},
+				{group = "nightsister_clothing", chance = 1000000},     -- 30% * 10% = 3% chance
+			},
+			lootChance = 3000000,  -- 30% chance for this group
+		},
 	},
 	weapons = {"mixed_force_weapons"},
 	conversationTemplate = "",
-	attacks = merge(fencermid,swordsmanmid,tkamid,pikemanmaster,brawlermaster,forcewielder)
+	attacks = merge(fencermid,swordsmanmid,tkamid,pikemanmaster,brawlermaster) --NS Powers Removed
 }
 
 CreatureTemplates:addCreatureTemplate(nightsister_sentinel, "nightsister_sentinel")

@@ -48,7 +48,7 @@ object_draft_schematic_food_dish_karkan_ribenes = object_draft_schematic_food_sh
    customObjectName = "Karkan Ribenes",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 8, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_food_general", 

@@ -48,7 +48,7 @@ object_draft_schematic_food_dessert_blap_biscuit = object_draft_schematic_food_s
    customObjectName = "Blap Biscuit",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 5, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_food_general", 

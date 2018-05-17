@@ -4,15 +4,15 @@ pirate_armsman = Creature:new {
 	randomNameTag = true,
 	socialGroup = "pirate",
 	faction = "",
-	level = 13,
+	level = 90,
 	chanceHit = 0.3,
-	damageMin = 140,
-	damageMax = 150,
-	baseXp = 714,
-	baseHAM = 1500,
-	baseHAMmax = 1900,
+	damageMin = 240,
+	damageMax = 350,
+	baseXp = 7114,
+	baseHAM = 19600,
+	baseHAMmax = 35030,
 	armor = 0,
-	resists = {0,0,0,0,0,0,0,-1,-1},
+	resists = {23,53,40,12,43,14,19,5,5},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -50,10 +50,12 @@ pirate_armsman = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 4000000},
-				{group = "wearables_common", chance = 3000000},
+				{group = "junk", chance = 3000000},
+				{group = "wearables_common", chance = 2000000},
 				{group = "loot_kit_parts", chance = 2000000},
 				{group = "tailor_components", chance = 1000000},
+				{group = "armor_attachments", chance = 1000000},
+				{group = "clothing_attachments", chance = 1000000},
 			}
 		}
 	},

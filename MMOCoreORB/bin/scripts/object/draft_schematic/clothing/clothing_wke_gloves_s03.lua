@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_wke_gloves_s03 = object_draft_schematic
    customObjectName = "Wookiee Padded Gloves",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 17, 
+   complexity = 1, 
    size = 2, 
 
    xpType = "crafting_clothing_general", 

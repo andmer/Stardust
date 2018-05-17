@@ -2,22 +2,22 @@ death_watch_battle_droid = Creature:new {
 	objectName = "@mob/creature_names:mand_bunker_battle_droid",
 	socialGroup = "death_watch",
 	faction = "",
-	level = 134,
-	chanceHit = 5.5,
+	level = 234,
+	chanceHit = 2.5,
 	damageMin = 795,
 	damageMax = 1300,
 	baseXp = 12612,
-	baseHAM = 56000,
-	baseHAMmax = 68000,
+	baseHAM = 86000,
+	baseHAMmax = 98000,
 	armor = 2,
-	resists = {75,75,100,60,100,25,40,85,-1},
+	resists = {65,65,80, 50,80,25,40,65,15},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
@@ -35,7 +35,19 @@ death_watch_battle_droid = Creature:new {
 			groups = {
 				{group = "death_watch_bunker_commoners", chance = 10000000}
 			},
-			lootChance = 500000
+			lootChance = 2500000
+		},
+		{
+			groups = {
+				{group = "death_watch_bunker_commoners", chance = 10000000}
+			},
+			lootChance = 2500000
+		},
+		{
+			groups = {
+				{group = "death_watch_bunker_commoners", chance = 10000000}
+			},
+			lootChance = 2500000
 		}
 	},
 	weapons = {"battle_droid_weapons"},

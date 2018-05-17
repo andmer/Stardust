@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_ith_pants_field_13 = object_draft_schem
    customObjectName = "Ithorian Heavy Pants",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 17, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_clothing_general", 

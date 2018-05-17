@@ -48,7 +48,7 @@ object_draft_schematic_weapon_component_projectile_pistol_barrel_advanced = obje
    customObjectName = "Advanced Projectile Pistol Barrel",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 4, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_weapons_general", 

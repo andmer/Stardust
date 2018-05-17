@@ -48,9 +48,9 @@ object_draft_schematic_chemistry_medpack_enhance_stamina_b = object_draft_schema
 	customObjectName = "Enhance Stamina Medpack - B",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 27,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 50,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
 	xp = 72,

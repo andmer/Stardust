@@ -39,14 +39,19 @@ looted_container = {
 		{itemTemplate = "attachment_clothing", weight = 43860},
 		{itemTemplate = "attachment_armor", weight = 43860},
 
-		-- Weapons (25% chance)
-		{groupTemplate = "weapons_all", weight = 2500000},
+		-- Weapons (24% chance)
+		{groupTemplate = "weapons_all", weight = 2400000},
 
-		-- Armors (25% chance)
-		{groupTemplate = "armor_all", weight = 2500000},
+		-- Armors (24% chance)
+		{groupTemplate = "armor_all", weight = 2400000},
 
 		-- Clothing (25% chance)
 		{groupTemplate = "wearables_all", weight = 2500000},
+
+		-- Vet rewards (2% chance)
+		{groupTemplate = "veteran_rewards_90_days", weight = 100000},
+		{groupTemplate = "veteran_rewards_180_days", weight = 70000},
+		{groupTemplate = "veteran_rewards_270_days", weight = 30000},
 	}
 }
 

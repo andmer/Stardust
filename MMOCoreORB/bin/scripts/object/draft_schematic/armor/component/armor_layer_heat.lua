@@ -48,9 +48,9 @@ object_draft_schematic_armor_component_armor_layer_heat = object_draft_schematic
 	customObjectName = "Heat Protection Armor Layer",
 
 	craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 25,
+	complexity = 3,
 	size = 2,
-	factoryCrateSize = 100,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_clothing_armor",
 	xp = 100,

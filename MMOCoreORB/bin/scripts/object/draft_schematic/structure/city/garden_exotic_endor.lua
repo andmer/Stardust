@@ -48,9 +48,9 @@ object_draft_schematic_structure_city_garden_exotic_endor = object_draft_schemat
 	customObjectName = "Deed for: Endor Huts (Garden)",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 27,
+	complexity = 1,
 	size = 12,
-	factoryCrateSize = 1,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 9000,

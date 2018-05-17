@@ -48,9 +48,9 @@ object_draft_schematic_furniture_furniture_droid_head = object_draft_schematic_f
 	customObjectName = "A Droid Head",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 18,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 0,
+	factoryCrateSize = 1000,
 
 	xpType = "",
 	xp = 340,

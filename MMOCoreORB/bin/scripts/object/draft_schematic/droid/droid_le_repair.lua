@@ -48,9 +48,9 @@ object_draft_schematic_droid_droid_le_repair = object_draft_schematic_droid_shar
 	customObjectName = "Deed for: LE Repair Droid",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 25,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 5,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_droid_general",
 	xp = 40,

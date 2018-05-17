@@ -48,7 +48,7 @@ object_draft_schematic_weapon_component_stock_advanced = object_draft_schematic_
    customObjectName = "Advanced Weapon Stock",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 3, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_weapons_general", 

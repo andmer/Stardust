@@ -48,9 +48,9 @@ object_draft_schematic_structure_city_hospital_tatooine = object_draft_schematic
 	customObjectName = "Deed for: Tatooine Hospital",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 26,
+	complexity = 1,
 	size = 14,
-	factoryCrateSize = 1,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 8900,

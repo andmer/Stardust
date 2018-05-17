@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_bandolier_field_08 = object_draft_schem
    customObjectName = "Dark Sash",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 2, 
 
    xpType = "crafting_general", 

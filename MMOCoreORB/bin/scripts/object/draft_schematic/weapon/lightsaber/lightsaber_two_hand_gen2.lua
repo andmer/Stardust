@@ -48,7 +48,7 @@ object_draft_schematic_weapon_lightsaber_lightsaber_two_hand_gen2 = object_draft
    customObjectName = "Two-Handed Second Generation Lightsaber",
 
    craftingToolTab = 2048, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 17, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "jedi_general", 
@@ -68,7 +68,7 @@ object_draft_schematic_weapon_lightsaber_lightsaber_two_hand_gen2 = object_draft
    ingredientSlotType = {0, 1, 0, 0, 1, 0, 0},
    resourceTypes = {"metal", "object/tangible/component/weapon/lightsaber/shared_lightsaber_refined_crystal_pack.iff", "metal_nonferrous", "petrochem_inert", "object/tangible/component/weapon/lightsaber/shared_lightsaber_refined_crystal_pack.iff", "gas_inert_known", "metal_nonferrous"},
    resourceQuantities = {25, 1, 18, 20, 1, 22, 20},
-   contribution = {100, 100, 100, 100, 100, 100, 100},
+   contribution = {100, 0, 100, 100, 0, 100, 100},
 
 
    targetTemplate = "object/weapon/melee/2h_sword/crafted_saber/sword_lightsaber_two_handed_gen2.iff",

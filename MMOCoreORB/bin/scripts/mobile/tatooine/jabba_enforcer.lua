@@ -1,7 +1,6 @@
 jabba_enforcer = Creature:new {
 	objectName = "@mob/creature_names:jabba_enforcer",
-	randomNameType = NAME_GENERIC,
-	randomNameTag = true,
+	customName = "a Hutt Cartel Enforcer",
 	socialGroup = "jabba",
 	faction = "jabba",
 	level = 16,

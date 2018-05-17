@@ -2,8 +2,8 @@ prophet_of_the_dark_side = Creature:new {
 	objectName = "@mob/creature_names:prophet_of_the_dark_side",
 	randomNameType = NAME_GENERIC,
 	randomNameTag = true,
-	socialGroup = "imperial",
-	faction = "imperial",
+	socialGroup = "thug",
+	faction = "prophets",
 	level = 126,
 	chanceHit = 4,
 	damageMin = 745,
@@ -27,14 +27,15 @@ prophet_of_the_dark_side = Creature:new {
 	diet = HERBIVORE,
 
 	templates = {
-		"object/mobile/dressed_dark_jedi_human_male_01.iff",
-		"object/mobile/dressed_dark_jedi_human_female_01.iff"},
+    "object/mobile/loam_redge.iff",
+    "object/mobile/kaja_orzee.iff"},
+  outfit = "prophet_outfit",  
 	lootGroups = {
 		{
 			groups = {
 				{group = "holocron_dark", chance = 600000},
 				{group = "holocron_light", chance = 600000},
-				{group = "power_crystals", chance = 600000},
+				{group = "crystals_premium", chance = 600000},
 				{group = "rifles", chance = 1500000},
 				{group = "pistols", chance = 1500000},
 				{group = "melee_weapons", chance = 1500000},

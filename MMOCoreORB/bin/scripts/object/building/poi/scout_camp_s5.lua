@@ -52,7 +52,9 @@ object_building_poi_scout_camp_s5 = object_building_poi_shared_scout_camp_s5:new
 		{"private_med_wound_health", 100},
 		{"private_med_wound_action", 100},
 		{"private_aggro_mod", 100},
-		{"private_buff_mind", 100}
+		{"private_buff_mind", 100},
+		{"private_med_wound_mind", 100},
+		{"private_med_battle_fatigue", 5}
 	},
 	aggroMod = 100,
 	duration = 3600,
@@ -73,6 +75,16 @@ object_building_poi_scout_camp_s5 = object_building_poi_shared_scout_camp_s5:new
 		{templateFile = "object/tangible/camp/camp_chair_s3.iff", x = -2.22, z = 0, y = 2.33, ox = 0, oy = -0.315, oz = 0, ow = 0.949, cellid = -1, containmentType = -1},
 		{templateFile = "object/tangible/camp/camp_chair_s3.iff", x = -5.13, z = 0, y = 1.07, ox = 0, oy = 0.936, oz = 0, ow = 0.352, cellid = -1, containmentType = -1},
 		{templateFile = "object/tangible/camp/camp_chair_s3.iff", x = -3.11, z = 0, y = -1.06, ox = 0, oy = -0.421, oz = 0, ow = 0.907, cellid = -1, containmentType = -1},
+	    {templateFile = "object/tangible/terminal/terminal_bank.iff", 
+			x = 0.5, z = 0, y = -3.5, 
+			ox = 0, oy = .72, oz = 0, ow = -.75, 
+			cellid = -1, 
+			containmentType = -1},		
+		{templateFile = "object/tangible/terminal/terminal_mission.iff", 
+			x = 4.5, z = 0, y = 11.0, 
+			ox = 0, oy = .72, oz = 0, ow = -.75, 
+			cellid = -1, 
+			containmentType = -1},
 	}
 }
 

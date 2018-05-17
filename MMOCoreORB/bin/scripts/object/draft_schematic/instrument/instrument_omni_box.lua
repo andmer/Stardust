@@ -48,7 +48,7 @@ object_draft_schematic_instrument_instrument_omni_box = object_draft_schematic_i
    customObjectName = "an Ommni Box",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 18, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "music", 

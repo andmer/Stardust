@@ -48,7 +48,7 @@ object_draft_schematic_spices_spice_pyrepenol = object_draft_schematic_spices_sh
    customObjectName = "Pyrepenol",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 11, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_spice", 

@@ -48,7 +48,7 @@ object_draft_schematic_food_drink_ithorian_mist = object_draft_schematic_food_sh
    customObjectName = "Ithorian Mist",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 8, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_food_general", 

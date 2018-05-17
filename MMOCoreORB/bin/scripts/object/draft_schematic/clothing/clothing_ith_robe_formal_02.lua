@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_ith_robe_formal_02 = object_draft_schem
    customObjectName = "Ithorian Merchant\'s Robe",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 23, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_clothing_general", 

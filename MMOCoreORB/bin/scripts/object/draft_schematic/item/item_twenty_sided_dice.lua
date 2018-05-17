@@ -48,7 +48,7 @@ object_draft_schematic_item_item_twenty_sided_dice = object_draft_schematic_item
    customObjectName = "Twenty Sided Dice Set",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 4, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_general", 

@@ -48,7 +48,7 @@ object_draft_schematic_item_quest_item_output_governor = object_draft_schematic_
    customObjectName = "Output Governor",
 
    craftingToolTab = 2148007936, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 11, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_general", 

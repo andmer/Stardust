@@ -48,7 +48,7 @@ object_draft_schematic_munition_mine_dxr55 = object_draft_schematic_munition_sha
    customObjectName = "DRX Mine",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_weapons_general", 

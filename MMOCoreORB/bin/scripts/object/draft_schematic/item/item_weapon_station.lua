@@ -48,7 +48,7 @@ object_draft_schematic_item_item_weapon_station = object_draft_schematic_item_sh
    customObjectName = "Weapon, Droid, and General Item Crafting Station",
 
    craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 5, 
 
    xpType = "crafting_structure_general", 

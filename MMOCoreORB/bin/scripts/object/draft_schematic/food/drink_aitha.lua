@@ -48,7 +48,7 @@ object_draft_schematic_food_drink_aitha = object_draft_schematic_food_shared_dri
    customObjectName = "Aitha",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 3, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_general", 

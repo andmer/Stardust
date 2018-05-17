@@ -48,7 +48,7 @@ object_draft_schematic_scout_item_trap_sonic_pulse = object_draft_schematic_scou
    customObjectName = "Sonic Pulse",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "camp", 

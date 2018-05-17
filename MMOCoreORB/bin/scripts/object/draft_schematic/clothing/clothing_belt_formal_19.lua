@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_belt_formal_19 = object_draft_schematic
    customObjectName = "Widebuckle Belt",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 0, 
 
    xpType = "crafting_clothing_general", 

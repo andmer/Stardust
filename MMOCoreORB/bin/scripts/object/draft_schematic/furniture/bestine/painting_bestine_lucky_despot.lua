@@ -47,9 +47,9 @@ object_draft_schematic_furniture_bestine_painting_bestine_lucky_despot = object_
 	customObjectName = "Painting of the Lucky Despot Wreckage",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 15,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 80,

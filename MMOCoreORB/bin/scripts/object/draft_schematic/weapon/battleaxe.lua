@@ -48,7 +48,7 @@ object_draft_schematic_weapon_battleaxe = object_draft_schematic_weapon_shared_b
    customObjectName = "Two-handed Axe",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 4, 
 
    xpType = "crafting_weapons_general", 

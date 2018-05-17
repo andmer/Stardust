@@ -48,7 +48,7 @@ object_draft_schematic_weapon_component_blade_vibro_unit_advanced = object_draft
    customObjectName = "Advanced Vibro Blade Unit",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 30, 
+   complexity = 1, 
    size = 3, 
 
    xpType = "crafting_weapons_general", 

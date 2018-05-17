@@ -48,7 +48,7 @@ object_draft_schematic_clothing_clothing_armor_kashyyykian_ceremonial_chest = ob
    customObjectName = "Kashyyykian Ceremonial Chest Plate",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 25, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "crafting_clothing_armor", 

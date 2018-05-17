@@ -48,7 +48,7 @@ object_draft_schematic_instrument_instrument_traz = object_draft_schematic_instr
    customObjectName = "a Traz",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 18, 
+   complexity = 1, 
    size = 1, 
 
    xpType = "music", 

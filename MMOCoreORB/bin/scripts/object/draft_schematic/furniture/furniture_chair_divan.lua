@@ -48,9 +48,9 @@ object_draft_schematic_furniture_furniture_chair_divan = object_draft_schematic_
 	customObjectName = "Divan",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 10,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_structure_general",
 	xp = 400,

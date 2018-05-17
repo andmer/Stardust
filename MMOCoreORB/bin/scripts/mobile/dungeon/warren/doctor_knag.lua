@@ -17,7 +17,7 @@ doctor_knag = Creature:new {
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 0,
+	milk = 2 * 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
@@ -36,9 +36,9 @@ doctor_knag = Creature:new {
 			}
 		}
 	},
-	weapons = {"pirate_weapons_medium"},
+	weapons = {},
 	conversationTemplate = "",
-	attacks = merge(brawlermaster,marksmanmaster,carbineermaster)
+	attacks = brawlermid
 }
 
 CreatureTemplates:addCreatureTemplate(doctor_knag, "doctor_knag")
