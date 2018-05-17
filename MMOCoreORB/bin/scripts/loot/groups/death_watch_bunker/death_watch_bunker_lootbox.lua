@@ -12,7 +12,7 @@ death_watch_bunker_lootbox = {
 		{itemTemplate = "fuel_dispersion_unit", weight = 500000},
 		{itemTemplate = "injector_tank", weight = 500000},
 		{itemTemplate = "mandalorian_rebreather", weight = 800000},
-		{itemTemplate = "cortosis_grenade_loot_schematic", weight = 1200000}
+		--{itemTemplate = "cortosis_grenade_loot_schematic", weight = 1200000}
 	}
 }
 

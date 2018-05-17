@@ -1,5 +1,5 @@
 chiss_hunter_herald = Creature:new {
-	customName = "Dresk (a Chiss Huntsmaster)",
+	customName = "Dresk (a Rodian Huntsmaster)",
 	randomNameType = NAME_GENERIC_TAG,
 	socialGroup = "townsperson",
 	faction = "",
@@ -26,7 +26,7 @@ chiss_hunter_herald = Creature:new {
   optionsBitmask = AIENABLED + CONVERSABLE + INTERESTING,
   diet = HERBIVORE,
 
-	templates = {"object/mobile/ep3/ep3_etyyy_chiss_poacher_hunter_04.iff"},
+	templates = {"object/mobile/dressed_cobral_thug_rodian_male_01.iff"},
 	lootGroups = {},
 	weapons = {"pirate_weapons_heavy"},
 	conversationTemplate = "chiss_hunter_herald",

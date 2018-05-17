@@ -635,9 +635,10 @@ object_draft_schematic_munition_shared_mine_xg = SharedDraftSchematicObjectTempl
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_munition_shared_mine_xg, "object/draft_schematic/munition/shared_mine_xg.iff")
-
+--[[
 object_draft_schematic_munition_shared_grenade_cortosis = SharedDraftSchematicObjectTemplate:new {
 	clientTemplateFileName = "object/draft_schematic/munition/shared_grenade_cortosis.iff"
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_munition_shared_grenade_cortosis, "object/draft_schematic/munition/shared_grenade_cortosis.iff")
+--]]

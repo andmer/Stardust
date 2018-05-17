@@ -9,7 +9,7 @@ death_watch_bunker_commoners = {
 		{itemTemplate = "executioners_hack_schematic", weight = 2000000},
 		{itemTemplate = "mandalorian_rebreather", weight = 3000000},
 		{itemTemplate = "pistol_de10_schematic", weight = 1000000},
-		{itemTemplate = "cortosis_grenade_loot_schematic", weight = 1000000},		
+		--{itemTemplate = "cortosis_grenade_loot_schematic", weight = 1000000},		
 	}
 }
 

@@ -448,7 +448,7 @@ includeFile("items/loot_schematic/tatooine_tapestry_schematic.lua")
 includeFile("items/loot_schematic/technical_console_schematic_1.lua")
 includeFile("items/loot_schematic/technical_console_schematic_2.lua")
 includeFile("items/loot_schematic/throw_pillow_schematic.lua")
-includeFile("items/loot_schematic/cortosis_grenade_loot_schematic.lua")
+--includeFile("items/loot_schematic/cortosis_grenade_loot_schematic.lua")
 
 
 
@@ -1382,8 +1382,8 @@ includeFile("items/veteran_rewards/painting_09.lua")
 
 -- May fourth
 
-includeFile("items/infinity/may_fourth/hssiss_lizard_venom.lua")
-includeFile("items/infinity/may_fourth/ork_slug_blood.lua")
+--includeFile("items/infinity/may_fourth/hssiss_lizard_venom.lua")
+--includeFile("items/infinity/may_fourth/ork_slug_blood.lua")
 
 -- ALL Nge House DEEDs
 includeFile("items/deed/player_house_deed/atat_house_deed.lua")

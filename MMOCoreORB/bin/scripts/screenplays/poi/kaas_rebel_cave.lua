@@ -102,8 +102,8 @@ function kaas_rebel_cave:spawnMobiles()
 	spawnMobile("kaas", "gundark", 200, 3345.3, 96.4, 2612.4, 0, 0)
 	spawnMobile("kaas", "gundark", 200, 3329.8, 102.8, 2617.4, -25, 0)
 	
-	spawnMobile("kaas", "ep3_etyyy_chiss_poacher_hunter_02", 200, -93.2, -101, -106, 168, 36000170)
-	spawnMobile("kaas", "ep3_etyyy_chiss_poacher_hunter_02", 200, -82.2, -101.7, -116.7, -168, 36000170)
+	spawnMobile("kaas", "rodian_thug", 200, -93.2, -101, -106, 168, 36000170)
+	spawnMobile("kaas", "rodian_thug", 200, -82.2, -101.7, -116.7, -168, 36000170)
 	
 	-- Kell Dragon Cave
 	
