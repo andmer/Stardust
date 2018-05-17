@@ -24,7 +24,7 @@ vash_dlarku = Creature:new {
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
 	creatureBitmask = PACK + KILLER,
-	optionsBitmask = AIENABLED + BOSS,
+	optionsBitmask = AIENABLED,
 	diet = NONE,
 	--Miniboss
 	templates = {"object/mobile/dressed_tatooine_jabba_henchman.iff"},

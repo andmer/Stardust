@@ -24,7 +24,7 @@ death_watch_overlord_mines = Creature:new {
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
 	creatureBitmask = KILLER,
-	optionsBitmask = AIENABLED + BOSS,
+	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	scale = 1.15,
 

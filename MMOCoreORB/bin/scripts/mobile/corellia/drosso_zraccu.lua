@@ -24,7 +24,7 @@ drosso_zraccu = Creature:new {
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
 	creatureBitmask = PACK + KILLER,
-	optionsBitmask = AIENABLED + BOSS,
+	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	--Miniboss
 	templates = {"object/mobile/dressed_hutt_informant_quest.iff"},

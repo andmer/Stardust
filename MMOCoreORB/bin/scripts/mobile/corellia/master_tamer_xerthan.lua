@@ -24,7 +24,7 @@ master_tamer_xerthan = Creature:new {
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
 	creatureBitmask = PACK + KILLER,
-	optionsBitmask = AIENABLED + BOSS,
+	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	--Miniboss
 	templates = {

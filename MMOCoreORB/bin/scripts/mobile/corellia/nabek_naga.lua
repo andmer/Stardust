@@ -24,7 +24,7 @@ nabek_naga = Creature:new {
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
 	creatureBitmask = PACK + KILLER + HEALER,
-	optionsBitmask = AIENABLED + BOSS,
+	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 
 	templates = {"object/mobile/ep3/shared_ep3_etyyy_kara_corlon.iff"},
