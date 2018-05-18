@@ -48,7 +48,6 @@ includeFile("weapon/ranged/grenade/base/serverobjects.lua")
 -- Server Objects
 includeFile("weapon/ranged/grenade/grenade_bug_bomb.lua")
 includeFile("weapon/ranged/grenade/grenade_cryoban.lua")
---includeFile("weapon/ranged/grenade/grenade_cortosis.lua")
 includeFile("weapon/ranged/grenade/grenade_fallback.lua")
 includeFile("weapon/ranged/grenade/grenade_fragmentation.lua")
 includeFile("weapon/ranged/grenade/grenade_fragmentation_light.lua")

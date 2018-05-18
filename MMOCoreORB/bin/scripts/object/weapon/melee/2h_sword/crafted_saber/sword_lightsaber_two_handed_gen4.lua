@@ -61,15 +61,15 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_gen4 = ob
 				"object/creature/player/twilek_female.iff",
 				"object/creature/player/wookiee_male.iff",
 				"object/creature/player/wookiee_female.iff",
-			"object/creature/player/zabrak_male.iff","object/creature/player/chiss_male.iff",
-			"object/creature/player/zabrak_female.iff","object/creature/player/chiss_female.iff"},
+				"object/creature/player/zabrak_male.iff",
+				"object/creature/player/zabrak_female.iff" },
 
 	-- RANGEDATTACK, MELEEATTACK, FORCEATTACK, TRAPATTACK, GRENADEATTACK, HEAVYACIDBEAMATTACK,
 	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
 	attackType = MELEEATTACK,
 
-	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, LIGHTSABER
-	damageType = LIGHTSABER,
+	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, FORCE, LIGHTSABER
+	damageType = ENERGY,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
 	armorPiercing = MEDIUM,
@@ -82,7 +82,7 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_gen4 = ob
 	-- See http://www.ocdsoft.com/files/certifications.xls
 	certificationsRequired = { "cert_twohandlightsaber_gen4" },
 	-- See http://www.ocdsoft.com/files/accuracy.xls
-	creatureAccuracyModifiers = { "lightsaber_accuracy" },
+	creatureAccuracyModifiers = { "twohandlightsaber_accuracy" },
 
 	-- See http://www.ocdsoft.com/files/defense.xls
 	defenderDefenseModifiers = { "melee_defense" },
@@ -91,17 +91,17 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_gen4 = ob
 	defenderSecondaryDefenseModifiers = { "saber_block" },
 
 	-- See http://www.ocdsoft.com/files/speed.xls
-	speedModifiers = { "lightsaber_speed" },
+	speedModifiers = { "twohandlightsaber_speed" },
 
 	-- Leave blank for now
 	damageModifiers = { },
 
 
-		-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 60,
-	actionAttackCost = 95,
+	-- The values below are the default values.  To be used for blue frog objects primarily
+	healthAttackCost = 95,
+	actionAttackCost = 50,
 	mindAttackCost = 45,
-	forceCost = 48,
+	forceCost = 47,
 
 	pointBlankRange = 0,
 	pointBlankAccuracy = 20,
@@ -111,16 +111,16 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_gen4 = ob
 
 	maxRange = 5,
 	maxRangeAccuracy = 5,
+	
+	minDamage = 185,
+	maxDamage = 265,
 
-	minDamage = 340,	
-	maxDamage = 420,
-
-	attackSpeed = 5.1,
+	attackSpeed = 4.8,
 
 	woundsRatio = 37,
 
 	defenderToughnessModifiers = { "lightsaber_toughness" },
-
+			
 	noTrade = 1,
 	
 	childObjects = {
@@ -128,14 +128,14 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_gen4 = ob
 	},
 
 	numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 2, 1, 1, 1},
-	experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "SR", "UT", "CD", "OQ", "OQ", "OQ", "OQ"},
-	experimentalWeights = {1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1},
-	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "expEffeciency", "expEffeciency", "expEffeciency"},
-	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "forcecost", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 340, 420, 5.1, 25, 45, 60, 95, 45},
-	experimentalMax = {0, 0, 350, 440, 4.8, 50, 38, 45, 65, 40},
-	experimentalPrecision = {0, 0, 0, 0, 1, 0, 1, 0, 0, 0},
-	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1},
+  experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "SR", "UT", "CD", "OQ", "OQ", "OQ", "OQ"},
+  experimentalWeights = {1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1},
+  experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "expEffeciency", "expEffeciency", "expEffeciency"},
+  experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "forcecost", "attackhealthcost", "attackactioncost", "attackmindcost"},
+  experimentalMin = {0, 0, 240, 330, 1.0, 25, 12, 0, 300, 0},
+  experimentalMax = {0, 0, 260, 370, 1.0, 50, 12, 0, 300, 0},
+  experimentalPrecision = {0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+  experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1},
 }
 
 ObjectTemplates:addTemplate(object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_gen4, "object/weapon/melee/2h_sword/crafted_saber/sword_lightsaber_two_handed_gen4.iff")

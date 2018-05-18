@@ -60,8 +60,8 @@ object_tangible_wearables_robe_robe_jedi_padawan = object_tangible_wearables_rob
 				"object/creature/player/twilek_female.iff",
 				"object/creature/player/wookiee_male.iff",
 				"object/creature/player/wookiee_female.iff",
-			"object/creature/player/zabrak_male.iff","object/creature/player/chiss_male.iff",
-			"object/creature/player/zabrak_female.iff","object/creature/player/chiss_female.iff"},
+				"object/creature/player/zabrak_male.iff",
+				"object/creature/player/zabrak_female.iff" },
 				
 				skillMods = {
 				    {"jedi_force_power_max", 250},
