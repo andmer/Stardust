@@ -1008,6 +1008,15 @@ int CreatureObjectImplementation::inflictDamage(TangibleObject* attacker, int da
 
 	int currentValue = hamList.get(damageType);
 
+	int action = getHAM(CreatureAttribute::ACTION);
+		if (action > 300)
+			setHAM(CreatureAttribute::ACTION, 300);
+
+	int mind = getHAM(CreatureAttribute::MIND);
+		if (mind > 2000)
+			setHAM(CreatureAttribute::MIND, 2000);
+
+
 	int newValue = currentValue - (int) damage;
 
 	if (!destroy && newValue <= 0)
@@ -1857,9 +1866,9 @@ void CreatureObjectImplementation::enqueueCommand(unsigned int actionCRC,
 		return;
 	}
 
-	if (commandQueue->size() > 15 && priority != QueueCommand::FRONT) {
+	if (commandQueue->size() > 3 && priority != QueueCommand::FRONT) {
 		clearQueueAction(actionCount);
-
+		sendSystemMessage("Your combat queue is full!");
 		return;
 	}
 
@@ -2672,13 +2681,13 @@ void CreatureObjectImplementation::activateHAMRegeneration(int latency) {
 	if (isKneeling())
 		modifier *= 1.25f;
 	else if (isSitting())
-		modifier *= 1.75f;
+		modifier *= 25.5f;
 
 	// this formula gives the amount of regen per second
 	uint32 healthTick = (uint32) ceil((float) Math::max(0, getHAM(
 			CreatureAttribute::CONSTITUTION)) * 13.0f / 2100.0f * modifier);
-	uint32 actionTick = (uint32) ceil((float) Math::max(0, getHAM(
-			CreatureAttribute::STAMINA)) * 13.0f / 2100.0f * modifier);
+	uint32 actionTick = 250; /*(uint32) ceil((float) Math::max(0, getHAM(
+			CreatureAttribute::STAMINA)) * 13.0f / 2100.0f * modifier); */
 	uint32 mindTick = (uint32) ceil((float) Math::max(0, getHAM(
 			CreatureAttribute::WILLPOWER)) * 13.0f / 2100.0f * modifier);
 
