@@ -270,7 +270,7 @@ public:
 				healthHealed = targetCreature->healDamage(creature, CreatureAttribute::HEALTH, stimPower);
 				notifyObservers = false;
 			}
-
+			/*
 			if (atts.contains(CreatureAttribute::ACTION)) {
 				if (notifyObservers) {
 					actionHealed = targetCreature->healDamage(creature, CreatureAttribute::ACTION, stimPower);
@@ -287,7 +287,7 @@ public:
 					mindHealed = targetCreature->healDamage(creature, CreatureAttribute::MIND, stimPower, true, false);
 				}
 			}
-
+			*/
 			if (creature->isPlayerCreature()) {
 				PlayerManager* playerManager = server->getZoneServer()->getPlayerManager();
 				playerManager->sendBattleFatigueMessage(creature, targetCreature);
@@ -444,7 +444,7 @@ public:
 			healthHealed = targetCreature->healDamage(creature, CreatureAttribute::HEALTH, stimPower);
 			notifyObservers = false;
 		}
-
+		/*
 		if (atts.contains(CreatureAttribute::ACTION)) {
 			if (notifyObservers) {
 				actionHealed = targetCreature->healDamage(creature, CreatureAttribute::ACTION, stimPower);
@@ -461,7 +461,7 @@ public:
 				mindHealed = targetCreature->healDamage(creature, CreatureAttribute::MIND, stimPower, true, false);
 			}
 		}
-
+		*/
 		if (creature->isPlayerCreature()) {
 			PlayerManager* playerManager = server->getPlayerManager();
 			playerManager->sendBattleFatigueMessage(creature, targetCreature);
