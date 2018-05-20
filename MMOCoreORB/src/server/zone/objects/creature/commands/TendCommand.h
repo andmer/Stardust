@@ -217,9 +217,10 @@ public:
 			int healPower = round(((float)creature->getSkillMod("healing_injury_treatment") / 3.f + 20.f) * bfScale);
 
 			int healedHealth = creatureTarget->healDamage(creature, CreatureAttribute::HEALTH, healPower);
+			int healedAction = 0;
 			//int healedAction = creatureTarget->healDamage(creature, CreatureAttribute::ACTION, healPower, true, false);
 
-			sendHealMessage(creature, creatureTarget, healedHealth);
+			sendHealMessage(creature, creatureTarget, healedHealth, healedAction);
 		} else if (tendWound) {
 			uint8 attribute = CreatureAttribute::UNKNOWN;
 
