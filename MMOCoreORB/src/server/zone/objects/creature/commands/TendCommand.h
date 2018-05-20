@@ -73,11 +73,11 @@ public:
 		StringBuffer msgPlayer, msgTarget, msgBody, msgTail;
 
 		if (healthDamage > 0 && actionDamage > 0) {
-			msgBody << healthDamage << " health and " << actionDamage << " action";
+			msgBody << healthDamage << " health";
 		} else if (healthDamage > 0) {
 			msgBody << healthDamage << " health";
 		} else if (actionDamage > 0) {
-			msgBody << actionDamage << " action";
+			return;
 		} else {
 			return; //No damage to heal.
 		}
@@ -189,7 +189,7 @@ public:
 			return GENERALERROR;
 		}
 
-		int mindCostNew = creature->calculateCostAdjustment(CreatureAttribute::FOCUS, mindCost);
+		int mindCostNew = creature->calculateCostAdjustment(CreatureAttribute::ACTION, mindCost);
 
 		if (creature->getHAM(CreatureAttribute::ACTION) < mindCostNew) {
 			creature->sendSystemMessage("@healing_response:not_enough_mind"); //You do not have enough mind to do that.
@@ -199,7 +199,7 @@ public:
 		float bfScale = creatureTarget->calculateBFRatio();
 
 		if (tendDamage) {
-			if (!creatureTarget->hasDamage(CreatureAttribute::HEALTH) && !creatureTarget->hasDamage(CreatureAttribute::ACTION)) {
+			if (!creatureTarget->hasDamage(CreatureAttribute::HEALTH)) {
 				if (creatureTarget == creature)
 					creature->sendSystemMessage("@healing_response:healing_response_61"); //You have no damage to heal.
 				else if (creatureTarget->isPlayerCreature()) {
@@ -217,9 +217,9 @@ public:
 			int healPower = round(((float)creature->getSkillMod("healing_injury_treatment") / 3.f + 20.f) * bfScale);
 
 			int healedHealth = creatureTarget->healDamage(creature, CreatureAttribute::HEALTH, healPower);
-			int healedAction = creatureTarget->healDamage(creature, CreatureAttribute::ACTION, healPower, true, false);
+			//int healedAction = creatureTarget->healDamage(creature, CreatureAttribute::ACTION, healPower, true, false);
 
-			sendHealMessage(creature, creatureTarget, healedHealth, healedAction);
+			sendHealMessage(creature, creatureTarget, healedHealth);
 		} else if (tendWound) {
 			uint8 attribute = CreatureAttribute::UNKNOWN;
 
