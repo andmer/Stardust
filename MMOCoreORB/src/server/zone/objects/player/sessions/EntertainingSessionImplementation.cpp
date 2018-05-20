@@ -925,8 +925,8 @@ void EntertainingSessionImplementation::activateEntertainerBuff(CreatureObject* 
 			creature->addBuff(focusBuff);
 			locker.release();
 
-			Locker locker2(willBuff);
-			creature->addBuff(willBuff);
+			//Locker locker2(willBuff);
+			//creature->addBuff(willBuff);
 			break;
 		}
 		case PerformanceType::DANCE:
