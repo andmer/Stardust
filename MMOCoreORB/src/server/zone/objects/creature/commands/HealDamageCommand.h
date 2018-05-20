@@ -146,8 +146,8 @@ public:
 			return false;
 		}
 
-		if (creature->getHAM(CreatureAttribute::MIND) < mindCostNew) {
-			creature->sendSystemMessage("@healing_response:not_enough_mind"); //You do not have enough mind to do that.
+		if (creature->getHAM(CreatureAttribute::ACTION) < mindCostNew) {
+			creature->sendSystemMessage("Not enough Action Points to Heal Damage."); //You do not have enough mind to do that.
 			return false;
 		}
 
@@ -415,7 +415,7 @@ public:
 			}
 		}
 
-		int mindCostNew = creature->calculateCostAdjustment(CreatureAttribute::FOCUS, mindCost);
+		int mindCostNew = creature->calculateCostAdjustment(CreatureAttribute::ACTION, mindCost);
 
 		if (!canPerformSkill(creature, targetCreature, stimPack, mindCostNew))
 			return GENERALERROR;
@@ -469,7 +469,7 @@ public:
 
 		sendHealMessage(creature, targetCreature, healthHealed, actionHealed, mindHealed);
 
-		creature->inflictDamage(creature, CreatureAttribute::MIND, mindCostNew, false);
+		creature->inflictDamage(creature, CreatureAttribute::ACTION, mindCostNew, false);
 
 		Locker locker(stimPack);
 		stimPack->decreaseUseCount();
