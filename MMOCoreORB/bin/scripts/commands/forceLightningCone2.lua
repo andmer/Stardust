@@ -44,12 +44,14 @@
 ForceLightningCone2Command = {
 	name = "forcelightningcone2",
 
-    minDamage = 1200,
-    maxDamage = 1600,
-	speed = 4.0,
-	forceCost = 250,
+  minDamage = 900,
+  maxDamage = 900,
+  speed = 1.5,
+  forceCost = 1000,
+  forceCostMultiplier = 1,
+  actionCostMultiplier = 1,
 	accuracySkillMod = "forcelightning_accuracy",
-	coneAngle = 60,
+	coneAngle = 90,
 	coneAction = true,
 	visMod = 25,
 
@@ -65,15 +67,15 @@ ForceLightningCone2Command = {
 	  )
 	},
 
-	animation = "force_lightning_1_arc_particle_level_3",
-	animType = GENERATE_INTENSITY,
+	animation = "force_knockdown_1_arc_particle_level_1",
+--	animType = GENERATE_INTENSITY,
 
 	combatSpam = "forcelightningcone2",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	forceAttack = true,
-	damageType = ELECTRICITY_DAMAGE,
+	damageType = LIGHTSABER_DAMAGE,
 
 	range = 32
 }

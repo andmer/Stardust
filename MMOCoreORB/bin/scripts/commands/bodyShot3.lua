@@ -44,12 +44,13 @@
 BodyShot3Command = {
         name = "bodyshot3",
 
-	damageMultiplier = 4,
-	speedMultiplier = 1,
-	healthCostMultiplier = 0.75,
-	actionCostMultiplier = 1.25,
-	mindCostMultiplier = 0.75,
-        accuracyBonus = 50,
+	damageMultiplier = 3.5,
+  speedMultiplier = 1,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 0.8,
+  mindCostMultiplier = 0,
+    visMod = 25,
+  --      accuracyBonus = 50,
 
 	poolsToDamage = HEALTH_ATTRIBUTE,
 

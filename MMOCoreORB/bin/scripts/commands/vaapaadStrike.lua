@@ -41,42 +41,57 @@
 --which carries forward this exception.
 --true = 1, false = 0
 
-ChargeShot2Command = {
-        name = "chargeshot2",
+VaapaadStrikeCommand = {
+        name = "vaapaadstrike",
 
-	damageMultiplier = 1.5,
-  speedMultiplier = 1,
-  healthCostMultiplier = 0,
-  actionCostMultiplier = 0.75,
-  mindCostMultiplier = 0,
-  accuracyBonus = 25,
-    visMod = 25,
 
-	animation = "charge",
+	damageMultiplier = 2.5,
+	speedMultiplier = 2.0,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 0,
+	mindCostMultiplier = 0,
+	forceCostMultiplier = 2.0,
+	visMod = 25,
 
-	combatSpam = "chargeblast",
+	dotEffects = {
+	  DotEffect(
+		BLEEDING,
+		{ "resistance_bleeding", "bleed_resist" },
+		HEALTH,
+		true,
+		0,
+		100,
+		75,
+		60,
+		16.66,
+		16.66
+	  ),
 
-	coneAngle = 30,
-	coneAction = true,
+	},
 
 	stateEffects = {
-	  StateEffect( 
-		KNOCKDOWN_EFFECT, 
-		{ "knockdownRecovery", "lastKnockdown" }, 
-		{ "knockdown_defense" }, 
-		{}, 
-		100, 
-		0, 
-		0 
+	  StateEffect(
+		POSTUREDOWN_EFFECT,
+		{ "postureDownRecovery" },
+		{ "posture_change_down_defense" },
+		{},
+		100,
+		0,
+		0
 	  )
 	},
 
+ -- animation = "combo_jedi_1", 
+  animType = GENERATE_INTENSITY,
+
+	combatSpam = "vaapaadstrike",
+
 	poolsToDamage = HEALTH_ATTRIBUTE,
-	
-	weaponType = CARBINEWEAPON,
+
+	weaponType = JEDIWEAPON,
 
 	range = -1
 }
 
-AddCommand(ChargeShot2Command)
+AddCommand(VaapaadStrikeCommand)
 

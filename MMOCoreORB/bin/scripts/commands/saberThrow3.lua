@@ -44,14 +44,14 @@
 SaberThrow3Command = {
         name = "saberthrow3",
 
-	damageMultiplier = 2.0,
-	speedMultiplier = 4.5,
+	damageMultiplier = 1.0,
+	speedMultiplier = 2,
 	healthCostMultiplier = 0,
-	actionCostMultiplier = 0,
+	actionCostMultiplier = 0.5,
 	mindCostMultiplier = 0,
 	coneAngle = 30,
 	coneAction = true,
-	forceCostMultiplier = 2.5,
+	forceCostMultiplier = 0.5,
 	visMod = 25,
 
 	stateEffects = {
@@ -70,7 +70,7 @@ SaberThrow3Command = {
 
 	combatSpam = "saberthrow3",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = JEDIWEAPON,
 

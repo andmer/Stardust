@@ -42,10 +42,11 @@
 --true = 1, false = 0
 
 StopBleedingCommand = {
-	name = "stopbleeding",
+        name = "stopbleeding",
 	range = 32,
-	healBleedingCost = 25,
-	forceCost = 50,
+	healBleeding = 30,
+	forceCost = 75,
+	forceCostDivisor = 0,
 	allowedTarget = FORCE_HEAL_TARGET_SELF + FORCE_HEAL_TARGET_OTHER,
 }
 

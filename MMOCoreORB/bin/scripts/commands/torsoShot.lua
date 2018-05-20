@@ -45,12 +45,13 @@ TorsoShotCommand = {
         name = "torsoshot",
 
 	damageMultiplier = 3.0,
-	speedMultiplier = 2.3,
-	healthCostMultiplier = 1,
-	actionCostMultiplier = 1,
-	mindCostMultiplier = 1,
+  speedMultiplier = 2.3,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 3,
+  mindCostMultiplier = 0,
+    visMod = 25,
 
-	poolsToDamage = HEALTH_ATTRIBUTE,
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_3_special_single", 
 	animType = GENERATE_RANGED,

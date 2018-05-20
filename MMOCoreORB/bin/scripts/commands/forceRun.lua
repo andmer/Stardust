@@ -41,42 +41,14 @@
 --which carries forward this exception.
 --true = 1, false = 0
 
-ChargeShot2Command = {
-        name = "chargeshot2",
-
-	damageMultiplier = 1.5,
-  speedMultiplier = 1,
-  healthCostMultiplier = 0,
-  actionCostMultiplier = 0.75,
-  mindCostMultiplier = 0,
-  accuracyBonus = 25,
-    visMod = 25,
-
-	animation = "charge",
-
-	combatSpam = "chargeblast",
-
-	coneAngle = 30,
-	coneAction = true,
-
-	stateEffects = {
-	  StateEffect( 
-		KNOCKDOWN_EFFECT, 
-		{ "knockdownRecovery", "lastKnockdown" }, 
-		{ "knockdown_defense" }, 
-		{}, 
-		100, 
-		0, 
-		0 
-	  )
-	},
-
-	poolsToDamage = HEALTH_ATTRIBUTE,
-	
-	weaponType = CARBINEWEAPON,
-
-	range = -1
+ForceRunCommand = {
+        name = "forcerun1",
+        forceCost = 20,
+        duration = 20,
+        --animationCRC = hashCode()
+        clientEffect = "clienteffect/pl_force_run_self.cef",
+        speedMod = 1.5
 }
 
-AddCommand(ChargeShot2Command)
+AddCommand(ForceRun1Command)
 

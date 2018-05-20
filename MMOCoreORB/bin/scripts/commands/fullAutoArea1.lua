@@ -44,14 +44,15 @@
 FullAutoArea1Command = {
         name = "fullautoarea1",
 
-	damageMultiplier = 1.5,
-	speedMultiplier = 1.5,
-	healthCostMultiplier = 1.75,
-	actionCostMultiplier = 2.5,
-	mindCostMultiplier = 0.5,
-	accuracyBonus = 25,
+	damageMultiplier = 1.7,
+  speedMultiplier = 1,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 0.6,
+  mindCostMultiplier = 0,
+  accuracyBonus = 25,
+    visMod = 25,
 
-	animation = "fire_area",
+	animation = "fire_lightning_rifle_single_2",
 	animType = GENERATE_INTENSITY,
 
 	combatSpam = "areashot",
@@ -89,11 +90,11 @@ FullAutoArea1Command = {
 	  )
 	},
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 	
-	weaponType = CARBINEWEAPON,
+	weaponType = SPECIALHEAVYWEAPON,
 
-	range = -1
+	range = 64
 }
 
 AddCommand(FullAutoArea1Command)
