@@ -219,7 +219,7 @@ public:
 			int healedHealth = creatureTarget->healDamage(creature, CreatureAttribute::HEALTH, healPower);
 			//int healedAction = creatureTarget->healDamage(creature, CreatureAttribute::ACTION, healPower, true, false);
 
-			sendHealMessage(creature, creatureTarget, healedHealth, healedAction);
+			sendHealMessage(creature, creatureTarget, healedHealth);
 		} else if (tendWound) {
 			uint8 attribute = CreatureAttribute::UNKNOWN;
 
