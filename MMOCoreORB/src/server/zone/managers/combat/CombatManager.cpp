@@ -645,11 +645,11 @@ uint8 CombatManager::getPoolForDot(uint64 dotType, int poolsToDamage) {
 		break;
 	case CreatureState::DISEASED:
 		if (poolsToDamage & HEALTH) {
-			pool = CreatureAttribute::HEALTH + System::random(2);
+			pool = CreatureAttribute::HEALTH;
 		} else if (poolsToDamage & ACTION) {
-			pool = CreatureAttribute::HEALTH + System::random(2);
+			pool = CreatureAttribute::HEALTH;
 		} else if (poolsToDamage & MIND) {
-			pool = CreatureAttribute::HEALTH + System::random(2);
+			pool = CreatureAttribute::HEALTH;
 		}
 		break;
 	default:
@@ -2021,8 +2021,8 @@ int CombatManager::applyDamage(TangibleObject* attacker, WeaponObject* weapon, C
 	if (poolsToWound.size() > 0 && System::random(100) < ratio) {
 		int poolToWound = poolsToWound.get(System::random(poolsToWound.size() - 1));
 		defender->addWounds(poolToWound,     1, true);
-		defender->addWounds(poolToWound + 1, 1, true);
-		defender->addWounds(poolToWound + 2, 1, true);
+		defender->addWounds(poolToWound + 1, 1, false);
+		defender->addWounds(poolToWound + 2, 1, false);
 	}
 
 	if(attacker->isPlayerCreature())
