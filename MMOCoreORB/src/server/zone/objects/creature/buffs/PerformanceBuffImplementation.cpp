@@ -13,20 +13,20 @@
 void PerformanceBuffImplementation::activate(bool applyModifiers) {
 
 	if(type == PerformanceBuffType::DANCE_MIND) {
-		int mindStrength = round(strength * (float)creature.get()->getBaseHAM(CreatureAttribute::MIND));
-		setAttributeModifier(CreatureAttribute::MIND, mindStrength);
+		int mindStrength = round(strength * (float)creature.get()->getBaseHAM(CreatureAttribute::ACTION));
+		setAttributeModifier(CreatureAttribute::ACTION, mindStrength);
 		creature.get()->sendSystemMessage("@healing:performance_enhance_dance_mind_d");
 
 	}
 	else if(type == PerformanceBuffType::MUSIC_FOCUS) {
-		int focusStrength = round(strength * (float)creature.get()->getBaseHAM(CreatureAttribute::FOCUS));
-		setAttributeModifier(CreatureAttribute::FOCUS, focusStrength);
+		int focusStrength = round(strength * (float)creature.get()->getBaseHAM(CreatureAttribute::ACTION));
+		setAttributeModifier(CreatureAttribute::ACTION, focusStrength);
 		creature.get()->sendSystemMessage("@healing:performance_enhance_music_focus_d");
 
 	}
 	else if(type == PerformanceBuffType::MUSIC_WILLPOWER) {
-		int willStrength = round(strength * (float)creature.get()->getBaseHAM(CreatureAttribute::WILLPOWER));
-		setAttributeModifier(CreatureAttribute::WILLPOWER, willStrength);
+		int willStrength = round(strength * (float)creature.get()->getBaseHAM(CreatureAttribute::ACTION));
+		setAttributeModifier(CreatureAttribute::ACTION, willStrength);
 		creature.get()->sendSystemMessage("@healing:performance_enhance_music_willpower_d");
 	}
 
