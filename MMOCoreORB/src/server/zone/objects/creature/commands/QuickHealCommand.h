@@ -36,7 +36,7 @@ public:
 	}
 
 	void doAnimations(CreatureObject* creature, CreatureObject* creatureTarget) const {
-		creatureTarget->playEffect("clienteffect/healing_healdamage.cef", "");
+		creatureTarget->playEffect("clienteffect/bacta_bomb.cef", "");
 
 		if (creature == creatureTarget)
 			creature->doAnimation("heal_self");
@@ -118,14 +118,14 @@ public:
 			return GENERALERROR;
 		}
 
-		int mindCostNew = creature->calculateCostAdjustment(CreatureAttribute::FOCUS, mindCost);
+		int mindCostNew = creature->calculateCostAdjustment(CreatureAttribute::ACTION, mindCost);
 
-		if (creature->getHAM(CreatureAttribute::MIND) < abs(mindCostNew)) {
+		if (creature->getHAM(CreatureAttribute::ACTION) < abs(mindCostNew)) {
 			creature->sendSystemMessage("@healing_response:not_enough_mind"); //You do not have enough mind to do that.
 			return GENERALERROR;
 		}
 
-		if (!creatureTarget->hasDamage(CreatureAttribute::HEALTH) && !creatureTarget->hasDamage(CreatureAttribute::ACTION)) {
+		if (!creatureTarget->hasDamage(CreatureAttribute::HEALTH)) {
 			if (creatureTarget == creature)
 				creature->sendSystemMessage("@healing_response:healing_response_61"); //You have no damage to heal.
 			else if (creatureTarget->isPlayerCreature()) {
@@ -144,7 +144,9 @@ public:
 		int healPower = (int) round(150 + System::random(600));
 
 		int healedHealth = creatureTarget->healDamage(creature, CreatureAttribute::HEALTH, healPower);
-		int healedAction = creatureTarget->healDamage(creature, CreatureAttribute::ACTION, healPower);
+		int healedAction = 0;
+
+		//int healedAction = creatureTarget->healDamage(creature, CreatureAttribute::ACTION, healPower);
 
 		if (creature->isPlayerCreature()) {
 			PlayerManager* playerManager = server->getZoneServer()->getPlayerManager();
@@ -153,9 +155,9 @@ public:
 
 		sendHealMessage(creature, creatureTarget, healedHealth, healedAction);
 
-		creature->inflictDamage(creature, CreatureAttribute::MIND, mindCostNew, false);
-		creature->addWounds(CreatureAttribute::FOCUS, mindWoundCost, true);
-		creature->addWounds(CreatureAttribute::WILLPOWER, mindWoundCost, true);
+		creature->inflictDamage(creature, CreatureAttribute::ACTION, mindCostNew, false);
+		creature->addWounds(CreatureAttribute::HEALTH, mindWoundCost, true);
+
 
 		doAnimations(creature, creatureTarget);
 
