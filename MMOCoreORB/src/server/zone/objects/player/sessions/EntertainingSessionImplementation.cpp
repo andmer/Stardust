@@ -887,7 +887,7 @@ void EntertainingSessionImplementation::activateEntertainerBuff(CreatureObject* 
 			return;
 
 		// Returns the Number of Minutes for the Buff Duration
-		float buffDuration = getEntertainerBuffDuration(creature, performanceType);
+		float buffDuration = 180;
 
 		if (buffDuration * 60 < 10.0f) { //10 sec minimum buff duration
 			return;
@@ -904,7 +904,7 @@ void EntertainingSessionImplementation::activateEntertainerBuff(CreatureObject* 
 		int campModTemp = 100;
 
 
-		float buffStrength = getEntertainerBuffStrength(creature, performanceType) / 100.0f;
+		float buffStrength = 0.75;
 
 		if(buffStrength == 0)
 			return;
