@@ -51,7 +51,7 @@ public:
 								uint32 buffcrc3 = BuffCRC::FORCE_RANK_SERENITY;
 								ManagedReference<Buff*> buff2 = new Buff(creature, buffcrc2, duration2, BuffType::JEDI);
 								ManagedReference<Buff*> buff3 = new Buff(creatureTarget, buffcrc3, duration3, BuffType::JEDI);
-								ManagedReference<Buff*> buff = new Buff(creatureTarget, buffcrc, duration, BuffType::JEDI);
+								ManagedReference<Buff*> buff1 = new Buff(creatureTarget, buffcrc, duration, BuffType::JEDI);
 
 								//target is currently snared/rooted
 								if (creatureTarget->hasBuff(buffcrc)) {
@@ -83,9 +83,10 @@ public:
 									Reference<setNormalTask*> snormalTask = new setNormalTask(creatureTarget);
 									creatureTarget->addPendingTask("resetspeed", snormalTask, 5100);
 									//Snare
+									Locker locker(buff);
 									buff->setSpeedMultiplierMod(0.75);
 									//Appy buffs / debuffs
-									creatureTarget->addBuff(buff);
+									creatureTarget->addBuff(buff1);
 									creature->addBuff(buff2);
 									creatureTarget->addBuff(buff3);
 									//creatureTarget->setImmobilizedState;
