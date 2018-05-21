@@ -32,7 +32,7 @@ public:
 									return GENERALERROR;
 
 								//Supposed to send a message if you target nothing #not working
-								if (!creatureTarget == creature) {
+								if (!creatureTarget->isCreatureObject()) {
 									creature->sendSystemMessage("Invalid Target");
 									return 0;
 								}
