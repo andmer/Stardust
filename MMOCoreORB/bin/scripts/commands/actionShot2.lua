@@ -68,8 +68,8 @@ ActionShot2Command = {
     ACTION,
     true,
     0,
-    10000,
-    10000, 
+    0.5,
+    1, 
     40
     )
   },
