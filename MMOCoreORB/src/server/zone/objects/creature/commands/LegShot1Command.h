@@ -53,7 +53,7 @@ public:
 
 				if (!creature->checkCooldownRecovery(skillName)){
 								Time* timeRemaining = creature->getCooldownTime(skillName);
-								creature->sendSystemMessage("Target can not be snared with " + skillNameDisplay + " for another " +  getCooldownString(timeRemaining->miliDifference() * -1));
+								creature->sendSystemMessage("Your target can not be snared with " + skillNameDisplay + " for another " +  getCooldownString(timeRemaining->miliDifference() * -1));
 				}
 
 				else if (targetCreature != NULL) {
@@ -70,7 +70,7 @@ public:
 
 					buff->setSpeedMultiplierMod(0.75f);
 					buff->setAccelerationMultiplierMod(0.75f);
-					targetCreature->setSnaredState(8);
+					targetCreature->setSnaredState(10);
 					targetCreature->playEffect("clienteffect/commando_position_secured.cef", "");
 					StringBuffer targetRootMessage;
 
