@@ -67,8 +67,8 @@ ActionShot1Command = {
     true,
     0,
     100,
-    50, 
-    120
+    100, 
+    60
     )
   },
 	
