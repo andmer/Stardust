@@ -64,14 +64,13 @@ ActionShot2Command = {
 	dotEffects = {
     DotEffect( 
     BLEEDING, 
-    { "resistance_bleeding", "bleed_resist" },
+    { "resistance_bleeding" },
     ACTION,
     true,
-    600,
+    60000,
     100,
-    100,
-    100, 
-    40
+    60000,
+    40 
     )
   },
 	
