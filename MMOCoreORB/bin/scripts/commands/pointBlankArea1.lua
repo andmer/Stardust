@@ -44,10 +44,10 @@
 PointBlankArea1Command = {
 	name = "pointblankarea1",
 
-	damageMultiplier = 2,
+	damageMultiplier = 1.5,
   speedMultiplier = 0.5,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 2.25,
+  actionCostMultiplier = 2,
   mindCostMultiplier = 0,
   accuracyBonus = 15,
 
@@ -63,7 +63,7 @@ PointBlankArea1Command = {
 	
 	weaponType = RANGEDWEAPON,
 
-	range = 12
+	range = 10
 }
 
 AddCommand(PointBlankArea1Command)

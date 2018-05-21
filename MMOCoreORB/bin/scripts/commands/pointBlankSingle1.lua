@@ -44,10 +44,10 @@
 PointBlankSingle1Command = {
 	name = "pointblanksingle1",
 
-	damageMultiplier = 2,
+	damageMultiplier = 1.5,
   speedMultiplier = 0.45,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 2.25,
+  actionCostMultiplier = 2,
   mindCostMultiplier = 0,
   accuracyBonus = 15,
   
@@ -60,7 +60,7 @@ PointBlankSingle1Command = {
 	
 	weaponType = RANGEDWEAPON,
 
-	range = 12
+	range = 10
 }
 
 AddCommand(PointBlankSingle1Command)
