@@ -5,12 +5,15 @@
 #ifndef LEGSHOT1COMMAND_H_
 #define LEGSHOT1COMMAND_H_
 
-#include "server/zone/objects/scene/SceneObject.h"
 #include "CombatQueueCommand.h"
-#include "server/zone/objects/player/events/setNormalTask.h"
-#include "server/zone/managers/combat/CombatManager.h"
 
 class LegShot1Command : public CombatQueueCommand {
+
+protected:
+	String skillName = "legShot1";		// Skill Name
+	String skillNameDisplay = "Leg Shot";		// Skill Display Name for output message
+	int delay = 36; 								//  30 second cool down timer after root expires
+
 public:
 
 	LegShot1Command(const String& name, ZoneProcessServer* server)
@@ -19,87 +22,92 @@ public:
 
 	int doQueueCommand(CreatureObject* creature, const uint64& target, const UnicodeString& arguments) const {
 
-		if (!checkStateMask(creature))
-			return INVALIDSTATE;
+			if (!checkStateMask(creature))
+				return INVALIDSTATE;
 
-		if (!checkInvalidLocomotions(creature))
-			return INVALIDLOCOMOTION;
+			if (!checkInvalidLocomotions(creature))
+				return INVALIDLOCOMOTION;
+			ManagedReference<SceneObject*> object = server->getZoneServer()->getObject(target);
+			CreatureObject* targetCreature = dynamic_cast<CreatureObject*>(object.get());
 
-		Reference<SceneObject*> object = server->getZoneServer()->getObject(target);
-								ManagedReference<CreatureObject*> creatureTarget = cast<CreatureObject*>( object.get());
+			if (targetCreature == NULL)
+				return INVALIDTARGET;
 
-								if (creatureTarget == NULL)
-									return GENERALERROR;
+			Locker clocker(targetCreature, creature);
 
-								//Supposed to send a message if you target nothing #not working
-								if (creatureTarget == creature) {
-									creature->sendSystemMessage("Invalid Target");
-									return 0;
-								}
+			ManagedReference<PlayerObject*> player = creature->getPlayerObject();
+			PlayerObject* targetPlayerObject = targetCreature->getPlayerObject();
 
-								//Check range
-								if (creature->getDistanceTo(object) > 50.f){
-									creature->sendSystemMessage("You are out of range.");
-									return GENERALERROR;
-								}
+			if (targetPlayerObject == NULL) {
+				return INVALIDTARGET;
+			} else if (player == NULL)
+				return GENERALERROR;
 
-								int duration = 10; //duration of snare on target
-								int duration2 = 15; //duration of cd on caster
-								int duration3 = 20; //duration of immunity on target
-								uint32 buffcrc = BuffCRC::FORCE_RANK_SUFFERING;
-								uint32 buffcrc2 = BuffCRC::FORCE_RANK_SERENITY;
-								uint32 buffcrc3 = BuffCRC::FORCE_RANK_SERENITY;
-								uint32 buffCRC1 = STRING_HASHCODE("setSpeed");
-								ManagedReference<Buff*> buff2 = new Buff(creature, buffcrc2, duration2, BuffType::JEDI);
-								ManagedReference<Buff*> buff3 = new Buff(creatureTarget, buffcrc3, duration3, BuffType::JEDI);
-								ManagedReference<Buff*> buff1 = new Buff(creatureTarget, buffcrc, duration, BuffType::JEDI);
-								ManagedReference<Buff*> buff = new Buff(creature, buffCRC1, duration, BuffType::OTHER);
+			if (!creature->checkCooldownRecovery(skillName)){
+				Time* timeRemaining = creature->getCooldownTime(skillName);
+				creature->sendSystemMessage("You must wait " +  getCooldownString(timeRemaining->miliDifference() * -1)  + " to use " + skillNameDisplay + " again");
+				return GENERALERROR;
+			}
 
-								//target is currently snared/rooted
-								if (creatureTarget->hasBuff(buffcrc)) {
-									creature->sendSystemMessage("You can not snare a target that is already snared!");
-									return doCombatAction(creature, target);
-								}
+			int res = doCombatAction(creature, target);
 
-								//caster on cd
-								if(creature->hasBuff(buffcrc2)) {
-									creature->sendSystemMessage("You cannot snare the target at this time.");
-									return doCombatAction(creature, target);
-								}
+			if (res == SUCCESS) {
 
-								//target on cd
-								if (creatureTarget->hasBuff(buffcrc3)) {
-									creature->sendSystemMessage("You are unable snare this target due to temporary immunity.");
-									return doCombatAction(creature, target);
-								}
+				// Setup debuff.
 
-								//last checks, if true... cast.
-								if (object->isCreatureObject() && creatureTarget->isAttackableBy(creature) && !creatureTarget->hasBuff(buffcrc)) {
-									//Remove movement boosts
-									if (creatureTarget->hasBuff(STRING_HASHCODE("burstrun")) || creature->hasBuff(STRING_HASHCODE("retreat"))) {
-										creatureTarget->removeBuff(STRING_HASHCODE("burstrun"));
-										creatureTarget->removeBuff(STRING_HASHCODE("retreat"));
-									}
 
-									//Start task to restore movement speed
-									Reference<setNormalTask*> snormalTask = new setNormalTask(creatureTarget);
-									creatureTarget->addPendingTask("resetspeed", snormalTask, 5100);
-									//Snare
-									Locker locker(buff);
-									buff->setSpeedMultiplierMod(0.75);
-									//Appy buffs / debuffs
-									creatureTarget->addBuff(buff1);
-									creature->addBuff(buff2);
-									creatureTarget->addBuff(buff3);
-									//creatureTarget->setImmobilizedState;
-									//Send messages, and effect
-									creature->sendSystemMessage("You snare your target!");
-									creatureTarget->sendSystemMessage("You've been snared!");
-									creatureTarget->playEffect("clienteffect/commando_position_secured.cef", "");
+				if (targetCreature != NULL) {
+					Locker clocker(targetCreature, creature);
 
-								}
-		return doCombatAction(creature, target);
-	}
+					ManagedReference<Buff*> buff = new Buff(targetCreature, getNameCRC(), 6, BuffType::OTHER);
+
+					Locker locker(buff);
+					if (targetCreature->hasBuff(STRING_HASHCODE("burstrun")) || targetCreature->hasBuff(STRING_HASHCODE("retreat")) || targetCreature->hasBuff(BuffCRC::JEDI_FORCE_RUN_1)) {
+						targetCreature->removeBuff(STRING_HASHCODE("burstrun"));
+						targetCreature->removeBuff(STRING_HASHCODE("retreat"));
+						targetCreature->removeBuff(BuffCRC::JEDI_FORCE_RUN_1);
+					}
+
+					buff->setSpeedMultiplierMod(0.75f);
+					buff->setAccelerationMultiplierMod(0.75f);
+					targetCreature->setSnaredState(8);
+					StringBuffer targetRootMessage;
+
+					targetRootMessage << "You have been snared!";
+					targetCreature->sendSystemMessage(targetRootMessage.toString());
+
+					targetCreature->addBuff(buff);
+					creature->updateCooldownTimer(skillName, delay * 1000);
+
+				}
+
+			}
+			return res;
+		}
+
+		String getCooldownString(uint32 delta) const {
+
+			int seconds = delta / 1000;
+
+			int hours = seconds / 3600;
+			seconds -= hours * 3600;
+
+			int minutes = seconds / 60;
+			seconds -= minutes * 60;
+
+			StringBuffer buffer;
+
+			if (hours > 0)
+				buffer << hours << "h ";
+
+			if (minutes > 0)
+				buffer << minutes << "m ";
+
+			if (seconds > 0)
+				buffer << seconds << "s";
+
+			return buffer.toString();
+		}
 
 };
 
