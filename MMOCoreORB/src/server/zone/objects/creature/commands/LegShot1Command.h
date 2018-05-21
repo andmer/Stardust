@@ -71,7 +71,7 @@ public:
 					buff->setSpeedMultiplierMod(0.75f);
 					buff->setAccelerationMultiplierMod(0.75f);
 					targetCreature->setSnaredState(8);
-					targetCreature->playEffect("clienteffect/commando_position_secure.cef", "");
+					targetCreature->playEffect("clienteffect/commando_position_secured.cef", "");
 					StringBuffer targetRootMessage;
 
 					targetRootMessage << "You have been snared!";
@@ -79,6 +79,12 @@ public:
 
 					targetCreature->addBuff(buff);
 					creature->updateCooldownTimer(skillName, delay * 1000);
+
+					if (!creature->checkCooldownRecovery(skillName)){
+							Time* timeRemaining = 0;
+							creature->sendSystemMessage("You are ready to Leg Shot again.");
+							return;
+					}
 
 				}
 
