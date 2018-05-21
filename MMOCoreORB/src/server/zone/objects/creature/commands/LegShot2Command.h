@@ -10,8 +10,8 @@
 class LegShot2Command : public CombatQueueCommand {
 
 protected:
-	String skillName = "legShot1";		// Skill Name
-	String skillNameDisplay = "Leg Shot";		// Skill Display Name for output message
+	String skillName = "legShot2";		// Skill Name
+	String skillNameDisplay = "Improved Leg Shot";		// Skill Display Name for output message
 	int delay = 36; 								//  30 second cool down timer after root expires
 
 public:

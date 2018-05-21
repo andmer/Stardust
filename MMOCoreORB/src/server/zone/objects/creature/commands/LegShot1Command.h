@@ -43,11 +43,7 @@ public:
 			} else if (player == NULL)
 				return GENERALERROR;
 
-			if (!creature->checkCooldownRecovery(skillName)){
-				Time* timeRemaining = creature->getCooldownTime(skillName);
-				creature->sendSystemMessage("You must wait " +  getCooldownString(timeRemaining->miliDifference() * -1)  + " to use " + skillNameDisplay + " again");
-				return GENERALERROR;
-			}
+
 
 			int res = doCombatAction(creature, target);
 
@@ -55,8 +51,13 @@ public:
 
 				// Setup debuff.
 
+				if (!creature->checkCooldownRecovery(skillName)){
+								Time* timeRemaining = creature->getCooldownTime(skillName);
+								creature->sendSystemMessage("Target can not be snared with " + skillNameDisplay + " for another " +  getCooldownString(timeRemaining->miliDifference() * -1));
+								return res;
+				}
 
-				if (targetCreature != NULL) {
+				else if (targetCreature != NULL) {
 					Locker clocker(targetCreature, creature);
 
 					ManagedReference<Buff*> buff = new Buff(targetCreature, getNameCRC(), 6, BuffType::OTHER);
@@ -80,15 +81,12 @@ public:
 					targetCreature->addBuff(buff);
 					creature->updateCooldownTimer(skillName, delay * 1000);
 
-					if (!creature->checkCooldownRecovery(skillName)){
-							Time* timeRemaining = 0;
-							creature->sendSystemMessage("You are ready to Leg Shot again.");
-					}
 
+					return res;
 				}
 
 			}
-			return res;
+
 		}
 
 		String getCooldownString(uint32 delta) const {
