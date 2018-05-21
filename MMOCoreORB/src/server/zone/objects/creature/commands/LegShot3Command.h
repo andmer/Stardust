@@ -46,9 +46,11 @@ public:
 										uint32 buffcrc = BuffCRC::FORCE_RANK_SUFFERING;
 										uint32 buffcrc2 = BuffCRC::FORCE_RANK_SERENITY;
 										uint32 buffcrc3 = BuffCRC::FORCE_RANK_SERENITY;
+										uint32 buffCRC1 = STRING_HASHCODE("setSpeed");
 										ManagedReference<Buff*> buff2 = new Buff(creature, buffcrc2, duration2, BuffType::JEDI);
 										ManagedReference<Buff*> buff3 = new Buff(creatureTarget, buffcrc3, duration3, BuffType::JEDI);
 										ManagedReference<Buff*> buff1 = new Buff(creatureTarget, buffcrc, duration, BuffType::JEDI);
+										ManagedReference<Buff*> buff = new Buff(creature, buffCRC1, duration, BuffType::OTHER);
 
 										//target is currently snared/rooted
 										if (creatureTarget->hasBuff(buffcrc)) {
