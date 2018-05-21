@@ -54,7 +54,6 @@ public:
 				if (!creature->checkCooldownRecovery(skillName)){
 								Time* timeRemaining = creature->getCooldownTime(skillName);
 								creature->sendSystemMessage("Target can not be snared with " + skillNameDisplay + " for another " +  getCooldownString(timeRemaining->miliDifference() * -1));
-								return res;
 				}
 
 				else if (targetCreature != NULL) {
@@ -81,12 +80,10 @@ public:
 					targetCreature->addBuff(buff);
 					creature->updateCooldownTimer(skillName, delay * 1000);
 
-
-					return res;
 				}
 
 			}
-
+			return res;
 		}
 
 		String getCooldownString(uint32 delta) const {
