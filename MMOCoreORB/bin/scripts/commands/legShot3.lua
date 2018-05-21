@@ -53,17 +53,7 @@ LegShot3Command = {
     visMod = 25,
 
 
-  stateEffects = {
-    StateEffect( 
-    STUN_EFFECT, 
-    {}, 
-    { "stun_defense", "resistance_states" }, 
-    { "jedi_state_defense" }, 
-    100, 
-    0, 
-    30 
-    )
-  },
+  
 
   poolsToDamage = HEALTH_ATTRIBUTE,
 
