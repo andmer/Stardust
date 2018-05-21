@@ -71,6 +71,7 @@ public:
 					buff->setSpeedMultiplierMod(0.75f);
 					buff->setAccelerationMultiplierMod(0.75f);
 					targetCreature->setSnaredState(8);
+					targetCreature->playEffect("clienteffect/commando_position_secure.cef", "");
 					StringBuffer targetRootMessage;
 
 					targetRootMessage << "You have been snared!";
