@@ -67,9 +67,10 @@ ActionShot2Command = {
     { "resistance_bleeding", "bleed_resist" },
     ACTION,
     true,
-    0,
-    0.5,
-    1, 
+    600,
+    100,
+    100,
+    100, 
     40
     )
   },
