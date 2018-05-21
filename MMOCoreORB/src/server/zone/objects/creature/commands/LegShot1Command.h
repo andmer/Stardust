@@ -83,7 +83,6 @@ public:
 					if (!creature->checkCooldownRecovery(skillName)){
 							Time* timeRemaining = 0;
 							creature->sendSystemMessage("You are ready to Leg Shot again.");
-							return;
 					}
 
 				}
