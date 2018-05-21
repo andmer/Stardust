@@ -108,7 +108,7 @@ uint32 DamageOverTime::applyDot(CreatureObject* victim) {
 	switch(type) {
 	case CreatureState::BLEEDING:
 		power = doBleedingTick(victim, attacker);
-		nextTick.addMiliTime(20000);
+		nextTick.addMiliTime(6000);
 		break;
 	case CreatureState::POISONED:
 		power = doPoisonTick(victim, attacker);
