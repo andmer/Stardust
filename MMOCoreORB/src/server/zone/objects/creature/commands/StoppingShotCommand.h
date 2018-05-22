@@ -78,7 +78,7 @@ public:
 						targetCreature->sendSystemMessage(targetRootMessage.toString());
 
 						targetCreature->addBuff(buff);
-						creature->sendSystemMessage("You successfully root " + (targetCreature) + "!");
+						creature->sendSystemMessage("You successfully root your target!");
 						creature->updateCooldownTimer(skillName, delay * 1000);
 
 					}
