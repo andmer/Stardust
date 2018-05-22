@@ -25,7 +25,7 @@
 #include "server/zone/packets/object/CombatSpam.h"
 #include "QueueCommand.h"
 #include "server/zone/objects/player/FactionStatus.h"
-#include "server/zone/packets/player/PlayMusicMessage.h
+#include "server/zone/packets/player/PlayMusicMessage.h"
 
 class CombatQueueCommand : public QueueCommand {
 protected:
