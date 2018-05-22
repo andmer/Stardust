@@ -60,7 +60,7 @@ Melee2hMindHit1Command = {
     true,
     125,
     100,
-    30, 
+    1, 
     30
     )
   },
