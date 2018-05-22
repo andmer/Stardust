@@ -44,9 +44,9 @@
 FlushingShot1Command = {
         name = "flushingshot1",
 
-	damageMultiplier = 3,
+	damageMultiplier = 2,
 	healthCostMultiplier = 0,
-	actionCostMultiplier = 0.75,
+	actionCostMultiplier = 1,
 	mindCostMultiplier = 0,
 	accuracyBonus = 5,
 	visMod = 25,
@@ -79,7 +79,7 @@ FlushingShot1Command = {
 
 	combatSpam = "flushingshot",
 	
-	weaponType = SPECIALHEAVYWEAPON,
+	weaponType = RIFLEWEAPON,
 
 	range = -1
 }

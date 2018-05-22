@@ -42,9 +42,27 @@
 --true = 1, false = 0
 
 SurpriseShotCommand = {
-        name = "surpriseshot",
-	
+          name = "surpriseshot",
+  
+  damageMultiplier = 6,
+  speedMultiplier = 6,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 2,
+  mindCostMultiplier = 0,
+  accuracyBonus = 5,
+    visMod = 25,
+
+  poolsToDamage = HEALTH_ATTRIBUTE,
+
+
+  animation = "fire_1_special_single", 
+  animType = GENERATE_RANGED,
+
+  combatSpam = "masterheadshot",
+        
 	weaponType = RIFLEWEAPON,
+	
+	range = -1
 }
 
 AddCommand(SurpriseShotCommand)
