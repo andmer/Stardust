@@ -47,7 +47,7 @@ FullAutoSingle1Command = {
   damageMultiplier = 1.5,
   speedMultiplier = 1.65,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 3.5,
+  actionCostMultiplier = 2.25,
   mindCostMultiplier = 0,
     visMod = 25,
 
@@ -64,7 +64,7 @@ FullAutoSingle1Command = {
 		{ "jedi_state_defense" }, 
 		30, 
 		0, 
-		30 
+		15 
 	  ),
 	  StateEffect( 
 		BLIND_EFFECT, 
@@ -73,7 +73,7 @@ FullAutoSingle1Command = {
 		{ "jedi_state_defense" }, 
 		30, 
 		0, 
-		40 
+		20 
 	  ),
 	  StateEffect( 
 		STUN_EFFECT, 
@@ -82,7 +82,7 @@ FullAutoSingle1Command = {
 		{ "jedi_state_defense" }, 
 		30, 
 		0, 
-		30 
+		15 
 	  )
 	},
 

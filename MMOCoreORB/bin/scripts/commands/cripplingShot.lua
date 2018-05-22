@@ -44,8 +44,8 @@
 CripplingShotCommand = {
         name = "cripplingshot",
 
-	damageMultiplier = 5.75,
-  speedMultiplier = 3,
+	damageMultiplier = 5,
+  speedMultiplier = 4,
   healthCostMultiplier = 0,
   actionCostMultiplier = 5,
   mindCostMultiplier = 0,
