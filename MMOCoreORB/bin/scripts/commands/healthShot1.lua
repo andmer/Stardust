@@ -64,7 +64,7 @@ HealthShot1Command = {
 		{ "resistance_bleeding", "bleed_resist" },
 		HEALTH,
 		true,
-		100,
+		50,
 		1,
 		1, 
 		15
