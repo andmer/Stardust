@@ -178,7 +178,7 @@ uint32 DamageOverTime::doBleedingTick(CreatureObject* victim, CreatureObject* at
 	int absorptionMod = Math::max(0, Math::min(50, victim->getSkillMod("absorption_bleeding")));
 
 	// absorption reduces the strength of a dot by the given %.
-	int damage = (int)(strength * (1.f - absorptionMod / 100.f));
+	int damage = (int)(strength);// * (1.f - absorptionMod / 100.f));
 	if (attr < damage) {
 		//System::out << "setting strength to " << attr -1 << endl;
 		damage = attr - 1;
