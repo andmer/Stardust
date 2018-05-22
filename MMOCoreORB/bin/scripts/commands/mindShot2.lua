@@ -45,15 +45,15 @@ MindShot2Command = {
         name = "mindshot2",
 
 	damageMultiplier = 2.0,
-  speedMultiplier = 1,
+  speedMultiplier = 4,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 1,
+  actionCostMultiplier = 1.5,
   mindCostMultiplier = 0,
   --accuracyBonus = 5,
 
   poolsToDamage = HEALTH_ATTRIBUTE,
 
-	poolsToDamage = MIND_ATTRIBUTE,
+	
 
 	animation = "fire_1_special_single", 
 	animType = GENERATE_RANGED,
@@ -66,7 +66,7 @@ MindShot2Command = {
     { "resistance_bleeding", "bleed_resist", "combat_bleeding_defense" },
     HEALTH,
     true,
-    95,
+    25,
     75,
     1, 
     15
