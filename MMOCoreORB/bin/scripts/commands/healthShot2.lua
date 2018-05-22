@@ -64,10 +64,10 @@ HealthShot2Command = {
 		{ "resistance_bleeding", "bleed_resist" },
 		HEALTH,
 		true,
-		0,
-		10,
-		10, 
-		30
+		100,
+		1,
+		1, 
+		15
 	  )
 	},
 	
