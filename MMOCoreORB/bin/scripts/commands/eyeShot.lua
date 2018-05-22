@@ -44,10 +44,10 @@
 EyeShotCommand = {
         name = "eyeshot",
 
-	damageMultiplier = 3.0,
+	damageMultiplier = 1.0,
   speedMultiplier = 2.0,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 3,
+  actionCostMultiplier = 2.5,
   mindCostMultiplier = 0,
     visMod = 25,
 

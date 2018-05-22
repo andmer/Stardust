@@ -65,9 +65,9 @@ BleedingShotCommand = {
 		ACTION,
 		true,
 		0,
-		100,
-		1, 
-		10
+    200,
+    200, 
+    20
 	  )
 	},
 	

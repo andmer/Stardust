@@ -44,11 +44,11 @@
 DisarmingShot2Command = {
         name = "disarmingshot2",
 
-	damageMultiplier = 2.75,
+	damageMultiplier = 1.5,
   speedMultiplier = 1.0,
-  healthCostMultiplier = 0.5,
+  healthCostMultiplier = 0,
   actionCostMultiplier = 0.75,
-  mindCostMultiplier = 0.5,
+  mindCostMultiplier = 0,
         accuracyBonus = 50,
           visMod = 25,
 
