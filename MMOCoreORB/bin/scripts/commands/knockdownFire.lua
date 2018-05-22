@@ -73,6 +73,21 @@ KnockdownFireCommand = {
     )
   },
   
+  dotEffects = {
+    DotEffect( 
+    ONFIRE, 
+    {"resistance_fire", "fire_resist"},
+    HEALTH,
+    true,
+    100,
+    100,
+    100, 
+    60,
+    10,
+    2
+    )
+  },
+  
   poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_3_single", 
@@ -80,7 +95,7 @@ KnockdownFireCommand = {
 
 	combatSpam = "knockdownfire",
 	
-	weaponType = SPECIALHEAVYWEAPON,
+	weaponType = CARBINEWEAPON,
 
 	range = -1
 }
