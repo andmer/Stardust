@@ -44,24 +44,24 @@
 Melee2hHeadHit2Command = {
         name = "melee2hheadhit2",
 
-	damageMultiplier = 3,
+	damageMultiplier = 2,
   speedMultiplier = 1,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 0.8,
+  actionCostMultiplier = 1.5,
   mindCostMultiplier = 0,
         --accuracyBonus = 10,
 
   poolsToDamage = HEALTH_ATTRIBUTE,
   
     stateEffects = {
-    StateEffect(
-      KNOCKDOWN_EFFECT, 
-    { "knockdownRecovery", "lastKnockdown" }, 
-    { "knockdown_defense" }, 
+    StateEffect( 
+    DIZZY_EFFECT, 
     {}, 
+    { "dizzy_defense", "resistance_states" }, 
+    { "jedi_state_defense" }, 
     40, 
     100, 
-    10
+    5 
     )
   },
 	
@@ -72,7 +72,7 @@ Melee2hHeadHit2Command = {
 
 	combatSpam = "scalpstrike",
 
-	range = -1
+	range = 8
 }
 
 AddCommand(Melee2hHeadHit2Command)

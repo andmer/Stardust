@@ -69,21 +69,12 @@ Melee1hDizzyHit2Command = {
     40, 
     100, 
     10 
-    ),
-    StateEffect( 
-    KNOCKDOWN_EFFECT, 
-    { "knockdownRecovery", "lastKnockdown" }, 
-    { "knockdown_defense" }, 
-    {}, 
-    40, 
-    60, 
-    0 
-    )
+    ),    
   },
 	
 	weaponType = ONEHANDMELEEWEAPON,
 
-	range = -1
+	range = 8
 }
 
 AddCommand(Melee1hDizzyHit2Command)

@@ -44,7 +44,7 @@
 Melee1hBlindHit2Command = {
         name = "melee1hblindhit2",
 
-	damageMultiplier = 2.75,
+	damageMultiplier = 1.75,
   speedMultiplier = 3,
   healthCostMultiplier = 0,
   actionCostMultiplier = 2.5,
@@ -63,7 +63,7 @@ Melee1hBlindHit2Command = {
     { "jedi_state_defense" }, 
     70, 
     70, 
-    10 
+    15 
     )
   },
 
@@ -75,7 +75,7 @@ Melee1hBlindHit2Command = {
 
 	combatSpam = "blindingslash",
 
-	range = -1
+	range = 8
 }
 
 AddCommand(Melee1hBlindHit2Command)

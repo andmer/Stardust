@@ -43,24 +43,14 @@
 
 Melee2hHit2Command = {
         name = "melee2hhit2",
-	damageMultiplier = 3.75,
+	damageMultiplier = 1.75,
   speedMultiplier = 2.25,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 1.5,
+  actionCostMultiplier = 1.25,
   mindCostMultiplier = 0,
         accuracyBonus = 10,
         
-  stateEffects = {
-    StateEffect( 
-    POSTUREDOWN_EFFECT, 
-    { "postureDownRecovery" }, 
-    { "posture_change_down_defense" }, 
-    {}, 
-    100, 
-    0, 
-    0 
-    )
-  },
+  
 
   poolsToDamage = HEALTH_ATTRIBUTE,
 
@@ -71,7 +61,7 @@ Melee2hHit2Command = {
 
 	combatSpam = "violentstrike",
 
-	range = -1
+	range = 8
 }
 
 AddCommand(Melee2hHit2Command)

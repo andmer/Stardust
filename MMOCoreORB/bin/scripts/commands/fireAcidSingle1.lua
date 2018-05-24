@@ -52,6 +52,21 @@ FireAcidSingle1Command = {
   accuracyBonus = 0,
 
   poolsToDamage = HEALTH_ATTRIBUTE,
+  
+  dotEffects = {
+    DotEffect( 
+    POISONED_EFFECT, 
+    {"resistance_poison", "poison_resist"},
+    HEALTH,
+    true,
+    100,
+    100,
+    100, 
+    40,
+    50,
+    0
+    )
+  },
 
 	animation = "fire_acid_rifle_single_1", 
 	animType = GENERATE_INTENSITY,
@@ -60,7 +75,7 @@ FireAcidSingle1Command = {
 	
 	weaponType = SPECIALHEAVYWEAPON,
 	
-	range = 16
+	range = 32
 }
 
 AddCommand(FireAcidSingle1Command)

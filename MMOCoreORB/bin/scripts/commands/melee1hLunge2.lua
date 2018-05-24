@@ -47,7 +47,7 @@ Melee1hLunge2Command = {
 	damageMultiplier = 1.5,
   speedMultiplier = 2,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 2.5,
+  actionCostMultiplier = 2,
   mindCostMultiplier = 0,
     visMod = 25,
   
@@ -57,7 +57,7 @@ Melee1hLunge2Command = {
 
 	combatSpam = "lungestab",
 
-	range = 20,
+	range = 15,
 
 	weaponType = ONEHANDMELEEWEAPON,
 

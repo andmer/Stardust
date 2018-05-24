@@ -69,7 +69,7 @@ Melee1hDizzyHit1Command = {
 
 	weaponType = ONEHANDMELEEWEAPON,
 	
-	range = -1
+	range = 8
 
 }
 

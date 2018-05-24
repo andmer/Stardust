@@ -44,25 +44,15 @@
 Melee2hArea2Command = {
         name = "melee2harea2",
 	damageMultiplier = 2.75,
-  speedMultiplier = 2.7,
+  speedMultiplier = 3,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 3.25,
+  actionCostMultiplier = 1.25,
   mindCostMultiplier = 0,
         accuracyBonus = 10,
 
-  stateEffects = {
-    StateEffect( 
-    POSTUREDOWN_EFFECT, 
-    { "postureDownRecovery" }, 
-    { "posture_change_down_defense" }, 
-    {}, 
-    15, 
-    100, 
-    0 
-    )
-  },
+  
 
-  areaRange = 16,
+  areaRange = 10,
   areaAction = true,
 
   poolsToDamage = HEALTH_ATTRIBUTE,
@@ -73,7 +63,7 @@ Melee2hArea2Command = {
 	
 	weaponType = TWOHANDMELEEWEAPON,
 
-	range = 10
+	range = 8
 }
 
 AddCommand(Melee2hArea2Command)

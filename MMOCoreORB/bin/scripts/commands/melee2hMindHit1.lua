@@ -58,10 +58,10 @@ Melee2hMindHit1Command = {
     { "resistance_bleeding", "bleed_resist" },
     ACTION,
     true,
-    125,
+    0,
     100,
-    1, 
-    30
+    100, 
+    20
     )
   },
 	
@@ -72,7 +72,7 @@ Melee2hMindHit1Command = {
 
 	combatSpam = "mindstrike",
 
-	range = -1
+	range = 8
 }
 
 AddCommand(Melee2hMindHit1Command)

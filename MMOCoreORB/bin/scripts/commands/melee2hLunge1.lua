@@ -49,7 +49,7 @@ Melee2hLunge1Command = {
   accuracyBonus = 10,
   
   healthCostMultiplier = 0,
-  actionCostMultiplier = 3,
+  actionCostMultiplier = 1,
   mindCostMultiplier = 0,
   
   poolsToDamage = HEALTH_ATTRIBUTE,
@@ -58,7 +58,7 @@ Melee2hLunge1Command = {
 
 	combatSpam = "lungeslam",
 
-	range = 20,
+	range = 15,
 	
 	weaponType = TWOHANDMELEEWEAPON,
 
@@ -68,7 +68,7 @@ Melee2hLunge1Command = {
 		{ "postureDownRecovery" }, 
 		{ "posture_change_down_defense" }, 
 		{}, 
-		100, 
+		75, 
 		0, 
 		0 
 	  )

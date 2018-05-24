@@ -43,27 +43,17 @@
 
 Melee2hHit3Command = {
         name = "melee2hhit3",
-	damageMultiplier = 5,
+	damageMultiplier = 2.25,
   speedMultiplier = 3.25,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 3.75,
+  actionCostMultiplier = 1.5,
   mindCostMultiplier = 0,
         --accuracyBonus = 10,
           visMod = 25,
 
   poolsToDamage = HEALTH_ATTRIBUTE,
   
-    stateEffects = {
-    StateEffect(
-      KNOCKDOWN_EFFECT, 
-    { "knockdownRecovery", "lastKnockdown" }, 
-    { "knockdown_defense" }, 
-    {}, 
-    40, 
-    100, 
-    10
-    )
-  },
+    
 	
 	weaponType = TWOHANDMELEEWEAPON,
 
@@ -72,7 +62,7 @@ Melee2hHit3Command = {
 
 	combatSpam = "viciousstrike",
 
-	range = -1
+	range = 8
 }
 
 AddCommand(Melee2hHit3Command)

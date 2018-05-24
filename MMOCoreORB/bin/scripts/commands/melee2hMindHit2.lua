@@ -46,7 +46,7 @@ Melee2hMindHit2Command = {
 	damageMultiplier = 2.0,
   speedMultiplier = 2.0,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 4,
+  actionCostMultiplier = 2,
   mindCostMultiplier = 0,
         accuracyBonus = 10,
           visMod = 25,
@@ -59,10 +59,10 @@ Melee2hMindHit2Command = {
     { "resistance_bleeding", "bleed_resist" },
     ACTION,
     true,
-    125,
-    100,
-    1, 
-    10
+    0,
+    200,
+    200, 
+    30
     )
   },
 	
@@ -73,7 +73,7 @@ Melee2hMindHit2Command = {
 
 	combatSpam = "mindslam",
 
-	range = -1
+	range = 8
 }
 
 AddCommand(Melee2hMindHit2Command)

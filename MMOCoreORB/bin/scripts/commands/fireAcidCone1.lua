@@ -59,12 +59,27 @@ FireAcidCone1Command = {
 
 	animation = "fire_acid_rifle_single_1", 
 	animType = GENERATE_INTENSITY,
+	
+	dotEffects = {
+    DotEffect( 
+    POISONED_EFFECT, 
+    {"resistance_poison", "poison_resist"},
+    HEALTH,
+    true,
+    100,
+    100,
+    100, 
+    40,
+    50,
+    0
+    )
+  },
 
 	combatSpam = "fireacidcone1",
 	
 	weaponType = SPECIALHEAVYWEAPON,
 	
-	range = 16
+	range = 32
 }
 
 AddCommand(FireAcidCone1Command)

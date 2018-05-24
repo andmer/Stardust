@@ -44,10 +44,10 @@
 Melee1hBodyHit3Command = {
         name = "melee1hbodyhit3",
 
-	damageMultiplier = 2,
+	damageMultiplier = 2.75,
   speedMultiplier = 1,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 0.75,
+  actionCostMultiplier = 1.25,
   mindCostMultiplier = 0,
         accuracyBonus = 25,
           visMod = 25,
@@ -60,7 +60,7 @@ Melee1hBodyHit3Command = {
 
 	combatSpam = "saitok",
 
-	range = -1
+	range = 8
 }
 
 AddCommand(Melee1hBodyHit3Command)

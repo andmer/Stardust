@@ -47,7 +47,7 @@ Melee2hSweep1Command = {
 	damageMultiplier = 1.5,
   speedMultiplier = 3,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 3.5,
+  actionCostMultiplier = 2.5,
   mindCostMultiplier = 0,
   
   poolsToDamage = HEALTH_ATTRIBUTE,
@@ -62,7 +62,7 @@ Melee2hSweep1Command = {
 		{ "postureDownRecovery" }, 
 		{ "posture_change_down_defense" }, 
 		{}, 
-		100, 
+		60, 
 		0, 
 		0 
 	  )
@@ -70,7 +70,7 @@ Melee2hSweep1Command = {
 	
 	weaponType = TWOHANDMELEEWEAPON,
 
-	range = -1
+	range = 8
 
 }
 

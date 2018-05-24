@@ -43,10 +43,10 @@
 
 Melee2hArea3Command = {
         name = "melee2harea3",
-	damageMultiplier = 4,
+	damageMultiplier = 2,
   speedMultiplier = 2.7,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 3.25,
+  actionCostMultiplier = 2,
   mindCostMultiplier = 0,
         --accuracyBonus = 10,
           visMod = 25,
@@ -65,7 +65,7 @@ Melee2hArea3Command = {
     )
   },
 
-	areaRange = 16,
+	areaRange = 10,
 	areaAction = true,
 
 	animation = "lower_posture_2hmelee_5",
