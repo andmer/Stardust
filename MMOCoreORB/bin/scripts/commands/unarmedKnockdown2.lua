@@ -44,7 +44,7 @@
 UnarmedKnockdown2Command = {
         name = "unarmedknockdown2",
 
-	damageMultiplier = 4,
+	damageMultiplier = 1,
   speedMultiplier = 1,
   healthCostMultiplier = 0,
   actionCostMultiplier = 1,
@@ -60,8 +60,8 @@ UnarmedKnockdown2Command = {
     { "knockdownRecovery", "lastKnockdown" }, 
     { "knockdown_defense" }, 
     {}, 
-    80, 
     100, 
+    0, 
     0 
     )
   },
@@ -72,7 +72,7 @@ UnarmedKnockdown2Command = {
 	
 	weaponType = UNARMEDWEAPON,
 
-	range = 10
+	range = 6
 }
 
 AddCommand(UnarmedKnockdown2Command)

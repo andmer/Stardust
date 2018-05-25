@@ -44,7 +44,7 @@
 UnarmedHit3Command = {
         name = "unarmedhit3",
 
-	damageMultiplier = 5.5,
+	damageMultiplier = 3,
   speedMultiplier = 3.5,
   healthCostMultiplier = 0,
   actionCostMultiplier = 1,
@@ -58,24 +58,12 @@ UnarmedHit3Command = {
 	animType = GENERATE_INTENSITY,
 
 
-
-	stateEffects = {
-	  StateEffect( 
-		BLIND_EFFECT, 
-		{}, 
-		{ "blind_defense", "resistance_states" }, 
-		{ "jedi_state_defense" }, 
-		40, 
-		0, 
-		30
-	  )
-	},
 	
 	combatSpam = "spittingrawl",
 	
 	weaponType = UNARMEDWEAPON,	
 
-	range = 10
+	range = 6
 }
 
 AddCommand(UnarmedHit3Command)

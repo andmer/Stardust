@@ -44,10 +44,10 @@
 UnarmedCombo2Command = {
 	name = "unarmedcombo2",
 
-	damageMultiplier = 5,
+	damageMultiplier = 4,
   speedMultiplier = 3,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 1,
+  actionCostMultiplier = 4,
   mindCostMultiplier = 0,
     visMod = 25,
         --accuracyBonus = 15,

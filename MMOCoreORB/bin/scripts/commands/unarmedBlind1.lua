@@ -44,18 +44,20 @@
 UnarmedBlind1Command = {
 	name = "unarmedblind1",
 
-	damageMultiplier = 1.5,
+	damageMultiplier = 1,
 	speedMultiplier = 2.0,
 	accuracyBonus = 15,
 	 visMod = 25,
 	
-	healthCostMultiplier = 1.5,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 1.5,
-	mindCostMultiplier = 1.5,
+	mindCostMultiplier = 0,
 
 	animation = "attack_high_center_light_1",
 
 	combatSpam = "aryxslash",
+
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
 	stateEffects = {
 	  StateEffect( 
@@ -71,7 +73,7 @@ UnarmedBlind1Command = {
 	
 	weaponType = UNARMEDWEAPON,
 
-	range = -1
+	range = 6
 }
 
 AddCommand(UnarmedBlind1Command)

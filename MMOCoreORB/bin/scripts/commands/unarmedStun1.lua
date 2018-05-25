@@ -44,19 +44,21 @@
 UnarmedStun1Command = {
 	name = "unarmedstun1",
 
-	damageMultiplier = 1.25,
+	damageMultiplier = 1,
 	speedMultiplier = 2.0,
 	accuracyBonus = 15,
 	 visMod = 25,
 	
-	healthCostMultiplier = 1.5,
+	healthCostMultiplier = 0,
 	actionCostMultiplier = 1.5,
-	mindCostMultiplier = 1.5,
+	mindCostMultiplier = 0,
 
 	animation = "combo_4c", 
 	animType = GENERATE_INTENSITY,
 
 	combatSpam = "screamingsquill",
+
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
 	stateEffects = {
 	  StateEffect( 
@@ -72,7 +74,7 @@ UnarmedStun1Command = {
 	
 	weaponType = UNARMEDWEAPON,
 
-	range = -1
+	range = 6
 }
 
 AddCommand(UnarmedStun1Command)

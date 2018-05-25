@@ -44,7 +44,7 @@
 UnarmedDizzy1Command = {
         name = "unarmeddizzy1",
 
-	damageMultiplier = 2,
+	damageMultiplier = 1,
   speedMultiplier = 1.0,
   healthCostMultiplier = 0,
   actionCostMultiplier = 1,
@@ -72,7 +72,7 @@ UnarmedDizzy1Command = {
 	
 	weaponType = UNARMEDWEAPON,
 
-	range = -1
+	range = 6
 }
 
 AddCommand(UnarmedDizzy1Command)
