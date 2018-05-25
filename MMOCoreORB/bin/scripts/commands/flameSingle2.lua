@@ -64,11 +64,11 @@ FlameSingle2Command = {
 		HEALTH,
 		true,
 		0,
-		400,
-		400, 
+		100,
+		100, 
 		60,
-		10,
-		2
+		100,
+		20
 	  )
 	},
 	
