@@ -37,25 +37,42 @@ public:
 		//TODO: play coup_de_grace combat animations - ranged_coup_de_grace, melee_coup_de_grace, unarmed_coup_de_grace
 
 		if (targetObject->isPlayerCreature()) {
-			CreatureObject* player = cast<CreatureObject*>( targetObject.get());
+					CreatureObject* player = cast<CreatureObject*>( targetObject.get());
 
-			Locker clocker(player, creature);
+					Locker clocker(player, creature);
 
-			if (!CollisionManager::checkLineOfSight(creature, player)) {
-				creature->sendSystemMessage("@combat_effects:cansee_fail");// You cannot see your target.
-				return GENERALERROR;
-			}
+					if (!CollisionManager::checkLineOfSight(creature, player)) {
+						creature->sendSystemMessage("@container_error_message:container18");
+						return GENERALERROR;
+					}
 
-			if (!player->isIncapacitated() || player->isFeigningDeath()){
-				creature->sendSystemMessage("@error_message:target_not_incapacitated"); //You cannot perform the death blow. Your target is not incapacitated.
-				return GENERALERROR;
-			}
+					if (!player->isIncapacitated() || player->isFeigningDeath()){
+						creature->sendSystemMessage("@error_message:target_not_incapacitated");
+						return GENERALERROR;
+					}
 
-			if (player->isAttackableBy(creature) && checkDistance(player, creature, 5)) {
-				PlayerManager* playerManager = server->getPlayerManager();
+					if (player->isAttackableBy(creature) && checkDistance(player, creature, 10) && player->getFaction() == Factions::FACTIONREBEL) {
+						PlayerManager* playerManager = server->getPlayerManager();
 
-				playerManager->killPlayer(creature, player, 1);
-			}
+						creature->playEffect("clienteffect/holoemote_imperial.cef", "head");
+						creature->playMusicMessage("sound/music_themequest_victory_imperial.snd");
+						playerManager->killPlayer(creature, player, 1);
+					}
+
+					if (player->isAttackableBy(creature) && checkDistance(player, creature, 10) && player->getFaction() == Factions::FACTIONIMPERIAL) {
+						PlayerManager* playerManager = server->getPlayerManager();
+
+						creature->playEffect("clienteffect/holoemote_rebel.cef", "head");
+						creature->playMusicMessage("sound/music_themequest_victory_rebel.snd");
+						playerManager->killPlayer(creature, player, 1);
+					}
+					if (player->isAttackableBy(creature) && checkDistance(player, creature, 10) && player->getFaction() == Factions::FACTIONNEUTRAL) {
+						PlayerManager* playerManager = server->getPlayerManager();
+
+						creature->playEffect("clienteffect/holoemote_haunted.cef", "head");
+						creature->playMusicMessage("sound/music_combat_bfield_def.snd");
+						playerManager->killPlayer(creature, player, 1);
+					}
 		} else if (targetObject->isPet()) {
 			AiAgent* pet = cast<AiAgent*>( targetObject.get());
 
