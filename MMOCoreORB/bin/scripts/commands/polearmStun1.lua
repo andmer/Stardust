@@ -44,11 +44,11 @@
 PolearmStun1Command = {
         name = "polearmstun1",
 
-	damageMultiplier = 1.5,
-	speedMultiplier = 1.5,
-	healthCostMultiplier = 1.0,
-	actionCostMultiplier = 0.5,
-	mindCostMultiplier = 0.5,
+	damageMultiplier = 1,
+	speedMultiplier = 1,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 1.5,
+	mindCostMultiplier = 0,
 	accuracyBonus = 10,
 
 	animation = "combo_4a", 
@@ -62,15 +62,15 @@ PolearmStun1Command = {
 		{}, 
 		{ "stun_defense", "resistance_states" }, 
 		{ "jedi_state_defense" }, 
-		100, 
-		0, 
-		30 
+		40, 
+		60, 
+		10 
 	  )
 	},
 	
 	weaponType = POLEARMWEAPON,
 
-	range = -1
+	range = 10
 
 }
 

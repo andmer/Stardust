@@ -44,10 +44,10 @@
 PolearmStun2Command = {
         name = "polearmstun2",
 
-	damageMultiplier = 1.5,
+	damageMultiplier = 1,
   speedMultiplier = 1,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 1,
+  actionCostMultiplier = 1.5,
   mindCostMultiplier = 0,
   accuracyBonus = 30,
   poolsToDamage = HEALTH_ATTRIBUTE,
@@ -73,7 +73,7 @@ PolearmStun2Command = {
 	
 	weaponType = POLEARMWEAPON,
 
-	range = -1
+	range = 10
 }
 
 AddCommand(PolearmStun2Command)

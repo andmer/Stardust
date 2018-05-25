@@ -44,10 +44,10 @@
 PolearmArea1Command = {
         name = "polearmarea1",
 
-	damageMultiplier = 4.5,
+	damageMultiplier = 1.25,
   speedMultiplier = 1.25,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 4,
+  actionCostMultiplier = 2.25,
   mindCostMultiplier = 0,
   accuracyBonus = 10,
 
@@ -63,7 +63,7 @@ PolearmArea1Command = {
 	
 	weaponType = POLEARMWEAPON,
 
-	range = -1
+	range = 10
 }
 
 AddCommand(PolearmArea1Command)
