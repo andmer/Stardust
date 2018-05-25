@@ -6,6 +6,10 @@
 #define STEADYAIMCOMMAND_H_
 
 #include "SquadLeaderCommand.h"
+#include "CombatQueueCommand.h"
+#include "server/zone/managers/combat/CombatManager.h"
+#include "server/zone/objects/player/events/setNormalTask.h"
+#include "server/zone/objects/scene/SceneObject.h"
 
 class SteadyaimCommand : public SquadLeaderCommand {
 public:
@@ -61,6 +65,7 @@ public:
 			UnicodeString shout(ghost->getCommandMessageString(STRING_HASHCODE("steadyaim")));
  	 	 	server->getChatManager()->broadcastChatMessage(player, shout, 0, 80, player->getMoodID(), 0, ghost->getLanguageID());
  	 	 	creature->updateCooldownTimer("command_message", 30 * 1000);
+ 	 	 	creature->playEffect("clienteffect/off_tactics.cef", "");
 		}
 
 		return SUCCESS;

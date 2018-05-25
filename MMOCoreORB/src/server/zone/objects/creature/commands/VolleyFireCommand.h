@@ -7,6 +7,10 @@
 
 #include "SquadLeaderCommand.h"
 #include "server/zone/managers/skill/SkillModManager.h"
+#include "CombatQueueCommand.h"
+#include "server/zone/managers/combat/CombatManager.h"
+#include "server/zone/objects/player/events/setNormalTask.h"
+#include "server/zone/objects/scene/SceneObject.h"
 
 class VolleyFireCommand : public SquadLeaderCommand {
 public:
@@ -96,6 +100,8 @@ public:
 			uint64 queueActionCRC = queueAction.hashCode();
 
 			member->executeObjectControllerAction(queueActionCRC, (uint64)target, "");
+			member->playEffect("clienteffect/off_superior_firepower.cef", "");
+			leader->playEffect("clienteffect/off_superior_firepower.cef", "");
 
 			checkForTef(leader, member);
 		}
