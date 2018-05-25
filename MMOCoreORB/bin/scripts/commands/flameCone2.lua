@@ -65,12 +65,12 @@ FlameCone2Command = {
     {"resistance_fire", "fire_resist"},
     HEALTH,
     true,
-    100,
+    0,
     100,
     100, 
-    30,
-    15,
-    20
+    20,
+    10,
+    10
     )
   },
 	
