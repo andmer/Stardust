@@ -86,6 +86,9 @@ public:
 
 			sendCombatSpam(member);
 
+			member->playEffect("clienteffect/off_charge.cef", "");
+			leader->playEffect("clienteffect/off_charge.cef", "");
+
 			if (member->isDizzied())
 				member->removeStateBuff(CreatureState::DIZZY);
 					

@@ -93,6 +93,8 @@ public:
 			if (!weapon->isRangedWeapon())
 				continue;
 
+			member->playEffect("clienteffect/off_tactics.cef", "");
+
 			int duration = 300;
 
 			ManagedReference<Buff*> buff = new Buff(member, actionCRC, duration, BuffType::SKILL);

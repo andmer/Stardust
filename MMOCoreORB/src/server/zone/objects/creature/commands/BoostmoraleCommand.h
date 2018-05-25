@@ -141,6 +141,7 @@ public:
 					woundsToApply = wounds[1] - totalWoundsApplied;
 
 				member->addWounds(j, woundsToApply, true, false);
+				member->playEffect("clienteffect/off_inspiration.cef", "");
 
 				woundsApplied += woundsToApply;
 				totalWoundsApplied += woundsToApply;
