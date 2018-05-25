@@ -75,8 +75,8 @@ public:
 		if (!skillCRC.isEmpty())
 			player->addSkillMod(SkillModManager::ABILITYBONUS, skillCRC, (int) skillMod * -2, false);
 
-		member->playEffect("clienteffect/off_superior_firepower.cef", "");
-		leader->playEffect("clienteffect/off_superior_firepower.cef", "");
+		player->playEffect("clienteffect/off_superior_firepower.cef", "");
+
 
 		return ret == SUCCESS;
 	}
