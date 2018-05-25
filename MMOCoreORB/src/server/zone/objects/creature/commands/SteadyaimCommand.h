@@ -68,6 +68,7 @@ public:
 		}
 
 		creature->playEffect("clienteffect/off_tactics.cef", "");
+		ghost->playEffect("clienteffect/off_tactics.cef", "");
 
 		return SUCCESS;
 	}
