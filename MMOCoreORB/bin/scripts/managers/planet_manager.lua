@@ -750,7 +750,9 @@ kaas = {
     {name = "a Smuggler Outpost", x = 2852, z = 125, y = 3896, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1},
     },
     
-    badgeAreas = {   
+    badgeAreas = { 
+      {"kaas_vitiate_tomb",5915,-1109,0,30,144},
+      {"kaas_kaas_city", -6131,2715,0,300,145},       
   },
 }
 hutta = {
@@ -777,7 +779,8 @@ coruscant = {
     {name = "Lower City Level 1312", x = -5815, z = 0, y = -4850, interplanetaryTravelAllowed = 0, incomingTravelAllowed = 1},
     },
     
-    badgeAreas = {   
+    badgeAreas = { 
+      {"coruscant_imperial_palace", -120,3311,0,30,146},   
   },
 }
 moraband = {
