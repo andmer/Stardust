@@ -40,6 +40,18 @@
 --gives permission to release a modified version without this exception; 
 --this exception also makes it possible to release a modified version 
 
+--[[
+armor_special_type
+1 = kinetic
+2 = energy
+4 = blast
+8 = stun
+16 = lightsaber
+32 = heat
+64 = cold
+128 = acid
+256 = electrical
+--]]
 
 object_tangible_component_armor_armor_layer_kinetic = object_tangible_component_armor_shared_armor_layer_kinetic:new {
 
