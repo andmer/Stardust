@@ -126,8 +126,8 @@ object_weapon_ranged_pistol_pistol_geonosian_sonic_blaster_loot = object_weapon_
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "expRange", "null", "null", "null", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 33, 65, 5.6, 8, 15, 500, 18, -90, 15, 35, 0, 300, 0},
-	experimentalMax = {0, 0, 198, 388, 3.3, 16, 60, 1250, 18, -90, 15, 10, 0, 300, 0},
+	experimentalMin = {0, 0, 33, 65, 2, 8, 15, 500, 18, -90, 15, 35, 0, 300, 0},
+	experimentalMax = {0, 0, 198, 388, 2, 16, 60, 1250, 18, -90, 15, 10, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

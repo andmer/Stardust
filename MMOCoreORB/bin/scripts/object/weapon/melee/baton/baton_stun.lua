@@ -128,8 +128,8 @@ object_weapon_melee_baton_baton_stun = object_weapon_melee_baton_shared_baton_st
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "expRange", "null", "expRange", "null", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "maxrange", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 225, 335, 1, 1, 750, -5, -5, 2, -5, 4, 0, 300, 0},
-	experimentalMax = {0, 0, 246, 400, 1, 3, 1500, 5, 5, 2, 5, 4, 0, 300, 0},
+	experimentalMin = {0, 0, 225, 335, 2, 1, 750, -5, -5, 2, -5, 4, 0, 300, 0},
+	experimentalMax = {0, 0, 246, 400, 2, 3, 1500, 5, 5, 2, 5, 4, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 150, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

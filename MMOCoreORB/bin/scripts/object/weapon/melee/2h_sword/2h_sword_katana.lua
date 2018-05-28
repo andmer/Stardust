@@ -126,8 +126,8 @@ object_weapon_melee_2h_sword_2h_sword_katana = object_weapon_melee_2h_sword_shar
   experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
   experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "expRange", "null", "expRange", "null", "null", "null", "null"},
   experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "maxrange", "attackhealthcost", "attackactioncost", "attackmindcost"},
-  experimentalMin = {0, 0, 111, 235, 1, 15, 750, -4, -4, 3, -4, 4, 0, 300, 0},
-  experimentalMax = {0, 0, 120, 450, 1, 27, 1500, 6, 6, 3, 6, 4, 0, 300, 0},
+  experimentalMin = {0, 0, 111, 235, 3, 15, 750, -4, -4, 3, -4, 4, 0, 300, 0},
+  experimentalMax = {0, 0, 120, 450, 3, 27, 1500, 6, 6, 3, 6, 4, 0, 300, 0},
   experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
   experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

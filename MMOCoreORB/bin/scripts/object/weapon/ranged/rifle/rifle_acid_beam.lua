@@ -124,8 +124,8 @@ object_weapon_ranged_rifle_rifle_acid_beam = object_weapon_ranged_rifle_shared_r
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "null", "expRange", "expRange", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "midrange", "midrangemod", "maxrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 168, 228, 1.0, 19, 750, 15, 35, -21, -121, 0, 300, 0},
-	experimentalMax = {0, 0, 210, 255, 1.0, 35, 1500, 25, 35, -5, -90, 0, 300, 0},
+	experimentalMin = {0, 0, 168, 228, 4, 19, 750, 15, 35, -21, -121, 0, 300, 0},
+	experimentalMax = {0, 0, 210, 255, 4, 35, 1500, 25, 35, -5, -90, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

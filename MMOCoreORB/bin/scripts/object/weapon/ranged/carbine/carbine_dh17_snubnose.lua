@@ -126,8 +126,8 @@ object_weapon_ranged_carbine_carbine_dh17_snubnose = object_weapon_ranged_carbin
   experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
   experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "null", "null", "null"},
   experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
-  experimentalMin = {0, 0, 28, 281, 4.5, 6, 30, 750, -25, -80, 25, -5, 0, 300, 0},
-  experimentalMax = {0, 0, 52, 350, 3.1, 12, 65, 1500, -25, -80, 25, 5, 0, 300, 0},
+  experimentalMin = {0, 0, 28, 281, 3, 6, 30, 750, -25, -80, 25, -5, 0, 300, 0},
+  experimentalMax = {0, 0, 52, 350, 3, 12, 65, 1500, -25, -80, 25, 5, 0, 300, 0},
   experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
   experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

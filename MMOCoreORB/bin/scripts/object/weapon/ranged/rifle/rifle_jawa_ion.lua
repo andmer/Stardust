@@ -126,8 +126,8 @@ object_weapon_ranged_rifle_rifle_jawa_ion = object_weapon_ranged_rifle_shared_ri
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 56, 105, 1, 3, 15, 750, -50, -80, 40, -5, 0, 300, 0},
-	experimentalMax = {0, 0, 104, 395, 1, 5, 55, 1500, -50, -80, 40, 5, 0, 300, 0},
+	experimentalMin = {0, 0, 56, 105, 4, 3, 15, 750, -50, -80, 40, -5, 0, 300, 0},
+	experimentalMax = {0, 0, 104, 395, 4, 5, 55, 1500, -50, -80, 40, 5, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

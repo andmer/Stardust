@@ -126,8 +126,8 @@ object_weapon_ranged_pistol_pistol_launcher = object_weapon_ranged_pistol_shared
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "null", "exp_durability", "expRange", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 17, 91, 1, 13, 1, 750, -15, 0, 300, 0},
-	experimentalMax = {0, 0, 333, 469, 1, 23, 3, 1500, 0, 0, 300, 0},
+	experimentalMin = {0, 0, 17, 91, 2, 13, 1, 750, -15, 0, 300, 0},
+	experimentalMax = {0, 0, 333, 469, 2, 23, 3, 1500, 0, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

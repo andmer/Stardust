@@ -126,8 +126,8 @@ object_weapon_ranged_rifle_rifle_tusken = object_weapon_ranged_rifle_shared_rifl
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 70, 105, 1, 6, 30, 750, -60, -50, 60, 14, 0, 300, 0},
-	experimentalMax = {0, 0, 130, 395, 1, 12, 65, 1500, -60, -50, 60, 26, 0, 300, 0},
+	experimentalMin = {0, 0, 70, 105, 4, 6, 30, 750, -60, -50, 60, 14, 0, 300, 0},
+	experimentalMax = {0, 0, 130, 395, 4, 12, 65, 1500, -60, -50, 60, 26, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

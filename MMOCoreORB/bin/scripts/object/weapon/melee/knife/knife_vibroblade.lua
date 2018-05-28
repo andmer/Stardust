@@ -126,8 +126,8 @@ object_weapon_melee_knife_knife_vibroblade = object_weapon_melee_knife_shared_kn
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "expRange", "null", "expRange", "null", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "maxrange", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 115, 160, 1, 6, 750, -2, -2, 3, -2, 4, 0, 300, 0},
-	experimentalMax = {0, 0, 200, 281, 1, 12, 1500, 8, 8, 3, 8, 4, 0, 300, 0},
+	experimentalMin = {0, 0, 115, 160, 2, 6, 750, -2, -2, 3, -2, 4, 0, 300, 0},
+	experimentalMax = {0, 0, 200, 281, 2, 12, 1500, 8, 8, 3, 8, 4, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

@@ -126,8 +126,8 @@ object_weapon_melee_knife_knife_dagger = object_weapon_melee_knife_shared_knife_
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "expRange", "null", "expRange", "null", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "maxrange", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 114, 132, 1, 6, 750, 17, 17, 3, 17, 4, 0, 300, 0},
-	experimentalMax = {0, 0, 126, 159, 1, 12, 1500, 33, 33, 3, 33, 4, 0, 300, 0},
+	experimentalMin = {0, 0, 114, 132, 2, 6, 750, 17, 17, 3, 17, 4, 0, 300, 0},
+	experimentalMax = {0, 0, 126, 159, 2, 12, 1500, 33, 33, 3, 33, 4, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

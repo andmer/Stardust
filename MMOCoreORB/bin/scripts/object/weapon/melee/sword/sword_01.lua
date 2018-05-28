@@ -126,8 +126,8 @@ object_weapon_melee_sword_sword_01 = object_weapon_melee_sword_shared_sword_01:n
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "expRange", "null", "expRange", "null", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "maxrange", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 14, 63, 1, 9, 750, 5, 5, 3, 5, 4, 0, 300, 0},
-	experimentalMax = {0, 0, 26, 117, 1, 18, 1500, 15, 15, 3, 15, 4, 0, 300, 0},
+	experimentalMin = {0, 0, 14, 63, 2, 9, 750, 5, 5, 3, 5, 4, 0, 300, 0},
+	experimentalMax = {0, 0, 26, 117, 2, 18, 1500, 15, 15, 3, 15, 4, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0},
 }

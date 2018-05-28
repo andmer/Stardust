@@ -126,8 +126,8 @@ object_weapon_ranged_pistol_pistol_renegade = object_weapon_ranged_pistol_shared
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "null", "null", "expRange", "expEffeciency", "expEffeciency", "expEffeciency"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 45, 116, 6.2, 10, 750, -5, -80, 20, -2, 36, 68, 36},
-	experimentalMax = {0, 0, 148, 236, 3.8, 20, 1500, 10, -80, 20, 18, 18, 42, 18},
+	experimentalMin = {0, 0, 45, 116, 2, 10, 750, -5, -80, 20, -2, 36, 68, 36},
+	experimentalMax = {0, 0, 148, 236, 2, 20, 1500, 10, -80, 20, 18, 18, 42, 18},
 	experimentalPrecision = {0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

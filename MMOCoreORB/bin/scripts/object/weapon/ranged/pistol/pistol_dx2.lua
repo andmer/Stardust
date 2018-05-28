@@ -126,8 +126,8 @@ object_weapon_ranged_pistol_pistol_dx2 = object_weapon_ranged_pistol_shared_pist
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "expRange", "null", "null", "null", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 42, 79, 1, 8, 15, 750, 18, -90, 16, 14, 0, 300, 0},
-	experimentalMax = {0, 0, 78, 217, 1, 16, 60, 1500, 33, -90, 16, 30, 0, 300, 0},
+	experimentalMin = {0, 0, 42, 79, 2, 8, 15, 750, 18, -90, 16, 14, 0, 300, 0},
+	experimentalMax = {0, 0, 78, 217, 2, 16, 60, 1500, 33, -90, 16, 30, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

@@ -126,8 +126,8 @@ object_weapon_melee_knife_knife_survival = object_weapon_melee_knife_shared_knif
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "expRange", "null", "expRange", "null", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "maxrange", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 14, 128, 1, 5, 750, 21, 21, 3, 21, 4, 0, 300, 0},
-	experimentalMax = {0, 0, 26, 152, 1, 11, 1500, 39, 39, 3, 39, 4, 0, 300, 0},
+	experimentalMin = {0, 0, 14, 128, 2, 5, 750, 21, 21, 3, 21, 4, 0, 300, 0},
+	experimentalMax = {0, 0, 26, 152, 2, 11, 1500, 39, 39, 3, 39, 4, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

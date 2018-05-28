@@ -126,8 +126,8 @@ object_weapon_ranged_pistol_pistol_republic_blaster = object_weapon_ranged_pisto
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 21, 98, 1, 10, 750, -52, 0, 300, 0},
-	experimentalMax = {0, 0, 39, 382, 1, 20, 1500, -28, 0, 300, 0},
+	experimentalMin = {0, 0, 21, 98, 2, 10, 750, -52, 0, 300, 0},
+	experimentalMax = {0, 0, 39, 382, 2, 20, 1500, -28, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

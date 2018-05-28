@@ -119,7 +119,7 @@ object_weapon_ranged_carbine_carbine_nym_slugthrower = object_weapon_ranged_carb
   
   woundsRatio = 16,
 
-  attackSpeed = 4.0
+  attackSpeed = 3
 }
 
 ObjectTemplates:addTemplate(object_weapon_ranged_carbine_carbine_nym_slugthrower, "object/weapon/ranged/carbine/carbine_nym_slugthrower.iff")

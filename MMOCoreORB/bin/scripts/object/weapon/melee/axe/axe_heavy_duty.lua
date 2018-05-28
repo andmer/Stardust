@@ -126,8 +126,8 @@ object_weapon_melee_axe_axe_heavy_duty = object_weapon_melee_axe_shared_axe_heav
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "expRange", "null", "expRange", "null", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "maxrange", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 25, 98, 1, 11, 750, -5, -5, 3, -5, 4, 0, 300, 0},
-	experimentalMax = {0, 0, 46, 182, 1, 20, 1500, 5, 5, 3, 5, 4, 0, 300, 0},
+	experimentalMin = {0, 0, 25, 98, 3, 11, 750, -5, -5, 3, -5, 4, 0, 300, 0},
+	experimentalMax = {0, 0, 46, 182, 3, 20, 1500, 5, 5, 3, 5, 4, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }
