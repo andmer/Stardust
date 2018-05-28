@@ -1866,9 +1866,10 @@ void CreatureObjectImplementation::enqueueCommand(unsigned int actionCRC,
 		return;
 	}
 
-	if (commandQueue->size() > 3 && priority != QueueCommand::FRONT) {
+	if (commandQueue->size() > 2 && priority != QueueCommand::FRONT) {
 		clearQueueAction(actionCount);
 		sendSystemMessage("Your combat queue is full!");
+		playMusicMessage("sound/ui_negative.snd");
 		return;
 	}
 
