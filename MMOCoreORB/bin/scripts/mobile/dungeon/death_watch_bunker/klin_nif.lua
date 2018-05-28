@@ -43,12 +43,6 @@ klin_nif = Creature:new {
 		},
 		{
 			groups = {
-				{group = "death_watch_bunker_lootbox", chance = 10000000},
-			},
-			lootChance = 2500000
-		},
-		{
-			groups = {
 				{group = "armor_attachments", chance = 10000000},
 			},
 			lootChance = 750000

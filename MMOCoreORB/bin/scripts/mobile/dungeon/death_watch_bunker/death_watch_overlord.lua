@@ -55,12 +55,6 @@ death_watch_overlord = Creature:new {
 			lootChance = 2000000
 		},
 		{
-			groups = {
-				{group = "death_watch_bunker_lootbox", chance = 10000000},
-			},
-			lootChance = 3500000
-		},
-		{
 			groups =
 			{
 				{group = "power_crystals", chance = 10000000},
