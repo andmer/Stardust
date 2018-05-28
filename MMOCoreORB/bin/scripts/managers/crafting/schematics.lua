@@ -168,6 +168,8 @@ schematics = {
 	{path="object/draft_schematic/clothing/clothing_armor_kashyyykian_hunting_bracer_r.iff"},
 	{path="object/draft_schematic/armor/component/armor_layer_kinetic.iff"},
 	{path="object/draft_schematic/armor/component/armor_layer_energy.iff"},
+	--Add LS Layer
+	{path="object/draft_schematic/armor/component/armor_layer_lightsaber.iff"},
 	{path="object/draft_schematic/armor/component/armor_layer_blast.iff"},
 	{path="object/draft_schematic/armor/component/armor_layer_heat.iff"},
 	{path="object/draft_schematic/armor/component/armor_layer_cold.iff"},
