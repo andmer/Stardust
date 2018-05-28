@@ -44,14 +44,14 @@
 Saber1hFlurry2Command = {
         name = "saber1hflurry2",
 
-	damageMultiplier = 2.5,
-	speedMultiplier = 1.0,
+	damageMultiplier = 2.25,
+	speedMultiplier = 3.0,
 	healthCostMultiplier = 0,
 	actionCostMultiplier = 1,
 	mindCostMultiplier = 0,
 	areaRange = 16,
 	areaAction = true,
-	forceCostMultiplier = 1,
+	forceCostMultiplier = 2.5,
 	visMod = 25,
 
 		stateEffects = {
@@ -93,7 +93,7 @@ Saber1hFlurry2Command = {
 
 	weaponType = ONEHANDJEDIWEAPON,
 
-	range = 10
+	range = 8
 }
 
 AddCommand(Saber1hFlurry2Command)

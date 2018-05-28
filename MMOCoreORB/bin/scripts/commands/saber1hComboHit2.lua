@@ -45,9 +45,9 @@ Saber1hComboHit2Command = {
         name = "saber1hcombohit2",
 
 	damageMultiplier = 2.5,
-	speedMultiplier = 2.0,
+	speedMultiplier = 3,
 	healthCostMultiplier = 0,
-	actionCostMultiplier = 0,
+	actionCostMultiplier = 1,
 	mindCostMultiplier = 0,
 	forceCostMultiplier = 1.75,
 	visMod = 25,
@@ -69,11 +69,11 @@ Saber1hComboHit2Command = {
 
 	combatSpam = "saber1hcombohit2",
 
-	poolsToDamage = HEALTH_ATTRIBUTE + ACTION_ATTRIBUTE + MIND_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = ONEHANDJEDIWEAPON,
 
-	range = -1
+	range = 8
 }
 
 AddCommand(Saber1hComboHit2Command)
