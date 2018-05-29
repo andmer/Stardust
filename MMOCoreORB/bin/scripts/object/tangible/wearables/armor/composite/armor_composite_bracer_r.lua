@@ -112,7 +112,7 @@ object_tangible_wearables_armor_composite_armor_composite_bracer_r = object_tang
 	heat = 70,
 	cold = 70,
 	acid = 70,
-	lightSaber = 0,
+	lightSaber = 70,
 
 	numberExperimentalProperties = {1, 1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 2, 1},
 	experimentalProperties = {"XX", "XX", "XX", "OQ", "SR", "OQ", "SR", "OQ", "UT", "MA", "OQ", "MA", "OQ", "XX", "XX", "XX", "XX", "OQ", "SR", "XX"},
