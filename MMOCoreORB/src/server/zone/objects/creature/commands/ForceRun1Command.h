@@ -5,6 +5,7 @@
 #ifndef FORCERUN1COMMAND_H_
 #define FORCERUN1COMMAND_H_
 
+#include "server/zone/objects/creature/buffs/PrivateSkillMultiplierBuff.h"
 #include "JediQueueCommand.h"
 
 class ForceRun1Command : public JediQueueCommand {
