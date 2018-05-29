@@ -382,7 +382,7 @@ int CombatManager::doTargetCombatAction(CreatureObject* attacker, WeaponObject* 
 		break;}
 	case RICOCHET:
 		doLightsaberBlock(attacker, weapon, defender, damage);
-		damageMultiplier = 0.0f;
+		damageMultiplier = 0.1f;
 		break;
 	default:
 		break;
@@ -484,7 +484,7 @@ int CombatManager::doTargetCombatAction(TangibleObject* attacker, WeaponObject* 
 		break;
 	case RICOCHET:
 		doLightsaberBlock(attacker, weapon, defenderObject, damage);
-		damageMultiplier = 0.0f;
+		damageMultiplier = 0.1f;
 		break;
 	default:
 		break;
@@ -862,7 +862,7 @@ float CombatManager::getDefenderToughnessModifier(CreatureObject* defender, int 
 
 	int jediToughness = defender->getSkillMod("jedi_toughness");
 	if (damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0)
-		damage *= 1.f - (jediToughness / 100.f);
+		damage *= 1.f - (jediToughness / 150.f);
 
 	return damage < 0 ? 0 : damage;
 }
