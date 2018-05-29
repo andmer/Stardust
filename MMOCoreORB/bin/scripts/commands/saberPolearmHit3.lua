@@ -47,9 +47,9 @@ SaberPolearmHit3Command = {
 	damageMultiplier = 2.5,
 	speedMultiplier = 2.5,
 	healthCostMultiplier = 0,
-	actionCostMultiplier = 0,
+	actionCostMultiplier = 2,
 	mindCostMultiplier = 0,
-	forceCostMultiplier = 2.0,
+	forceCostMultiplier = 2.5,
 	visMod = 25,
 
 	stateEffects = {
@@ -69,11 +69,11 @@ SaberPolearmHit3Command = {
 
 	combatSpam = "saberpolearmhit3",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = POLEARMJEDIWEAPON,
 
-	range = -1
+	range = 10
 }
 
 AddCommand(SaberPolearmHit3Command)

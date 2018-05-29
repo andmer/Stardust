@@ -47,7 +47,7 @@ SaberPolearmSpinAttack1Command = {
 	damageMultiplier = 0.75,
 	speedMultiplier = 1.25,
 	healthCostMultiplier = 0,
-	actionCostMultiplier = 0,
+	actionCostMultiplier = 1,
 	mindCostMultiplier = 0,
 	forceCostMultiplier = 1.25,
 	areaAction = true,
@@ -59,11 +59,11 @@ SaberPolearmSpinAttack1Command = {
 
 	combatSpam = "saberpolearmspinattack1",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = POLEARMJEDIWEAPON,
 
-	range = -1
+	range = 10
 }
 
 AddCommand(SaberPolearmSpinAttack1Command)

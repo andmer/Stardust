@@ -44,10 +44,10 @@
 SaberPolearmHit2Command = {
         name = "saberpolearmhit2",
         
-	damageMultiplier = 2.0,
-	speedMultiplier = 1.5,
+	damageMultiplier = 2.1,
+	speedMultiplier = 2,
 	healthCostMultiplier = 0,
-	actionCostMultiplier = 0,
+	actionCostMultiplier = 1.5,
 	mindCostMultiplier = 0,
 	forceCostMultiplier = 2.0,
 	visMod = 25,
@@ -69,11 +69,11 @@ SaberPolearmHit2Command = {
 
 	combatSpam = "saberpolearmhit2",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = POLEARMJEDIWEAPON,
 
-	range = -1
+	range = 10
 }
 
 AddCommand(SaberPolearmHit2Command)

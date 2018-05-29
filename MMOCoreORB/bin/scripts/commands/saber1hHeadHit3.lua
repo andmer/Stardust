@@ -44,8 +44,8 @@
 Saber1hHeadHit3Command = {
         name = "saber1hheadhit3",
 
-	damageMultiplier = 1.25,
-	speedMultiplier = 2.25,
+	damageMultiplier = 1.5,
+	speedMultiplier = 2,
 	healthCostMultiplier = 0,
 	actionCostMultiplier = 1,
 	mindCostMultiplier = 0,
@@ -65,7 +65,7 @@ Saber1hHeadHit3Command = {
     {}, 
     { "blind_defense", "resistance_states" }, 
     { "jedi_state_defense" }, 
-    75, 
+    90, 
     0, 
     90 
     )

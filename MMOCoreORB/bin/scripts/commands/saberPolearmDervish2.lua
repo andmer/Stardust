@@ -45,13 +45,13 @@ SaberPolearmDervish2Command = {
         name = "saberpolearmdervish2",
 
 	damageMultiplier = 2.5,
-	speedMultiplier = 1.0,
+	speedMultiplier = 3,
 	healthCostMultiplier = 0,
 	actionCostMultiplier = 1.0,
 	mindCostMultiplier = 0,
 	areaAction = true,
 	areaRange = 10,
-	forceCostMultiplier = 1.0,
+	forceCostMultiplier = 2.0,
 	visMod = 25,
 
 		stateEffects = {

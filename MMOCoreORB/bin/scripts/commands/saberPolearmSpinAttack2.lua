@@ -44,27 +44,16 @@
 SaberPolearmSpinAttack2Command = {
         name = "saberpolearmspinattack2",
 
-	damageMultiplier = 2,
-	speedMultiplier = 1,
+	damageMultiplier = 1.25,
+	speedMultiplier = 1.5,
 	healthCostMultiplier = 0,
-	actionCostMultiplier = 0.7,
+	actionCostMultiplier = 1.5,
 	mindCostMultiplier = 0,
-	forceCostMultiplier = 0.7,
+	forceCostMultiplier = 1.5,
 	areaAction = true,
 	areaRange = 16,
 	visMod = 25,
 
-	stateEffects = {
-	  StateEffect( 
-		POSTUREDOWN_EFFECT, 
-		{ "postureDownRecovery" }, 
-		{ "posture_change_down_defense" }, 
-		{}, 
-		100, 
-		0, 
-		0 
-	  )
-	},
 
 	animation = "showoff_1", 
 	animType = GENERATE_INTENSITY,
