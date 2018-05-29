@@ -63,10 +63,12 @@ public:
 						ManagedReference<Buff*> buff = new Buff(targetCreature, getNameCRC(), 6, BuffType::OTHER);
 
 						Locker locker(buff);
-						if (targetCreature->hasBuff(STRING_HASHCODE("burstrun")) || targetCreature->hasBuff(STRING_HASHCODE("retreat")) || targetCreature->hasBuff(BuffCRC::JEDI_FORCE_RUN_1)) {
+						if (targetCreature->hasBuff(STRING_HASHCODE("burstrun")) || targetCreature->hasBuff(STRING_HASHCODE("retreat")) || targetCreature->hasBuff(BuffCRC::JEDI_FORCE_RUN_1) || targetCreature->hasBuff(BuffCRC::JEDI_FORCE_RUN_2) || targetCreature->hasBuff(BuffCRC::JEDI_FORCE_RUN_3)) {
 							targetCreature->removeBuff(STRING_HASHCODE("burstrun"));
 							targetCreature->removeBuff(STRING_HASHCODE("retreat"));
 							targetCreature->removeBuff(BuffCRC::JEDI_FORCE_RUN_1);
+							targetCreature->removeBuff(BuffCRC::JEDI_FORCE_RUN_2);
+							targetCreature->removeBuff(BuffCRC::JEDI_FORCE_RUN_3);
 						}
 
 						buff->setSpeedMultiplierMod(0.01f);
