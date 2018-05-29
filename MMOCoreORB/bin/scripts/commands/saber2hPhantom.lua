@@ -47,12 +47,12 @@ Saber2hPhantomCommand = {
 	damageMultiplier = 2.5,
 	speedMultiplier = 1.0,
 	healthCostMultiplier = 0,
-	actionCostMultiplier = 1,
+	actionCostMultiplier = 2,
 	mindCostMultiplier = 0,
 	coneAngle = 90,
 	coneAction = true,
 	coneRange = 24,
-	forceCostMultiplier = 1.0,
+	forceCostMultiplier = 2.0,
 	visMod = 25,
 
 		stateEffects = {
@@ -63,16 +63,16 @@ Saber2hPhantomCommand = {
 		{ "jedi_state_defense" }, 
 		85, 
 		0, 
-		60 
+		30 
 	  ),
 	  StateEffect( 
 		DIZZY_EFFECT, 
 		{}, 
 		{ "dizzy_defense", "resistance_states" }, 
 		{ "jedi_state_defense" }, 
-		85, 
+		75, 
 		0, 
-		30 
+		10 
 	  ),
 	  StateEffect( 
 		STUN_EFFECT, 
@@ -81,7 +81,7 @@ Saber2hPhantomCommand = {
 		{ "jedi_state_defense" }, 
 		85, 
 		0, 
-		60 
+		30 
 	  )
 	},
 
@@ -94,7 +94,7 @@ Saber2hPhantomCommand = {
 
 	weaponType = TWOHANDJEDIWEAPON,
 
-	range = 10
+	range = 8
 }
 
 AddCommand(Saber2hPhantomCommand)

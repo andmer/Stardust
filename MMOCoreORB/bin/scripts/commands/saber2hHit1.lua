@@ -44,12 +44,12 @@
 Saber2hHit1Command = {
         name = "saber2hhit1",
 
-	damageMultiplier = 2.5,
+	damageMultiplier = 2,
 	speedMultiplier = 1,
 	healthCostMultiplier = 0,
-	actionCostMultiplier = 0.5,
+	actionCostMultiplier = 1,
 	mindCostMultiplier = 0,
-	forceCostMultiplier = 0.5,
+	forceCostMultiplier = 1.5,
 	visMod = 25,
 
 	animation = "combo_2c", 
@@ -61,7 +61,7 @@ Saber2hHit1Command = {
 
 	weaponType = TWOHANDJEDIWEAPON,
 
-	range = 10
+	range = 8
 }
 
 AddCommand(Saber2hHit1Command)
