@@ -90,7 +90,7 @@ templateType = ARMOROBJECT,
         "object/mobile/vendor/zabrak_male.iff" },
 
   -- Damage types in WeaponObject
-  vulnerability = LIGHTSABER,
+  vulnerability = NONE,
 
   -- These are default Blue Frog stats
   healthEncumbrance = 0,

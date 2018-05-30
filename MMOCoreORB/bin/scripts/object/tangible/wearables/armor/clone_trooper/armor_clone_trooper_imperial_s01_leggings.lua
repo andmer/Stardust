@@ -89,7 +89,7 @@ object_tangible_wearables_armor_clone_trooper_armor_clone_trooper_imperial_s01_l
 				"object/mobile/vendor/zabrak_male.iff" },
 	
 	-- Damage types in WeaponObject
-	vulnerability = LIGHTSABER,
+	vulnerability = NONE,
 
 	-- These are default Blue Frog stats
 	healthEncumbrance = 0,

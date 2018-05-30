@@ -50,7 +50,7 @@ object_tangible_wearables_armor_kashyyykian_hunting_armor_kashyyykian_hunting_le
 				"object/mobile/vendor/wookiee_male.iff" },
 
 	-- Damage types in WeaponObject
-	vulnerability = LIGHTSABER,
+	vulnerability = NONE,
 
 
 	-- These are default Blue Frog stats

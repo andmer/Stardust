@@ -81,7 +81,7 @@ object_tangible_wearables_armor_ubese_armor_ubese_helmet = object_tangible_weara
 				"object/mobile/vendor/zabrak_male.iff" },
 
 	-- Damage types in WeaponObject
-	vulnerability = LIGHTSABER,
+	vulnerability = NONE,
 
 	-- These are default Blue Frog stats
   healthEncumbrance = 0,
