@@ -807,8 +807,8 @@ int CombatManager::getDefenderDefenseModifier(CreatureObject* defender, WeaponOb
 	//info("Base target defense is " + String::valueOf(targetDefense), true);
 
 	// defense hardcap
-	if (targetDefense > 50)
-		targetDefense = 50;
+	if (targetDefense > 125)
+		targetDefense = 125;
 
 	if (attacker->isPlayerCreature())
 		targetDefense += defender->getSkillMod("private_defense");
@@ -842,8 +842,8 @@ int CombatManager::getDefenderSecondaryDefenseModifier(CreatureObject* defender)
 		targetDefense += defender->getSkillMod("private_" + mod);
 	}
 
-	if (targetDefense > 50)
-		targetDefense = 50;
+	if (targetDefense > 125)
+		targetDefense = 125;
 
 	return targetDefense;
 }
@@ -931,7 +931,7 @@ int CombatManager::calculateDamageRange(TangibleObject* attacker, CreatureObject
 		}
 
 		if (damageMitigation > 0)
-			maxDamage = minDamage + (maxDamage - minDamage) * (1 - (0.2 * damageMitigation));
+			maxDamage = minDamage + (maxDamage - minDamage) * (0.2 * damageMitigation);
 	}
 
 	float range = maxDamage - minDamage;
