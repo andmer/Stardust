@@ -52,7 +52,7 @@ object_weapon_ranged_droid_droid_probot_ranged = object_weapon_ranged_droid_shar
 	damageType = ENERGY,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = LIGHT,
+	armorPiercing = NONE,
 
 	xpType = "combat_general",
 

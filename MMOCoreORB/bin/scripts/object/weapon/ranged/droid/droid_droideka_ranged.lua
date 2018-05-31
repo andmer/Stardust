@@ -54,7 +54,7 @@ object_weapon_ranged_droid_droid_droideka_ranged = object_weapon_ranged_droid_sh
 	damageType = ENERGY,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = LIGHT,
+	armorPiercing = NONE,
 
 	xpType = "combat_general",
 

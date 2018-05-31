@@ -53,7 +53,7 @@ object_weapon_ranged_droid_droid_astromech_ranged = object_weapon_ranged_droid_s
 	damageType = ELECTRICITY,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = LIGHT,
+	armorPiercing = NONE,
 
 	xpType = "combat_general",
 
