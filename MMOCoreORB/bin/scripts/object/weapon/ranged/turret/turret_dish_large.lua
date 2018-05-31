@@ -47,7 +47,7 @@ object_weapon_ranged_turret_turret_dish_large = object_weapon_ranged_turret_shar
 	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, LIGHTSABER
 	damageType = ENERGY,
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = HEAVY,
+	armorPiercing = LIGHT,
 	-- See http://www.ocdsoft.com/files/accuracy.xls
 	creatureAccuracyModifiers = { "rifle_accuracy" },
 	creatureAimModifiers = { "rifle_aim", "aim" },
