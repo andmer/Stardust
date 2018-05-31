@@ -801,14 +801,14 @@ int CombatManager::getDefenderDefenseModifier(CreatureObject* defender, WeaponOb
 	for (int i = 0; i < defenseAccMods->size(); ++i) {
 		const String& mod = defenseAccMods->get(i);
 		targetDefense += defender->getSkillMod(mod);
-		targetDefense += defender->getSkillMod("private_" + mod);
+		targetDefense += (defender->getSkillMod("private_" + mod) / 1.5);
 	}
 
 	//info("Base target defense is " + String::valueOf(targetDefense), true);
 
 	// defense hardcap
-	if (targetDefense > 125)
-		targetDefense = 125;
+	if (targetDefense > 75)
+		targetDefense = 75;
 
 	if (attacker->isPlayerCreature())
 		targetDefense += defender->getSkillMod("private_defense");
