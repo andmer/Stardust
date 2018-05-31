@@ -856,7 +856,7 @@ float CombatManager::getDefenderToughnessModifier(CreatureObject* defender, int 
 	if (attackType == weapon->getAttackType()) {
 		for (int i = 0; i < defenseToughMods->size(); ++i) {
 			int toughMod = defender->getSkillMod(defenseToughMods->get(i));
-			if (toughMod > 0) damage *= 1.f - (toughMod / 100.f);
+			if (toughMod > 0) damage *= 1.f - (toughMod / 200.f);
 		}
 	}
 
