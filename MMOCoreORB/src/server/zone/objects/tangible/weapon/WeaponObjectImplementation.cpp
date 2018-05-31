@@ -255,7 +255,7 @@ void WeaponObjectImplementation::fillAttributeList(AttributeListMessage* alm, Cr
 		break;
 	}
 
-	alm->insertAttribute("wpn_armor_pierce_rating", ap);
+	//alm->insertAttribute("wpn_armor_pierce_rating", ap);
 
 	alm->insertAttribute("wpn_attack_speed", Math::getPrecision(getAttackSpeed(), 1));
 
