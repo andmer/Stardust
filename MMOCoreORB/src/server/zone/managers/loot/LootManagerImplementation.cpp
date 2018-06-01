@@ -859,7 +859,7 @@ void LootManagerImplementation::addRandomDots(TangibleObject* object, LootItemTe
 			float att = 0;
 
 			if (attMin != attMax)
-				att= System::random(attMax - attMin) + attMin;
+				att = 0; // System::random(attMax - attMin) + attMin;
 
 			if (dotType != 2 && (att != 0 && att != 3 && att != 6)) {
 				int numbers[] = { 0, 3, 6 }; // The main pool attributes.
