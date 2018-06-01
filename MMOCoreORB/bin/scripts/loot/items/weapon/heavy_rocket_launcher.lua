@@ -4,9 +4,9 @@ heavy_rocket_launcher = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/ranged/heavy/heavy_rocket_launcher.iff",
 	craftingValues = {
-		{"mindamage",900,1350,0},
-		{"maxdamage",1550,4500,0},
-		{"attackspeed",12.0,7.0,1},
+		{"mindamage",800,1100,0},
+		{"maxdamage",1350,2900,0},
+		{"attackspeed",1,1,1},
 		{"woundchance",17,31,0},
 		{"hitpoints",1000,1000,0},
 		{"zerorangemod",-120,-90,0},
@@ -14,14 +14,14 @@ heavy_rocket_launcher = {
 		{"maxrangemod",-45,-15,0},
 		{"midrange",48,48,0},
 		{"midrangemod",20,60,0},
-		{"attackhealthcost",124,67,0},
-		{"attackactioncost",85,40,0},
-		{"attackmindcost",60,36,0},
+		{"attackhealthcost",0,0,0},
+    {"attackactioncost",300,300,0},
+    {"attackmindcost",0,0,0},
 	},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 750,
-	junkDealerTypeNeeded = JUNKARMS,
+	randomDotChance = 625,
+	junkDealerTypeNeeded = JUNKWEAPONS,
 	junkMinValue = 30,
 	junkMaxValue = 55
 }

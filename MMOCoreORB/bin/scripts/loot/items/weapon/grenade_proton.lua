@@ -4,9 +4,9 @@ grenade_proton = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/ranged/grenade/grenade_proton.iff",
 	craftingValues = {
-		{"mindamage",923,1534,0},
-		{"maxdamage",2300,2900,0},
-		{"attackspeed",9,4.5,1},
+		{"mindamage",863,1034,0},
+		{"maxdamage",2150,2650,0},
+		{"attackspeed",1,1,1},
 		{"woundchance",7,13,0},
 		{"hitpoints",1000,1000,0},
 		{"zerorangemod",-16,14,0},
@@ -14,14 +14,14 @@ grenade_proton = {
 		{"maxrangemod",-45,-15,0},
 		{"midrange",0,30,0},
 		{"midrangemod",10,25,0},
-		{"attackhealthcost",139,85,0},
-		{"attackactioncost",178,73,0},
-		{"attackmindcost",125,86,0},
+		{"attackhealthcost",0,0,0},
+    {"attackactioncost",300,300,0},
+    {"attackmindcost",0,0,0},
 	},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 750,
-	junkDealerTypeNeeded = JUNKARMS,
+	randomDotChance = 625,
+	junkDealerTypeNeeded = JUNKWEAPONS,
 	junkMinValue = 30,
 	junkMaxValue = 55
 }

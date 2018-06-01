@@ -6,9 +6,9 @@ nightsister_controllerfp_lance = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/melee/polearm/lance_controllerfp_nightsister.iff",
 	craftingValues = {
-		{"mindamage",7,13,0},
-		{"maxdamage",133,246,0},
-		{"attackspeed",7.2,4.1,1},
+		{"mindamage",7,11,0},
+		{"maxdamage",123,233,0},
+		{"attackspeed",1,1,1},
 		{"woundchance",9,18,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",5,15,0},
@@ -16,15 +16,15 @@ nightsister_controllerfp_lance = {
 		{"midrange",3,3,0},
 		{"midrangemod",5,15,0},
 		{"maxrange",5,5,0},
-		{"attackhealthcost",26,14,0},
-		{"attackactioncost",59,32,0},
-		{"attackmindcost",29,15,0},
+		{"attackhealthcost",0,0,0},
+    {"attackactioncost",300,300,0},
+    {"attackmindcost",0,0,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 500,
+	randomDotChance = 600,
 
 	-- staticDotChance: The chance of this weapon object dropping with a static dot on it. Higher number means less chance. Set to 0 to always have a static dot.
 	staticDotChance = 0,
@@ -40,7 +40,7 @@ nightsister_controllerfp_lance = {
 		{"potency", 70, 70},
 		{"uses", 8000, 8000}
 	},
-	junkDealerTypeNeeded = JUNKARMS,
+	junkDealerTypeNeeded = JUNKWEAPONS,
 	junkMinValue = 30,
 	junkMaxValue = 55
 
