@@ -79,7 +79,8 @@ cronal1 = ConvoScreen:new {
      {"But, The Dark Side?  Are you Sith?","opt2a"},
   }
 }
-herald_of_the_prophets:addScreen(opt2);
+herald_of_the_prophets:addScreen(cronal1);
+
 opt2a = ConvoScreen:new {
   id = "opt2a",
   leftDialog = "",
