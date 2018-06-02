@@ -792,6 +792,10 @@ void PlanetManagerImplementation::loadClientRegions(LuaObject* outposts) {
 					return;
 				} else if (regionName.contains("dark_temple")){
 					return;
+				} else if (regionName.contains("dreshdae_valley")){
+					return;
+				} else if (regionName.contains("archaeological_outpost")){
+					return;
 				} else {
 					scenery = zone->getZoneServer()->createObject(STRING_HASHCODE("object/static/particle/particle_distant_ships.iff"), 0);
 				}
