@@ -162,4 +162,4 @@ moraband_destroy_missions = {
 	}
 }
 
-addDestroyMissionGroup("lok_destroy_missions", lok_destroy_missions);
+addDestroyMissionGroup("moraband_destroy_missions", moraband_destroy_missions);

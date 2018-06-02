@@ -760,4 +760,4 @@ moraband_world = {
 	}
 }
 
-addSpawnGroup("lok_world", lok_world);
+addSpawnGroup("moraband_world", moraband_world);
