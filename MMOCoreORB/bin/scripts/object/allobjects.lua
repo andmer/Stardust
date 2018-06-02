@@ -836,3 +836,9 @@ includeFile("weapon/ranged/objects.lua")
 includeFile("weapon/trap/objects.lua")
 includeFile("weapon/objects.lua")
 
+includeFile("custom_content/mobile/objects.lua")
+includeFile("custom_content/mobile/ep3/objects.lua")
+includeFile("custom_content/mobile/npe/objects.lua")
+includeFile("custom_content/mobile/som/objects.lua")
+includeFile("custom_content/mobile/vehicle/objects.lua")
+
