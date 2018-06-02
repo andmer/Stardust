@@ -19,5 +19,5 @@ moraband_regions = {
   {"lok_imperial_outpost_2", -1921, -3079, {1, 300}, NOSPAWNAREA},
   {"lok_imperial_outpost_3", -2091, -2641, {1, 60}, NOSPAWNAREA + NOBUILDZONEAREA},
   {"lok_nyms_stronghold", 0, 0, {1, 0}, UNDEFINEDAREA},
-  {"world_spawner", 0, 0, {1, -1}, SPAWNAREA + WORLDSPAWNAREA, {"moraband_world", "global_hard"}, 2048}
+  {"world_spawner", 0, 0, {1, -1}, SPAWNAREA + WORLDSPAWNAREA, {"lok_world", "global_hard"}, 2048}
 }
