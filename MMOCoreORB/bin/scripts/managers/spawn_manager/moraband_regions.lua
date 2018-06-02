@@ -16,8 +16,5 @@ moraband_regions = {
   {"dreshdae_valley", 1060, -5332, {1, 400}, NOSPAWNAREA + NOBUILDZONEAREA},
   {"valley_of_the_dark_lords", -1346, -830, {1, 1000}, NOBUILDZONEAREA},
   {"archaeological_outpost", -1712, -679, {1, 200}, NOBUILDZONEAREA + NOSPAWNAREA},
-  {"lok_imperial_outpost_2", -1921, -3079, {1, 300}, NOSPAWNAREA},
-  {"lok_imperial_outpost_3", -2091, -2641, {1, 60}, NOSPAWNAREA + NOBUILDZONEAREA},
-  {"lok_nyms_stronghold", 0, 0, {1, 0}, UNDEFINEDAREA},
   {"world_spawner", 0, 0, {1, -1}, SPAWNAREA + WORLDSPAWNAREA, {"moraband_world", "global_hard"}, 2048}
 }
