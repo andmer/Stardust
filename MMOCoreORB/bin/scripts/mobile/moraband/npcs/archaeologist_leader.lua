@@ -30,7 +30,7 @@ archaeologist_leader = Creature:new {
 				"object/mobile/dressed_doctor_trainer_human_female_01.iff",				
 	},
 	lootGroups = {},
-	conversationTemplate = "herald_of_the_prophets",
+	conversationTemplate = "archaeologist_leader",
 	weapons = {},
 	attacks = {}
 }

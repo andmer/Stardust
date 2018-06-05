@@ -55,3 +55,4 @@ includeFile("infinity/serverobjects.lua")
 -- New content
 includeFile("custom-dlswg/serverobjects.lua")
 includeFile("kaas/serverobjects.lua")
+includeFile("moraband/serverobjects.lua")
