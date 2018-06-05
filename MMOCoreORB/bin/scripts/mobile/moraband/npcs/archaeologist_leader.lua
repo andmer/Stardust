@@ -1,6 +1,6 @@
 archaeologist_leader = Creature:new {
 	objectName = "@mob/creature_names:medic",
-	customName = "Eleth Kor - an Imperial Archaeology Institute Aide",
+	customName = "Eleth Kor - an Imperial Archaeology Institute Leader",
 	socialGroup = "townsperson",
 	faction = "townsperson",
 	level = 7,

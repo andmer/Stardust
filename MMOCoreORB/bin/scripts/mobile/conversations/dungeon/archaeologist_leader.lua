@@ -99,7 +99,7 @@ opt1c = ConvoScreen:new {
   customDialogText = "The entrance is just over to my left, I understand it was used by the Inquisitorius to house and interrogate dangerous prisoners, though that was over ten years ago. Since I've been here we only used it for storage.  Fortunately Commander Hartley did not take the service droids with them when the Garrison departed.",
   stopConversation = "false",
   options = {
-    {"Tell me about Moraband.","opt2"},
+    {"I want to ask about something else.","opt6"},
   }
 }
 archaeologist_leader:addScreen(opt1c);
@@ -197,9 +197,9 @@ opt4c = ConvoScreen:new {
   id = "opt4c",
   leftDialog = "",
    customDialogText = "That wouldn't be likely, no.",
-  stopConversation = "true",
+  stopConversation = "false",
   options = {   
-    {"Alright, so no treasure hunting then..","opt4c"},   
+    {"Can I ask about something else?","opt6"},   
   }
 }
 archaeologist_leader:addScreen(opt4c);
@@ -227,8 +227,8 @@ opt5a = ConvoScreen:new {
 }
 archaeologist_leader:addScreen(opt5a);
 
-opt5a = ConvoScreen:new {
-  id = "opt5a",
+opt6 = ConvoScreen:new {
+  id = "opt6",
   leftDialog = "",
    customDialogText = "What do you want to know?",
   stopConversation = "false",
@@ -238,6 +238,6 @@ opt5a = ConvoScreen:new {
     {"What else is on this planet?","opt5"},   
   }
 }
-archaeologist_leader:addScreen(opt5a);
+archaeologist_leader:addScreen(opt6);
 
 addConversationTemplate("archaeologist_leader", archaeologist_leader);

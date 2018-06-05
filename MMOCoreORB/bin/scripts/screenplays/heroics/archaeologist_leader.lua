@@ -78,7 +78,7 @@ function archaeologist_leader_convo_handler:runScreenHandlers(pConversationTempl
           PlayerObject(pGhost):updateWaypoint(SceneObject(pWaypoint):getObjectID())
         end
       else
-        PlayerObject(pGhost):addWaypoint("moraband", "Lake Adas", "", -5102, -2334, WAYPOINTYELLOW, true, true, 0)
+        PlayerObject(pGhost):addWaypoint("moraband", "Lake Adas", "", 7068, -2575, WAYPOINTYELLOW, true, true, 0)
       end
      end    
    end       
