@@ -768,4 +768,5 @@ includeFile("events/coruscant_race/race_hazard_50.lua")
 
 --Moraband
 includeFile("cities/moraband_valley.lua")
+includeFile("heroics/archaeologist_leader.lua")
 
