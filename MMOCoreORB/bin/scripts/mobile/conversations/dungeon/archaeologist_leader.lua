@@ -152,7 +152,7 @@ archaeologist_leader:addScreen(opt2c);
 opt3 = ConvoScreen:new {
   id = "opt3",
   leftDialog = "",
-   customDialogText = "Below us is what is known as the Valley of the Dark Lords. When the Sith eventually moved onto more hospitable worlds to center their Empire from, Moraband became a burial world.  The most powerful of the Dark Lords had tombs erected here to house not just their remains but the vanity and some believed, their immortal souls for all eternity.",
+   customDialogText = "Below us is what is known as the Valley of the Dark Lords. When the Sith eventually moved onto more hospitable worlds to center their Empire from, Moraband became a burial world.  The most powerful of the Dark Lords had tombs erected here to house not just their remains but their vanity and some believed, their immortal souls for all eternity.",
   stopConversation = "false",
   options = {   
     {"So it's just one big old graveyard is what you are saying?","opt4"},   
@@ -163,7 +163,7 @@ archaeologist_leader:addScreen(opt3);
 opt4 = ConvoScreen:new {
   id = "opt4",
   leftDialog = "",
-   customDialogText = "Well, the largest structure in the whole valley isn't a tomb at all.   It was once an Academy, were Acolytes from all over the ancient Sith Empire came to train either by choice, or by force.  Sadly a large portion of the structure's interior collapsed at some point in the past though there is a few chambers still accessible.",
+   customDialogText = "Well, the largest structure in the whole valley isn't a tomb at all.   It was once an Academy, where Acolytes from all over the ancient Sith Empire came to train either by choice, or by force.  Sadly a large portion of the structure's interior collapsed at some point in the past though there is a few chambers still accessible.",
   stopConversation = "false",
   options = {   
     {"Such as?","opt4a"},   
@@ -185,7 +185,7 @@ archaeologist_leader:addScreen(opt4a);
 opt4b = ConvoScreen:new {
   id = "opt4b",
   leftDialog = "",
-   customDialogText = "If you are thinking of raiding the tombs and walking out with some priceless artifact from forgotten eras of Galactic History...  Forget it.   Those tombs were ancient in ancient times.  They've been picked clean of anything of value to anyone not a historian.",
+   customDialogText = "If you are thinking of raiding the tombs and walking out with some priceless artifact from forgotten eras of Galactic History...  Forget it.   Those tombs were ancient in ancient times.  They've been picked clean of anything of value to anyone not a historian centuries ago.  Most are filled only with dust, bones and others house only vile beasts like the Tuk'ata all over the valley.",
   stopConversation = "false",
   options = {   
     {"Alright, so no treasure hunting then..","opt4c"},   
@@ -196,7 +196,7 @@ archaeologist_leader:addScreen(opt4b);
 opt4c = ConvoScreen:new {
   id = "opt4c",
   leftDialog = "",
-   customDialogText = "That wouldn't be likely, no.",
+   customDialogText = "That wouldn't be likely, but you never know.  Every so often something interesting turns up. You'll find several of my team members amongst the ruins, perhaps they could point you to something.  Who knows..",
   stopConversation = "false",
   options = {   
     {"Can I ask about something else?","opt6"},   
