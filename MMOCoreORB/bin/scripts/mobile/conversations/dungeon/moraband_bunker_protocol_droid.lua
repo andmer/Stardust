@@ -40,8 +40,7 @@ opt1 = ConvoScreen:new {
   customDialogText = "This facility is known as Detention and Correction Center 88-D.  Operated under the purview of the Inquisitorius.  The facility is currently inactive in it's primary function and serving it's secondary capacity.",
   stopConversation = "false",
   options = {
-    {"What secondary Capacity?","opt1a"},
-    --{"No.","deny1"},
+    {"What secondary Capacity?","opt1a"},   
   }
 }
 moraband_bunker_protocol_droid:addScreen(opt1);
@@ -79,3 +78,4 @@ opt1c = ConvoScreen:new {
 }
 moraband_bunker_protocol_droid:addScreen(opt1c);
 
+addConversationTemplate("moraband_bunker_protocol_droid", moraband_bunker_protocol_droid);
