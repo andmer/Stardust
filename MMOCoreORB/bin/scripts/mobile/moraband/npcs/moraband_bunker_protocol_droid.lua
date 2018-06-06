@@ -29,7 +29,7 @@ moraband_bunker_protocol_droid = Creature:new {
 	templates = {"object/mobile/3po_protocol_droid_silver.iff"},
 	lootGroups = {},
 	weapons = {},
-	conversationTemplate = "",
+	conversationTemplate = "moraband_bunker_protocol_droid",
 	attacks = {
 	}
 }
