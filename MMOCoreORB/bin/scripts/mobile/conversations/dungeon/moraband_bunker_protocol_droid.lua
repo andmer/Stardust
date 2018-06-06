@@ -13,10 +13,8 @@ moraband_bunker_protocol_droid_start = ConvoScreen:new {
   customDialogText = "Greetings, I am CT-212.  Maintenance Administrative droid for this facility.  Please be advised that according to Title 187 Subsection 1129 Paragraph 3 of Imperial Law this facility is under the jurisdiction of the Inquisitorius, all activities within the facility are monitored at all times.",
   stopConversation = "false",
   options = {
-    {"What can you tell me about this facility?", "opt1"},
-   -- {".", "opt2"},
-    --{"Uhh, thank you?", "opt3"},
-    {"Nevermind.", "deny1"}
+    {"What can you tell me about this facility?", "opt1"},   
+    {"Nevermind.", "deny1"},
   
   }
 }
