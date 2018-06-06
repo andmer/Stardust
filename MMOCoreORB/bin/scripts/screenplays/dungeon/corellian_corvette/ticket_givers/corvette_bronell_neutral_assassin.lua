@@ -6,7 +6,7 @@ bronellTicketInfo = { depPlanet = "chandrila", faction = "neutral", missionType 
 
 bronellCompensation = { { compType = "credits", amount = 500 } }
 
-bronell = { planetName = "chandrila", npcTemplate = "bronell", x = 31.7, z = 0.1, y = 4.7, direction = 172, cellID = 35791443, position = STAND }
+bronell = { planetName = "chandrila", npcTemplate = "corvette_neutral_bronell", x = 31.7, z = 0.1, y = 4.7, direction = 172, cellID = 35791443, position = STAND }
 
 ticketGiverBronell = CorvetteTicketGiverLogic:new {
 	npc = bronell,
