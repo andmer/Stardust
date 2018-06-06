@@ -15,7 +15,7 @@ registerScreenPlay("moraband_bunker_protocol_droid", true) --Initialize the scre
 
 --Simply spawns the NPC
 function moraband_bunker_protocol_droid:start()
-   spawnMobile("moraband", "moraband_bunker_protocol_droid", 1, 3.5, -9, 27.6, 180, 0)
+   spawnMobile("moraband", "moraband_bunker_protocol_droid", 1, 3.5, -9, 27.6, 180, 42000119)
 end
 
 --The actual conversation handler
