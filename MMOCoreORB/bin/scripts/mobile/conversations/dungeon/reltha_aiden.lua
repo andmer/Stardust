@@ -99,7 +99,7 @@ opt1c = ConvoScreen:new {
   customDialogText = "Yes, Lord Kaan, he was the leader of the Dark Council of the Brotherhood of the Sith in the last days of the old Sith Empire.  They fought a long and protracted war against the Jedi and the Old Republic but were eventually defeated, although one can't really say it was by anything other than sheer dumb luck.",
   stopConversation = "false",
   options = {
-    {"Why do you say that?","opt6"},
+    {"Why do you say that?","opt2"},
   }
 }
 reltha_aiden:addScreen(opt1c);
