@@ -15,7 +15,7 @@ registerScreenPlay("reltha_aiden", true) --Initialize the screenplay IAW the scr
 
 --Simply spawns the NPC
 function reltha_aiden:start()
-   spawnMobile("moraband", "reltha_aiden", 1, -1681.7, 91, -647.6, -43, 0)
+   spawnMobile("moraband", "reltha_aiden", 1, -1383, 12, -746, 180, 0)
 end
 
 --The actual conversation handler
