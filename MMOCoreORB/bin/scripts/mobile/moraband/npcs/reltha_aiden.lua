@@ -31,7 +31,7 @@ reltha_aiden = Creature:new {
 	},
 	lootGroups = {},
 	weapons = {},
-	conversationTemplate = "",
+	conversationTemplate = "reltha_aiden",
 	attacks = {}
 }
 
