@@ -16,7 +16,7 @@ reltha_aiden_start = ConvoScreen:new {
     {"What is this building?  It doesn't look as old as the others in the valley.", "opt1"},
   --  {"Tell me about Moraband.", "opt2"},
   --  {"What's out on the rest of the planet?", "opt5"},
-    {"Nevermind.", "deny1"}
+    {"Nevermind.", "deny1"},
   
   }
 }
@@ -63,10 +63,10 @@ reltha_aiden:addScreen(opt1a);
 opt1b = ConvoScreen:new {
   id = "opt1b",
   leftDialog = "",
-  customDialogText = "Perhaps.",
+  customDialogText = "Perhaps so.   You have to wonder though, are they truly gone?  The Sith that is.  It was believed that Count Dooku was a Sith Lord in the Clone Wars, but that could have just been another Jedi Lie.  While it is established that Darth Bane truly did exist, what isn't clear is if any other Sith did actually exist after Lord Kaan's defeat.",
   stopConversation = "false",
   options = {
-    {"You have to wonder","opt1c"},  -- Continue here.
+    {"Lord Kaan?","opt1c"},  -- Continue here.
   }
 }
 reltha_aiden:addScreen(opt1b);
@@ -74,10 +74,10 @@ reltha_aiden:addScreen(opt1b);
 opt3a = ConvoScreen:new {
   id = "opt3a",
   leftDialog = "",
-   customDialogText = "Darth Bane was a Sith Lord ",  -- Bookmark
+   customDialogText = "Darth Bane was one of the last Dark Lords of the Sith standing at the end of the long war between the Old Republic and the Sith Empire. He instituted what was known as the Rule of Two, and killed any remaining Sith Lords so that all remained was himself and his Apprentice.",  -- Bookmark
   stopConversation = "false",
   options = {   
-    {"Who is Commander Hartley?","opt3b"},   
+    {"Why would he turn on the other Sith?","opt3b"},   
   }
 }
 reltha_aiden:addScreen(opt3a);
@@ -85,10 +85,10 @@ reltha_aiden:addScreen(opt3a);
 opt3b = ConvoScreen:new {
   id = "opt3b",
   leftDialog = "",
-   customDialogText = "Commander Hartley? Oh, he was the Commander of the Imperial Garrison stationed here.  They were in charge of seeing to it any artifacts we catalogued were delivered to Coruscant routinely.  He used the old bunker here as his base of operations.",
+   customDialogText = "He believed the in-fighting within Sith Society was a key reason for their defeat, and that to be truly strong there could be no competition, only a master to wield the power and an apprentice to crave it.  Essentially the opposite of Lord Kaan and his Brotherhood of the Sith believed.",
   stopConversation = "false",
   options = {   
-    {"What bunker?","opt1c"},   
+    {"Lord Kaan?","opt1c"},   
   }
 }
 reltha_aiden:addScreen(opt3b);
@@ -96,10 +96,10 @@ reltha_aiden:addScreen(opt3b);
 opt1c = ConvoScreen:new {
   id = "opt1c",
   leftDialog = "",
-  customDialogText = "The entrance is just over to my left, I understand it was used by the Inquisitorius to house and interrogate dangerous prisoners, though that was over ten years ago. Since I've been here we only used it for storage.  Fortunately Commander Hartley did not take the service droids with them when the Garrison departed.",
+  customDialogText = "Yes, Lord Kaan, he was the leader of the Dark Council of the Brotherhood of the Sith in the last days of the old Sith Empire.  They fought a long and protracted war against the Jedi and the Old Republic but were eventually defeated, although one can't really say it was by anything other than sheer dumb luck.",
   stopConversation = "false",
   options = {
-    {"I want to ask about something else.","opt6"},
+    {"Why do you say that?","opt6"},
   }
 }
 reltha_aiden:addScreen(opt1c);
@@ -107,10 +107,10 @@ reltha_aiden:addScreen(opt1c);
 opt2 = ConvoScreen:new {
   id = "opt2",
   leftDialog = "",
-   customDialogText = "Moraband, or Korriban as it was called by the Ancient Sith was once the homeworld of that species.  From here they forged an Empire that spread all over this region of the Galaxy.",
+   customDialogText = "Well, Lord Kaan attempted to lure the Republic into a trap in order to destroy the bulk of their forces in one stroke, namely those of the Jedi.  They did so by luring them to a planet called Ruusan somewhere in the Mid-Rim, or so that is what the stories say.  For some reason the planet does not reside in any chart, even the Charts in the Jedi Templ.. I mean Imperial Palace do not contain any planet or system of that name.",
   stopConversation = "false",
   options = {
-     {"Species? I thought the Sith were an order of Force Users.","opt2a"},   
+     {"Are you saying the Jedi deleted it from their archives?","opt2a"},   
   }
 }
 reltha_aiden:addScreen(opt2);
@@ -119,10 +119,10 @@ reltha_aiden:addScreen(opt2);
 opt2a = ConvoScreen:new {
   id = "opt2a",
   leftDialog = "",
-   customDialogText = "Well, they are both. The Sith were a red skinned Humanoid Species, that were very attuned to the Force, namely the Dark Side of the Force.  The Sith as you probably know them from History Books are the Sith that came about after the arrival of Dark Jedi to Korriban.",
+   customDialogText = "That is what we believe, yes.  What they would have been trying to conceal there, I do not know.  I can tell you this, there was one fellow from the Inquisition that was obsessed with Ruusan, and was quite desperate in locating it.   Jerec was his name.",
   stopConversation = "false",
   options = {
-     {"Dark Jedi?","opt2b"},
+     {"So, what exactly happened to Lord Kaan?","opt2b"},
   }
 }
 reltha_aiden:addScreen(opt2a);
@@ -130,10 +130,10 @@ reltha_aiden:addScreen(opt2a);
 opt2b = ConvoScreen:new {
   id = "opt2b",
   leftDialog = "",
-   customDialogText = "Oh yes, thousands of years ago there was a cataclysmic war known as the Hundred Year Darkness. There was a rift in the Jedi Order formed between those who became devoted to the Light Side of the Force, and those who became devoted to the Dark Side.",
+   customDialogText = "Well, if the stories are true Lord Kaan attempted to perform an ancient ritual that Darth Bane had discovered, one which supposedly once granted the Sith Emperor Vitiate immortality.",
   stopConversation = "false",
   options = {
-     {"I see, so what happened then?","opt2c"},
+     {"Immortality?","opt2c"},
   }
 }
 reltha_aiden:addScreen(opt2b);
@@ -141,10 +141,10 @@ reltha_aiden:addScreen(opt2b);
 opt2c = ConvoScreen:new {
   id = "opt2c",
   leftDialog = "",
-   customDialogText = "The fighting lasted for decades, but eventually the Dark Jedi were defeated and exiled from what was known space at the time.  The exiled Dark Jedi eventually landed here on Moraband.  The Sith were primitive by comparison, but saw the Dark Jedi as gods and worshipped them and they became the first Dark Lords of the Sith.",
+   customDialogText = "I know, it sounds far fetched.   Anyways, Lord Kaan was either given the details about the ritual wrong, or got something about it wrong.  The power that he and his fellow sith were channelling simply detonated, killing every every force sensitive being on the planet.  The ritual became known as the Thought Bomb.",
   stopConversation = "false",
   options = {
-     {"So what is in the valley below?","opt3"},
+     {"That's quite a bomb, but why would the Jedi have hidden the planet?","opt3"},
   }
 }
 reltha_aiden:addScreen(opt2c);
@@ -152,10 +152,10 @@ reltha_aiden:addScreen(opt2c);
 opt3 = ConvoScreen:new {
   id = "opt3",
   leftDialog = "",
-   customDialogText = "Below us is what is known as the Valley of the Dark Lords. When the Sith eventually moved onto more hospitable worlds to center their Empire from, Moraband became a burial world.  The most powerful of the Dark Lords had tombs erected here to house not just their remains but their vanity and some believed, their immortal souls for all eternity.",
+   customDialogText = "Good question, perhaps one day we will have an answer to it too.",
   stopConversation = "false",
   options = {   
-    {"So it's just one big old graveyard is what you are saying?","opt4"},   
+    {"So is Darth Bane really buried in this tomb?","opt4"},   
   }
 }
 reltha_aiden:addScreen(opt3);
@@ -163,81 +163,14 @@ reltha_aiden:addScreen(opt3);
 opt4 = ConvoScreen:new {
   id = "opt4",
   leftDialog = "",
-   customDialogText = "Well, the largest structure in the whole valley isn't a tomb at all.   It was once an Academy, where Acolytes from all over the ancient Sith Empire came to train either by choice, or by force.  Sadly a large portion of the structure's interior collapsed at some point in the past though there is a few chambers still accessible.",
+   customDialogText = "Well, there is a corpse in the sarcophogus in the lowest level of the Tomb, scans have shown that much. Whether it is actually the corpse of Bane, who knows.",
   stopConversation = "false",
   options = {   
-    {"Such as?","opt4a"},   
+    {"I see.  Well thank you for the info.","deny1"},   
   }
 }
 reltha_aiden:addScreen(opt4);
 
-opt4a = ConvoScreen:new {
-  id = "opt4a",
-  leftDialog = "",
-   customDialogText = "The most interesting, and largest chamber is high up inside the structure.  Hieroglyphs and any remaining data scavenged from some of the ancient memory banks found suggest that it may have been a council chamber, perhaps where the Dark Council of the Sith Empire once met.",
-  stopConversation = "false",
-  options = {   
-    {"I see. What about the other structures? What could I find there?","opt4b"},   
-  }
-}
-reltha_aiden:addScreen(opt4a);
 
-opt4b = ConvoScreen:new {
-  id = "opt4b",
-  leftDialog = "",
-   customDialogText = "If you are thinking of raiding the tombs and walking out with some priceless artifact from forgotten eras of Galactic History...  Forget it.   Those tombs were ancient in ancient times.  They've been picked clean of anything of value to anyone not a historian centuries ago.  Most are filled only with dust, bones and others house only vile beasts like the Tuk'ata all over the valley.",
-  stopConversation = "false",
-  options = {   
-    {"Alright, so no treasure hunting then..","opt4c"},   
-  }
-}
-reltha_aiden:addScreen(opt4b);
-
-opt4c = ConvoScreen:new {
-  id = "opt4c",
-  leftDialog = "",
-   customDialogText = "That wouldn't be likely, but you never know.  Every so often something interesting turns up. You'll find several of my team members amongst the ruins, perhaps they could point you to something.  Who knows..",
-  stopConversation = "false",
-  options = {   
-    {"Can I ask about something else?","opt6"},   
-  }
-}
-reltha_aiden:addScreen(opt4c);
-
--- diverge 2
-opt5 = ConvoScreen:new {
-  id = "opt5",
-  leftDialog = "",
-   customDialogText = "Not much I am afraid, the wildlife is extremely hostile, there is hardly anything except perhaps Lake Adas to the east.",
-  stopConversation = "false",
-  options = {   
-    {"Lake Adas?","opt5a"},   
-  }
-}
-reltha_aiden:addScreen(opt5);
-
-opt5a = ConvoScreen:new {
-  id = "opt5a",
-  leftDialog = "",
-   customDialogText = "Yeah, most of Moraband's water either evaporated centuries ago, or is in underground Aquifers.  Lake Adas is probably the only spot on the whole planet with standing water at the surface.",
-  stopConversation = "false",
-  options = {   
-    {"Let's talk about something else.","opt6"},   
-  }
-}
-reltha_aiden:addScreen(opt5a);
-
-opt6 = ConvoScreen:new {
-  id = "opt6",
-  leftDialog = "",
-   customDialogText = "What do you want to know?",
-  stopConversation = "false",
-  options = {   
-    {"What do you mean you were the Lead Archaeologist?.","opt1"},   
-    {"Tell me about Moraband.","opt2"},   
-    {"What else is on this planet?","opt5"},   
-  }
-}
-reltha_aiden:addScreen(opt6);
 
 addConversationTemplate("reltha_aiden", reltha_aiden);
