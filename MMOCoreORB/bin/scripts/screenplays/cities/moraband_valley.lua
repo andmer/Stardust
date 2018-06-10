@@ -38,18 +38,6 @@ function MorabandValleyScreenPlay:spawnMobiles()
   if (pNpc ~= nil) then
     HelperFuncs:setMobileTemplate(pNpc, "idlewander")
   end
- 
- --[[ 
-  pNpc = spawnMobile("coruscant", "commoner", 60, 2253, 0, -4413, 12, 0)
-  if (pNpc ~= nil) then
-    HelperFuncs:setMobileTemplate(pNpc, "idlewander")
-  end
-  
-  pNpc = spawnMobile("coruscant", "commoner", 60, 2257, 0, -4419, 20, 0)
-  if (pNpc ~= nil) then
-    HelperFuncs:setMobileTemplate(pNpc, "idlewander")
-  end
---]]  
-  
+
   
 end
