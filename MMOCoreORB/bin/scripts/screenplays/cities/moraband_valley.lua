@@ -75,7 +75,28 @@ function MorabandValleyScreenPlay:spawnSceneObjects()
   spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 20, 55, -15, 42000037, math.rad(-90) )
   spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 20, 55, -37, 42000037, math.rad(-90) )
   
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", -10, 55, 50, 42000037, math.rad(90) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -10, 55, 50, 42000037, math.rad(90) )
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", -10, 55, 42, 42000037, math.rad(90) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -10, 55, 42, 42000037, math.rad(90) )
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", -10, 55, 34, 42000037, math.rad(90) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -10, 55, 34, 42000037, math.rad(90) )
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", -10, 55, 26, 42000037, math.rad(90) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -10, 55, 26, 42000037, math.rad(90) )
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", -10, 55, 18, 42000037, math.rad(90) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -10, 55, 18, 42000037, math.rad(90) )
   
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", 10, 55, 50, 42000037, math.rad(-90) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 10, 55, 50, 42000037, math.rad(-90) )
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", 10, 55, 42, 42000037, math.rad(-90) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 10, 55, 42, 42000037, math.rad(-90) )
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", 10, 55, 34, 42000037, math.rad(-90) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 10, 55, 34, 42000037, math.rad(-90) )
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", 10, 55, 26, 42000037, math.rad(-90) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 10, 55, 26, 42000037, math.rad(-90) )
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", 10, 55, 18, 42000037, math.rad(-90) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 10, 55, 18, 42000037, math.rad(-90) )
+ 
 end
 
 function MorabandValleyScreenPlay:spawnMobiles()
