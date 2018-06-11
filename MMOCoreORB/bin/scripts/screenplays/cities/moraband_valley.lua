@@ -1,3 +1,5 @@
+local ObjectManager = require("managers.object.object_manager")
+
 MorabandValleyScreenPlay = ScreenPlay:new {
 	numberOfActs = 1,
 
@@ -11,6 +13,7 @@ function MorabandValleyScreenPlay:start()
 		self:spawnMobiles()
 		self:spawnSceneObjects()
 		self:spawnActiveArea1()
+		self:spawnActiveArea2()
 	end
 end
 
