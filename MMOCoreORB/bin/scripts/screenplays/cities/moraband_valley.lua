@@ -60,6 +60,22 @@ function MorabandValleyScreenPlay:spawnSceneObjects()
   spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 6.0, 88, -58, 42000037, math.rad(0) )
   spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 10.0, 88, -58, 42000037, math.rad(0) )
  
+  
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", -20, 55, 7, 42000037, math.rad(90) )
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", -20, 55, -15, 42000037, math.rad(90) )
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", -20, 55, -37, 42000037, math.rad(90) ) 
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", 20, 55, 7, 42000037, math.rad(-90) )
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", 20, 55, -15, 42000037, math.rad(-90) )
+  spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", 20, 55, -37, 42000037, math.rad(-90) )
+  
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -20, 55, 7, 42000037, math.rad(90) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -20, 55, -15, 42000037, math.rad(90) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -20, 55, -37, 42000037, math.rad(90) ) 
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 20, 55, 7, 42000037, math.rad(-90) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 20, 55, -15, 42000037, math.rad(-90) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 20, 55, -37, 42000037, math.rad(-90) )
+  
+  
 end
 
 function MorabandValleyScreenPlay:spawnMobiles()
