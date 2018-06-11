@@ -32,7 +32,33 @@ function MorabandValleyScreenPlay:spawnSceneObjects()
   spawnSceneObject("moraband", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_02.iff", -1481.4, 14, -948.7, 0, math.rad(-15) )
   spawnSceneObject("moraband", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_02.iff", -1481.4, 18, -948.7, 0, math.rad(-15) )
   
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -10.0, 58, -58, 42000037, math.rad(0) )
   spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -6.0, 58, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -2.0, 58, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 2.0, 58, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 6.0, 58, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 10.0, 58, -58, 42000037, math.rad(0) )
+ 
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -10.0, 68, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -6.0, 68, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -2.0, 68, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 2.0, 68, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 6.0, 68, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 10.0, 68, -58, 42000037, math.rad(0) )
+ 
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -10.0, 78, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -6.0, 78, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -2.0, 78, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 2.0, 78, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 6.0, 78, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 10.0, 78, -58, 42000037, math.rad(0) )
+ 
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -10.0, 88, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -6.0, 88, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -2.0, 88, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 2.0, 88, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 6.0, 88, -58, 42000037, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 10.0, 88, -58, 42000037, math.rad(0) )
  
 end
 
