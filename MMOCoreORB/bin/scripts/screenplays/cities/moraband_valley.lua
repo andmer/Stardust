@@ -32,6 +32,8 @@ function MorabandValleyScreenPlay:spawnSceneObjects()
   spawnSceneObject("moraband", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_02.iff", -1481.4, 14, -948.7, 0, math.rad(-15) )
   spawnSceneObject("moraband", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_02.iff", -1481.4, 18, -948.7, 0, math.rad(-15) )
   
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -6.0, 58, -58, 42000037, math.rad(0) )
+ 
 end
 
 function MorabandValleyScreenPlay:spawnMobiles()
@@ -105,7 +107,7 @@ function MorabandValleyScreenPlay:notifySpawnArea2(pActiveArea2, pMovingObject, 
     if (( player:isRebel()or player:isNeutral() )) then
 
       player:sendSystemMessage("You feel uneasy as you enter the building.  The Dark Side is strong here.")
-      player:playMusicMessage("sound/music_event_danger.snd")
+      player:playMusicMessage("sound/music_bcome_light_jedi.snd")
     end  
     if (( player:isImperial() )) then
       player:sendSystemMessage("You feel a rush of energy.  The Dark Side is strong here.")
