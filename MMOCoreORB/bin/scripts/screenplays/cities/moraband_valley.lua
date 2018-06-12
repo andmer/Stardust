@@ -98,6 +98,15 @@ function MorabandValleyScreenPlay:spawnSceneObjects()
   spawnSceneObject("moraband", "object/tangible/furniture/city/statue_sentinel_02.iff", 10, 55, 18, 42000037, math.rad(-90) )
   spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 10, 55, 18, 42000037, math.rad(-90) )
  
+ 
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 0, -37, 0, 42000040, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 0, -32, 0, 42000040, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 0, -28, 0, 42000040, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 0, -23, 0, 42000040, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 0, -18, 0, 42000040, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 0, -13, 0, 42000040, math.rad(0) )
+  
+ 
 end
 
 function MorabandValleyScreenPlay:spawnMobiles()
