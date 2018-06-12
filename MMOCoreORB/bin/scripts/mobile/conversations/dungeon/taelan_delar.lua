@@ -1,7 +1,7 @@
 taelan_delar = ConvoTemplate:new {
   initialScreen = "taelan_delar_start",
   templateType = "Lua",
-  luaClassHandler = "otaelan_delar_convo_handler",
+  luaClassHandler = "taelan_delar_convo_handler",
   screens = {}
 }
 
