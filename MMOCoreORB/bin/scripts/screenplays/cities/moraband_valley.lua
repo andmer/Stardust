@@ -14,6 +14,7 @@ function MorabandValleyScreenPlay:start()
 		self:spawnSceneObjects()
 		self:spawnActiveArea1()
 		self:spawnActiveArea2()
+		self:spawnActiveArea3()
 	end
 end
 
@@ -176,6 +177,40 @@ function MorabandValleyScreenPlay:notifySpawnArea2(pActiveArea2, pMovingObject, 
       player:sendSystemMessage("You feel a rush of energy.  The Dark Side is strong here.")
       player:playMusicMessage("sound/music_become_dark_jedi.snd")
     end
+    return 0    
+  end)
+end
+
+
+function MorabandValleyScreenPlay:spawnActiveArea3()
+  local pSpawnArea3 = spawnSceneObject("moraband", "object/active_area.iff", -1159, 12, -1021, 0, 0)
+    
+  if (pSpawnArea3 ~= nil) then
+    local activeArea3 = LuaActiveArea(pSpawnArea3)
+          activeArea3:setCellObjectID(0)
+          activeArea3:setRadius(32)
+          createObserver(ENTEREDAREA, "MorabandValleyScreenPlay", "notifySpawnArea3", pSpawnArea3)
+          --createObserver(EXITEDAREA, "MorabandValleyScreenPlay", "notifySpawnAreaLeave", pSpawnArea1)
+      end
+end
+
+function MorabandValleyScreenPlay:notifySpawnArea3(pActiveArea2, pMovingObject, pPlayer)
+  
+  if (not SceneObject(pMovingObject):isCreatureObject()) then
+    return 0
+  end
+  
+  return ObjectManager.withCreatureObject(pMovingObject, function(player)
+    if (player:isAiAgent()) then
+      return 0
+    end
+    
+    if ((player:isImperial() or player:isRebel()or player:isNeutral())) then
+
+      player:sendSystemMessage("You feel an uncontrollable sense of anger as you approach the edifice of the Tomb.")
+      player:playMusicMessage("sound/music_event_danger.snd")
+      
+      end
     return 0    
   end)
 end
