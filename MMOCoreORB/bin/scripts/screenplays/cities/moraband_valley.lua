@@ -99,11 +99,11 @@ function MorabandValleyScreenPlay:spawnSceneObjects()
   spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 10, 55, 18, 42000037, math.rad(-90) )
  
  
-  spawnSceneObject("moraband", "object/static/particle/pt_light_streetlamp_red.iff", 0, -37, 0, 42000040, math.rad(0) )
-  spawnSceneObject("moraband", "object/static/particle/pt_light_streetlamp_red.iff", 0, -32, 0, 42000040, math.rad(0) )
-  spawnSceneObject("moraband", "object/static/particle/pt_light_streetlamp_red.iff", 0, -28, 0, 42000040, math.rad(0) )
-  spawnSceneObject("moraband", "object/static/particle/pt_light_streetlamp_red.iff", 0, -23, 0, 42000040, math.rad(0) )
-  spawnSceneObject("moraband", "object/static/particle/pt_light_streetlamp_red.iff", 0, -18, 0, 42000040, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_blue_style_01_on.iff", 0, -37, 0, 42000040, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_blue_style_01_on.iff", 0, -32, 0, 42000040, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_blue_style_01_on.iff", 0, -28, 0, 42000040, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_blue_style_01_on.iff", 0, -23, 0, 42000040, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/structure/general/streetlamp_small_blue_style_01_on.iff", 0, -18, 0, 42000040, math.rad(0) )
   
   spawnSceneObject("moraband", "object/static/particle/pt_flocking_glowzees.iff", 0, -37, 0, 42000040, math.rad(0) )
   spawnSceneObject("moraband", "object/static/particle/pt_flocking_glowzees.iff", 0, -32, 0, 42000040, math.rad(0) )
@@ -111,7 +111,7 @@ function MorabandValleyScreenPlay:spawnSceneObjects()
   spawnSceneObject("moraband", "object/static/particle/pt_flocking_glowzees.iff", 0, -23, 0, 42000040, math.rad(0) )
   spawnSceneObject("moraband", "object/static/particle/pt_flocking_glowzees.iff", 0, -18, 0, 42000040, math.rad(0) )
   
-  spawnSceneObject("moraband", "object/static/particle/pt_sparks_large.iff", 0, -13, 0, 42000040, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/particle/pt_poi_electricity_2x2.iff", 0, -5, 0, 42000040, math.rad(0) )
   
  
 end
