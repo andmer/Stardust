@@ -111,7 +111,7 @@ function MorabandValleyScreenPlay:spawnSceneObjects()
   spawnSceneObject("moraband", "object/static/particle/pt_flocking_glowzees.iff", 0, -23, 0, 42000040, math.rad(0) )
   spawnSceneObject("moraband", "object/static/particle/pt_flocking_glowzees.iff", 0, -18, 0, 42000040, math.rad(0) )
   
-  spawnSceneObject("moraband", "object/static/particle/pt_spark_large.iff", 0, -13, 0, 42000040, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/particle/pt_sparks_large.iff", 0, -13, 0, 42000040, math.rad(0) )
   
  
 end
