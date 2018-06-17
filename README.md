@@ -1,4 +1,4 @@
-# SWGEmu Core3 #
+# Stardust SWG: Based on SWGEmu Core3 / Engine3 #
 
 ## What is SWGEmu? ##
 
@@ -6,46 +6,6 @@ Star Wars Galaxies was a massively multi-player online role playing game introdu
 It is this game the SWGEmu project focuses to recreate at a specific milestone referred to as Pre-CU, or Pre-Combat Upgrade. The Combat Upgrade was a set of game changes which radically changed the game-play, to the dislike of thousands of players. These changes led to the founding of this project, in an attempt to "recreate" the game as it was during the Pre-CU era.
 At SWGEmu, Emulator refers to the software the SWGEmu team is building. This Emulator is meant to imitate Sony Online Entertainment's server-side software, which hosted the galaxies of Star Wars Galaxies during the Pre-CU era.
 
-#### How to build ####
-
-##### Dependencies #####
-  * CMake 3.1.0 or higher
-  * BerkeleyDB 5.3
-  * MySQL (libmysqlclient20)
-  * OpenSSL libraries
-  * pthreads
-  * Lua 5.3 libraries
-  * Zlib libraries
-  * g++ 5+
-  * engine3
-  * java jre 1.7+
-
-### Debian 9+ or Ubuntu 16.04+ ###
-  * Install dependencies
-
-        sudo apt install build-essential libmysqlclient-dev liblua5.3-dev libdb5.3-dev libssl-dev cmake git default-jre libssl-dev
-  * Clone core3 repository somewhere  (~/git)
-
-        git clone http://review.swgemu.com/Core3
-  * Clone engine3 repository somewhere (~/git)
-
-        git clone http://review.swgemu.com/PublicEngine
-  * Enter repository and run make
-
-        cd PublicEngine/MMOEngine && make
-  * Symlink MMOEngine in Core3 where MMOCoreORB resides
-
-        cd ../../Core3
-        ln -s ../PublicEngine/MMOEngine MMOEngine
-  * Build Core3 with 8 threads
-
-        cd MMOCoreORB
-        git checkout origin/unstable
-        make build-cmake -j8
-
-### How to Run ###
-    cd ~/git/Core3/MMOCoreORB/bin
-    ./core3
 
 ### License ###
     Copyright (C) 2017 SWGEmu
@@ -57,4 +17,3 @@ At SWGEmu, Emulator refers to the software the SWGEmu team is building. This Emu
 
     You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-For more information, see https://review.swgemu.com.
