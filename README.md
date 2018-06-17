@@ -1,10 +1,10 @@
 # Stardust SWG: Based on SWGEmu Core3 / Engine3 #
 
-## What is SWGEmu? ##
+## What is Stardust? ##
 
-Star Wars Galaxies was a massively multi-player online role playing game introduced by Sony Online Entertainment in the year 2003 and shut down in 2011.
-It is this game the SWGEmu project focuses to recreate at a specific milestone referred to as Pre-CU, or Pre-Combat Upgrade. The Combat Upgrade was a set of game changes which radically changed the game-play, to the dislike of thousands of players. These changes led to the founding of this project, in an attempt to "recreate" the game as it was during the Pre-CU era.
-At SWGEmu, Emulator refers to the software the SWGEmu team is building. This Emulator is meant to imitate Sony Online Entertainment's server-side software, which hosted the galaxies of Star Wars Galaxies during the Pre-CU era.
+Put simply,  Stardust is a take on Pre-NGE Star Wars Galaxies with a primary focus on combat balance, quick, fast paced combat, challenging gameplay, and an overall content experience that you will not get anywhere else.
+
+If you are tired of servers that cater to people that whine for an easy mode experience, watering down essential components of the game in the name of “Quality of Life”,  you may have come to the right place.
 
 
 ### License ###
