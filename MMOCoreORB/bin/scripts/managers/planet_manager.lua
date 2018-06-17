@@ -792,5 +792,7 @@ moraband = {
     },
     
     badgeAreas = {   
+      {"moraband_valley", -1626,-669,0,20,148}, 
+      {"moraband_dreshdae", 1091,-5328,0,90,149}, 
   },
 }
