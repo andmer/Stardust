@@ -208,7 +208,7 @@ archaeologist_leader:addScreen(opt4c);
 opt5 = ConvoScreen:new {
   id = "opt5",
   leftDialog = "",
-   customDialogText = "Not much I am afraid, the wildlife is extremely hostile, there is hardly anything except perhaps Lake Adas to the east.",
+   customDialogText = "Not much I am afraid, the wildlife of Moraband is extremely hostile, but there are a few who have chosen to try to live a meager existence here.  Such as the people in Dreshdae to the south, it used to be a rather large city, thousands of years ago. Now it's little more than a tiny hamlet with a dozen or so residents. Aside from that there is hardly anything except perhaps Lake Adas to the east.",
   stopConversation = "false",
   options = {   
     {"Lake Adas?","opt5a"},   
