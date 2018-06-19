@@ -1,7 +1,5 @@
 terentatek = Creature:new {
-	customName = "wod_mutant_rancor_boss",
-	randomNameType = NAME_GENERIC,
-	randomNameTag = true,
+	customName = "a Terentatek",
 	socialGroup = "graul",
   pvpFaction = "",
   faction = "",
