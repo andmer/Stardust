@@ -428,3 +428,8 @@ includeFile("lair/creature_dynamic/kaas_sleen_lair.lua")
 includeFile("lair/creature_dynamic/kaas_vine_cat_lair.lua")
 includeFile("lair/creature_dynamic/kaas_ysalamiri_pack.lua")
 includeFile("lair/creature_dynamic/kaas_kell_dragon_pack.lua")
+-- Moraband Dynamic Spawns
+includeFile("lair/creature_dynamic/moraband_tukata_pack.lua")
+includeFile("lair/creature_dynamic/moraband_hssiss_pack.lua")
+includeFile("lair/creature_dynamic/moraband_klor_slug_pack.lua")
+includeFile("lair/creature_dynamic/moraband_terentatek_pack.lua")

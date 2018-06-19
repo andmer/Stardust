@@ -592,3 +592,8 @@ includeFile("lair/creature_lair/kaas_mailoc_lair_small.lua")
 includeFile("lair/creature_lair/kaas_sleen_lair_small.lua")
 includeFile("lair/creature_lair/kaas_vine_cat_lair_small.lua")
 includeFile("lair/creature_lair/kaas_ysalamiri_lair_small.lua")
+
+-- Moraband Lairs
+includeFile("lair/creature_lair/moraband_tukata_lair.lua")
+includeFile("lair/creature_lair/moraband_hssiss_lair.lua")
+includeFile("lair/creature_lair/moraband_terentatek_lair.lua")
