@@ -139,20 +139,58 @@ function MorabandValleyScreenPlay:spawnSceneObjects()
   
   spawnSceneObject("moraband", "object/static/particle/pt_poi_electricity_2x2.iff", 0, -5, 0, 42000040, math.rad(0) )
   
+  
+  -- Dreshdae Structures
+  
+  spawnSceneObject("moraband", "object/static/structure/tatooine/antenna_tatt_style_1.iff", 1082, 18, -5292, 0, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/installation/mockup_mining_liquid_moisture_harvester.iff", 1078, 18, -5269, 0, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/installation/mockup_mining_liquid_moisture_harvester.iff", 1103, 18, -5231, 0, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/installation/mockup_mining_liquid_moisture_harvester.iff", 1163, 18, -5265, 0, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/installation/mockup_mining_liquid_moisture_harvester.iff", 1167, 18, -5338, 0, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/installation/mockup_mining_liquid_moisture_harvester.iff", 1117, 18, -5423, 0, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/installation/mockup_mining_liquid_moisture_harvester.iff", 1052, 18, -5402, 0, math.rad(0) )
+  spawnSceneObject("moraband", "object/static/installation/mockup_mining_liquid_moisture_harvester.iff", 995, 18, -5342, 0, math.rad(0) )
  
 end
 
 function MorabandValleyScreenPlay:spawnMobiles()
 
-	--Entertainment District Exterior
+	--Dreshdae Village 
 	
-  local pNpc = spawnMobile("moraband", "at_st", 60, 443, 6, -2928, 0, 0)
-  if (pNpc ~= nil) then
-    HelperFuncs:setMobileTemplate(pNpc, "idlewander")
-  end
+  local pNpc = spawnMobile("moraband", "commoner", 60, -0.5, 0.4, -4.6, 33, 42000304)
+    self:setMoodString(pNpc, "npc_sitting_chair")
+    
+    pNpc = spawnMobile("moraband", "commoner", 60, -0.6, 0.4, -1.4, 142, 42000304)
+    self:setMoodString(pNpc, "npc_sitting_chair")
+    
+    pNpc = spawnMobile("moraband", "commoner", 60, 5.1, 0.4, -4.6, -14, 42000304)
+    self:setMoodString(pNpc, "npc_sitting_chair")
+    
+    pNpc = spawnMobile("moraband", "commoner", 60, -4.0, 0.4, -7.2, -47, 42000304)
+    self:setMoodString(pNpc, "conversation")
+    
+    pNpc = spawnMobile("moraband", "commoner", 60, -6.8, 0.4, -4.3, 133, 42000304)
+    self:setMoodString(pNpc, "conversation")
+    
+    pNpc = spawnMobile("moraband", "commoner", 60, -8.7, 1.0, 9.7, 119, 42000305)
+    self:setMoodString(pNpc, "npc_sitting_chair")
+    
+    pNpc = spawnMobile("moraband", "commoner", 60, -6.5, 1.0, 7.6, -49, 42000305)
+    self:setMoodString(pNpc, "npc_accusing")
+    
+    pNpc = spawnMobile("moraband", "commoner", 60, 1072, 18, -5327, 49, 0)
+    self:setMoodString(pNpc, "neutral")
+    
+    pNpc = spawnMobile("moraband", "commoner", 60, 1116, 18, -5336, -73, 0)
+    self:setMoodString(pNpc, "neutral")
+ 
+    pNpc = spawnMobile("moraband", "commoner", 60, 1101, 18, -5311, -173, 0)
+    self:setMoodString(pNpc, "neutral")
+ 
+   end
 
   
-end
+
 
 function MorabandValleyScreenPlay:spawnActiveArea1()
   local pSpawnArea1 = spawnSceneObject("moraband", "object/active_area.iff", -1319, 14, -585, 0, 0)
