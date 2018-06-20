@@ -44,7 +44,7 @@
 object_building_player_tree_house = object_building_player_shared_tree_house:new {
 	lotSize = 2,
 	baseMaintenanceRate = 10,
-	allowedZones = {"dantooine", "lok", "tatooine", "naboo", "rori", "corellia", "talus", "chandrila", "kaas"},
+	allowedZones = {"dantooine", "lok", "tatooine", "naboo", "rori", "corellia", "talus", "chandrila", "kaas", "moraband", "hutta"},
 	publicStructure = 0,
 	skillMods = {
 		{"private_medical_rating", 300},
@@ -52,7 +52,8 @@ object_building_player_tree_house = object_building_player_shared_tree_house:new
 		{"private_med_battle_fatigue", 15}
 	},
 	childObjects = {
-
+      {templateFile = "object/tangible/terminal/terminal_player_structure.iff", x = -21.1796, z = 0.972775, y = 5.97545, ow = 0.707107, ox = 0, oz = 0, oy = 0.707107, cellid = 1, containmentType = -1}
+      
 	},
 	constructionMarker = "object/building/player/construction/construction_player_house_corellia_large_style_01.iff",
 	length = 5,

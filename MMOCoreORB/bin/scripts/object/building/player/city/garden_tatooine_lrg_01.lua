@@ -45,7 +45,7 @@ object_building_player_city_garden_tatooine_lrg_01 = object_building_player_city
 
 	lotSize = 0,
 	baseMaintenanceRate = 0,
-	allowedZones = {"dantooine", "lok", "tatooine", "naboo", "rori", "corellia", "talus", "chandrila", "kaas"},
+	allowedZones = {"dantooine", "lok", "tatooine", "naboo", "rori", "corellia", "talus", "chandrila", "kaas", "moraband", "hutta"},
 	length = 7,
 	width = 7,
 	cityRankRequired = 3,

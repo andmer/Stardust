@@ -47,7 +47,7 @@ lotSize = 5,
 	length = 5,
 	width = 7,
 	baseMaintenanceRate = 50,
-	allowedZones = {"dantooine", "lok", "tatooine", "naboo", "rori", "corellia", "talus", "chandrila", "kaas"},
+	allowedZones = {"dantooine", "lok", "tatooine", "naboo", "rori", "corellia", "talus", "chandrila", "kaas", "moraband", "hutta"},
 	publicStructure = 0,
 	skillMods = {
 		{"private_medical_rating", 100},

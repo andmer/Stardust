@@ -44,7 +44,7 @@
 object_building_player_sandcrawler_house = object_building_player_shared_sandcrawler_house:new {
 	lotSize = 2,
 	baseMaintenanceRate = 10,
-	allowedZones = {"lok", "tatooine"},
+	allowedZones = {"lok", "tatooine", "moraband", "hutta"},
 	publicStructure = 0,
 	skillMods = {
 		{"private_medical_rating", 300},
@@ -52,7 +52,8 @@ object_building_player_sandcrawler_house = object_building_player_shared_sandcra
 		{"private_med_battle_fatigue", 15}
 	},
 	childObjects = {
-
+      {templateFile = "object/tangible/terminal/terminal_player_structure.iff", x = -4.25791, z = 9.29876, y = -13.4098, ow = -0.707107, ox = 0, oz = 0, oy = -0.707107, cellid = 2, containmentType = -1}
+      
 	},
 	constructionMarker = "object/building/player/construction/construction_player_house_corellia_large_style_01.iff",
 	length = 5,

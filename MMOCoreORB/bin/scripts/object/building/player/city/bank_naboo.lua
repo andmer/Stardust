@@ -45,7 +45,7 @@ object_building_player_city_bank_naboo = object_building_player_city_shared_bank
 
 	lotSize = 0,
 	baseMaintenanceRate = 0,
-	allowedZones = {"dantooine", "lok", "tatooine", "naboo", "rori", "corellia", "talus", "chandrila", "kaas"},
+	allowedZones = {"dantooine", "lok", "tatooine", "naboo", "rori", "corellia", "talus", "chandrila", "kaas", "moraband", "hutta"},
 	length = 4,
 	width = 4,
 	planetMapCategory = "bank",

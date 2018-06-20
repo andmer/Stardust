@@ -83,15 +83,6 @@ moraband_world = {
 			size = 25
 		},		
 		{
-			lairTemplateName = "lok_snorbal_lair_neutral_medium_boss_01",
-			spawnLimit = -1,
-			minDifficulty = 30,
-			maxDifficulty = 34,
-			numberToSpawn = 0,
-			weighting = 15,
-			size = 25
-		},
-		{
 			lairTemplateName = "lok_mynock_pack2_neutral_none",
 			spawnLimit = -1,
 			minDifficulty = 30,

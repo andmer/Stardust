@@ -52,7 +52,8 @@ object_building_player_generic_medium_window_s01 = object_building_player_shared
 		{"private_med_battle_fatigue", 15}
 	},
 	childObjects = {
-
+      {templateFile = "object/tangible/terminal/terminal_player_structure.iff", x = 5.13192, z = 0.624998, y = 6.375, ow = -1.78814e-07, ox = 0, oz = 0, oy = -1, cellid = 1, containmentType = -1}
+      
 	},
 	constructionMarker = "object/building/player/construction/construction_player_house_corellia_large_style_01.iff",
 	length = 5,

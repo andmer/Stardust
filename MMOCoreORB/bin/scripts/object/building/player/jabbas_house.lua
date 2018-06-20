@@ -44,7 +44,7 @@
 object_building_player_jabbas_house = object_building_player_shared_jabbas_house:new {
 	lotSize = 2,
 	baseMaintenanceRate = 10,
-	allowedZones = {"naboo", "lok", "tatooine", "chandrila"},
+	allowedZones = {"naboo", "lok", "tatooine", "chandrila", "moraband", "hutta"},
 	publicStructure = 0,
 	skillMods = {
 		{"private_medical_rating", 300},
@@ -52,7 +52,10 @@ object_building_player_jabbas_house = object_building_player_shared_jabbas_house
 		{"private_med_battle_fatigue", 15}
 	},
 	childObjects = {
-
+      {templateFile = "object/tangible/terminal/terminal_player_structure.iff", x = -0.086052, z = 14.7621, y = 21.2083, ow = 0, ox = 0, oz = 0, oy = -1, cellid = 1, containmentType = -1},
+      {templateFile = "object/tangible/terminal/terminal_elevator_up.iff", x = -0.150416, z = 0.40893, y = -0.349841, ow = -4.37114e-08, ox = 0, oz = 0, oy = 1, cellid = 1, containmentType = -1},
+      {templateFile = "object/tangible/terminal/terminal_elevator_down.iff", x = -0.309577, z = 16.1126, y = -2.06919, ow = 1, ox = 0, oz = 0, oy = 0, cellid = 1, containmentType = -1}
+      
 	},
 	constructionMarker = "object/building/player/construction/construction_player_house_corellia_large_style_01.iff",
 	length = 5,

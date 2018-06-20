@@ -275,7 +275,20 @@ function MorabandValleyScreenPlay:spawnMobiles()
     
     spawnMobile("moraband", "tukata", 60, -64.7, -37, -17.2, 70, 42000060)
     
+    spawnMobile("yavin4", "klor_slug",600,-9,-37.3,-9,48,42000040)
+    spawnMobile("yavin4", "klor_slug",600,-10.5,-37.3,4.2,111,42000040)
+    spawnMobile("yavin4", "klor_slug",600,6.6,-37.3,12.8,-149,42000040)
+    spawnMobile("yavin4", "klor_slug",600,10.2,-37.3,4.8,-110,42000040)
+    spawnMobile("yavin4", "klor_slug",600,10.9,-37.3,-3.9,-69,42000040)
+    spawnMobile("yavin4", "klor_slug",600,-12.1,-37.3,18.2,74,42000040)
     
+    spawnMobile("yavin4", "klor_slug",600,-0.6,-37.3,-28.3,-19,42000040)
+    
+    spawnMobile("yavin4", "klor_slug",600,-24,-1.3,10.3,93,42000040)
+    spawnMobile("yavin4", "klor_slug",600,-16.4,-1.3,-21,49,42000040)
+    spawnMobile("yavin4", "klor_slug",600,12.1,-1.3,-23.4,21,42000040)
+    spawnMobile("yavin4", "klor_slug",600,23.4,-1.3,11,-77,42000040)
+      
    end
 
   
@@ -357,7 +370,7 @@ function MorabandValleyScreenPlay:spawnActiveArea3()
   if (pSpawnArea3 ~= nil) then
     local activeArea3 = LuaActiveArea(pSpawnArea3)
           activeArea3:setCellObjectID(0)
-          activeArea3:setRadius(32)
+          activeArea3:setRadius(20)
           createObserver(ENTEREDAREA, "MorabandValleyScreenPlay", "notifySpawnArea3", pSpawnArea3)
           --createObserver(EXITEDAREA, "MorabandValleyScreenPlay", "notifySpawnAreaLeave", pSpawnArea1)
       end
