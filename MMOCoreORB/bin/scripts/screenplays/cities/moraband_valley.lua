@@ -255,10 +255,12 @@ function MorabandValleyScreenPlay:spawnMobiles()
     spawnMobile("moraband", "tukata", 60, -123.3, -45.8, -82.1, -87, 42000067)
     spawnMobile("moraband", "tukata", 60, -136.6, -46.2, -89.2, -40, 42000067)
     spawnMobile("moraband", "tukata", 60, -143.3, -46, -82, 135, 42000067)
-    spawnMobile("moraband", "tukata", 60, -144.6, -45.5, -114.6, 0, 42000067)
-    spawnMobile("moraband", "tukata", 60, -163.5, -48.1, -121.6, 92, 42000067)
-    spawnMobile("moraband", "tukata", 60, -176.4, -44, -102.2, 173, 42000067)   
-    spawnMobile("moraband", "tukata", 60, -174.5, -41.1, -77.4, 179, 42000067)
+    
+    spawnMobile("moraband", "tukata", 60, -144.6, -45.5, -114.6, 0, 42000068)
+    spawnMobile("moraband", "tukata", 60, -163.5, -48.1, -121.6, 92, 42000068)
+    spawnMobile("moraband", "tukata", 60, -176.4, -44, -102.2, 173, 42000068)   
+    
+    spawnMobile("moraband", "tukata", 60, -174.5, -41.1, -77.4, 179, 42000066)
     
     spawnMobile("moraband", "tukata", 60, -169.7, -41.7, -87.2, -175, 42000066)
     spawnMobile("moraband", "tukata", 60, -164.9, -41.4, -58.6, -175, 42000066)
