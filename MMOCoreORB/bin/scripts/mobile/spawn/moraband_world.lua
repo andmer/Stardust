@@ -65,7 +65,7 @@ moraband_world = {
 			size = 25
 		},		
 		{
-			lairTemplateName = "lok_mynock_pack_neutral_none",
+			lairTemplateName = "moraband_shyrack_pack",
 			spawnLimit = -1,
 			minDifficulty = 23,
 			maxDifficulty = 27,
