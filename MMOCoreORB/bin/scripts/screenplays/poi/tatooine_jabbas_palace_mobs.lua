@@ -16,19 +16,19 @@ TatooineJabbasPalaceMobsScreenPlay = ScreenPlay:new {
   },
 
   gamorrean_guards = {
-    {"gamorrean_guard", 60, -0.3, 5.8, 87.2, 93, 1177469, "Ortugg", "guard1"},
-    {"gamorrean_guard", 60, -11, 5.8, 88, 148, 1177469, "Rogua","guard2"},
-    {"gamorrean_guard", 60, -11, 5.8, 88, 180, 1177469, "Gartogg","guard3"},
-    {"gamorrean_guard", 60, -1, 5.8, 98, 180, 1177469, "Torrug","guard4"},
-    {"gamorrean_guard", 60, 10, 5.8, 71, 180, 1177470, "Grogur", "guard5"},
-    {"gamorrean_guard", 60, -30.78, 0.2, 82.64, 180, 1177476, "Urgott","guard6"},
-    {"gamorrean_guard", 60, -2.04, 0.2, 82.61, 180, 1177480, "Artogg","guard7"},
-    {"gamorrean_guard", 60, -13, 3, 59, 180, 1177474, "Ogtur","guard8"},
-    {"gamorrean_guard", 60, -37, 5, 46, 180, 1177486, "Rautog","guard9"},
-    {"gamorrean_guard", 60, -25, 3.6, 34, 180, 1177487,  "Agtor","guard10"},
-    {"gamorrean_guard", 60, 6, 4, 26, 180, 1177487, "Torgau","guard11"},
-    {"gamorrean_guard", 60, 22, -9, 48, 180, 1177502, "Ugtaur","guard12"},
-    {"gamorrean_guard", 60, 0.14, 2, 53.1, 180, 1177487,  "Gurgot","guard13"},
+    {"bomarr_monk", 60, -0.3, 5.8, 87.2, 93, 1177469, "Bomarr Monk", "guard1"},
+    {"bomarr_monk", 60, -11, 5.8, 88, 148, 1177469, "Bomarr Monk","guard2"},
+    {"bomarr_monk", 60, -11, 5.8, 88, 180, 1177469, "Bomarr Monk","guard3"},
+    {"bomarr_monk", 60, -1, 5.8, 98, 180, 1177469, "Bomarr Monk","guard4"},
+    {"bomarr_monk", 60, 10, 5.8, 71, 180, 1177470, "Bomarr Monk", "guard5"},
+    {"bomarr_monk", 60, -30.78, 0.2, 82.64, 180, 1177476, "Bomarr Monk","guard6"},
+    {"bomarr_monk", 60, -2.04, 0.2, 82.61, 180, 1177480, "Bomarr Monk","guard7"},
+    {"bomarr_monk", 60, -13, 3, 59, 180, 1177474, "Bomarr Monk","guard8"},
+    {"bomarr_monk", 60, -37, 5, 46, 180, 1177486, "Bomarr Monk","guard9"},
+    {"bomarr_monk", 60, -25, 3.6, 34, 180, 1177487,  "Bomarr Monk","guard10"},
+    {"bomarr_monk", 60, 6, 4, 26, 180, 1177487, "Bomarr Monk","guard11"},
+    {"bomarr_monk", 60, 22, -9, 48, 180, 1177502, "Bomarr Monk","guard12"},
+    {"bomarr_monk", 60, 0.14, 2, 53.1, 180, 1177487,  "Bomarr Monk","guard13"},
   },
 
   droid_spawns = {
@@ -61,10 +61,10 @@ function TatooineJabbasPalaceMobsScreenPlay:spawnStatics()
   --[[
   spawnMobile("tatooine", "beissa", 60, 8.11982, 2, 34.2394, 295, 1177487)
   spawnMobile("tatooine", "ev_9d9", 60, 24.47, 0.2, 87.86, 312, 1177479)
-  spawnMobile("tatooine", "boba_fett",60,-1,3,31,322.95,1177487)
+  
   spawnMobile("tatooine", "salacious_crumb",60,-16.29,2.81087,42.54,86.0692,1177487)
   --]]
-  
+  spawnMobile("hutta", "boba_fett",60,0.1,4.1,-9.8,175,390000049)
   spawnMobile("chandrila", "jabba_the_hutt",60,4.2,-0.9,-12.0,14,35791444)
   
   --[[
