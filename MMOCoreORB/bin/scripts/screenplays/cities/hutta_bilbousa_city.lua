@@ -272,9 +272,10 @@ function BilbousaCityScreenPlay:spawnMobiles()
     spawnMobile("hutta", "hutt_battle_droid",120,-789,80,1463,90,0)
     spawnMobile("hutta", "hutt_battle_droid",120,-743,80,1463,-90,0)
     
+    spawnMobile("hutta", "jabba_enforcer",400,-767.2,80,1528,175,0)
     
-   end
-
+    
+end
   
 --[[
 
