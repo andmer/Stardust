@@ -18,8 +18,10 @@ end
 
 function BilbousaCityScreenPlay:spawnSceneObjects()
 
-	--Sith Academy
-	--spawnSceneObject("moraband", "object/static/structure/general/cave_wall_damprock_style_01.iff", -55.6, 4.0, 71, 42000029, math.rad(0) )
+	--Bounty Hunter's Guild
+	spawnSceneObject("hutta", "object/tangible/terminal/terminal_mission_bounty.iff", 0.0, 1.3, -7.7, 390000049, math.rad(0) )
+	spawnSceneObject("hutta", "object/tangible/terminal/terminal_mission_bounty.iff", 3.0, 1.3, -7.7, 390000049, math.rad(0) )
+	spawnSceneObject("hutta", "object/tangible/terminal/terminal_mission_bounty.iff", -3.0, 1.3, -7.7, 390000049, math.rad(0) )
 
 end
 
@@ -90,7 +92,27 @@ function BilbousaCityScreenPlay:spawnMobiles()
     spawnMobile("hutta", "jabba_enforcer", 60, -630.6, 80, 1474.9, -90, 0)
     spawnMobile("hutta", "jabba_enforcer", 60, -630.6, 80, 1451.4, -90, 0)
     spawnMobile("hutta", "jabba_enforcer", 60, -685.1, 80, 1439.2, -180, 0)
-      
+    
+    
+  -- Bounty Hunter's Guild Interior
+    spawnMobile("hutta", "dengar", 60, 3.6, 4.1, -12.9, -135, 390000049)
+    spawnMobile("hutta", "bossk", 60, -4.1, 4.1, -13.3, 135, 390000049)
+    spawnMobile("hutta", "ig_88", 60, -4.2, 3.4, -20.8, 39, 390000049)  
+    spawnMobile("hutta", "bounty_hunter", 60, 4.1, 3.3, -20.9, -39, 390000049)
+    spawnMobile("hutta", "bounty_hunter", 60, 38.0, 2.3, -28, 87, 390000056)
+    spawnMobile("hutta", "medic", 60, 21.2, 4.2, -31.5, 170, 390000057)  
+    
+    spawnMobile("hutta", "informant_npc_lvl_1", 60, -11.7, 2.3, 5.8, 129, 390000049) 
+    spawnMobile("hutta", "informant_npc_lvl_2", 60, -0.2, 2.3, 7.9, 180, 390000049)   
+    spawnMobile("hutta", "informant_npc_lvl_3", 60, 11.2, 2.3, 6.1, -140, 390000049)
+    
+    spawnMobile("hutta", "zirta_the_hutt", 60, 0.2, 8.9, -30.9, -1, 390000049)
+    
+    spawnMobile("hutta", "jabba_enforcer", 60, 9.1, 8.1, -34.4, -57, 390000049)
+    spawnMobile("hutta", "jabba_enforcer", 60, -9.1, 8.1, -34.4, 13, 390000049)
+    
+    spawnMobile("hutta", "jabba_enforcer", 60, -5.4, 4.1, 17.7, 180, 390000049)
+    spawnMobile("hutta", "jabba_enforcer", 60, 5.4, 4.1, 17.7, 180, 390000049)
    end
 
   
