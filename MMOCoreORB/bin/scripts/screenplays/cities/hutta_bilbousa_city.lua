@@ -222,6 +222,34 @@ function BilbousaCityScreenPlay:spawnMobiles()
     pNpc = spawnMobile("hutta", "bartender",60,-14,-0.9,0,90,390000021)
     self:setMoodString(pNpc, "worried")
     
+    spawnMobile("hutta", "hutt_commoner", 60, 22.9, -0.9, 7.0, -162, 390000021)
+    spawnMobile("hutta", "hutt_commoner", 60, 33.1, 0.1, 2.5, 109, 390000020)
+    
+    pNpc = spawnMobile("hutta", "jabba_enforcer",400,35.0,0.1,1.2,-75,390000020)
+    self:setMoodString(pNpc, "npc_accusing")
+    
+    spawnMobile("hutta", "jabba_enforcer",400,-586,80,1644,-89,0)
+    spawnMobile("hutta", "jabba_enforcer",400,-614,80,1679,89,0)
+    spawnMobile("hutta", "jabba_enforcer",400,-570,80,1710,180,0)  
+    spawnMobile("hutta", "jabba_enforcer",400,-515,80,1736,-52,0)
+    spawnMobile("hutta", "jabba_enforcer",400,-532.7,80,1789,180,0)
+    spawnMobile("hutta", "jabba_enforcer",400,-581.7,80,1789,175,0)
+    spawnMobile("hutta", "jabba_enforcer",400,-606,80,1789,166,0)
+    
+    pNpc = spawnMobile("tatooine", "slicer",60,-2.63337,0.3,2.46637,180.004,390000102)
+    self:setMoodString(pNpc, "conversation")
+    pNpc = spawnMobile("tatooine", "commoner",60,-22.8506,1.29946,6.24726,180.009,390000102)
+    self:setMoodString(pNpc, "conversation")
+    pNpc = spawnMobile("tatooine", "info_broker",60,-22.8506,1.2998,5.24726,360.011,390000102)
+    self:setMoodString(pNpc, "conversation")
+    pNpc = spawnMobile("tatooine", "jabba_enforcer",60,7.4,0.3,-0.7,-81,390000102)
+    self:setMoodString(pNpc, "npc_imperial")
+    pNpc = spawnMobile("tatooine", "medic",60,-2.63337,0.3,1.46637,0,390000102)
+    self:setMoodString(pNpc, "conversation")
+    pNpc = spawnMobile("tatooine", "smuggler",60,18.4,1.3,5.2,80,390000102)
+    self:setMoodString(pNpc, "npc_accusing")
+    pNpc = spawnMobile("tatooine", "businessman",60,19.5,1.3,5.2,236,390000102)
+    self:setMoodString(pNpc, "angry")
     
    end
 
