@@ -27,8 +27,11 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
 	spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", -36.7, 3.0, 73.1, 390000178, math.rad(0) )
   spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", 19.5, 0.2, 71, 390000168, math.rad(0) )
   spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", -11.7, 3.0, 15.2, 390000191, math.rad(0) )
-  spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", 11.5, 5.8, 7.4, 390000159, math.rad(90) )
-     
+  
+  spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", 4.7, 3.0, 14.8, 390000172, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", 12.5, 5.8, 66.9, 390000161, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", -14.4, 3.0, 27.1, 390000177, math.rad(0) )
+      
 end
 
 function BilbousaCityScreenPlay:spawnMobiles()
