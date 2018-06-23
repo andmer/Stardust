@@ -776,3 +776,6 @@ includeFile("heroics/omor_rikan.lua")
 includeFile("heroics/taelan_delar.lua")
 includeFile("heroics/bray_terex.lua")
 includeFile("heroics/jar_jar_binks.lua")
+
+-- Nal Hutta
+includeFile("cities/hutta_bilbousa_city.lua")
