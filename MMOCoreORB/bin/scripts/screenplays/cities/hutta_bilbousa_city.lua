@@ -22,16 +22,18 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
 	spawnSceneObject("hutta", "object/tangible/terminal/terminal_mission_bounty.iff", 0.0, 1.3, -7.7, 390000049, math.rad(0) )
 	spawnSceneObject("hutta", "object/tangible/terminal/terminal_mission_bounty.iff", 3.0, 1.3, -7.7, 390000049, math.rad(0) )
 	spawnSceneObject("hutta", "object/tangible/terminal/terminal_mission_bounty.iff", -3.0, 1.3, -7.7, 390000049, math.rad(0) )
-
+	
 end
 
 function BilbousaCityScreenPlay:spawnMobiles()
 
 	-- 
 	
-  local pNpc = spawnMobile("hutta", "commoner", 60, -0.5, 0.4, -4.6, 33, 0)
-    self:setMoodString(pNpc, "npc_sitting_chair")
+  local pNpc = spawnMobile("hutta", "slicer", 60, -923.1, 80, 1600.7, 153, 0)
+    self:setMoodString(pNpc, "npc_consoling")
    
+   pNpc = spawnMobile("hutta", "bounty_hunter", 60, -920.9, 80, 1596.5, -65, 0)
+    self:setMoodString(pNpc, "npc_accusing")
  
  
    -- Bilbousa City / Guards
@@ -99,7 +101,7 @@ function BilbousaCityScreenPlay:spawnMobiles()
     spawnMobile("hutta", "bossk", 60, -4.1, 4.1, -13.3, 135, 390000049)
     spawnMobile("hutta", "ig_88", 60, -4.2, 3.4, -20.8, 39, 390000049)  
     spawnMobile("hutta", "bounty_hunter", 60, 4.1, 3.3, -20.9, -39, 390000049)
-    spawnMobile("hutta", "bounty_hunter", 60, 38.0, 2.3, -28, 87, 390000056)
+    spawnMobile("hutta", "bounty_hunter", 60, 38.0, 2.3, -2.8, 87, 390000056)
     spawnMobile("hutta", "medic", 60, 21.2, 4.2, -31.5, 170, 390000057)  
     
     spawnMobile("hutta", "informant_npc_lvl_1", 60, -11.7, 2.3, 5.8, 129, 390000049) 
@@ -113,6 +115,13 @@ function BilbousaCityScreenPlay:spawnMobiles()
     
     spawnMobile("hutta", "jabba_enforcer", 60, -5.4, 4.1, 17.7, 180, 390000049)
     spawnMobile("hutta", "jabba_enforcer", 60, 5.4, 4.1, 17.7, 180, 390000049)
+    
+    spawnMobile("hutta", "trainer_imagedesigner", 60, -850, 80, 1591.4, 168, 390000204)
+    
+    
+    
+    
+    
    end
 
   
