@@ -23,6 +23,8 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
 	spawnSceneObject("hutta", "object/tangible/terminal/terminal_mission_bounty.iff", 3.0, 1.3, -7.7, 390000049, math.rad(0) )
 	spawnSceneObject("hutta", "object/tangible/terminal/terminal_mission_bounty.iff", -3.0, 1.3, -7.7, 390000049, math.rad(0) )
 	
+	spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", -13.4, 5.8, 74.4, 390000159, math.rad(0) )
+	
 end
 
 function BilbousaCityScreenPlay:spawnMobiles()
@@ -250,6 +252,19 @@ function BilbousaCityScreenPlay:spawnMobiles()
     self:setMoodString(pNpc, "npc_accusing")
     pNpc = spawnMobile("tatooine", "businessman",60,19.5,1.3,5.2,236,390000102)
     self:setMoodString(pNpc, "angry")
+    
+    spawnMobile("hutta", "hutt_battle_droid",120,-789,80,1695,90,0)
+    spawnMobile("hutta", "hutt_battle_droid",120,-743,80,1695,-90,0)
+    
+    spawnMobile("hutta", "hutt_battle_droid",120,-789,80,1639,90,0)
+    spawnMobile("hutta", "hutt_battle_droid",120,-743,80,1639,-90,0)
+    
+    spawnMobile("hutta", "hutt_battle_droid",120,-789,80,1505,90,0)
+    spawnMobile("hutta", "hutt_battle_droid",120,-743,80,1505,-90,0)
+    
+    spawnMobile("hutta", "hutt_battle_droid",120,-789,80,1463,90,0)
+    spawnMobile("hutta", "hutt_battle_droid",120,-743,80,1463,-90,0)
+    
     
    end
 
