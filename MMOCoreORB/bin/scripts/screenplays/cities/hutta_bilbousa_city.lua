@@ -318,6 +318,25 @@ function BilbousaCityScreenPlay:spawnMobiles()
     pNpc = spawnMobile("hutta", "smuggler",60,-838,80,1602,115,0)
     self:setMoodString(pNpc, "neutral") 
     
+    pNpc = spawnMobile("hutta", "commoner",60,-720.1,80,1623.8,-86,0)
+    self:setMoodString(pNpc, "conversation") 
+    pNpc = spawnMobile("hutta", "commoner",60,-723.5,80,1623.1,89,0)
+    self:setMoodString(pNpc, "conversation") 
+    
+    pNpc = spawnMobile("hutta", "commoner",60,-727,80,1559.8,133,0)
+    self:setMoodString(pNpc, "npc_accusing") 
+    
+    pNpc = spawnMobile("hutta", "smuggler",60,-724.7,80,1556.7,-40,0)
+    self:setMoodString(pNpc, "npc_consoling") 
+    
+    pNpc = spawnMobile("hutta", "commoner_fat",60,-694.7,80,1505,-66,0)
+    self:setMoodString(pNpc, "angry") 
+    
+    pNpc = spawnMobile("hutta", "commoner",60,-676,80,1427.2,43,0)
+    self:setMoodString(pNpc, "conversation") 
+    
+    pNpc = spawnMobile("hutta", "commoner",60,-674.3,80,1430.2,-125,0)
+    self:setMoodString(pNpc, "conversation") 
 end
   
 --[[
