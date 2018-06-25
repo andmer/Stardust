@@ -90,7 +90,7 @@ opt2 = ConvoScreen:new {
      {"How vulgar.","deny1"},
   }
 }
-swoop_race_hutt:addScreen(opt2);
+hutt_slave_auctioneer:addScreen(opt2);
 
 opt2a = ConvoScreen:new {
   id = "opt2a",
