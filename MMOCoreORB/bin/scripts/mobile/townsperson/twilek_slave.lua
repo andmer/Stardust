@@ -28,7 +28,8 @@ twilek_slave = Creature:new {
 	diet = HERBIVORE,
 
 	templates = {"object/mobile/twilek_female.iff",
-	             "object/mobile/dressed_entertainer_trainer_twk_male_01.iff"        
+	             "object/mobile/dressed_entertainer_trainer_twk_male_01.iff",
+	             "object/mobile/oola.iff"        
 	             },
 	lootGroups = {},
 	weapons = {},
