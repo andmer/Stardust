@@ -27,11 +27,12 @@ vendor = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 
-	templates = {
-		"object/mobile/twilek_female.iff",
+	templates = {		
 		"object/mobile/dressed_commoner_fat_twilek_female_02.iff",
 		"object/mobile/dressed_commoner_tatooine_bith_female_02.iff",
-		"object/mobile/dressed_commoner_tatooine_bith_female_04.iff"},
+		"object/mobile/dressed_commoner_tatooine_bith_female_04.iff",
+		"object/mobile/toydarian_m.iff"
+		},
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

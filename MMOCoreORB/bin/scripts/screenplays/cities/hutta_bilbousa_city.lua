@@ -395,7 +395,31 @@ function BilbousaCityScreenPlay:spawnMobiles()
     pNpc = spawnMobile("hutta", "jabba_compound_guard",60,-774.9,80,1512,-45,0)
     self:setMoodString(pNpc, "neutral")
     
-    pNpc = spawnMobile("hutta", "jabba_compound_guard",60,-756.4,80,1512,45,0)
+    pNpc = spawnMobile("hutta", "vendor",60,-731.6,80,1501.7,-133,0)
+    self:setMoodString(pNpc, "npc_accusing")
+    
+    pNpc = spawnMobile("hutta", "commoner",60,-733.3,80,1499.4,35,0)
+    self:setMoodString(pNpc, "conversation")
+    
+    pNpc = spawnMobile("hutta", "vendor",60,-732,80,1482,-111,0)
+    self:setMoodString(pNpc, "neutral")
+    
+    pNpc = spawnMobile("hutta", "vendor",60,-731.6,80,1455.9,-58,0)
+    self:setMoodString(pNpc, "neutral")
+    
+    pNpc = spawnMobile("hutta", "vendor",60,-732,80,1442.2,-133,0)
+    self:setMoodString(pNpc, "neutral")
+    
+    pNpc = spawnMobile("hutta", "vendor",60,-804.9,80,1443.3,100,0)
+    self:setMoodString(pNpc, "neutral")
+    
+    pNpc = spawnMobile("hutta", "vendor",60,-805,80,1462.6,100,0)
+    self:setMoodString(pNpc, "neutral")
+    
+    pNpc = spawnMobile("hutta", "vendor",60,-804.9,80,1476,24,0)
+    self:setMoodString(pNpc, "neutral")
+    
+    pNpc = spawnMobile("hutta", "vendor",60,-805.1,80,1502.4,121,0)
     self:setMoodString(pNpc, "neutral")
 end
   
