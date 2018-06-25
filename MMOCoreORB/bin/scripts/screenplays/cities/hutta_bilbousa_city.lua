@@ -337,6 +337,45 @@ function BilbousaCityScreenPlay:spawnMobiles()
     
     pNpc = spawnMobile("hutta", "commoner",60,-674.3,80,1430.2,-125,0)
     self:setMoodString(pNpc, "conversation") 
+    -- slave pen
+    pNpc = spawnMobile("hutta", "twilek_slave",60,-762,80,1498,134,0)
+    self:setMoodString(pNpc, "sad")
+    
+    pNpc = spawnMobile("hutta", "twilek_slave",60,-764,80,1499,134,0)
+    self:setMoodString(pNpc, "sad") 
+    
+    pNpc = spawnMobile("hutta", "twilek_slave",60,-768,80,1498,134,0)
+    self:setMoodString(pNpc, "sad")
+    
+    pNpc = spawnMobile("hutta", "twilek_slave",60,-771,80,1498,134,0)
+    self:setMoodString(pNpc, "sad")
+    
+    pNpc = spawnMobile("hutta", "twilek_slave",60,-768,80,1499,123,0)
+    self:setMoodString(pNpc, "sad")
+    
+    pNpc = spawnMobile("hutta", "twilek_slave",60,-770,80,1502,134,0)
+    self:setMoodString(pNpc, "sad")
+    
+    pNpc = spawnMobile("hutta", "twilek_slave",60,-767,80,1503,-90,0)
+    self:setMoodString(pNpc, "sad")
+    
+    pNpc = spawnMobile("hutta", "twilek_slave",60,-771,80,1507,-48,0)
+    self:setMoodString(pNpc, "sad")
+    
+    pNpc = spawnMobile("hutta", "twilek_slave",60,-767,80,1508,-6,0)
+    self:setMoodString(pNpc, "sad")
+    
+    pNpc = spawnMobile("hutta", "twilek_slave",60,-761,80,1509,34,0)
+    self:setMoodString(pNpc, "sad")
+    
+    pNpc = spawnMobile("hutta", "twilek_slave",60,-759,80,1507,99,0)
+    self:setMoodString(pNpc, "sad")
+    
+    pNpc = spawnMobile("hutta", "twilek_slave",60,-759,80,1505,140,0)
+    self:setMoodString(pNpc, "sad")
+    
+    pNpc = spawnMobile("hutta", "twilek_slave",60,-759,80,1499,90,0)
+    self:setMoodString(pNpc, "sad")
 end
   
 --[[

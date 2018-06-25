@@ -27,7 +27,9 @@ twilek_slave = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 
-	templates = {"object/mobile/twilek_female.iff"},
+	templates = {"object/mobile/twilek_female.iff",
+	             "object/mobile/dressed_entertainer_trainer_twk_male_01.iff"        
+	             },
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",
