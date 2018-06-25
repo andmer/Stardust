@@ -23,13 +23,13 @@ hutt_slave_auctioneer = Creature:new {
 	ferocity = 0,
 	pvpBitmask = NONE,
 	creatureBitmask = NONE,
-	optionsBitmask = AIENABLED, -- + CONVERSABLE,
+	optionsBitmask = AIENABLED+ CONVERSABLE + INTERESTING,
 	diet = HERBIVORE,
 
 	templates = {"object/mobile/borvo.iff"},
 	lootGroups = {},
 	weapons = {},
-	conversationTemplate = "",
+	conversationTemplate = "hutt_slave_auctioneer",
 	attacks = {
 	}
 }
