@@ -159,7 +159,7 @@ function TatooineJabbasPalaceMobsScreenPlay:spawnStatics()
   pNpc = spawnMobile("hutta", "thug", 300, -1.6, 3.0, 26.2, 151, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("hutta", "thug", 300, -8.4, 3.0, 21.2, 160, 390000177)
+  pNpc = spawnMobile("hutta", "rodian_thug", 300, -8.4, 3.0, 21.2, 160, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
   pNpc = spawnMobile("hutta", "thug", 300, 1.1, 2.0, 36.7, 180, 390000177)
@@ -168,7 +168,7 @@ function TatooineJabbasPalaceMobsScreenPlay:spawnStatics()
   pNpc = spawnMobile("hutta", "thug", 300, -15.8, 2.0, 51.9, 84, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("hutta", "thug", 300, -9.9, 3.0, 25.6, 123, 390000177)
+  pNpc = spawnMobile("hutta", "rodian_thug", 300, -9.9, 3.0, 25.6, 123, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
   pNpc = spawnMobile("hutta", "thug", 300, 1.1, 2.0, 35.1, 0, 390000177)
