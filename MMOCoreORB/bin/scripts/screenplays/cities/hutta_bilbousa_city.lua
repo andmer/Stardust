@@ -43,6 +43,23 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
   spawnSceneObject("hutta", "object/tangible/terminal/terminal_bazaar.iff", 0.0, 0.3, -2.4, 390000142, math.rad(0) )
   spawnSceneObject("hutta", "object/tangible/terminal/terminal_bazaar.iff", 0.0, 0.3, -2.4, 390000144, math.rad(0) )
   spawnSceneObject("hutta", "object/tangible/terminal/terminal_bazaar.iff", 0.0, 0.3, -2.4, 390000146, math.rad(0) )
+  
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", -11.5, 0.2, 142.3, 390000156, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", 11.5, 0.2, 142.3, 390000156, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", 7.8, 0.2, 125.1, 390000156, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", -7.8, 0.2, 125.1, 390000156, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", -7.7, 0.2, 114.5, 390000156, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", 7.7, 0.2, 114.5, 390000156, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", 3.1, 0.2, 102.5, 390000157, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", 0.2, 5.8, 1348.3, 390000159, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", -12.5, 5.8, 95.9, 390000159, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", -12.2, 5.8, 70.8, 390000159, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", 11.5, 5.8, 62.8, 390000160, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", 4.8, 5.8, 59.8, 390000160, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", -15.8, 3.0, 55.8, 390000164, math.rad(0) )
+  
+  
+  
       
 end
 
