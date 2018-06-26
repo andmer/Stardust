@@ -533,6 +533,9 @@ function BilbousaCityScreenPlay:spawnMobiles()
     
     pNpc = spawnMobile("hutta", "commoner",60,-656,80,1777.5,-163,0)
     self:setMoodString(pNpc, "neutral")
+    
+    pNpc = spawnMobile("hutta", "commoner",60,-813.8,80,1684.8,122,0)
+    self:setMoodString(pNpc, "neutral")
 end
   
 --[[
