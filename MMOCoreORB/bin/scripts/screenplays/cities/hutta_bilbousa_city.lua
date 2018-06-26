@@ -72,7 +72,7 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
   spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 9.7, 2.0, 53.3, 390000177, math.rad(0) )
   spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -13.5, 3.0, 22.5, 390000177, math.rad(0) )
   
-  spawnSceneObject("hutta", "oobject/tangible/furniture/all/frn_all_rug_rectangle_large_style_05.iff", -6.0, 5.9, 84.5, 390000159, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_rug_rectangle_large_style_05.iff", -6.0, 5.9, 84.5, 390000159, math.rad(0) )
   
   
   
