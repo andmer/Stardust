@@ -479,7 +479,7 @@ function BilbousaCityScreenPlay:spawnMobiles()
     spawnMobile("hutta", "gamorrean_guard",60,7.5,0.2,119.5,-90,390000156)
     spawnMobile("hutta", "gamorrean_guard",60,0.3,0.2,105.3,-3,390000157)
     spawnMobile("hutta", "gamorrean_guard",60,-15.3,2.0,35.5,43,390000177)
-    spawnMobile("hutta", "gamorrean_guard",60,-14.3,2.0,52.5,167,390000177)
+    spawnMobile("hutta", "gamorrean_guard",60,-12.3,2.0,53.1,-177,390000177)
     spawnMobile("hutta", "gamorrean_guard",60,0.5,2.0,42,-86,390000177)
     spawnMobile("hutta", "gamorrean_guard",60,0.5,2.0,46.1,-86,390000177)
     

@@ -114,8 +114,8 @@ function TatooineJabbasPalaceMobsScreenPlay:spawnStatics()
   pNpc = spawnMobile("tatooine", "jawa", 300, -23.0, 3.0, 61.0, 180, 1177474)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverseJawa", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "jawa", 300, -1.0, 3.0, 25.0, -23, 390000177)
-  createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverseJawa", pNpc, "")
+  pNpc = spawnMobile("tatooine", "fringer", 300, -1.0, 3.0, 25.0, -23, 390000177)
+  createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
   pNpc = spawnMobile("tatooine", "jawa", 300, -8.0, 3.0, 20.0, -25, 1177501)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverseJawa", pNpc, "")
