@@ -34,6 +34,7 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
   spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_02.iff", -6.2, 3.0, 21.3, 390000177, math.rad(90) )
   
   spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", -26.5, 3.6, 44.1, 390000177, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", -0.1, 0.2, 79.2, 390000170, math.rad(0) )
  
   
   spawnSceneObject("hutta", "object/tangible/terminal/terminal_bazaar.iff", 0.0, 0.3, -2.4, 390000128, math.rad(0) )
@@ -62,6 +63,8 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
   spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", 4.8, 5.8, 59.8, 390000160, math.rad(0) )
   spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", -5.8, 3.0, 55.8, 390000164, math.rad(0) )
   spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", -36.0, 3.0, 66.5, 390000178, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", -26.4, 3.0, 55.6, 390000164, math.rad(0) )
+ 
   
   spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -21.3, 3.6, 53.5, 390000177, math.rad(0) )
   spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -21.3, 3.6, 32.8, 390000177, math.rad(0) )
@@ -479,6 +482,18 @@ function BilbousaCityScreenPlay:spawnMobiles()
     spawnMobile("hutta", "gamorrean_guard",60,-14.3,2.0,52.5,167,390000177)
     spawnMobile("hutta", "gamorrean_guard",60,0.5,2.0,42,-86,390000177)
     spawnMobile("hutta", "gamorrean_guard",60,0.5,2.0,46.1,-86,390000177)
+    
+    spawnMobile("hutta", "gamorrean_guard",60,-11.2,3.0,55.5,2,390000164)
+    spawnMobile("hutta", "gamorrean_guard",60,-35.9,3.0,59.2,54,390000178)
+    spawnMobile("hutta", "gamorrean_guard",60,-33.1,3.0,74.4,177,390000178)
+    
+    spawnMobile("hutta", "gamorrean_guard",60,-20.8,0.2,80.1,-17,390000165)
+    spawnMobile("hutta", "gamorrean_guard",60,3.5,0.2,82.4,-90,390000170)
+    spawnMobile("hutta", "gamorrean_guard",60,-52.0,0.2,82.4,90,390000166)
+    
+    spawnMobile("hutta", "gamorrean_guard",60,11.3,5.8,69.5,-111,390000160)
+    spawnMobile("hutta", "gamorrean_guard",60,-5.7,5.8,70.8,0,390000159)
+    spawnMobile("hutta", "gamorrean_guard",60,-15.2,6.6,84.4,90,390000159)
 end
   
 --[[
