@@ -33,6 +33,8 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
   spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", -14.4, 3.0, 27.1, 390000177, math.rad(0) )
   spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_02.iff", -6.2, 3.0, 21.3, 390000177, math.rad(90) )
   
+  spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", -26.5, 3.6, 44.1, 390000177, math.rad(0) )
+ 
   
   spawnSceneObject("hutta", "object/tangible/terminal/terminal_bazaar.iff", 0.0, 0.3, -2.4, 390000128, math.rad(0) )
   spawnSceneObject("hutta", "object/tangible/terminal/terminal_bazaar.iff", 0.0, 0.3, -2.4, 390000130, math.rad(0) )
@@ -473,6 +475,10 @@ function BilbousaCityScreenPlay:spawnMobiles()
     spawnMobile("hutta", "gamorrean_guard",60,-6.7,0.2,119.5,85,390000156)
     spawnMobile("hutta", "gamorrean_guard",60,7.5,0.2,119.5,-90,390000156)
     spawnMobile("hutta", "gamorrean_guard",60,0.3,0.2,105.3,-3,390000157)
+    spawnMobile("hutta", "gamorrean_guard",60,-15.3,2.0,35.5,43,390000177)
+    spawnMobile("hutta", "gamorrean_guard",60,-14.3,2.0,52.5,167,390000177)
+    spawnMobile("hutta", "gamorrean_guard",60,0.5,2.0,42,-86,390000177)
+    spawnMobile("hutta", "gamorrean_guard",60,0.5,2.0,46.1,-86,390000177)
 end
   
 --[[
