@@ -102,7 +102,7 @@ function TatooineJabbasPalaceMobsScreenPlay:spawnStatics()
   pNpc = spawnMobile("tatooine", "commoner_tatooine", 60, -15.4, 0.1, 87.7, 42, 1177498)
   self:setMoodString(pNpc, "nervous")
 
-  pNpc = spawnMobile("tatooine", "fringer", 300, -8.7, 2.0, 49.6, 347, 1177487)
+  pNpc = spawnMobile("hutta", "fringer", 300, -8.7, 2.0, 49.6, 347, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
   pNpc = spawnMobile("tatooine", "jawa", 300, -23.0, 3.0, 59.0, 0, 1177474)
@@ -114,7 +114,7 @@ function TatooineJabbasPalaceMobsScreenPlay:spawnStatics()
   pNpc = spawnMobile("tatooine", "jawa", 300, -23.0, 3.0, 61.0, 180, 1177474)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverseJawa", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "jawa", 300, -1.0, 3.0, 25.0, -23, 1177487)
+  pNpc = spawnMobile("tatooine", "jawa", 300, -1.0, 3.0, 25.0, -23, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverseJawa", pNpc, "")
 
   pNpc = spawnMobile("tatooine", "jawa", 300, -8.0, 3.0, 20.0, -25, 1177501)
@@ -135,46 +135,46 @@ function TatooineJabbasPalaceMobsScreenPlay:spawnStatics()
   pNpc = spawnMobile("tatooine", "jawa", 300, 29.4, 0.2, 45.4, 359, 1177472)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverseJawa", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "roughneck", 300, -9.8, 3.0, 59.7, 274, 1177474)
+  pNpc = spawnMobile("hutta", "roughneck", 300, -9.8, 3.0, 59.7, 274, 1177474)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "roughneck", 300, -5.88, 2.0, 43.1, 8, 1177487)
+  pNpc = spawnMobile("hutta", "roughneck", 300, -5.88, 2.0, 43.1, 8, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "roughneck", 300, -5.72, 2.0, 44.1, 188, 1177487)
+  pNpc = spawnMobile("hutta", "roughneck", 300, -5.72, 2.0, 44.1, 188, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "scoundrel", 300, 5.0, 2.0, 44.0, 0, 1177487)
+  pNpc = spawnMobile("hutta", "scoundrel", 300, 5.0, 2.0, 44.0, 0, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "scoundrel", 300, -14.3, 2.0, 52.1, 264, 1177487)
+  pNpc = spawnMobile("hutta", "scoundrel", 300, -14.3, 2.0, 52.1, 264, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "slicer", 60, -9.0, 2.0, 51.0, 167, 1177487)
+  pNpc = spawnMobile("hutta", "slicer", 60, -9.0, 2.0, 51.0, 167, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "spacer", 300, -9.0, 3.0, 25.0, 303, 1177487)
+  pNpc = spawnMobile("hutta", "spacer", 300, -9.0, 3.0, 25.0, 303, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "thug", 300, -1.6, 3.0, 26.2, 151, 1177487)
+  pNpc = spawnMobile("hutta", "thug", 300, -1.6, 3.0, 26.2, 151, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "thug", 300, -8.4, 3.0, 21.2, 160, 1177487)
+  pNpc = spawnMobile("hutta", "thug", 300, -8.4, 3.0, 21.2, 160, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "thug", 300, 1.1, 2.0, 36.7, 180, 1177487)
+  pNpc = spawnMobile("hutta", "thug", 300, 1.1, 2.0, 36.7, 180, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "thug", 300, -15.8, 2.0, 51.9, 84, 1177487)
+  pNpc = spawnMobile("hutta", "thug", 300, -15.8, 2.0, 51.9, 84, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "thug", 300, -9.9, 3.0, 25.6, 123, 1177487)
+  pNpc = spawnMobile("hutta", "thug", 300, -9.9, 3.0, 25.6, 123, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "thug", 300, 1.1, 2.0, 35.1, 0, 1177487)
+  pNpc = spawnMobile("hutta", "thug", 300, 1.1, 2.0, 35.1, 0, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
-  pNpc = spawnMobile("tatooine", "wastrel", 300, 5.1, 2.0, 45.5, 180, 1177487)
+  pNpc = spawnMobile("hutta", "wastrel", 300, 5.1, 2.0, 45.5, 180, 390000177)
   createEvent(5000, "TatooineJabbasPalaceMobsScreenPlay", "palaceConverse", pNpc, "")
 
   spawnMobile("tatooine", "junk_ollobo", 0, -6.35875, 0.2, 134.272, 9.7, 1177466)
