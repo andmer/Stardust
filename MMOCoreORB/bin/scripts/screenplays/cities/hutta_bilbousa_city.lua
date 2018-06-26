@@ -31,6 +31,8 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
   spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", 4.7, 3.0, 14.8, 390000172, math.rad(0) )
   spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", 12.5, 5.8, 66.9, 390000161, math.rad(0) )
   spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_01.iff", -14.4, 3.0, 27.1, 390000177, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/tatooine/wall_pristine_tatooine_large_style_02.iff", -6.2, 3.0, 21.3, 390000177, math.rad(90) )
+  
   
   spawnSceneObject("hutta", "object/tangible/terminal/terminal_bazaar.iff", 0.0, 0.3, -2.4, 390000128, math.rad(0) )
   spawnSceneObject("hutta", "object/tangible/terminal/terminal_bazaar.iff", 0.0, 0.3, -2.4, 390000130, math.rad(0) )
