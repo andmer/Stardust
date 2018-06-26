@@ -463,6 +463,8 @@ function BilbousaCityScreenPlay:spawnMobiles()
     
     pNpc = spawnMobile("hutta", "vendor",60,-805.1,80,1502.4,121,0)
     self:setMoodString(pNpc, "neutral")
+    
+    spawnMobile("hutta", "gardulla_the_hutt",60,-16.65,2.81087,45,106.884,390000177)
 end
   
 --[[
