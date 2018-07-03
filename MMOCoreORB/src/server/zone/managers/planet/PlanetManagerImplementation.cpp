@@ -788,6 +788,8 @@ void PlanetManagerImplementation::loadClientRegions(LuaObject* outposts) {
 					scenery = zone->getZoneServer()->createObject(STRING_HASHCODE("object/static/particle/particle_distant_ships_rebel.iff"), 0);
 				} else if (regionName.contains("hanna")){
 					scenery = zone->getZoneServer()->createObject(STRING_HASHCODE("object/static/particle/particle_distant_ships_rebel.iff"), 0);
+				} else if (regionName.contains("bilbousa")){
+					scenery = zone->getZoneServer()->createObject(STRING_HASHCODE("object/static/particle/particle_distant_ships.iff"), 0);
 				} else if (regionName.contains("lower_city_1312")){
 					return;
 				} else if (regionName.contains("dark_temple")){
