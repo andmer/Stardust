@@ -8,7 +8,7 @@ hutta_conversationtemplate = ConvoTemplate:new {
 hutta_initial = ConvoScreen:new {
 	id = "hutta_initial",
 	leftDialog = "",
-	customDialog = "Greetings, I'm the race coordinator for the Bilbousa Cicruit.  If you'd like to race the track, just let me know. How may I serve you today?",
+	customDialogText = "Greetings, I'm the race coordinator for the Bilbousa Cicruit.  If you'd like to race the track, just let me know. How may I serve you today?",
 	stopConversation = "false",
 	options = {
 		{"@conversation/racing_coruscant:s_dffdee4b","cs_jsPlumb_1_90"},
@@ -21,7 +21,7 @@ hutta_conversationtemplate:addScreen(hutta_initial);
 cs_jsPlumb_1_29 = ConvoScreen:new {
 	id = "cs_jsPlumb_1_29",
 	leftDialog = "",
-	customDialog = "This track has been in continuous operation since it's commissioning by the illustrious Gardulla the Hutt thirty five years ago.",
+	customDialogText = "This track has been in continuous operation since it's commissioning by the illustrious Gardulla the Hutt thirty five years ago.",
 	stopConversation = "false",
 	options = {
 		{"@conversation/racing_coruscant:s_e460e3d3","cs_jsPlumb_1_233"},
