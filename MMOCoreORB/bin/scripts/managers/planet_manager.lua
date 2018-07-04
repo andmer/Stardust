@@ -763,7 +763,8 @@ hutta = {
     {name = "Bilbousa Starport", x = -789, z = 80, y = 1769, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1},
     },
     
-    badgeAreas = {   
+    badgeAreas = {
+      {"hutta_jiguuna",4716,1937,0,15,150},   
   },
 }
 coruscant = {
