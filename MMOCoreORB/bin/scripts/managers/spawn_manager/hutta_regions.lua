@@ -16,5 +16,5 @@ hutta_regions = {
   {"bilbousa_city", -746, 1645, {1, 700}, NOSPAWNAREA + NOBUILDZONEAREA}, 
   {"abandoned_spice_mine", 1500, 4288, {1, 200}, NOBUILDZONEAREA}, 
   {"eastern_grime", 4892, 1757, {1, 450}, NOBUILDZONEAREA},
-  {"world_spawner", 0, 0, {1, -1}, SPAWNAREA + WORLDSPAWNAREA, {"moraband_world", "global_hard"}, 2048}
+  {"world_spawner", 0, 0, {1, -1}, SPAWNAREA + WORLDSPAWNAREA, {"hutta_world", "global_hard"}, 2048}
 }
