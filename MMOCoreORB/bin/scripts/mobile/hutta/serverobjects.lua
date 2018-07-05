@@ -7,4 +7,4 @@ includeFile("hutta/gardulla_the_hutt.lua")
 -- Creatures
 includeFile("hutta/chemilizard.lua")
 includeFile("hutta/dragonsnake.lua")
-includeFile("hutta/xuuva.lua")
+includeFile("hutta/xuvva.lua")
