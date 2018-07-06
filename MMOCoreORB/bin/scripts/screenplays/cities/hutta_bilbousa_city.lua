@@ -620,7 +620,7 @@ function BilbousaCityScreenPlay:spawnMobiles()
     pNpc = spawnMobile("hutta", "patron",60,-20.4,1.6,8.1,-47,390000080)
     self:setMoodString(pNpc, "npc_accusing")   
     
-    pNpc = spawnMobile("hutta", "businessman",60,-22.3,1.6,9.9,70,390000080)
+    pNpc = spawnMobile("hutta", "businessman",60,-22.3,1.6,9.9,132,390000080)
     self:setMoodString(pNpc, "npc_consoling")
     
     pNpc = spawnMobile("hutta", "commoner_fat",60,-18.9,1.0,0.4,129,390000080)
