@@ -89,11 +89,22 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff", 26.7, 1.3, 7.9, 390000079, math.rad(0) )
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff", 12.6, 1.3, -18.4, 390000079, math.rad(0) )
   
-  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff",-12.8, 1.6, 12.9, 390000080, math.rad(0) )
-  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff",-26.2, 1.6, -1.5, 390000080, math.rad(0) )
-  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff",-19.7, 1.6, -12.5, 390000081, math.rad(0) )
-  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff",-11.2, 1.6, -12.5, 390000081, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff", -12.8, 1.6, 12.9, 390000080, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff", -26.2, 1.6, -1.5, 390000080, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff", -19.7, 1.6, -12.5, 390000081, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff", -11.2, 1.6, -12.5, 390000081, math.rad(0) )
   
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_potted_plants_sml_s03.iff", 8.6, 1.0, 4.3, 390000078, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_potted_plants_sml_s03.iff", 8.6, 1.0, -4.3, 390000078, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_potted_plants_sml_s03.iff", -8.0, 1.0, 2.0, 390000078, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_potted_plants_sml_s03.iff", -8.0, 1.0, 8.3, 390000078, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_potted_plants_sml_s03.iff", -8.0, 1.0, -4.3, 390000078, math.rad(0) )
+ 
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", -22.2, 1.6, 9.9, 390000080, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_blue_style_01_on.iff", 0.0, 15.0, 0.0, 390000078, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", 20.3, 1.6, 12.3, 390000079, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -22.2, 2.0, 9.9, 390000079, math.rad(45) )
+ 
   
       
 end
