@@ -130,7 +130,7 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 19.5, 1.3, 2.8, 390000079, math.rad(77) )
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 15.3, 1.3, -2.1, 390000079, math.rad(77) )
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 16.9, 1.3, -7.3, 390000079, math.rad(77) )
-  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 21.1 1.3, -5.7, 390000079, math.rad(77) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 21.1, 1.3, -5.7, 390000079, math.rad(77) )
  
  
  
