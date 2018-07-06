@@ -122,16 +122,20 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 19.1, 1.3, -1.9, 390000079, math.rad(-119) )
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 23.5, 1.3, 3.5, 390000079, math.rad(-119) )
   
-  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 21.2, 1.3, 5.1, 390000079, math.rad(-55) )
-  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 16.9, 1.3, 0.1, 390000079, math.rad(-55) )
-  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 18.5, 1.3, -5.6, 390000079, math.rad(-55) )
-  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 22.7, 1.3, 3.8, 390000079, math.rad(-55) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 21.2, 1.3, 5.1, 390000079, math.rad(162) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 16.9, 1.3, 0.1, 390000079, math.rad(162) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 18.5, 1.3, -5.6, 390000079, math.rad(162) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 22.7, 1.3, -3.8, 390000079, math.rad(162) )
  
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 19.5, 1.3, 2.8, 390000079, math.rad(77) )
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 15.3, 1.3, -2.1, 390000079, math.rad(77) )
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 16.9, 1.3, -7.3, 390000079, math.rad(77) )
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_chair_wooden_s2.iff", 21.1, 1.3, -5.7, 390000079, math.rad(77) )
  
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_potted_plants_sml_s03.iff", 13.8, 1.3, 4.5, 390000079, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_potted_plants_sml_s03.iff", 13.8, 1.3, -4.5, 390000079, math.rad(0) )
+  
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff", -9.9, 1.0, 2.0, 390000080, math.rad(0) )
  
  
   
@@ -592,6 +596,40 @@ function BilbousaCityScreenPlay:spawnMobiles()
     
     pNpc = spawnMobile("hutta", "commoner",60,-938.8,80,1654.3,92,0)
     self:setMoodString(pNpc, "neutral")
+    
+    
+ -- Hotel
+    pNpc = spawnMobile("hutta", "bartender",60,20.0,1.6,13.0,174,390000079)
+    self:setMoodString(pNpc, "neutral")
+    
+    pNpc = spawnMobile("hutta", "commoner",60,17.5,1.3,9.9,70,390000079)
+    self:setMoodString(pNpc, "conversation")
+    
+    pNpc = spawnMobile("hutta", "businessman",60,18.9,1.3,10.2,-85,390000079)
+    self:setMoodString(pNpc, "conversation")
+    
+    pNpc = spawnMobile("hutta", "commoner",60,21.6,1.3,10.6,-9,390000079)
+    self:setMoodString(pNpc, "neutral")
+    
+    pNpc = spawnMobile("hutta", "hutt_commoner",60,2.6,1.0,-1.6,-50,390000078)
+    self:setMoodString(pNpc, "neutral")
+    
+    pNpc = spawnMobile("hutta", "noble",60,-0.9,1.0,1.2,140,390000078)
+    self:setMoodString(pNpc, "conversation")
+    
+    pNpc = spawnMobile("hutta", "patron",60,-20.4,1.6,8.1,-47,390000080)
+    self:setMoodString(pNpc, "npc_accusing")   
+    
+    pNpc = spawnMobile("hutta", "businessman",60,-22.3,1.6,9.9,70,390000080)
+    self:setMoodString(pNpc, "npc_consoling")
+    
+    pNpc = spawnMobile("hutta", "commoner_fat",60,-18.9,1.0,0.4,129,390000080)
+    self:setMoodString(pNpc, "conversation")
+    
+    pNpc = spawnMobile("hutta", "hutt_commoner",60,-15.8,1.0,-1.8,-54,390000080)
+    self:setMoodString(pNpc, "conversation")
+    
+    
 end
   
 --[[
