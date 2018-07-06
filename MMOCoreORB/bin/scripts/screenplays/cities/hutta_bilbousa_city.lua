@@ -80,6 +80,19 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_rug_rectangle_large_style_05.iff", -6.0, 5.8, 84.5, 390000159, math.rad(0) )
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_rug_rectangle_large_style_05.iff", -10.4, 2.0, 44.0, 390000177, math.rad(0) )
   
+  -- Hotel interior
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff", 8.4, 1.0, 10.9, 390000078, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff", -5.3, 1.0, 8.5, 390000078, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff", 8.4, 1.0, -11.2, 390000078, math.rad(0) )
+  
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff", 13.7, 1.3, 10.6, 390000079, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff", 26.7, 1.3, 7.9, 390000079, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff", 12.6, 1.3, -18.4, 390000079, math.rad(0) )
+  
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff",-12.8, 1.6, 12.9, 390000080, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff",-26.2, 1.6, -1.5, 390000080, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff",-19.7, 1.6, -12.5, 390000081, math.rad(0) )
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff",-11.2, 1.6, -12.5, 390000081, math.rad(0) )
   
   
       
