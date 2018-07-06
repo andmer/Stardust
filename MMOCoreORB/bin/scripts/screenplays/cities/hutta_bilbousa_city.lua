@@ -101,10 +101,21 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_potted_plants_sml_s03.iff", -8.0, 1.0, -4.3, 390000078, math.rad(0) )
  
   spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", -22.2, 1.6, 9.9, 390000080, math.rad(0) )
-  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_blue_style_01_on.iff", 0.0, 15.0, 0.0, 390000078, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_blue_style_01_on.iff", 0.0, 13.0, 0.0, 390000078, math.rad(0) )
   spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", 20.3, 1.6, 12.3, 390000079, math.rad(0) )
-  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -22.2, 2.0, 9.9, 390000079, math.rad(45) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -22.2, 2.0, -14.0, 390000079, math.rad(45) )
  
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_table_s02.iff", 23.1, 1.3, -5.7, 390000079, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_blue_style_01_on.iff", 23.1, 1.3, -5.7, 390000079, math.rad(45) )
+ 
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_table_s02.iff", 18.9, 1.3, -7.3, 390000079, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_blue_style_01_on.iff", 18.9, 1.3, -7.3, 390000079, math.rad(45) )
+  
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_table_s02.iff", 17.3, 1.3, -2.2, 390000079, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_blue_style_01_on.iff", 17.3, 1.3, -2.2, 390000079, math.rad(45) )
+  
+  spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_table_s02.iff", 21.7, 1.3, 3.0, 390000079, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_blue_style_01_on.iff", 21.7, 1.3, 3.0, 390000079, math.rad(45) )
   
       
 end
