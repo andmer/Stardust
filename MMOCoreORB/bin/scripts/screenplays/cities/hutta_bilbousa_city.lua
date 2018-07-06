@@ -137,6 +137,20 @@ function BilbousaCityScreenPlay:spawnSceneObjects()
   
   spawnSceneObject("hutta", "object/tangible/furniture/all/frn_all_lamp_free_s02_lit.iff", -9.9, 1.0, 2.0, 390000080, math.rad(0) )
  
+ -- Cantina
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 22.0, -0.9, 4.3, 390000021, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 16.1, -0.9, 5.8, 390000021, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 15.5, -0.9, 3.8, 390000021, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 25.3, -0.9, -7.2, 390000021, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 12.4, -0.9, -10.3, 390000021, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -0.7, -0.9, -10.5, 390000021, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 12.0, -0.9, 10.9, 390000021, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 10.6, -0.9, 10.9, 390000021, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", -0.8, -0.9, 11.6, 390000021, math.rad(0) )
+  
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 35.9, 0.1, 1.9, 390000020, math.rad(0) )
+  spawnSceneObject("hutta", "object/static/structure/general/streetlamp_small_red_style_01_on.iff", 30.7, 0.1, -7.0, 390000020, math.rad(0) )
+  
  
   
       
