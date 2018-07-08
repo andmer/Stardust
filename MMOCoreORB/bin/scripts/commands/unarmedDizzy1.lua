@@ -61,7 +61,7 @@ UnarmedDizzy1Command = {
     { "jedi_state_defense" }, 
     40, 
     100, 
-    5 
+    10 
     )
   },
 

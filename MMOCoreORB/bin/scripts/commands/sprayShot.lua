@@ -58,7 +58,7 @@ SprayShotCommand = {
 		{ "jedi_state_defense" },
 		60,
 		0,
-		30
+		0
 	  ),
 	  StateEffect(
 		BLIND_EFFECT,
