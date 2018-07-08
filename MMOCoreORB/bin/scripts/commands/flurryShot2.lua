@@ -63,7 +63,7 @@ FlurryShot2Command = {
     { "jedi_state_defense" }, 
     100, 
     0, 
-    30 
+    6 
     )
   },
 

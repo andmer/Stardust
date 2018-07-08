@@ -59,7 +59,7 @@ ConfusionShotCommand = {
     { "jedi_state_defense" }, 
     30, 
     100, 
-    10 
+    6 
     ),
     StateEffect( 
     STUN_EFFECT, 

@@ -68,7 +68,7 @@ FullAutoArea2Command = {
 		{ "jedi_state_defense" }, 
 		30, 
 		0, 
-		15 
+		10 
 	  ),
 	  StateEffect( 
 		BLIND_EFFECT, 

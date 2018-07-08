@@ -62,7 +62,7 @@ CreatureAreaKnockdownCommand = {
 		{ "jedi_state_defense" },
 		75,
 		0,
-		10
+		6
 	  ),
 	  StateEffect(
 		KNOCKDOWN_EFFECT, 

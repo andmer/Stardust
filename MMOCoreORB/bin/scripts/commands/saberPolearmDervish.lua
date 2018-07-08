@@ -71,7 +71,7 @@ SaberPolearmDervishCommand = {
 		{ "jedi_state_defense" }, 
 		75, 
 		0, 
-		30 
+		10 
 	  ),
 	  StateEffect( 
 		STUN_EFFECT, 

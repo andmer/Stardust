@@ -88,7 +88,7 @@ MindBlast1Command = {
 
 	combatSpam = "mindblast1",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	forceAttack = true,
 	damageType = LIGHTSABER_DAMAGE,

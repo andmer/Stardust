@@ -71,7 +71,7 @@ Saber1hFlurry2Command = {
 		{ "jedi_state_defense" }, 
 		85, 
 		0, 
-		30
+		10
 	  ),
 	  StateEffect( 
 		STUN_EFFECT, 

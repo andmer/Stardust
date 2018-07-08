@@ -58,7 +58,7 @@ ForceLightningCone1Command = {
 
 	combatSpam = "forcelightningcone1",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	forceAttack = true,
 	damageType = ELECTRICITY_DAMAGE,

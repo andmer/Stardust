@@ -65,7 +65,7 @@ PolearmSpinAttack2Command = {
 		{ "jedi_state_defense" }, 
 		75, 
 		0, 
-		15 
+		10 
 	  )
 	},
 
