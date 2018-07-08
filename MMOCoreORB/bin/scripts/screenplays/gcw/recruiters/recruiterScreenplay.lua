@@ -635,6 +635,7 @@ function recruiterScreenplay:handleRebelTp(pPlayer)
     local player = LuaSceneObject(pPlayer)
     player:switchZone("jakku", -5708.5, 48.2, 5506.0, 0)  --("jakku", 2.0, -20.8, 22.1, 610000100)
   end)
+    createEvent(1000, "recruiterScreenplay", "handleGoOvert", pPlayer, "")
 end
 
 function recruiterScreenplay:handleImpTp(pPlayer)
@@ -642,4 +643,5 @@ function recruiterScreenplay:handleImpTp(pPlayer)
     local player = LuaSceneObject(pPlayer)
     player:switchZone("jakku", -5991.7, 35.7, 6136.2, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
   end)
+  createEvent(1000, "recruiterScreenplay", "handleGoOvert", pPlayer, "")
 end
