@@ -429,7 +429,7 @@ void FrsManagerImplementation::validatePlayerData(CreatureObject* player) {
 		}
 	}
 
-	ghost->recalculateForcePower();
+
 }
 
 void FrsManagerImplementation::setPlayerRank(CreatureObject* player, int rank) {
