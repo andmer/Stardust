@@ -3611,8 +3611,11 @@ bool CreatureObjectImplementation::hasPersonalEnemyFlag(CreatureObject* enemy) {
 	uint64 enemyOID = enemy->getObjectID();
 	uint64 expireTime = personalEnemyFlags.get(enemyOID);
 
+	if (!personalEnemyFlags.contains(enemyOID))
+			return false;
+
 	if (expireTime == 0)
-		return false;
+		return true;
 
 	Time currentTime;
 
