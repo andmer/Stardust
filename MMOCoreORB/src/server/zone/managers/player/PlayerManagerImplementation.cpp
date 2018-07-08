@@ -824,28 +824,27 @@ void PlayerManagerImplementation::killPlayer(TangibleObject* attacker, CreatureO
 		}
 	}
 
+	ThreatMap* threatMap = player->getThreatMap();
 
 	if (attacker->getFaction() != 0) {
-		if (attacker->isPlayerCreature() || attacker->isPet()) {
-			CreatureObject* attackerCreature = attacker->asCreatureObject();
+			if (attacker->isPlayerCreature() || attacker->isPet()) {
+				CreatureObject* attackerCreature = attacker->asCreatureObject();
 
-			if (attackerCreature->isPet()) {
-				CreatureObject* owner = attackerCreature->getLinkedCreature().get();
+				if (attackerCreature->isPet()) {
+					CreatureObject* owner = attackerCreature->getLinkedCreature().get();
 
-				if (owner != NULL && owner->isPlayerCreature()) {
-					attackerCreature = owner;
+					if (owner != NULL && owner->isPlayerCreature()) {
+						attackerCreature = owner;
+					}
 				}
-			}
 
-			if (attackerCreature->isPlayerCreature()) {
-				if (!CombatManager::instance()->areInDuel(attackerCreature, player)) {
-					FactionManager::instance()->awardPvpFactionPoints(attackerCreature, player);
+				if (attackerCreature->isPlayerCreature()) {
+					if (!CombatManager::instance()->areInDuel(attackerCreature, player)) {
+						FactionManager::instance()->awardPvpFactionPoints(attackerCreature, player);
+					}
 				}
-			}
-		}
-	}
 
-	PlayerObject* attackerGhost = attackerCreature->getPlayerObject();
+				PlayerObject* attackerGhost = attackerCreature->getPlayerObject();
 				PlayerObject* victimGhost = player->getPlayerObject();
 
 				if (attackerGhost != NULL && victimGhost != NULL) {
