@@ -872,7 +872,7 @@ void PlayerManagerImplementation::killPlayer(TangibleObject* attacker, CreatureO
 
 	CombatManager::instance()->freeDuelList(player, false);
 
-	ThreatMap* threatMap = player->getThreatMap();
+
 
 	if (attacker->isPlayerCreature()) {
 		ManagedReference<CreatureObject*> playerRef = player->asCreatureObject();
