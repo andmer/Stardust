@@ -27,10 +27,10 @@ public:
 		if (!checkInvalidLocomotions(creature))
 			return INVALIDLOCOMOTION;
 
-		if (creature->isSwimming()) {
+		if (creature->isSwimming())
 				creature->sendSystemMessage("You can not log out while swimming."); //You cannot complete that action while in your current state.
 				return GENERALERROR;
-			}
+
 
 		return SUCCESS;
 	}
