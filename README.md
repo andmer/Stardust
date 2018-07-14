@@ -14,7 +14,7 @@ If you are tired of servers that cater to people that whine for an easy mode exp
 
 Aside from the terms of the AGPL Licensing, it is our philosophy that good work should be shared.   If that means that other servers and projects borrow or steal from us (depending on how you look at it), that is fine with us.   Imitation is supposedly the highest form of flattery, and if what we have is good enough to take.  Take it.   After all none of this would be possible without the hard work that was freely given by the flagship SWGEmu project.    
 
-To not share what we do, completely, and totally as the SWGEmu team does.   Well, would be damned hypocritical.
+To not share what we do, completely, and totally as the SWGEmu team does.   Well, would be damned hypocritical.   We do not share the paranoia some other server admins feel that they need to protect what works they have done in order to keep people on their server.  We feel that our work speaks for itself, but the way we run our server and manage our community will speak even louder and keep members of our community content.
 
 ## Additional dependencies ##
 
