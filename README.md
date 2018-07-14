@@ -1,14 +1,14 @@
 # Stardust SWG: Based on SWGEmu Core3 / Engine3 #
 
-## What is Stardust? ##
+
 
 [![Alt text](http://www.stardust-swg.com/Stardust-logo1.png)](http://www.stardust-swg.com)
+
+## What is Stardust? ##
 
 Put simply,  Stardust is a take on Pre-NGE Star Wars Galaxies with a primary focus on combat balance, quick, fast paced combat, challenging gameplay, and an overall content experience that you will not get anywhere else.
 
 If you are tired of servers that cater to people that whine for an easy mode experience, watering down essential components of the game in the name of “Quality of Life”,  you may have come to the right place.
-
-[![Alt text](https://img.youtube.com/vi/9vDc6A0TXXQ/0.jpg)](https://www.youtube.com/watch?v=9vDc6A0TXXQ)
 
 ## Why do we share ALL of our Source? ##
 
