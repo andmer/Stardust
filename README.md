@@ -6,6 +6,8 @@ Put simply,  Stardust is a take on Pre-NGE Star Wars Galaxies with a primary foc
 
 If you are tired of servers that cater to people that whine for an easy mode experience, watering down essential components of the game in the name of “Quality of Life”,  you may have come to the right place.
 
+[![Alt text](https://img.youtube.com/vi/9vDc6A0TXXQ/0.jpg)](https://www.youtube.com/watch?v=9vDc6A0TXXQ)
+
 ## Why do we share ALL of our Source? ##
 
 Aside from the terms of the AGPL Licensing, it is our philosophy that good work should be shared.   If that means that other servers and projects borrow or steal from us (depending on how you look at it), that is fine with us.   Imitation is supposedly the highest form of flattery, and if what we have is good enough to take.  Take it.   After all none of this would be possible without the hard work that was freely given by the flagship SWGEmu project.    
