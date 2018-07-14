@@ -2,7 +2,7 @@
 
 ## What is Stardust? ##
 
-[![Alt text](http://www.stardust-swg.com/stardust-logo1.png)](http://www.stardust-swg.com)
+[![Alt text](http://www.stardust-swg.com/Stardust-logo1.png)](http://www.stardust-swg.com)
 
 Put simply,  Stardust is a take on Pre-NGE Star Wars Galaxies with a primary focus on combat balance, quick, fast paced combat, challenging gameplay, and an overall content experience that you will not get anywhere else.
 
