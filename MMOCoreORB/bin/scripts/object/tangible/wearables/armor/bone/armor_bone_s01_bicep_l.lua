@@ -95,19 +95,19 @@ object_tangible_wearables_armor_bone_armor_bone_s01_bicep_l = object_tangible_we
   actionEncumbrance = 0,
   mindEncumbrance = 0,
 
-  maxCondition = 30000,
+  maxCondition = 15000,
 
   -- LIGHT, MEDIUM, HEAVY
   rating = LIGHT,
 
-  kinetic = 70,
-  energy = 70,
-  electricity = 70,
-  stun = 70,
-  blast = 70,
-  heat = 70,
-  cold = 70,
-  acid = 70,
+  kinetic = 35,
+  energy = 35,
+  electricity = 35,
+  stun = 35,
+  blast = 35,
+  heat = 35,
+  cold = 35,
+  acid = 35,
   lightSaber = 0,
 
   numberExperimentalProperties = {1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 2, 1},
