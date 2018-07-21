@@ -7,7 +7,7 @@ corsec_cdef_carbine = {
 	directObjectTemplate = "object/weapon/ranged/carbine/carbine_cdef_corsec.iff",
 	craftingValues = {
 		{"mindamage",13,26,0},
-		{"maxdamage",28,55,0},
+		{"maxdamage",28,155,0},
 		{"attackspeed",1,1,1},
 		{"woundchance",4,5,0},
 		{"roundsused",5,20,0},

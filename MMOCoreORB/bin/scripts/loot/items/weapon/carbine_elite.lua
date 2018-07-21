@@ -6,7 +6,7 @@ carbine_elite = {
 	directObjectTemplate = "object/weapon/ranged/carbine/carbine_elite.iff",
 	craftingValues = {
 		{"mindamage",46,75,0},
-		{"maxdamage",81,144,0},
+		{"maxdamage",81,355,0},
 		{"attackspeed",1,1,1},
 		{"woundchance",8,16,0},
 		{"roundsused",30,65,0},
