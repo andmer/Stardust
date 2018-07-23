@@ -55,7 +55,7 @@ public:
 			break;
 		case NameManagerResult::DECLINED_PROFANE:
 			creature->sendSystemMessage("That name is profane.");
-			//return INVALIDPARAMETERS;
+			return INVALIDPARAMETERS;
 			break;
 		case NameManagerResult::DECLINED_DEVELOPER:
 			creature->sendSystemMessage("That is a developer's name.");
