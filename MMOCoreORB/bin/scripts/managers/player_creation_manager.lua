@@ -49,7 +49,7 @@ x31Speeder = "object/tangible/deed/vehicle_deed/landspeeder_x31_deed.iff"
 
 SwoopBike = "object/tangible/deed/vehicle_deed/speederbike_swoop_deed.iff"
 
-boneBelt = "object/tangible/wearables/armor/bone/armor_bone_s01_belt.iff"
+
 boneBicep_l = "object/tangible/wearables/armor/bone/armor_bone_s01_bicep_l.iff"
 boneBicep_r = "object/tangible/wearables/armor/bone/armor_bone_s01_bicep_r.iff"
 boneBoots = "object/tangible/wearables/armor/bone/armor_bone_s01_boots.iff"
@@ -70,4 +70,4 @@ professionSpecificItems = {
 	social_entertainer = { slitherhorn }
 }
 
-commonStartingItems = { marojMelon, survivalKnife, SwoopBike, boneBelt, boneBicep_l, boneBicep_r, boneBoots, boneBracer_l, boneBracer_r, boneChest, boneHelmet, boneGloves, boneLeggings }
+commonStartingItems = { marojMelon, survivalKnife, SwoopBike, boneBicep_l, boneBicep_r, boneBoots, boneBracer_l, boneBracer_r, boneChest, boneHelmet, boneGloves, boneLeggings }
