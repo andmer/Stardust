@@ -1,5 +1,6 @@
 trainer_smuggler = Creature:new {
-	objectName = "@mob/creature_names:trainer_smuggler",
+	objectName = "",
+	customName = "a Smuggler trainer",
 	randomNameType = NAME_GENERIC,
 	randomNameTag = true,
 	faction = "",

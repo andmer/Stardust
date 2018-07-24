@@ -1,5 +1,6 @@
 trainer_architect = Creature:new {
-	objectName = "@mob/creature_names:trainer_architect",
+	objectName = "",
+	customName = "an Architect trainer",
 	randomNameType = NAME_GENERIC,
 	randomNameTag = true,
 	faction = "",

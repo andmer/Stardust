@@ -1,5 +1,6 @@
 trainer_creaturehandler = Creature:new {
-	objectName = "@mob/creature_names:trainer_creaturehandler",
+	objectName = "",
+	customName = "a Creature Handler trainer",
 	randomNameType = NAME_GENERIC,
 	randomNameTag = true,
 	faction = "",

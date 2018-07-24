@@ -1,5 +1,6 @@
 trainer_pistol = Creature:new {
-	objectName = "@mob/creature_names:trainer_pistol",
+	objectName = "",
+	customName = "a Pistoleer trainer",
 	randomNameType = NAME_GENERIC,
 	randomNameTag = true,
 	faction = "",

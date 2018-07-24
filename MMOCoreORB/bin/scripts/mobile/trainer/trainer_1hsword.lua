@@ -1,5 +1,6 @@
 trainer_1hsword = Creature:new {
-	objectName = "@mob/creature_names:trainer_1hsword",
+	objectName = "",
+	customName = "a Fencer trainer",
 	randomNameType = NAME_GENERIC,
 	randomNameTag = true,
 	socialGroup = "",

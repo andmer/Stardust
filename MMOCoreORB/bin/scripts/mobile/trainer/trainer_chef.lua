@@ -1,5 +1,6 @@
 trainer_chef = Creature:new {
-	objectName = "@mob/creature_names:trainer_chef",
+	objectName = "",
+	customName = "a Chef trainer",
 	randomNameType = NAME_GENERIC,
 	randomNameTag = true,
 	faction = "",

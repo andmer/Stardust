@@ -1,5 +1,6 @@
 trainer_armorsmith = Creature:new {
-	objectName = "@mob/creature_names:trainer_armorsmith",
+	objectName = "",
+	customName = "an Armorsmith trainer",
 	randomNameType = NAME_GENERIC,
 	randomNameTag = true,
 	faction = "",

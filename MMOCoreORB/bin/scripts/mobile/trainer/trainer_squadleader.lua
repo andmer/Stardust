@@ -1,5 +1,6 @@
 trainer_squadleader = Creature:new {
-	objectName = "@mob/creature_names:trainer_squadleader",
+	objectName = "",
+	customName = "a Squad Leader trainer",
 	randomNameType = NAME_GENERIC,
 	randomNameTag = true,
 	faction = "",

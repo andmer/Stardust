@@ -1,5 +1,6 @@
 trainer_scout = Creature:new {
-	objectName = "@mob/creature_names:trainer_scout",
+	objectName = "",
+	customName = "a Scout trainer",
 	randomNameType = NAME_GENERIC,
 	randomNameTag = true,
 	planetMapCategory = "trainer_scout",
