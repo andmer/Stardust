@@ -1,5 +1,6 @@
 trainer_droidengineer = Creature:new {
-	objectName = "@mob/creature_names:trainer_droidengineer",
+	objectName = "",
+	customName = "a Droid Engineer trainer",
 	randomNameType = NAME_GENERIC,
 	randomNameTag = true,
 	faction = "",
