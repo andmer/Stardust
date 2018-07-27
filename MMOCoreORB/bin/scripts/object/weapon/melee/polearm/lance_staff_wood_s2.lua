@@ -126,8 +126,8 @@ object_weapon_melee_polearm_lance_staff_wood_s2 = object_weapon_melee_polearm_sh
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "expRange", "null", "expRange", "null", "expEffeciency", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "maxrange", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 141, 201, 1, 7, 750, 7, 7, 3, 7, 5, 0, 150, 0},
-	experimentalMax = {0, 0, 152, 285, 1, 7, 1500, 17, 17, 3, 17, 5, 0, 150, 0},
+	experimentalMin = {0, 0, 141, 201, 4, 7, 750, 7, 7, 3, 7, 5, 0, 150, 0},
+	experimentalMax = {0, 0, 152, 285, 4, 7, 1500, 17, 17, 3, 17, 5, 0, 150, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

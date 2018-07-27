@@ -126,8 +126,8 @@ object_weapon_melee_polearm_lance_vibrolance = object_weapon_melee_polearm_share
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "expRange", "null", "expRange", "null", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "maxrange", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 398, 475, 1, 23, 750, -45, -40, 3, -45, 7, 0, 300, 0},
-	experimentalMax = {0, 0, 450, 550, 1, 43, 1500, -20, -20, 3, -20, 7, 0, 300, 0},
+	experimentalMin = {0, 0, 398, 475, 4, 23, 750, -45, -40, 3, -45, 7, 0, 300, 0},
+	experimentalMax = {0, 0, 450, 550, 4, 43, 1500, -20, -20, 3, -20, 7, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }
