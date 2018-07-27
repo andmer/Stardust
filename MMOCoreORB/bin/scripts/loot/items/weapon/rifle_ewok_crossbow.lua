@@ -8,7 +8,7 @@ rifle_ewok_crossbow = {
 	craftingValues = {
 		{"mindamage",60,119,0},
 		{"maxdamage",121,210,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",4,4,1},
 		{"woundchance",6.4,15.6,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},

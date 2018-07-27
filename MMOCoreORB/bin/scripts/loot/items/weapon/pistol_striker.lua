@@ -8,7 +8,7 @@ pistol_striker = {
 	craftingValues = {
 		{"mindamage",20,34,0},
 		{"maxdamage",40,66,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",4,11,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},

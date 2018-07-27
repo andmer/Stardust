@@ -8,7 +8,7 @@ rifle_laser = {
 	craftingValues = {
 		{"mindamage",4,13,0},
 		{"maxdamage",181,343,0},
-		{"attackspeed",9.4,6.7,0},
+    {"attackspeed",4,4,1},
 		{"woundchance",4.8,12.3,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},

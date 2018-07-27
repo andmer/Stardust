@@ -7,7 +7,7 @@ one_handed_ryyk_blade = {
 	craftingValues = {
 		{"mindamage",16,30,0},
 		{"maxdamage",91,124,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",15,29,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-20,-10,0},

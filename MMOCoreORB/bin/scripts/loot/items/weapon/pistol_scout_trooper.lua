@@ -8,7 +8,7 @@ pistol_scout_trooper = {
 	craftingValues = {
 		{"mindamage",20,40,0},
 		{"maxdamage",44,95,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",3.6,8.7,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},

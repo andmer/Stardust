@@ -8,7 +8,7 @@ knife_stone = {
 	craftingValues = {
 		{"mindamage",11,22,0},
 		{"maxdamage",27,48,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",6,12,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",17,33,0},

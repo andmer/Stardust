@@ -8,7 +8,7 @@ polearm_staff_metal = {
 	craftingValues = {
 		{"mindamage",52,84,0},
 		{"maxdamage",90,137,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",4,4,1},
 		{"woundchance",7,7,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-5,5,0},

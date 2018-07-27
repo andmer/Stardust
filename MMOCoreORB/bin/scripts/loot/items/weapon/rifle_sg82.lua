@@ -8,7 +8,7 @@ rifle_sg82 = {
 	craftingValues = {
 		{"mindamage",59,90,0},
 		{"maxdamage",96,144,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",4,4,1},
 		{"woundchance",8,16,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},

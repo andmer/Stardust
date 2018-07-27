@@ -8,7 +8,7 @@ carbine_laser = {
 	craftingValues = {
 		{"mindamage",6,11,0},
 		{"maxdamage",120,218,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",3,3,1},
 		{"woundchance",8,16,0},
 		{"roundsused",30,65,0},
 		{"hitpoints",750,1500,0},

@@ -7,7 +7,7 @@ one_handed_sword = {
 	craftingValues = {
 		{"mindamage",13,22,0},
 		{"maxdamage",53,117,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",9,18,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",5,15,0},

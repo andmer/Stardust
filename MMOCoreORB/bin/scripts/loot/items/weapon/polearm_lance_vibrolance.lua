@@ -8,7 +8,7 @@ polearm_lance_vibrolance = {
 	craftingValues = {
 		{"mindamage",40,72,0},
 		{"maxdamage",148,274,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",4,4,1},
 		{"woundchance",14,26,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-24,0,0},

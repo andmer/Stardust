@@ -8,7 +8,7 @@ rifle_t21 = {
 	craftingValues = {
 		{"mindamage",40,90,0},
 		{"maxdamage",160,340,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",4,4,1},
 		{"woundchance",11,25,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},

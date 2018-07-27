@@ -8,7 +8,7 @@ polearm_vibro_axe = {
 	craftingValues = {
 		{"mindamage",43,81,0},
 		{"maxdamage",186,341,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",4,4,1},
 		{"woundchance",23,43,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-45,-20,0},

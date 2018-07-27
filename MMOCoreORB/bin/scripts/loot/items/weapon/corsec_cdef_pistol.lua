@@ -8,7 +8,7 @@ corsec_cdef_pistol = {
 	craftingValues = {
 		{"mindamage",11,22,0},
 		{"maxdamage",125,151,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",2,4,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},

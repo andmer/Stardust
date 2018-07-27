@@ -8,7 +8,7 @@ pistol_sr_combat = {
 	craftingValues = {
 		{"mindamage",26,52,0},
 		{"maxdamage",59,117,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",6,13,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},

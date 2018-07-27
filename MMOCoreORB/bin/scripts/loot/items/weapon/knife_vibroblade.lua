@@ -7,7 +7,7 @@ knife_vibroblade = {
 	craftingValues = {
 		{"mindamage",10,18,0},
 		{"maxdamage",49,102,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",6,12,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-2,8,0},

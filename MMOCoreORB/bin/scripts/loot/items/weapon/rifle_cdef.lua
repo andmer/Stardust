@@ -8,7 +8,7 @@ rifle_cdef = {
 	craftingValues = {
 		{"mindamage",12,22,0},
 		{"maxdamage",24,54,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",4,4,1},
 		{"woundchance",3,4.8,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},

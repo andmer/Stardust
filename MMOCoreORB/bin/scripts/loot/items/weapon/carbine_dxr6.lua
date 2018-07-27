@@ -7,7 +7,7 @@ carbine_dxr6 = {
 	craftingValues = {
 		{"mindamage",43,75,0},
 		{"maxdamage",71,123,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",3,3,1},
 		{"woundchance",10,20,0},
 		{"roundsused",30,65,0},
 		{"hitpoints",750,1500,0},

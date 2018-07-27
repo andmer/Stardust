@@ -7,7 +7,7 @@ one_handed_curved_sword = {
 	craftingValues = {
 		{"mindamage",16,28,0},
 		{"maxdamage",60,120,0},
-		{"attackspeed",1.1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",12,24,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-2,8,0},

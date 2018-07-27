@@ -8,7 +8,7 @@ carbine_dh17 = {
 	craftingValues = {
 		{"mindamage",21,40,0},
 		{"maxdamage",70,139,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",3,3,1},
 		{"woundchance",6,12,0},
 		{"roundsused",30,65,0},
 		{"hitpoints",750,1500,0},

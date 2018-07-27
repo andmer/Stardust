@@ -6,7 +6,7 @@ rifle_lightning = {
 	craftingValues = {
 		{"mindamage",22,390,0},
 		{"maxdamage",286,710,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",4,4,1},
 		{"woundchance",8.0,16.0,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-10,20,0},

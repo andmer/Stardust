@@ -8,7 +8,7 @@ pistol_power5 = {
 	craftingValues = {
 		{"mindamage",14,24,0},
 		{"maxdamage",60,144,0},
-		{"attackspeed",5.2,3.4,0},
+    {"attackspeed",2,2,1},
 		{"woundchance",6.2,12.4,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},

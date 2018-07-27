@@ -6,7 +6,7 @@ rifle_acid_beam = {
 	craftingValues = {
 		{"mindamage",20,300,0},
 		{"maxdamage",225,750,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",4,4,1},
 		{"woundchance",19.0,35.0,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-21,5,0},

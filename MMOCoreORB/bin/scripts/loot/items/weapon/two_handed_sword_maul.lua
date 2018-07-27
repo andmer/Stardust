@@ -8,7 +8,7 @@ two_handed_sword_maul = {
 	craftingValues = {
 		{"mindamage",50,92,0},
 		{"maxdamage",228,416,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",3,3,1},
 		{"woundchance",11,20,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-46,-25,0},

@@ -8,7 +8,7 @@ carbine_cdef = {
 	craftingValues = {
 		{"mindamage",13,26,0},
 		{"maxdamage",113,122,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",3,3,1},
 		{"woundchance",4,5,0},
 		{"roundsused",5,20,0},
 		{"hitpoints",750,1500,0},

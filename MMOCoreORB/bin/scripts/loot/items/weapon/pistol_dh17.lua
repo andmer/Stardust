@@ -8,7 +8,7 @@ pistol_dh17 = {
 	craftingValues = {
 		{"mindamage",21,152,0},
 		{"maxdamage",53,186,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",6.2,12.4,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},

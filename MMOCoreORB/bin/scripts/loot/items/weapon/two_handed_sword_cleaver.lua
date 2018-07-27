@@ -8,7 +8,7 @@ two_handed_sword_cleaver = {
 	craftingValues = {
 		{"mindamage",30,60},
 		{"maxdamage",96,175,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",3,3,1},
 		{"woundchance",19,35,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-20,-10,0},

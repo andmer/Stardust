@@ -8,7 +8,7 @@ axe_vibroaxe = {
 	craftingValues = {
 		{"mindamage",43,78,0},
 		{"maxdamage",99,198,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",3,3,1},
 		{"woundchance",6,14,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-26,-14,0},

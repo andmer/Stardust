@@ -8,7 +8,7 @@ carbine_dh17_snubnose = {
 	craftingValues = {
 		{"mindamage",21,42,0},
 		{"maxdamage",61,120,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",3,3,1},
 		{"woundchance",6,12,0},
 		{"roundsused",30,54,0},
 		{"hitpoints",750,1500,0},

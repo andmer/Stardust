@@ -8,7 +8,7 @@ baton_stun = {
 	craftingValues = {
 		{"mindamage",18,42,0},
 		{"maxdamage",33,84,0},
-		{"attackspeed",4.2,2.9,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",1,3,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-5,5,0},

@@ -8,7 +8,7 @@ pistol_scatter = {
 	craftingValues = {
 		{"mindamage",40,81,0},
 		{"maxdamage",52,94,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",10,24,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},

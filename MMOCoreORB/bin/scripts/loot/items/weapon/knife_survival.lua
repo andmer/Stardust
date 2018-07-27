@@ -8,7 +8,7 @@ knife_survival = {
 	craftingValues = {
 		{"mindamage",11,22,0},
 		{"maxdamage",22,47,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",5,11,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",21,39,0},

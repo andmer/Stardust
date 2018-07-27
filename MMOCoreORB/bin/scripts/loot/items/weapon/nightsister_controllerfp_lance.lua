@@ -8,7 +8,7 @@ nightsister_controllerfp_lance = {
 	craftingValues = {
 		{"mindamage",7,11,0},
 		{"maxdamage",123,233,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",4,4,1},
 		{"woundchance",9,18,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",5,15,0},

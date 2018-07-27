@@ -8,7 +8,7 @@ carbine_e11 = {
 	craftingValues = {
 		{"mindamage",21,42,0},
 		{"maxdamage",47,109,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",3,3,1},
 		{"woundchance",7,13,0},
 		{"roundsused",15,45,0},
 		{"hitpoints",750,1500,0},

@@ -8,7 +8,7 @@ baton_gaderiffi = {
 	craftingValues = {
 		{"mindamage",35,78,0},
 		{"maxdamage",75,162,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",11,21,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-15,5,0},

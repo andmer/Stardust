@@ -8,7 +8,7 @@ pistol_fwg5 = {
 	craftingValues = {
 		{"mindamage",10,20,0},
 		{"maxdamage",54,101,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",5,11,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},

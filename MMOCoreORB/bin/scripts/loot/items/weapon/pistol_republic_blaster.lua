@@ -8,7 +8,7 @@ pistol_republic_blaster = {
 	craftingValues = {
 		{"mindamage",15,33,0},
 		{"maxdamage",77,160,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",8,18,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},

@@ -7,7 +7,7 @@ polearm_staff_wood = {
 	craftingValues = {
 		{"mindamage",23,42,0},
 		{"maxdamage",52,100,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",4,4,1},
 		{"woundchance",3,7,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",14,26,0},

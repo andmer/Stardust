@@ -7,7 +7,7 @@ pistol_launcher = {
 	craftingValues = {
 		{"mindamage",14,23,0},
 		{"maxdamage",81,149,0},
-		{"attackspeed",1,1,1},
+    {"attackspeed",2,2,1},
 		{"woundchance",13,23,0},
 		{"hitpoints",750,750,0},
 		{"attackhealthcost",0,0,0},
