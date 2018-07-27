@@ -38,10 +38,7 @@ public:
 							ManagedReference<PlayerObject*> player = creature->getPlayerObject();
 							PlayerObject* targetPlayerObject = targetCreature->getPlayerObject();
 
-							if (targetPlayerObject == NULL) {
-								return INVALIDTARGET;
-							} else if (player == NULL)
-								return GENERALERROR;
+
 
 
 
