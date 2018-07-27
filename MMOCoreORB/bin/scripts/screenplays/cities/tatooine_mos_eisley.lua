@@ -6,6 +6,10 @@ TatooineMosEisleyScreenPlay = CityScreenPlay:new {
 	planet = "tatooine",
 
 	gcwMobs = {
+		
+		-- Spawning of factional NPCs stopped in Eisley due to it being a Starter city.
+		
+		--[[
 		{"comm_operator", "rebel_resistance_leader", 3410.5,5,-4735.8,-154,0, "", ""},
 		{"elite_sand_trooper", "rebel_staff_sergeant", 3500.8,8,-4683.9,143,0, "", ""},
 		{"elite_sand_trooper", "rebel_staff_sergeant", 3496.81,5.52789,-4923.13,352.589,0, "neutral", "neutral"},
@@ -37,6 +41,7 @@ TatooineMosEisleyScreenPlay = CityScreenPlay:new {
 		{"mos_eisley_police_officer", "mos_eisley_police_officer_rebel", 3426.18,5,-4963.54,310,0, "", ""},
 		{"mos_eisley_police_sergeant", "mos_eisley_police_sergeant_rebel", 3536.3,5,-4799.3,226,0, "npc_accusing", "calm"},
 		{"mos_eisley_police_lieutenant", "mos_eisley_police_lieutenant_rebel", 3243.7,5,-4533.1,137,0, "npc_imperial", "calm"},
+		--]]
 	},
 }
 
