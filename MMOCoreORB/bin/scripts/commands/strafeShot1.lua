@@ -53,7 +53,7 @@ StrafeShot1Command = {
   coneAngle = 45,
   coneAction = true,
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
 	stateEffects = {
 	  StateEffect(
