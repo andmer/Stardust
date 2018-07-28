@@ -51,7 +51,7 @@ PointBlankArea1Command = {
   mindCostMultiplier = 0,
   accuracyBonus = 15,
 
-  coneAngle = 15,
+  coneAngle = 60,
   coneAction = true,
   
   poolsToDamage = HEALTH_ATTRIBUTE,
