@@ -1,6 +1,6 @@
 trainer_rifleman = Creature:new {
 	objectName = "",
-	customName = "a Rifleman trainer"
+	customName = "a Rifleman trainer",
 	randomNameType = NAME_GENERIC,
 	randomNameTag = true,
 	faction = "",
