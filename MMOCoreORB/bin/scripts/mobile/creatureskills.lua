@@ -17,7 +17,7 @@ brawlermaster = { {"unarmedlunge2",""},{"unarmedhit1",""},{"unarmedstun1",""},{"
 
 --creature level 21 to 25 use base profession master with these depending on weapons in thier weapons groups
 bountyhunternovice = { {"firelightningsingle1",""},{"bleedingshot",""},{"underhandshot",""} }
-commandonovice = { {"flamesingle1",""},{"fireacidsingle1",""} }
+commandonovice = {}-- {"flamesingle1",""},{"fireacidsingle1",""} }
 carbineernovice = { {"actionshot2",""},{"fullautosingle2",""},{"fullautoarea1",""},{"scattershot1",""},{"legshot3",""},{"burstshot1",""} }
 pistoleernovice = { {"healthshot2",""},{"pointblanksingle2",""},{"pistolmeleedefense1",""},{"disarmingshot1",""} }
 riflemannovice = { {"strafeshot1",""},{"mindshot2",""},{"flushingshot1",""},{"flurryshot1",""} }
@@ -29,7 +29,7 @@ tkanovice = { {"unarmedhit2",""},{"unarmedbodyhit1",""},{"unarmeddizzy1",""},{"u
 --creature level 26 to 30 use base profession master with these depending on weapons in their weapons groups
 bountyhuntermid = { {"firelightningcone1",""},{"firelightningsingle1",""},{"bleedingshot",""},{"underhandshot",""},{"eyeshot",""},{"knockdownfire",""} }
 commandomid = { {"flamecone1",""},{"flamesingle1",""},{"fireacidcone1",""},{"fireacidsingle1",""} }
-carbineermid = { {"actionshot2",""},{"fullautosingle2",""},{"fullautoarea2",""},{"scattershot2",""},{"legshot3",""},{"burstshot2",""},{"wildshot1",""},{"chargeshot1",""},{"cripplingshot",""} }
+carbineermid = {}-- {"actionshot2",""},{"fullautosingle2",""},{"fullautoarea2",""},{"scattershot2",""},{"legshot3",""},{"burstshot2",""},{"wildshot1",""},{"chargeshot1",""},{"cripplingshot",""} }
 pistoleermid = { {"bodyshot3",""},{"healthshot2",""},{"pointblanksingle2",""},{"pistolmeleedefense2",""},{"disarmingshot1",""},{"doubletap",""},{"stoppingshot",""} }
 riflemanmid = { {"headshot3",""},{"strafeshot1",""},{"mindshot2",""},{"flushingshot2",""},{"flurryshot2",""},{"startleshot1",""} }
 fencermid = { {"melee1hhit2",""},{"melee1hscatterhit1",""},{"melee1hhealthhit1",""},{"melee1hbodyhit3",""},{"melee1hblindhit2",""},{"melee1hdizzyhit2",""},{"melee1hspinattack2",""} }
@@ -39,7 +39,7 @@ tkamid = { {"unarmedhit2",""},{"unarmedbodyhit1",""},{"unarmeddizzy1",""},{"unar
 
 --creature level 31 and above use combinations of base profesion mastery and these
 bountyhuntermaster = { {"firelightningcone1",""},{"firelightningcone2",""},{"firelightningsingle1",""},{"firelightningsingle2",""},{"bleedingshot",""},{"underhandshot",""},{"eyeshot",""},{"knockdownfire",""},{"torsoshot",""},{"confusionshot",""},{"fastblast",""},{"sprayshot",""} }
-commandomaster = { {"flamecone1",""},{"flamecone2",""},{"flamesingle1",""},{"flamesingle2",""},{"fireacidcone1",""},{"fireacidcone2",""},{"fireacidsingle1",""},{"fireacidsingle2",""} }
+commandomaster = {}-- {"flamecone1",""},{"flamecone2",""},{"flamesingle1",""},{"flamesingle2",""},{"fireacidcone1",""},{"fireacidcone2",""},{"fireacidsingle1",""},{"fireacidsingle2",""} }
 carbineermaster = { {"actionshot2",""},{"fullautosingle2",""},{"fullautoarea2",""},{"wildshot2",""},{"scattershot2",""},{"legshot3",""},{"cripplingshot",""},{"burstshot2",""},{"suppressionfire2",""},{"chargeshot2",""} }
 pistoleermaster = { {"healthshot2",""},{"pointblanksingle2",""},{"bodyshot3",""},{"pistolmeleedefense2",""},{"disarmingshot2",""},{"doubletap",""},{"stoppingshot",""},{"fanshot",""},{"pointblankarea2",""},{"multitargetpistolshot",""} }
 riflemanmaster = { {"headshot3",""},{"strafeshot2",""},{"mindshot2",""},{"flushingshot2",""},{"startleshot2",""},{"flurryshot2",""} }
