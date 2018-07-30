@@ -51,7 +51,7 @@ bool EnclaveContainerComponent::checkBuildingPermission(SceneObject* sceneObject
 	if (ghost->hasGodMode())
 		return true;
 
-	if (!ghost->getZone()->getZoneName() == "yavin4")
+	if (ghost->getZone()->getZoneName() != "yavin4")
 		return true;
 
 	int enclaveType = 0;
@@ -92,7 +92,7 @@ bool EnclaveContainerComponent::checkCellPermission(SceneObject* sceneObject, Cr
 	if (ghost->hasGodMode())
 		return true;
 
-	if (!ghost->getZone()->getZoneName() != "yavin4")
+	if (ghost->getZone()->getZoneName() != "yavin4")
 			return true;
 
 	int enclaveType = 0;
