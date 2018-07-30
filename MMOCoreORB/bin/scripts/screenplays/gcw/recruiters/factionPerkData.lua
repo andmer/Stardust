@@ -42,12 +42,12 @@ rebelRewardData = {
 	installationsList = {
 		"hq_s01_pvp_rebel", "hq_s01_rebel", "hq_s02_pvp_rebel", "hq_s02_rebel", "hq_s03_pvp_rebel", "hq_s03_rebel", "hq_s04_pvp_rebel", "hq_s04_rebel", --"hq_s05_pvp_rebel",
 		"turret_block_lg", "turret_block_med", "turret_block_sm", "turret_dish_sm", "turret_dish_lg", "turret_tower_sm", "turret_tower_med", "turret_tower_lg",
-		"minefield_1x1", "barc_rebel",
+		"minefield_1x1",-- "barc_rebel",
 
 	},
 
 	installations = {
-		barc_rebel = {type=factionRewardType.installation, display="@deed:barc_s01_rebel", item="object/tangible/deed/vehicle_deed/barc_speeder_rebel_deed.iff", generatedObjectTemplate="object/mobile/vehicle/barc_speeder_rebel.iff", cost=10000},
+	--	barc_rebel = {type=factionRewardType.installation, display="@deed:barc_s01_rebel", item="object/tangible/deed/vehicle_deed/barc_speeder_rebel_deed.iff", generatedObjectTemplate="object/mobile/vehicle/barc_speeder_rebel.iff", cost=10000},
 		hq_s01_pvp_rebel = {type=factionRewardType.installation, display="@deed:hq_s01_pvp_rebel", item="object/tangible/deed/faction_perk/hq/hq_s01_pvp.iff", generatedObjectTemplate="object/building/faction_perk/hq/hq_s01_rebel_pvp.iff", cost=20000, bonus={"hq_s01_rebel","hq_s01_rebel"} },
 		hq_s01_rebel = {type=factionRewardType.installation, display="@deed:hq_s01_rebel", item="object/tangible/deed/faction_perk/hq/hq_s01.iff", generatedObjectTemplate="object/building/faction_perk/hq/hq_s01_rebel.iff", cost=10000},
 		hq_s02_pvp_rebel = {type=factionRewardType.installation, display="@deed:hq_s02_pvp_rebel", item="object/tangible/deed/faction_perk/hq/hq_s02_pvp.iff", generatedObjectTemplate="object/building/faction_perk/hq/hq_s02_rebel_pvp.iff", cost=40000, bonus={"hq_s02_rebel","hq_s02_rebel"} },
@@ -160,11 +160,11 @@ imperialRewardData = {
 		--"hq_s05_pvp_imperial",
 		"turret_block_lg", "turret_block_med", "turret_block_sm", "turret_dish_sm", "turret_dish_lg", "turret_tower_sm", "turret_tower_med", "turret_tower_lg",
 		--"covert_detector_32m",
-		"minefield_1x1", "barc_imperial",
+		"minefield_1x1",-- "barc_imperial",
 	},
 
 	installations = {
-	  barc_imperial = {type=factionRewardType.installation, display="@deed:barc_s01_imperial", item="object/tangible/deed/vehicle_deed/barc_speeder_imperial_deed.iff", generatedObjectTemplate="object/mobile/vehicle/barc_speeder_imperial.iff", cost=10000 },
+	 -- barc_imperial = {type=factionRewardType.installation, display="@deed:barc_s01_imperial", item="object/tangible/deed/vehicle_deed/barc_speeder_imperial_deed.iff", generatedObjectTemplate="object/mobile/vehicle/barc_speeder_imperial.iff", cost=10000 },
 		hq_s01_pvp_imperial = {type=factionRewardType.installation, display="@deed:hq_s01_pvp_imperial", item="object/tangible/deed/faction_perk/hq/hq_s01_pvp.iff", generatedObjectTemplate="object/building/faction_perk/hq/hq_s01_imp_pvp.iff", cost=14000, bonus={"hq_s01_imperial","hq_s01_imperial"} },
 		hq_s01_imperial = {type=factionRewardType.installation, display="@deed:hq_s01_imperial", item="object/tangible/deed/faction_perk/hq/hq_s01.iff", generatedObjectTemplate="object/building/faction_perk/hq/hq_s01_imp.iff", cost=7000},
 		hq_s02_pvp_imperial = {type=factionRewardType.installation, display="@deed:hq_s02_pvp_imperial", item="object/tangible/deed/faction_perk/hq/hq_s02_pvp.iff", generatedObjectTemplate="object/building/faction_perk/hq/hq_s02_imp_pvp.iff", cost=28000, bonus={"hq_s02_imperial","hq_s02_imperial"}},
