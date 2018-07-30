@@ -6,6 +6,8 @@
 #include "server/zone/objects/intangible/PetControlDevice.h"
 #include "server/zone/objects/intangible/tasks/PetControlDeviceStoreObjectTask.h"
 #include "server/zone/managers/frs/FrsManager.h"
+#include "server/zone/ZoneServer.h"
+#include "server/zone/Zone.h"
 
 bool EnclaveContainerComponent::checkContainerPermission(SceneObject* sceneObject, CreatureObject* creature, uint16 permission) const {
 	if (sceneObject->isBuildingObject())
@@ -49,7 +51,7 @@ bool EnclaveContainerComponent::checkBuildingPermission(SceneObject* sceneObject
 	if (ghost->hasGodMode())
 		return true;
 
-	if (ghost->getZoneName() != "yavin4")
+	if (!ghost->getZone()->getZoneName() == "yavin4")
 		return true;
 
 	int enclaveType = 0;
@@ -90,7 +92,7 @@ bool EnclaveContainerComponent::checkCellPermission(SceneObject* sceneObject, Cr
 	if (ghost->hasGodMode())
 		return true;
 
-	if (ghost->getZoneName() != "yavin4")
+	if (!ghost->getZone()->getZoneName() != "yavin4")
 			return true;
 
 	int enclaveType = 0;
