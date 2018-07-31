@@ -52,7 +52,7 @@ object_draft_schematic_food_drink_corellian_brandy = object_draft_schematic_food
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 160, 
+   xp = 400, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

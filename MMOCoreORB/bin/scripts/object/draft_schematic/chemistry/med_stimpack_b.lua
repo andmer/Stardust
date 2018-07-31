@@ -53,7 +53,7 @@ object_draft_schematic_chemistry_med_stimpack_b = object_draft_schematic_chemist
 	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 50,
+	xp = 75,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

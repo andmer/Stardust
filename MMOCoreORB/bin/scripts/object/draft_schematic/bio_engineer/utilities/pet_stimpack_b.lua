@@ -53,7 +53,7 @@ object_draft_schematic_bio_engineer_utilities_pet_stimpack_b = object_draft_sche
 	factoryCrateSize = 1000,
 
 	xpType = "crafting_bio_engineer_creature",
-	xp = 90,
+	xp = 300,
 
 	assemblySkill = "bio_engineer_assembly",
 	experimentingSkill = "bio_engineer_experimentation",

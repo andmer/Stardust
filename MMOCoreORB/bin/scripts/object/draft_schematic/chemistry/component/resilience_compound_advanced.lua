@@ -53,7 +53,7 @@ object_draft_schematic_chemistry_component_resilience_compound_advanced = object
 	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 100,
+	xp = 225,
 
 	assemblySkill = "combat_medicine_assembly",
 	experimentingSkill = "combat_medicine_experimentation",

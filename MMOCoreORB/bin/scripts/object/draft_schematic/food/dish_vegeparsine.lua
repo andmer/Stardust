@@ -52,7 +52,7 @@ object_draft_schematic_food_dish_vegeparsine = object_draft_schematic_food_share
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 80, 
+   xp = 180, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

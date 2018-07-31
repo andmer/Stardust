@@ -53,7 +53,7 @@ object_draft_schematic_bio_engineer_creature_creature_bearded_jax = object_draft
    size = 1, 
 
    xpType = "crafting_bio_engineer_creature", 
-   xp = 60, 
+   xp = 1000, 
 
    assemblySkill = "bio_engineer_assembly", 
    experimentingSkill = "bio_engineer_experimentation", 

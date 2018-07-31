@@ -52,7 +52,7 @@ object_draft_schematic_clothing_clothing_ith_gloves_field_02 = object_draft_sche
    size = 2, 
 
    xpType = "crafting_clothing_general", 
-   xp = 90, 
+   xp = 200, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

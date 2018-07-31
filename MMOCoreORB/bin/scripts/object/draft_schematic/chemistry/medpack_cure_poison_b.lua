@@ -53,7 +53,7 @@ object_draft_schematic_chemistry_medpack_cure_poison_b = object_draft_schematic_
 	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 55,
+	xp = 270,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

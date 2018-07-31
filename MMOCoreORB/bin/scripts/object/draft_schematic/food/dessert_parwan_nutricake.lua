@@ -52,7 +52,7 @@ object_draft_schematic_food_dessert_parwan_nutricake = object_draft_schematic_fo
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 160, 
+   xp = 500, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

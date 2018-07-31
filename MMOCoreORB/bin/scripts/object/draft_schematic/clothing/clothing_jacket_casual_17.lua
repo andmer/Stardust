@@ -52,7 +52,7 @@ object_draft_schematic_clothing_clothing_jacket_casual_17 = object_draft_schemat
    size = 3, 
 
    xpType = "crafting_clothing_general", 
-   xp = 130, 
+   xp = 400, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

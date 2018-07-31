@@ -52,7 +52,7 @@ object_draft_schematic_food_drink_elshandruu_pica_thundercloud = object_draft_sc
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 280, 
+   xp = 600, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

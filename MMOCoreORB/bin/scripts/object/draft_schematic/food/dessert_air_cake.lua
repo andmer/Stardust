@@ -52,7 +52,7 @@ object_draft_schematic_food_dessert_air_cake = object_draft_schematic_food_share
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 80, 
+   xp = 300, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

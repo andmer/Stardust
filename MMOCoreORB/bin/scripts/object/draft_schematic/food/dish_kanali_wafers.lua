@@ -52,7 +52,7 @@ object_draft_schematic_food_dish_kanali_wafers = object_draft_schematic_food_sha
    size = 1, 
 
    xpType = "crafting_general", 
-   xp = 80, 
+   xp = 150, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

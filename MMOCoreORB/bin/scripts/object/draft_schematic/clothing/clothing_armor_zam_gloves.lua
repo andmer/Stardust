@@ -52,7 +52,7 @@ object_draft_schematic_clothing_clothing_armor_zam_gloves = object_draft_schemat
    size = 4, 
 
    xpType = "crafting_clothing_armor", 
-   xp = 95, 
+   xp = 200, 
 
    assemblySkill = "armor_assembly", 
    experimentingSkill = "armor_experimentation", 

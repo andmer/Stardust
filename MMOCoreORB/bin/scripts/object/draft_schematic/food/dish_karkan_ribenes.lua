@@ -52,7 +52,7 @@ object_draft_schematic_food_dish_karkan_ribenes = object_draft_schematic_food_sh
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 200, 
+   xp = 400, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

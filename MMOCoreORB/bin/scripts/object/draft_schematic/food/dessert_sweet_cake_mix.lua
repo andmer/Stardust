@@ -52,7 +52,7 @@ object_draft_schematic_food_dessert_sweet_cake_mix = object_draft_schematic_food
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 100, 
+   xp = 500, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

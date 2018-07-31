@@ -52,7 +52,7 @@ object_draft_schematic_food_dessert_blap_biscuit = object_draft_schematic_food_s
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 55, 
+   xp = 300, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

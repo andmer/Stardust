@@ -52,7 +52,7 @@ object_draft_schematic_clothing_clothing_robe_casual_05 = object_draft_schematic
    size = 3, 
 
    xpType = "crafting_clothing_general", 
-   xp = 275, 
+   xp = 500, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

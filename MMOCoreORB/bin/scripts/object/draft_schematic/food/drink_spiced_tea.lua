@@ -52,7 +52,7 @@ object_draft_schematic_food_drink_spiced_tea = object_draft_schematic_food_share
    size = 1, 
 
    xpType = "crafting_general", 
-   xp = 14, 
+   xp = 50, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

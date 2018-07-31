@@ -52,7 +52,7 @@ object_draft_schematic_food_additive_additive_light = object_draft_schematic_foo
    size = 1, 
 
    xpType = "crafting_general", 
-   xp = 20, 
+   xp = 100, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

@@ -53,7 +53,7 @@ object_draft_schematic_bio_engineer_utilities_pet_vitapack_c = object_draft_sche
 	factoryCrateSize = 1000,
 
 	xpType = "crafting_bio_engineer_creature",
-	xp = 125,
+	xp = 400,
 
 	assemblySkill = "bio_engineer_assembly",
 	experimentingSkill = "bio_engineer_experimentation",

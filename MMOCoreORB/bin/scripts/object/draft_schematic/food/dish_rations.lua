@@ -52,7 +52,7 @@ object_draft_schematic_food_dish_rations = object_draft_schematic_food_shared_di
    size = 1, 
 
    xpType = "crafting_general", 
-   xp = 50, 
+   xp = 100, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

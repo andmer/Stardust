@@ -53,7 +53,7 @@ object_draft_schematic_chemistry_medpack_poison_area_health_a = object_draft_sch
 	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 70,
+	xp = 175,
 
 	assemblySkill = "combat_medicine_assembly",
 	experimentingSkill = "combat_medicine_experimentation",

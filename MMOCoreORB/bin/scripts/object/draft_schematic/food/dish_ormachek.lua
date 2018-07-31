@@ -52,7 +52,7 @@ object_draft_schematic_food_dish_ormachek = object_draft_schematic_food_shared_d
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 160, 
+   xp = 400, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

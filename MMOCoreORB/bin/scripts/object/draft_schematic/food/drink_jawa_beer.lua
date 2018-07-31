@@ -52,7 +52,7 @@ object_draft_schematic_food_drink_jawa_beer = object_draft_schematic_food_shared
    size = 1, 
 
    xpType = "crafting_general", 
-   xp = 70, 
+   xp = 150, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

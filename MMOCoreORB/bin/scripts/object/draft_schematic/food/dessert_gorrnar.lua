@@ -52,7 +52,7 @@ object_draft_schematic_food_dessert_gorrnar = object_draft_schematic_food_shared
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 200, 
+   xp = 600, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

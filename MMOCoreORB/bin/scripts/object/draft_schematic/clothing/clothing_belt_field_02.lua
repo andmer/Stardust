@@ -52,7 +52,7 @@ object_draft_schematic_clothing_clothing_belt_field_02 = object_draft_schematic_
    size = 1, 
 
    xpType = "crafting_clothing_general", 
-   xp = 145, 
+   xp = 500, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

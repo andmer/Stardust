@@ -52,7 +52,7 @@ object_draft_schematic_food_dish_gruuvan_shaal = object_draft_schematic_food_sha
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 200, 
+   xp = 500, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

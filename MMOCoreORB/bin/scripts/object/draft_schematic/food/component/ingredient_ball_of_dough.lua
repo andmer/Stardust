@@ -52,7 +52,7 @@ object_draft_schematic_food_component_ingredient_ball_of_dough = object_draft_sc
    size = 2, 
 
    xpType = "crafting_general", 
-   xp = 20, 
+   xp = 100, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

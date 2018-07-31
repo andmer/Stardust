@@ -52,7 +52,7 @@ object_draft_schematic_food_dish_rakririan_burnout_sauce = object_draft_schemati
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 280, 
+   xp = 600, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

@@ -52,7 +52,7 @@ object_draft_schematic_food_dessert_pikatta_pie = object_draft_schematic_food_sh
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 260, 
+   xp = 600, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

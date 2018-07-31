@@ -52,7 +52,7 @@ object_draft_schematic_food_dessert_pkneb = object_draft_schematic_food_shared_d
    size = 1, 
 
    xpType = "crafting_general", 
-   xp = 80, 
+   xp = 150, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

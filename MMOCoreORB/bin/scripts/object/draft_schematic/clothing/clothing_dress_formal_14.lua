@@ -52,7 +52,7 @@ object_draft_schematic_clothing_clothing_dress_formal_14 = object_draft_schemati
    size = 4, 
 
    xpType = "crafting_clothing_general", 
-   xp = 160, 
+   xp = 600, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

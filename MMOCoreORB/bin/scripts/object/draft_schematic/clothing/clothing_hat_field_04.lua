@@ -52,7 +52,7 @@ object_draft_schematic_clothing_clothing_hat_field_04 = object_draft_schematic_c
    size = 3, 
 
    xpType = "crafting_clothing_general", 
-   xp = 100, 
+   xp = 300, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

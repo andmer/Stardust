@@ -53,7 +53,7 @@ object_draft_schematic_chemistry_medpack_enhance_health_a = object_draft_schemat
 	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 60,
+	xp = 260,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

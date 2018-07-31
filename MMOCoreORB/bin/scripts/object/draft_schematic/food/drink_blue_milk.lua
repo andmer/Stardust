@@ -52,7 +52,7 @@ object_draft_schematic_food_drink_blue_milk = object_draft_schematic_food_shared
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 80, 
+   xp = 300, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

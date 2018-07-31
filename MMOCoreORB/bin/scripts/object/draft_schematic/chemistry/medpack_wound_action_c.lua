@@ -53,7 +53,7 @@ object_draft_schematic_chemistry_medpack_wound_action_c = object_draft_schematic
 	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 65,
+	xp = 270,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

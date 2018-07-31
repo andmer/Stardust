@@ -52,7 +52,7 @@ object_draft_schematic_food_drink_ithorian_mist = object_draft_schematic_food_sh
    size = 1, 
 
    xpType = "crafting_food_general", 
-   xp = 240, 
+   xp = 400, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 
