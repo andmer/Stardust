@@ -52,7 +52,7 @@ object_draft_schematic_instrument_instrument_slitherhorn = object_draft_schemati
    size = 1,
 
    xpType = "music",
-   xp = 2132,
+   xp = 500,
 
    assemblySkill = "instrument_assembly",
    experimentingSkill = "general_experimentation",

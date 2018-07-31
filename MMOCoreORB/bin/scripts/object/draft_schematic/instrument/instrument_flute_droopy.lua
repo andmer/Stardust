@@ -52,7 +52,7 @@ object_draft_schematic_instrument_instrument_flute_droopy = object_draft_schemat
    size = 1, 
 
    xpType = "music", 
-   xp = 100, 
+   xp = 500, 
 
    assemblySkill = "instrument_assembly", 
    experimentingSkill = "general_experimentation", 

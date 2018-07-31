@@ -52,7 +52,7 @@ object_draft_schematic_instrument_instrument_fizz = object_draft_schematic_instr
    size = 1,
 
    xpType = "entertainer_healing",
-   xp = 2211,
+   xp = 500,
 
    assemblySkill = "instrument_assembly",
    experimentingSkill = "general_experimentation",

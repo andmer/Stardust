@@ -52,7 +52,7 @@ object_draft_schematic_instrument_instrument_traz = object_draft_schematic_instr
    size = 1, 
 
    xpType = "music", 
-   xp = 120, 
+   xp = 500, 
 
    assemblySkill = "instrument_assembly", 
    experimentingSkill = "general_experimentation", 

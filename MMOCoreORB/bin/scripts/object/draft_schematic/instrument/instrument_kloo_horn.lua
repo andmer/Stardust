@@ -52,7 +52,7 @@ object_draft_schematic_instrument_instrument_kloo_horn = object_draft_schematic_
    size = 1, 
 
    xpType = "dance", 
-   xp = 2140, 
+   xp = 500, 
 
    assemblySkill = "instrument_assembly", 
    experimentingSkill = "general_experimentation", 

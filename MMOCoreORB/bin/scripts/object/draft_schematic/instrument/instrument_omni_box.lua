@@ -52,7 +52,7 @@ object_draft_schematic_instrument_instrument_omni_box = object_draft_schematic_i
    size = 1, 
 
    xpType = "music", 
-   xp = 110, 
+   xp = 500, 
 
    assemblySkill = "instrument_assembly", 
    experimentingSkill = "general_experimentation", 

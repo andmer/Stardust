@@ -52,7 +52,7 @@ object_draft_schematic_instrument_instrument_nalargon = object_draft_schematic_i
    size = 1, 
 
    xpType = "music", 
-   xp = 450, 
+   xp = 500, 
 
    assemblySkill = "instrument_assembly", 
    experimentingSkill = "general_experimentation", 
