@@ -44,7 +44,7 @@
 Melee1hDizzyHit1Command = {
 	name = "melee1hdizzyhit1",
 
-	damageMultiplier = 2,
+	damageMultiplier = 1.25,
   speedMultiplier = 1.5,
   healthCostMultiplier = 0,
   actionCostMultiplier = 2.5,
