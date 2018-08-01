@@ -537,7 +537,7 @@ void SlicingSessionImplementation::handleWeaponSlice() {
 		handleSliceDamage(percentage);
 		break;
 	case 1:
-		handleSliceSpeed(percentage);
+		handleSliceDamage(percentage);
 		break;
 	}
 }
@@ -643,7 +643,7 @@ void SlicingSessionImplementation::handleArmorSlice() {
 		handleSliceEffectiveness(percent);
 		break;
 	case 1:
-		handleSliceEncumbrance(percent);
+		handleSliceEffectiveness(percent);
 		break;
 	}
 }
