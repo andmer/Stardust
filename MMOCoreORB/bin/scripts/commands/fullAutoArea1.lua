@@ -92,7 +92,7 @@ FullAutoArea1Command = {
 
 	poolsToDamage = HEALTH_ATTRIBUTE,
 	
-	weaponType = SPECIALHEAVYWEAPON,
+	weaponType = CARBINEWEAPON,
 
 	range = 64
 }

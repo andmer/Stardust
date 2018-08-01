@@ -126,8 +126,8 @@ object_weapon_melee_polearm_lance_controllerfp = object_weapon_melee_polearm_sha
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "expRange", "null", "expRange", "null", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "maxrange", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 7, 133, 4, 9, 750, 5, 5, 3, 5, 5, 0, 150, 0},
-	experimentalMax = {0, 0, 13, 247, 4, 18, 1500, 15, 15, 3, 15, 5, 0, 150, 0},
+	experimentalMin = {0, 0, 7, 133, 4, 9, 750, 5, 5, 3, 5, 5, 0, 300, 0},
+	experimentalMax = {0, 0, 13, 347, 4, 18, 1500, 15, 15, 3, 15, 5, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

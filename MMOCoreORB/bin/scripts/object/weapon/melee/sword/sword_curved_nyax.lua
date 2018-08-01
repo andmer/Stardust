@@ -115,7 +115,7 @@ object_weapon_melee_sword_sword_curved_nyax = object_weapon_melee_sword_shared_s
 	maxRangeAccuracy = 4,
 
 	minDamage = 17,
-	maxDamage = 178,
+	maxDamage = 228,
 
 	attackSpeed = 2,
 

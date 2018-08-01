@@ -114,8 +114,8 @@ object_weapon_melee_sword_sword_rantok = object_weapon_melee_sword_shared_sword_
 	maxRange = 3,
 	maxRangeAccuracy = 10,
 
-	minDamage = 45,
-	maxDamage = 150,
+	minDamage = 245,
+	maxDamage = 250,
 
 	attackSpeed = 3.3,
 

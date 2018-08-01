@@ -127,7 +127,7 @@ object_weapon_ranged_pistol_pistol_dl44_metal = object_weapon_ranged_pistol_shar
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
 	experimentalMin = {0, 0, 14, 170, 2, 5, 10, 750, -12, -80, 8, 11, 0, 300, 0},
-	experimentalMax = {0, 0, 26, 355, 2, 9, 50, 1500, -12, -80, 8, 21, 0, 300, 0},
+	experimentalMax = {0, 0, 26, 187, 2, 9, 50, 1500, -12, -80, 8, 21, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

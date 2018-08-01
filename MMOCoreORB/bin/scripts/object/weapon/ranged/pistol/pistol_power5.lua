@@ -127,7 +127,7 @@ object_weapon_ranged_pistol_pistol_power5 = object_weapon_ranged_pistol_shared_p
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
 	experimentalMin = {0, 0, 18, 88, 2, 7, 10, 750, -12, -70, 10, -3, 0, 300, 0},
-	experimentalMax = {0, 0, 33, 163, 2, 13, 50, 1500, -12, -70, 10, 7, 0, 300, 0},
+	experimentalMax = {0, 0, 33, 263, 2, 13, 50, 1500, -12, -70, 10, 7, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

@@ -127,7 +127,7 @@ object_weapon_ranged_carbine_carbine_cdef = object_weapon_ranged_carbine_shared_
   experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "null", "null", "null"},
   experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
   experimentalMin = {0, 0, 17, 35, 3, 4, 5, 750, 0, -80, 35, 35, 0, 300, 0},
-  experimentalMax = {0, 0, 132, 365, 3, 5, 20, 1500, 0, -80, 35, 65, 0, 300, 0},
+  experimentalMax = {0, 0, 132, 340, 3, 5, 20, 1500, 0, -80, 35, 65, 0, 300, 0},
   experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
   experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

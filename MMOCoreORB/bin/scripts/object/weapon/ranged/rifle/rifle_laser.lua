@@ -127,7 +127,7 @@ object_weapon_ranged_rifle_rifle_laser = object_weapon_ranged_rifle_shared_rifle
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
 	experimentalMin = {0, 0, 7, 203, 4, 7, 30, 750, -80, -50, 60, 14, 0, 300, 0},
-	experimentalMax = {0, 0, 13, 477, 4, 13, 65, 1500, -80, -50, 60, 26, 0, 300, 0},
+	experimentalMax = {0, 0, 13, 455, 4, 13, 65, 1500, -80, -50, 60, 26, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

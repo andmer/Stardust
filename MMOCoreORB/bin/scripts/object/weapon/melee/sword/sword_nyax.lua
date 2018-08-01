@@ -115,7 +115,7 @@ object_weapon_melee_sword_sword_nyax = object_weapon_melee_sword_shared_sword_ny
 	maxRangeAccuracy = 4,
 
 	minDamage = 25,
-	maxDamage = 70,
+	maxDamage = 170,
 
 	attackSpeed = 1,
 
