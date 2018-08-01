@@ -7,7 +7,7 @@ rifle_dlt20a = {
 	directObjectTemplate = "object/weapon/ranged/rifle/rifle_dlt20a.iff",
 	craftingValues = {
 		{"mindamage",52,81,0},
-		{"maxdamage",88,145,0},
+		{"maxdamage",88,165,0},
     {"attackspeed",4,4,1},
 		{"woundchance",4.8,11.3,0},
 		{"hitpoints",750,750,0},

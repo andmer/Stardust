@@ -7,7 +7,7 @@ melee_vibroknuckler = {
 	directObjectTemplate = "object/weapon/melee/special/vibroknuckler.iff",
 	craftingValues = {
 		{"mindamage",7,12,0},
-		{"maxdamage",56,107,0},
+		{"maxdamage",56,197,0},
 		{"attackspeed",1,1,1},
 		{"woundchance",14,26,0},
 		{"hitpoints",750,1500,0},
