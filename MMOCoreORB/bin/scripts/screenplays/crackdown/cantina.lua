@@ -83,7 +83,7 @@ function CrackdownCantina:handlePotentialTrouble(pCantina, pPlayer)
 	end
 
 	if (self.debugNotify) then
-		CreatureObject(pPlayer):sendSystemMessage("Debug: Cantina crackdown triggered")
+	--	CreatureObject(pPlayer):sendSystemMessage("Debug: Cantina crackdown triggered")
 	end
 	createEvent(15000, "CrackdownCantina", "startTrouble", pCantina, "")
 end
