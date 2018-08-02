@@ -53,6 +53,8 @@ FireAcidCone2Command = {
 
   coneAngle = 45,
   coneAction = true,
+  
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
 dotEffects = {
     DotEffect( 

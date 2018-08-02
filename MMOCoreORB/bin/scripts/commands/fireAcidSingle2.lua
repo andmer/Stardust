@@ -50,7 +50,9 @@ FireAcidSingle2Command = {
   actionCostMultiplier = 1.0,
   mindCostMultiplier = 0,
   accuracyBonus = 0,
-
+  
+  poolsToDamage = HEALTH_ATTRIBUTE,
+  
 dotEffects = {
     DotEffect( 
     POISONED_EFFECT, 
@@ -64,7 +66,7 @@ dotEffects = {
     )
   },
 
-  poolsToDamage = HEALTH_ATTRIBUTE,
+  
 
 	animation = "fire_acid_rifle_single_2", 
 	animType = GENERATE_INTENSITY,
