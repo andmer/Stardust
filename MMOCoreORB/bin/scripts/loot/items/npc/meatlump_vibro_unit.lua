@@ -6,9 +6,9 @@ meatlump_vibro_unit = {
 	customObjectName = "Meatlump Vibro Unit",
 	directObjectTemplate = "object/tangible/component/weapon/vibro_unit.iff",
 	craftingValues = {
-		{"mindamage",5,11,0},
-		{"maxdamage",12,19,0},
-		{"attackspeed",1.3,-0.8,1},
+		{"mindamage",5,21,0},
+		{"maxdamage",12,39,0},
+		{"attackspeed",0,0,1},
 		{"useCount",1,5,0},
 	},
 	customizationStringNames = {},

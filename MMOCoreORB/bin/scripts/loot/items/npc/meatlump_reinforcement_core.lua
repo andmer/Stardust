@@ -6,9 +6,9 @@ meatlump_reinforcement_core = {
 	customObjectName = "Meatlump Reinforcement Core",
 	directObjectTemplate = "object/tangible/component/weapon/reinforcement_core_advanced.iff",
 	craftingValues = {
-		{"mindamage",3,9,0},
-		{"maxdamage",11,18,0},
-		{"attackspeed",0.8,-0.8,1},
+		{"mindamage",3,19,0},
+		{"maxdamage",11,28,0},
+		{"attackspeed",0,0,1},
 		{"useCount",1,7,0},
 	},
 	customizationStringNames = {},

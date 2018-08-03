@@ -6,9 +6,9 @@ meatlump_power_handler = {
 	customObjectName = "Meatlump Blaster Power Handler",
 	directObjectTemplate = "object/tangible/component/weapon/blaster_power_handler_advanced.iff",
 	craftingValues = {
-		{"mindamage",3,7,0},
-		{"maxdamage",8,17,0},
-		{"attackspeed",0.8,-0.8,1},
+		{"mindamage",3,27,0},
+		{"maxdamage",8,37,0},
+		{"attackspeed",0,0,1},
 		{"useCount",1,15,0},
 	},
 	customizationStringNames = {},

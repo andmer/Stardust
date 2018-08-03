@@ -8,9 +8,9 @@ ns_bicep_r_s01 = {
 		{"kineticeffectiveness",5,10,10},
 		{"lightsabereffectiveness",1,4,10},
 		{"armor_integrity",15000, 25000,0},
-		{"armor_health_encumbrance",13,8,0},
-		{"armor_action_encumbrance",13,8,0},
-		{"armor_mind_encumbrance",16,9,0},
+		{"armor_health_encumbrance",0,0,0},
+		{"armor_action_encumbrance",0,0,0},
+		{"armor_mind_encumbrance",0,0,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {
