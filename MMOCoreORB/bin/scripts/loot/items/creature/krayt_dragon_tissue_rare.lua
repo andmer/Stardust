@@ -8,7 +8,7 @@ krayt_dragon_tissue_rare = {
 	craftingValues = {
 		{"mindamage",75,95,0},
 		{"maxdamage",90,165,0},
-		{"attackspeed",0,-1.2,1},
+		{"attackspeed",0,0,1},
 		{"useCount",1,13,0},
 	},
 	customizationStringNames = {},
