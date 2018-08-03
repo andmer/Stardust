@@ -44,10 +44,10 @@
 FireAcidCone2Command = {
         name = "fireacidcone2",
 
-	damageMultiplier = 6,
-  speedMultiplier = 1,
+	damageMultiplier = 2.25,
+  speedMultiplier = 2,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 1.0,
+  actionCostMultiplier = 2.5,
   mindCostMultiplier = 0,
   accuracyBonus = 0,
 
