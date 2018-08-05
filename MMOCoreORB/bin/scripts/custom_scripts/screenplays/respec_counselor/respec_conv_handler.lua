@@ -17,9 +17,9 @@ function respecConvoHandler:runScreenHandlers(pConvTemplate, pPlayer, pNpc, sele
 
 	if (string.find(screenID, "learn_")) then
 		local learnType = string.sub(screenID, 7)
-		ExperienceConverter:sendConversionSUI(pPlayer, pNpc, learnType)
+		RespecExperienceConverter:sendConversionSUI(pPlayer, pNpc, learnType)
 	elseif (screenID == "what_aspects") then
-		local branchList = ExperienceConverter:getBranchLearnList(pPlayer)
+		local branchList = RespecExperienceConverter:getBranchLearnList(pPlayer)
 		clonedConversation:setDialogTextTO(branchList)
 	end
 

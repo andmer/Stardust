@@ -4,94 +4,94 @@ require("utils.helpers")
 require("screenplays.screenplay")
 
 
-ExperienceConverter = ScreenPlay:new {
+RespecExperienceConverter = ScreenPlay:new {
 	xpConversion = {
 		
 		
 		combat_meleespecialize_onehand = {     
-      { "combat_general", 3 },
-      { "combat_meleespecialize_polearm", 30 },
-      { "combat_meleespecialize_twohand", 30 },
-      { "combat_meleespecialize_unarmed", 30 },
-      { "combat_rangedspecialize_carbine", 30 },
-      { "combat_rangedspecialize_heavy", 30 },
-      { "combat_rangedspecialize_pistol", 30 },
-      { "combat_rangedspecialize_rifle", 30 },      
+      { "combat_general", 1 },
+      { "combat_meleespecialize_polearm", 10 },
+      { "combat_meleespecialize_twohand", 10 },
+      { "combat_meleespecialize_unarmed", 10 },
+      { "combat_rangedspecialize_carbine", 10 },
+      { "combat_rangedspecialize_heavy", 10 },
+      { "combat_rangedspecialize_pistol", 10 },
+      { "combat_rangedspecialize_rifle", 10 },      
     },
     combat_meleespecialize_twohand = {     
-      { "combat_general", 3 },
-      { "combat_meleespecialize_polearm", 30 },
-      { "combat_meleespecialize_onehand", 30 },
-      { "combat_meleespecialize_unarmed", 30 },
-      { "combat_rangedspecialize_carbine", 30 },
-      { "combat_rangedspecialize_heavy", 30 },
-      { "combat_rangedspecialize_pistol", 30 },
-      { "combat_rangedspecialize_rifle", 30 },      
+      { "combat_general", 1 },
+      { "combat_meleespecialize_polearm", 10 },
+      { "combat_meleespecialize_onehand", 10 },
+      { "combat_meleespecialize_unarmed", 10 },
+      { "combat_rangedspecialize_carbine", 10 },
+      { "combat_rangedspecialize_heavy", 10 },
+      { "combat_rangedspecialize_pistol", 10 },
+      { "combat_rangedspecialize_rifle", 10 },      
     },
     combat_meleespecialize_polearm = {     
-      { "combat_general", 3 },
-      { "combat_meleespecialize_onehand", 30 },
-      { "combat_meleespecialize_twohand", 30 },
-      { "combat_meleespecialize_unarmed", 30 },
-      { "combat_rangedspecialize_carbine", 30 },
-      { "combat_rangedspecialize_heavy", 30 },
-      { "combat_rangedspecialize_pistol", 30 },
-      { "combat_rangedspecialize_rifle", 30 },      
+      { "combat_general", 1 },
+      { "combat_meleespecialize_onehand", 10 },
+      { "combat_meleespecialize_twohand", 10 },
+      { "combat_meleespecialize_unarmed", 10 },
+      { "combat_rangedspecialize_carbine", 10 },
+      { "combat_rangedspecialize_heavy", 10 },
+      { "combat_rangedspecialize_pistol", 10 },
+      { "combat_rangedspecialize_rifle", 10 },      
     },
     combat_meleespecialize_unarmed = {     
-      { "combat_general", 3 },
-      { "combat_meleespecialize_polearm", 30 },
-      { "combat_meleespecialize_twohand", 30 },
-      { "combat_meleespecialize_onehand", 30 },
-      { "combat_rangedspecialize_carbine", 30 },
-      { "combat_rangedspecialize_heavy", 30 },
-      { "combat_rangedspecialize_pistol", 30 },
-      { "combat_rangedspecialize_rifle", 30 },      
+      { "combat_general", 1 },
+      { "combat_meleespecialize_polearm", 10 },
+      { "combat_meleespecialize_twohand", 10 },
+      { "combat_meleespecialize_onehand", 10 },
+      { "combat_rangedspecialize_carbine", 10 },
+      { "combat_rangedspecialize_heavy", 10 },
+      { "combat_rangedspecialize_pistol", 10 },
+      { "combat_rangedspecialize_rifle", 10 },      
     },
     combat_rangedspecialize_carbine = {     
-      { "combat_general", 3 },
-      { "combat_meleespecialize_polearm", 30 },
-      { "combat_meleespecialize_twohand", 30 },
-      { "combat_meleespecialize_unarmed", 30 },
-      { "combat_meleespecialize_onehand", 30 },
-      { "combat_rangedspecialize_heavy", 30 },
-      { "combat_rangedspecialize_pistol", 30 },
-      { "combat_rangedspecialize_rifle", 30 },      
+      { "combat_general", 1 },
+      { "combat_meleespecialize_polearm", 10 },
+      { "combat_meleespecialize_twohand", 10 },
+      { "combat_meleespecialize_unarmed", 10 },
+      { "combat_meleespecialize_onehand", 10 },
+      { "combat_rangedspecialize_heavy", 10 },
+      { "combat_rangedspecialize_pistol", 10 },
+      { "combat_rangedspecialize_rifle", 10 },      
     },
     combat_rangedspecialize_heavy = {     
-      { "combat_general", 3 },
-      { "combat_meleespecialize_polearm", 30 },
-      { "combat_meleespecialize_twohand", 30 },
-      { "combat_meleespecialize_unarmed", 30 },
-      { "combat_meleespecialize_onehand", 30 },
-      { "combat_rangedspecialize_carbine", 30 },
-      { "combat_rangedspecialize_pistol", 30 },
-      { "combat_rangedspecialize_rifle", 30 },      
+      { "combat_general", 1 },
+      { "combat_meleespecialize_polearm", 10 },
+      { "combat_meleespecialize_twohand", 10 },
+      { "combat_meleespecialize_unarmed", 10 },
+      { "combat_meleespecialize_onehand", 10 },
+      { "combat_rangedspecialize_carbine", 10 },
+      { "combat_rangedspecialize_pistol", 10 },
+      { "combat_rangedspecialize_rifle", 10 },      
     },
     combat_rangedspecialize_pistol = {     
-      { "combat_general", 3 },
-      { "combat_meleespecialize_polearm", 30 },
-      { "combat_meleespecialize_twohand", 30 },
-      { "combat_meleespecialize_unarmed", 30 },
-      { "combat_meleespecialize_onehand", 30 },
-      { "combat_rangedspecialize_heavy", 30 },
-      { "combat_rangedspecialize_carbine", 30 },
-      { "combat_rangedspecialize_rifle", 30 },      
+      { "combat_general", 1 },
+      { "combat_meleespecialize_polearm", 10 },
+      { "combat_meleespecialize_twohand", 10 },
+      { "combat_meleespecialize_unarmed", 10 },
+      { "combat_meleespecialize_onehand", 10 },
+      { "combat_rangedspecialize_heavy", 10 },
+      { "combat_rangedspecialize_carbine", 10 },
+      { "combat_rangedspecialize_rifle", 10 },      
     },
     combat_rangedspecialize_rifle = {     
-      { "combat_general", 3 },
-      { "combat_meleespecialize_polearm", 30 },
-      { "combat_meleespecialize_twohand", 30 },
-      { "combat_meleespecialize_unarmed", 30 },
-      { "combat_meleespecialize_onehand", 30 },
-      { "combat_rangedspecialize_heavy", 30 },
-      { "combat_rangedspecialize_pistol", 30 },
-      { "combat_rangedspecialize_carbine", 30 },      
+      { "combat_general", 1 },
+      { "combat_meleespecialize_polearm", 10 },
+      { "combat_meleespecialize_twohand", 10 },
+      { "combat_meleespecialize_unarmed", 10 },
+      { "combat_meleespecialize_onehand", 10 },
+      { "combat_rangedspecialize_heavy", 10 },
+      { "combat_rangedspecialize_pistol", 10 },
+      { "combat_rangedspecialize_carbine", 10 },      
     }		
 	}
 }
 
-function ExperienceConverter:getBranchLearnList(pPlayer)
+function RespecExperienceConverter:getBranchLearnList(pPlayer)
 	if (pPlayer == nil) then
 		return
 	end
@@ -115,7 +115,7 @@ function ExperienceConverter:getBranchLearnList(pPlayer)
 	return branchList
 end
 
-function ExperienceConverter:sendConversionSUI(pPlayer, pNpc, experienceType)
+function RespecExperienceConverter:sendConversionSUI(pPlayer, pNpc, experienceType)
 	if (pPlayer == nil) then
 		return
 	end
@@ -131,7 +131,7 @@ function ExperienceConverter:sendConversionSUI(pPlayer, pNpc, experienceType)
 	local conversionList = self.xpConversion[experienceType]
 
 	if (conversionList == nil) then
-		printLuaError("ExperienceConverter:sendConversionSUI, could not grab xp conversion table for type " .. experienceType)
+		printLuaError("RespecExperienceConverter:sendConversionSUI, could not grab xp conversion table for type " .. experienceType)
 		return
 	end
 
@@ -150,7 +150,7 @@ function ExperienceConverter:sendConversionSUI(pPlayer, pNpc, experienceType)
 		return
 	end
 
-	local sui = SuiListBox.new("ExperienceConverter", "convertXpTypeCallback")
+	local sui = SuiListBox.new("RespecExperienceConverter", "convertXpTypeCallback")
 
 	sui.setTargetNetworkId(SceneObject(pNpc):getObjectID())
 	sui.setTitle("@quest/force_sensitive/utils:xp_transfer_prompt")
@@ -162,10 +162,10 @@ function ExperienceConverter:sendConversionSUI(pPlayer, pNpc, experienceType)
 	sui.setWindowType(SuiWindowType.FS_EXP_CONVERT)
 	sui.sendTo(pPlayer)
 
-	writeStringSharedMemory(SceneObject(pPlayer):getObjectID() .. ":paemosConversionType", experienceType)
+	writeStringSharedMemory(SceneObject(pPlayer):getObjectID() .. ":respecConversionType", experienceType)
 end
 
-function ExperienceConverter:convertXpTypeCallback(pPlayer, pSui, eventIndex, args)
+function RespecExperienceConverter:convertXpTypeCallback(pPlayer, pSui, eventIndex, args)
 	if (pPlayer == nil) then
 		return
 	end
@@ -175,29 +175,29 @@ function ExperienceConverter:convertXpTypeCallback(pPlayer, pSui, eventIndex, ar
 	local cancelPressed = (eventIndex == 1)
 
 	if (cancelPressed) then
-		deleteStringSharedMemory(playerID .. ":paemosConversionType")
+		deleteStringSharedMemory(playerID .. ":respecConversionType")
 		return
 	end
 
 	local pPageData = LuaSuiBoxPage(pSui):getSuiPageData()
 
 	if (pPageData == nil) then
-		deleteStringSharedMemory(playerID .. ":paemosConversionType")
+		deleteStringSharedMemory(playerID .. ":respecConversionType")
 		return
 	end
 
 	local suiPageData = LuaSuiPageData(pPageData)
-	local xpType = readStringSharedMemory(playerID .. ":paemosConversionType")
+	local xpType = readStringSharedMemory(playerID .. ":respecConversionType")
 
 	if (xpType == "") then
-		deleteStringSharedMemory(playerID .. ":paemosConversionType")
+		deleteStringSharedMemory(playerID .. ":respecConversionType")
 		return
 	end
 
 	local pGhost = CreatureObject(pPlayer):getPlayerObject()
 
 	if (pGhost == nil) then
-		deleteStringSharedMemory(playerID .. ":paemosConversionType")
+		deleteStringSharedMemory(playerID .. ":respecConversionType")
 		return
 	end
 
@@ -217,17 +217,17 @@ function ExperienceConverter:convertXpTypeCallback(pPlayer, pSui, eventIndex, ar
 
 	if (xpAmount < ratio) then
 		CreatureObject(pPlayer):sendSystemMessage("@quest/force_sensitive/utils:convert_not_enough_xp")
-		deleteStringSharedMemory(playerID .. ":paemosConversionType")
+		deleteStringSharedMemory(playerID .. ":respecConversionType")
 		return
 	end
 
 	if (ratio == 0) then
 		CreatureObject(pPlayer):sendSystemMessage("@quest/force_sensitive/utils:convert_illegal_type")
-		deleteStringSharedMemory(playerID .. ":paemosConversionType")
+		deleteStringSharedMemory(playerID .. ":respecConversionType")
 		return
 	end
 
-	writeStringSharedMemory(playerID .. ":paemosChosenXp", chosenXp)
+	writeStringSharedMemory(playerID .. ":respecChosenXp", chosenXp)
 	local npcID = suiPageData:getTargetNetworkId()
 
 	local sui = SuiTransferBox.new("ExperienceConverter", "convertXpTransferCallback")
@@ -248,12 +248,12 @@ function ExperienceConverter:convertXpTypeCallback(pPlayer, pSui, eventIndex, ar
 	sui.sendTo(pPlayer)
 end
 
-function ExperienceConverter:convertXpTransferCallback(pPlayer, pSui, eventIndex, transferInputFromValue, transferInputToValue)
+function RespecExperienceConverter:convertXpTransferCallback(pPlayer, pSui, eventIndex, transferInputFromValue, transferInputToValue)
 	local playerID = SceneObject(pPlayer):getObjectID()
-	local conversionType = readStringSharedMemory(playerID .. ":paemosConversionType")
-	local chosenXp = readStringSharedMemory(playerID .. ":paemosChosenXp")
-	deleteStringSharedMemory(playerID .. ":paemosConversionType")
-	deleteStringSharedMemory(playerID .. ":paemosChosenXp")
+	local conversionType = readStringSharedMemory(playerID .. ":respecConversionType")
+	local chosenXp = readStringSharedMemory(playerID .. ":respecChosenXp")
+	deleteStringSharedMemory(playerID .. ":respecConversionType")
+	deleteStringSharedMemory(playerID .. ":respecChosenXp")
 
 	local cancelPressed = (eventIndex == 1)
 
@@ -339,4 +339,4 @@ function ExperienceConverter:convertXpTransferCallback(pPlayer, pSui, eventIndex
 	CreatureObject(pPlayer):sendSystemMessage(messageString:_getObject())
 end
 
-return ExperienceConverter
+return RespecExperienceConverter
