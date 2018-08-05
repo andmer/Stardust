@@ -1851,3 +1851,4 @@ includeFile("custom_content/mobile/zolo_assistant.lua")
 includeFile("custom_content/mobile/zolo_sartain.lua")
 includeFile("custom_content/mobile/zozpheratu_static.lua")
 
+includeFile("custom_content/mobile/respec_npc.lua")
