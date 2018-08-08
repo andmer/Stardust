@@ -4,7 +4,7 @@ janta_scout = Creature:new {
 	randomNameTag = true,
 	socialGroup = "janta_tribe",
 	faction = "janta_tribe",
-	level = 75,
+	level = 51,
 	chanceHit = 0.55,
 	damageMin = 420,
 	damageMax = 550,
@@ -12,14 +12,14 @@ janta_scout = Creature:new {
 	baseHAM = 11000,
 	baseHAMmax = 13000,
 	armor = 1,
-	resists = {-1,35,10,10,10,30,10,10,-1},
+	resists = {-1,35,10,10,10,70,10,10,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 2 * 0,
+	milk = 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = ATTACKABLE,
@@ -31,15 +31,14 @@ janta_scout = Creature:new {
 		"object/mobile/dantari_male.iff",
 		"object/mobile/dantari_female.iff"},
 	lootGroups = {
-	{
-	 groups = {
-		 {group = "janta_common", chance = 5000000},
-		 {group = "melee_weapons", chance = 2500000},
-		 {group = "junk", chance = 2500000}
-	 },
-	 lootChance = 10000000
-		},
-		},
+		{
+			groups = {
+				{group = "junk", chance = 5500000},
+				{group = "janta_common", chance = 1500000},
+				{group = "loot_kit_parts", chance = 3000000}
+			}
+		}
+	},
 	weapons = {"primitive_weapons"},
 	conversationTemplate = "",
 	attacks = merge(pikemanmaster,fencermaster,brawlermaster)

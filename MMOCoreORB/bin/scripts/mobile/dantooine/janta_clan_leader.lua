@@ -4,22 +4,22 @@ janta_clan_leader = Creature:new {
 	randomNameTag = true,
 	socialGroup = "janta_tribe",
 	faction = "janta_tribe",
-	level = 100,
-	chanceHit = 1.75,
+	level = 75,
+	chanceHit = 0.75,
 	damageMin = 520,
 	damageMax = 750,
 	baseXp = 7207,
 	baseHAM = 12000,
 	baseHAMmax = 15000,
 	armor = 1,
-	resists = {30,60,-1,30,30,60,30,-1,-1},
+	resists = {30,60,-1,30,30,100,30,-1,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
 	hideAmount = 0,
 	boneType = "",
 	boneAmount = 0,
-	milk = 2 * 0,
+	milk = 0,
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = ATTACKABLE,
@@ -31,12 +31,13 @@ janta_clan_leader = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "janta_common", chance = 5000000},
-				{group = "junk", chance = 5000000}
-			},
-			lootChance = 10000000
-		},
-		},
+				{group = "junk", chance = 5000000},
+				{group = "janta_common", chance = 1500000},
+				{group = "loot_kit_parts", chance = 3000000},
+				{group = "wearables_all", chance = 500000}
+			}
+		}
+	},
 	weapons = {"primitive_weapons"},
 	conversationTemplate = "",
 	attacks = merge(pikemanmaster,fencermaster,brawlermaster)
