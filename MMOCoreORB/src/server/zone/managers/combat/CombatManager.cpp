@@ -1411,7 +1411,7 @@ float CombatManager::doDroidDetonation(CreatureObject* droid, CreatureObject* de
 			}
 		}
 		if((pool & ACTION)){
-			defender->inflictDamage(droid, CreatureAttribute::ACTION, (int)actionDamage, true, true, false);
+			defender->inflictDamage(droid, CreatureAttribute::HEALTH, (int)actionDamage, true, true, false);
 			return (int)actionDamage;
 		}
 		if((pool & HEALTH)) {
@@ -1419,7 +1419,7 @@ float CombatManager::doDroidDetonation(CreatureObject* droid, CreatureObject* de
 			return (int)healthDamage;
 		}
 		if((pool & MIND)) {
-			defender->inflictDamage(droid, CreatureAttribute::MIND, (int)mindDamage, true, true, false);
+			defender->inflictDamage(droid, CreatureAttribute::HEALTH, (int)mindDamage, true, true, false);
 			return (int)mindDamage;
 		}
 		return 0;
@@ -1930,7 +1930,7 @@ int CombatManager::applyDamage(TangibleObject* attacker, WeaponObject* weapon, C
 	int totalFoodMit = 0;
 
 	if (healthDamaged) {
-		static uint8 bodyLocations[] = {HIT_BODY, HIT_BODY, HIT_LARM, HIT_RARM};
+		static uint8 bodyLocations[] = {HIT_BODY, HIT_BODY, HIT_LARM, HIT_RARM, HIT_LLEG, HIT_RLEG, HIT_HEAD};
 		hitLocation = bodyLocations[System::random(3)];
 
 		healthDamage = getArmorReduction(attacker, weapon, defender, damage * data.getHealthDamageMultiplier(), hitLocation, data) * damageMultiplier;
