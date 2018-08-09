@@ -117,6 +117,7 @@ includeFile("dungeon/death_watch_bunker/conversations/deathWatchTechnicianConvoH
 includeFile("dungeon/death_watch_bunker/conversations/deathWatchWorkshopDroidConvoHandler.lua")
 includeFile("dungeon/geonosian_lab/geo_lab.lua")
 includeFile("dungeon/warren/warren.lua")
+includeFile("dungeon/warren/warrenComponents.lua")
 includeFile("dungeon/warren/convos/mirla_convo_handler.lua")
 includeFile("dungeon/warren/convos/oevitt_piboi_convo_handler.lua")
 includeFile("dungeon/warren/convos/manx_try_convo_handler.lua")
