@@ -5,8 +5,8 @@ tantel_armor_helmet = {
 	directObjectTemplate = "object/tangible/wearables/armor/tantel/armor_tantel_skreej_helmet.iff",
 	craftingValues = {
 		{"armor_rating",1,1,0},
-    {"energyeffectiveness",10,30,10},
-    {"armor_effectiveness",4,29,10},
+    {"energyeffectiveness",10,60,10},
+    {"armor_effectiveness",4,69,10},
     {"armor_integrity",11250, 18750,0},
     {"armor_health_encumbrance",0,0,0},
     {"armor_action_encumbrance",0,0,0},

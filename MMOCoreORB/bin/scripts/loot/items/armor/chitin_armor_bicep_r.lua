@@ -5,8 +5,8 @@ chitin_armor_bicep_r = {
 	directObjectTemplate = "object/tangible/wearables/armor/chitin/armor_chitin_s01_bicep_r.iff",
 	craftingValues = {
 		{"armor_rating",1,1,0},
-  {"kineticeffectiveness",7,30,7},
-    {"armor_effectiveness",4,28,9},
+  {"kineticeffectiveness",7,50,7},
+    {"armor_effectiveness",4,58,9},
     {"armor_integrity",8000, 11000,0},
     {"armor_health_encumbrance",0,0,0},
     {"armor_action_encumbrance",0,0,0},

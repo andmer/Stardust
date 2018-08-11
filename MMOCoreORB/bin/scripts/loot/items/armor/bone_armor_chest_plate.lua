@@ -5,7 +5,7 @@ bone_armor_chest_plate = {
 	directObjectTemplate = "object/tangible/wearables/armor/bone/armor_bone_s01_chest_plate.iff",
 	craftingValues = {
 		{"armor_rating",1,1,0},
-    {"energyeffectiveness",10,35,10},
+    {"energyeffectiveness",10,55,10},
     {"armor_effectiveness",4,59,10},
     {"armor_integrity",7500, 12500,0},
     {"armor_health_encumbrance",0,0,0},
