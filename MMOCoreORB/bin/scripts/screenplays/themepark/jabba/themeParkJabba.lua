@@ -141,14 +141,14 @@ ephant_mon_missions =
       missionType = "assassinate",
       primarySpawns =
       {
-        { npcTemplate = "black_sun_guard", planetName = "chandrila", npcName = "Black Sun Captain" }
+        { npcTemplate = "black_sun_guard_themepark", planetName = "chandrila", npcName = "Black Sun Captain" }
       },
       secondarySpawns =
       {
-        { npcTemplate = "black_sun_henchman", planetName = "chandrila", npcName = "Black Sun Henchman" },
-        { npcTemplate = "black_sun_henchman", planetName = "chandrila", npcName = "Black Sun Henchman" },
-        { npcTemplate = "black_sun_henchman", planetName = "chandrila", npcName = "Black Sun Henchman" },
-        { npcTemplate = "black_sun_henchman", planetName = "chandrila", npcName = "Black Sun Henchman" },
+        { npcTemplate = "black_sun_henchman_themepark", planetName = "chandrila", npcName = "Black Sun Henchman" },
+        { npcTemplate = "black_sun_henchman_themepark", planetName = "chandrila", npcName = "Black Sun Henchman" },
+        { npcTemplate = "black_sun_henchman_themepark", planetName = "chandrila", npcName = "Black Sun Henchman" },
+        { npcTemplate = "black_sun_henchman_themepark", planetName = "chandrila", npcName = "Black Sun Henchman" },
       },
       itemSpawns = {},
       rewards =
@@ -450,13 +450,13 @@ g5po_missions =
       missionType = "assassinate",
       primarySpawns =
       {
-        { npcTemplate = "death_watch_ghost", planetName = "chandrila", npcName = "Death Watch Mercenary Leader" }
+        { npcTemplate = "death_watch_ghost_themepark", planetName = "chandrila", npcName = "Death Watch Mercenary Leader" }
       },
       secondarySpawns =
       {
-        { npcTemplate = "death_watch_bloodguard", planetName = "chandrila", npcName = "Death Watch Mercenary" },
-        { npcTemplate = "death_watch_bloodguard", planetName = "chandrila", npcName = "Death Watch Mercenary" },
-        { npcTemplate = "death_watch_bloodguard", planetName = "chandrila", npcName = "Death Watch Mercenary" },
+        { npcTemplate = "death_watch_bloodguard_themepark", planetName = "chandrila", npcName = "Death Watch Mercenary" },
+        { npcTemplate = "death_watch_bloodguard_themepark", planetName = "chandrila", npcName = "Death Watch Mercenary" },
+        { npcTemplate = "death_watch_bloodguard_themepark", planetName = "chandrila", npcName = "Death Watch Mercenary" },
       },
       itemSpawns = {},
       rewards =
@@ -484,12 +484,12 @@ g5po_missions =
       missionType = "assassinate",
       primarySpawns =
       {
-        { npcTemplate = "black_sun_assassin", planetName = "chandrila", npcName = "a Black Sun Bounty Hunter" }
+        { npcTemplate = "black_sun_assassin_themepark", planetName = "chandrila", npcName = "a Black Sun Bounty Hunter" }
       },
       secondarySpawns =
       {
-        { npcTemplate = "black_sun_assassin", planetName = "chandrila", npcName = "a Black Sun Bounty Hunter" },
-        { npcTemplate = "black_sun_assassin", planetName = "chandrila", npcName = "a Black Sun Bounty Hunter" },
+        { npcTemplate = "black_sun_assassin_themepark", planetName = "chandrila", npcName = "a Black Sun Bounty Hunter" },
+        { npcTemplate = "black_sun_assassin_themepark", planetName = "chandrila", npcName = "a Black Sun Bounty Hunter" },
       },
       itemSpawns = {},
       rewards =

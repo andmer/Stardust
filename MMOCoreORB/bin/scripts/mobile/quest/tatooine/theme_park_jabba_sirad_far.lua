@@ -21,8 +21,8 @@ theme_park_jabba_sirad_far = Creature:new {
   tamingChance = 0.000000,
   ferocity = 0,
   pvpBitmask = ATTACKABLE,
-  creatureBitmask = NONE,
-  optionsBitmask = 264,
+  creatureBitmask = PACK + KILLER,
+  optionsBitmask = AIENABLED,
   diet = HERBIVORE,
 
   templates = {"object/mobile/dressed_tatooine_jabba_thug.iff"},
