@@ -37,7 +37,7 @@ factionList = {
 	{ "gondula_tribe", true, "donkuwah_tribe,korga_tribe,pubam,endor_marauder", "panshee_tribe", 1.0 },
 	{ "gungan", true, "borvo,plasma_thief,swamp_rat", "", 1.0 },
 	{ "hidden_daggers", true, "beldonnas_league,corsec,flail", "rogue_corsec", 1.0 },
-	{ "hutt", true, "naboo_security_force,narmle,nym,corsec,imperial", "jabba,borvo", 1.0 },
+	{ "hutt", true, "naboo_security_force,narmle,nym,corsec,imperial,valarian,rebel", "jabba,borvo", 1.0 },
 	{ "jabba", true, "borvo,valarian", "hutt", 1.0 },
 	{ "janta_tribe", true, "kunga_tribe,dantari_raiders", "", 1.0 },
 	{ "jawa", true, "tusken_raider", "", 1.0 },
