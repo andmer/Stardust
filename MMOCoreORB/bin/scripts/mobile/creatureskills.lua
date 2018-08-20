@@ -38,7 +38,7 @@ pikemanmid = { {"polearmactionhit2",""},{"polearmhit2",""},{"polearmleghit3",""}
 tkamid = { {"unarmedhit2",""},{"unarmedbodyhit1",""},{"unarmeddizzy1",""},{"unarmedknockdown1",""},{"unarmedleghit1",""},{"unarmedcombo1",""},{"unarmedspinattack2",""} }
 
 --creature level 31 and above use combinations of base profesion mastery and these
-bountyhuntermaster = { {"firelightningcone1",""},{"firelightningcone2",""},{"firelightningsingle1",""},{"firelightningsingle2",""},{"bleedingshot",""},{"underhandshot",""},{"eyeshot",""},{"torsoshot",""},{"confusionshot",""},{"fastblast",""},{"sprayshot",""} }
+bountyhuntermaster = { {"firelightningcone1",""},{"firelightningcone2",""},{"firelightningsingle1",""},{"firelightningsingle2",""},{"bleedingshot",""},{"underhandshot",""},{"eyeshot",""},{"confusionshot",""},{"fastblast",""},{"sprayshot",""} }
 commandomaster = {}-- {"flamecone1",""},{"flamecone2",""},{"flamesingle1",""},{"flamesingle2",""},{"fireacidcone1",""},{"fireacidcone2",""},{"fireacidsingle1",""},{"fireacidsingle2",""} }
 carbineermaster = { {"actionshot2",""},{"fullautosingle2",""},{"fullautoarea2",""},{"wildshot2",""},{"scattershot2",""},{"legshot3",""},{"cripplingshot",""},{"burstshot2",""},{"suppressionfire2",""},{"chargeshot2",""} }
 pistoleermaster = { {"healthshot2",""},{"pointblanksingle2",""},{"bodyshot3",""},{"pistolmeleedefense2",""},{"disarmingshot2",""},{"doubletap",""},{"stoppingshot",""},{"fanshot",""},{"pointblankarea2",""},{"multitargetpistolshot",""} }
