@@ -79,10 +79,10 @@ KnockdownFireCommand = {
     {"resistance_fire", "fire_resist"},
     HEALTH,
     true,
-    100,
+    0,
     100,
     100, 
-    60,
+    20,
     10,
     2
     )

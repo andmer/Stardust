@@ -70,7 +70,7 @@ FlameCone1Command = {
     100, 
     20,
     10,
-    10
+    2
 	  )
 	},
 	
