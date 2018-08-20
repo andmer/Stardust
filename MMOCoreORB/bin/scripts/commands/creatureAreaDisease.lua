@@ -53,9 +53,9 @@ CreatureAreaDiseaseCommand = {
 		HEALTH,
 		true,
 		0,
-		50,
-		50, 
-		300
+		5,
+		5, 
+		30
 	  )
 	},
 

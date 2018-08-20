@@ -50,10 +50,10 @@ MildDiseaseCommand = {
     { "resistance_disease", "poison_disease_resist" },
     HEALTH,
     true,
-    75,
-    20,
-    30, 
-    125,
+    7,
+    2,
+    3, 
+    15,
     15
 	  )
 	}
