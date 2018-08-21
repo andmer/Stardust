@@ -69,7 +69,7 @@ TorsoShotCommand = {
 		30, 
 		20,
 		10,
-		2
+		4
 	  )
 	},
 	

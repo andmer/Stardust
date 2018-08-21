@@ -67,7 +67,7 @@ FlameSingle1Command = {
     100, 
     20,
     10,
-    2
+    8
 	  )
 	},
 	
