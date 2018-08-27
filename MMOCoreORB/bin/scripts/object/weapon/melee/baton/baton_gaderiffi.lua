@@ -90,7 +90,7 @@ object_weapon_melee_baton_baton_gaderiffi = object_weapon_melee_baton_shared_bat
 	defenderDefenseModifiers = { "melee_defense" },
 
 	-- Leave as "dodge" for now, may have additions later
-	defenderSecondaryDefenseModifiers = { "unarmed_passive_defense" },
+	defenderSecondaryDefenseModifiers = { "dodge" },
 
 	defenderToughnessModifiers = { "onehandmelee_toughness" },
 
@@ -98,7 +98,7 @@ object_weapon_melee_baton_baton_gaderiffi = object_weapon_melee_baton_shared_bat
 	speedModifiers = { "onehandmelee_speed" },
 
 	-- Leave blank for now
-	damageModifiers = { "frenzy" },
+	damageModifiers = { },
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily
